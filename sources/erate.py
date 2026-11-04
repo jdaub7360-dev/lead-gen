@@ -140,13 +140,38 @@ def cyber_pilot(cfg):
     return out
 
 
+def dedupe(rows, key, merge_field):
+    out = {}
+    for r in rows:
+        k = key(r)
+        if k in out:
+            if r[merge_field] and r[merge_field] not in out[k][merge_field]:
+                out[k][merge_field] = (out[k][merge_field] + "; " + r[merge_field])[:400]
+        else:
+            out[k] = dict(r)
+    return list(out.values())
+
+
 if __name__ == "__main__":
+    import re
     cfg = json.load(open(sys.argv[1]))
     d = sys.argv[2]
+    norm = lambda s: re.sub(r"[^a-z]", "", s.lower())
+    results = {}
     for name, fn in [("competitor_clients", competitor_clients), ("erate_bids", open_bids), ("cyber_pilot_bids", cyber_pilot)]:
         try:
-            rows = fn(cfg)
-            json.dump(rows, open(f"{d}/{name}.json", "w"), indent=1)
-            print(f"{len(rows)} {name}", file=sys.stderr)
+            results[name] = fn(cfg)
         except Exception as ex:
             print(f"!! {name} failed: {ex}", file=sys.stderr)
+    if "erate_bids" in results:
+        results["erate_bids"] = dedupe(results["erate_bids"], lambda r: r["application_number"], "services")
+    if "cyber_pilot_bids" in results:
+        results["cyber_pilot_bids"] = dedupe(results["cyber_pilot_bids"], lambda r: norm(r["name"]), "services")
+    if "competitor_clients" in results and "erate_bids" in results:
+        posted = {norm(b["name"]): b for b in results["erate_bids"]}
+        for r in results["competitor_clients"]:
+            b = posted.get(norm(r["name"]))
+            r["bid_posted"] = f"{b['posted']} (contracts from {b['contract_allowed_from']})" if b else ""
+    for name, rows in results.items():
+        json.dump(rows, open(f"{d}/{name}.json", "w"), indent=1)
+        print(f"{len(rows)} {name}", file=sys.stderr)
