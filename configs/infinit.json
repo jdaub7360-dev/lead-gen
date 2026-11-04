@@ -116,5 +116,13 @@
       "Government": "Ohio HB 96 (ORC 9.64) now requires every city, village and township to adopt a cybersecurity program (cities by Jan 1 2026, townships and villages by July 1 2026), and the State Auditor is adding it to audits. infinIT can build, document and run the program, plus training and incident response.",
       "Government (co-managed)": "HB 96 cyber program requirements plus after-hours coverage, security depth and project help for your internal IT staff, without adding headcount."
     }
+  },
+  "email": {
+    "to": [
+      "justin.daubenmire@infinit.us",
+      "eric.conaway@infinit.us"
+    ],
+    "schedule": "Mondays 7:00 am America/New_York",
+    "method": "mailer.py (Microsoft Graph)"
   }
 }
