@@ -142,7 +142,13 @@
   "BOC Water Hydraulics, Inc.": "Good fit, no trigger",
   "Centers for Dialysis Care": "Breach",
   "Family Physicians, Inc.": "Breach",
-  "Northeast Professional Caregivers": "Breach"
+  "Northeast Professional Caregivers": "Breach",
+  "Lakewood Public Library": "Competitor renewal",
+  "The Intergenerational Schools": "Competitor renewal",
+  "Education Alternatives (Brook Park)": "Competitor renewal",
+  "Edge Learning schools (Akros, AkroTech, Edge Academy)": "Competitor renewal",
+  "Public Library of Youngstown & Mahoning County": "Cybersecurity buyer",
+  "Campbell City Schools": "Cybersecurity buyer"
  },
  "Crossroads Health": {
   "zip": "44060",
@@ -183,6 +189,82 @@
     "name": "Kristen Lattimer, BSN, RN",
     "title": "Administrator",
     "source": "Ohio Council for Home Care & Hospice directory"
+   }
+  ]
+ },
+ "Lakewood Public Library": {
+  "zip": "44107",
+  "website": "lakewoodpubliclibrary.org",
+  "phone": "(216) 226-8275",
+  "contacts": [
+   {
+    "name": "James Crawford",
+    "title": "Director",
+    "source": "Library board appointment announcement"
+   }
+  ]
+ },
+ "The Intergenerational Schools": {
+  "zip": "44104",
+  "website": "igschools.org",
+  "phone": "(216) 721-0120",
+  "contacts": [
+   {
+    "name": "Brooke King",
+    "title": "Executive Director / CEO (verify)",
+    "source": "Third-party org chart"
+   }
+  ]
+ },
+ "Education Alternatives (Brook Park)": {
+  "zip": "44142",
+  "website": "",
+  "phone": "(216) 332-9360",
+  "contacts": []
+ },
+ "Edge Learning schools (Akros, AkroTech, Edge Academy)": {
+  "zip": "44304",
+  "website": "akrotech.org",
+  "phone": "(330) 374-6711",
+  "contacts": [
+   {
+    "name": "Jason (E-Rate contact on file)",
+    "title": "School contact on federal E-Rate filings (verify full name)",
+    "source": "USAC E-Rate records"
+   }
+  ]
+ },
+ "Public Library of Youngstown & Mahoning County": {
+  "zip": "44503",
+  "website": "libraryvisit.org",
+  "phone": "(330) 744-8636",
+  "contacts": [
+   {
+    "name": "Aimee Fifarek",
+    "title": "Executive Director / CEO",
+    "source": "Library trustee roster 2025"
+   },
+   {
+    "name": "Will McKinney",
+    "title": "System Administrator",
+    "source": "FCC Cybersecurity Pilot Form 470"
+   }
+  ]
+ },
+ "Campbell City Schools": {
+  "zip": "44405",
+  "website": "campbell.k12.oh.us",
+  "phone": "(330) 799-6409",
+  "contacts": [
+   {
+    "name": "Eric Gonzalez",
+    "title": "Director of Technology",
+    "source": "FCC Cybersecurity Pilot Form 470"
+   },
+   {
+    "name": "Matthew Bowen",
+    "title": "Superintendent (verify)",
+    "source": "District website"
    }
   ]
  }

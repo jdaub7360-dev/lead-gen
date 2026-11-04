@@ -23,6 +23,11 @@ If `data/infinit/pipeline_status.json` exists (pulled from the live Google Sheet
     respond only through the bid. Also search council/board minutes for new contracts naming the competitors
     in `configs/infinit.json` → competitors, and add them to `competitor_contracts_manual.json` with the source.
   - `School Bids` (erate_bids.json): new Form 470s this week. Flag any posted by a competitor client.
+  - `Cyber Pilot` (cyber_pilot_bids.json): districts and libraries proven to buy cybersecurity.
+  - Every vertical on infinit.us is a market: manufacturing, nonprofits, churches, government, professional
+    services, healthcare, and K-12 / libraries. Keep the weekly mix broad; use trigger types
+    "Competitor renewal" (with `deadline` = contract end) and "Cybersecurity buyer" for E-Rate leads, and never
+    put free offers in K-12 or library drafts (E-Rate gift rules).
   - `Breach Watch` (breaches.json): Ohio healthcare breaches. Confirm the organization is in the territory.
     Lead with help (incident response, hardening), never with the breach itself.
   - Job postings for IT roles (IT Manager, Systems Administrator, IT Support) in the territory: co-managed angle.

@@ -13051,5 +13051,44 @@
    "No SPF record"
   ],
   "hook": "No DMARC record: anyone can send email that appears to come from this domain"
+ },
+ "akrotech.org": {
+  "domain": "akrotech.org",
+  "checked": "2026-11-04",
+  "mx_provider": "Google Workspace",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "unreachable",
+  "findings": [
+   "No DMARC record: anyone can send email that appears to come from this domain",
+   "No SPF record"
+  ],
+  "hook": "No DMARC record: anyone can send email that appears to come from this domain"
+ },
+ "igschools.org": {
+  "domain": "igschools.org",
+  "checked": "2026-11-04",
+  "mx_provider": "Microsoft 365",
+  "security_gateway": false,
+  "spf": true,
+  "spf_all": "-all",
+  "dmarc": "quarantine",
+  "website": "https",
+  "findings": [],
+  "hook": ""
+ },
+ "lakewoodpubliclibrary.org": {
+  "domain": "lakewoodpubliclibrary.org",
+  "checked": "2026-11-04",
+  "mx_provider": "Microsoft 365",
+  "security_gateway": false,
+  "spf": true,
+  "spf_all": "-all",
+  "dmarc": "reject",
+  "website": "unreachable",
+  "findings": [],
+  "hook": ""
  }
 }

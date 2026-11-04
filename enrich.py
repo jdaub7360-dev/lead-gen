@@ -132,6 +132,9 @@ def score_and_script(cfg, t, checks):
     if t.get("trigger_date"):
         days = (datetime.date.today() - datetime.date.fromisoformat(t["trigger_date"])).days
     rec = next((p for lim, p in w["recency_days"] if days is not None and days <= lim), w["recency_unknown"] if days is None else 0)
+    if t.get("deadline"):  # renewal/bid deadlines: closer = more urgent
+        left = (datetime.date.fromisoformat(t["deadline"]) - datetime.date.today()).days
+        rec = next((p for lim, p in w.get("deadline_days", []) if 0 <= left <= lim), rec)
     parts.append(f"recency {rec}")
     cs = t.get("contacts", [])
     if cs and not any("verify" in c["title"].lower() for c in cs[:1]):
@@ -159,7 +162,8 @@ def score_and_script(cfg, t, checks):
 
     offer = cfg["offers"].get(trig) or cfg["offers"]["Good fit, no trigger"]
     t["offer"] = offer
-    t["email_offer"] = cfg["offers"]["_email_security"] if hook else ""
+    no_free = t.get("vertical") in cfg["offers"].get("_no_free_offers_verticals", [])
+    t["email_offer"] = cfg["offers"]["_email_security"] if hook and not no_free else ""
     t["cta"] = (f"Would {offer} be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, "
                 f"by phone or at your office.")
     for k in ("body",):
