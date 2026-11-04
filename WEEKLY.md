@@ -17,6 +17,12 @@ If `data/infinit/pipeline_status.json` exists (pulled from the live Google Sheet
   (4195 Parkman Rd NW, 44481). Aim for roughly half the leads within 30 miles of each office; never fewer than
   6 on either side. The `office` and `miles` fields on every list show the nearest office.
 - **Where to look first:**
+  - `Competitor Clients` (competitor_clients.json): FIT / Blue Technologies customers. Ones whose contract ends
+    within ~10 months and whose "Bid posted?" is "Not yet" are the best leads in the workbook: reach out before
+    their Form 470 posts. E-Rate rules: no gifts or free services to E-Rate applicants, and once a 470 posts,
+    respond only through the bid. Also search council/board minutes for new contracts naming the competitors
+    in `configs/infinit.json` → competitors, and add them to `competitor_contracts_manual.json` with the source.
+  - `School Bids` (erate_bids.json): new Form 470s this week. Flag any posted by a competitor client.
   - `Breach Watch` (breaches.json): Ohio healthcare breaches. Confirm the organization is in the territory.
     Lead with help (incident response, hardening), never with the breach itself.
   - Job postings for IT roles (IT Manager, Systems Administrator, IT Support) in the territory: co-managed angle.

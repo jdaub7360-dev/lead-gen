@@ -201,6 +201,9 @@ def build(cfg, d, out):
         ("Government", "Government!B:B", "Government!A:A", "Government!E:E", "Cities, villages, townships. Ohio HB 96 cyber-program angle."),
         ("Schools", "Schools!B:B", "Schools!A:A", "Schools!D:D", "School districts. HB 96 applies here too."),
         ("Breach Watch", "'Breach Watch'!B:B", None, None, "Ohio healthcare breaches under federal investigation. Verify location first."),
+        ("Competitor Clients", "'Competitor Clients'!B:B", None, "'Competitor Clients'!F:F", "FIT / Blue Technologies customers, with contract end dates. Green = re-bidding this winter."),
+        ("School Bids", "'School Bids'!C:C", None, "'School Bids'!E:E", "Open E-Rate bid requests from local schools and libraries, with the contact."),
+        ("Cyber Pilot", "'Cyber Pilot'!B:B", None, "'Cyber Pilot'!C:C", "Districts proven to buy cybersecurity (FCC Cybersecurity Pilot)."),
     ]
     for i, (name, rng, tier_rng, office_rng, note) in enumerate(lists, 7):
         ws.cell(i, 2, name).font = f(bold=True)
@@ -338,6 +341,72 @@ def build(cfg, d, out):
     for rr in range(3, cp.max_row + 1):
         cp.cell(rr, booked_col + 1).number_format = "mmm d"
 
+
+    # ================= Competitor Clients =================
+    comp = load(f"{d}/competitor_clients.json", []) + [
+        dict(m, office=near(cfg, m.get("zip"))[0], miles=near(cfg, m.get("zip"))[1], bid_posted="")
+        for m in load(f"{d}/competitor_contracts_manual.json", [])]
+    comp.sort(key=lambda r: (r.get("contract_end") or "9999", -(r.get("spend_recent") or 0)))
+    renew_by = (today.replace(year=today.year + 1, month=9, day=30)).isoformat()
+    cw = wb.create_sheet("Competitor Clients")
+    h = ["Contract ends", "Organization", "Competitor", "Type", "City", "Nearest office", "Miles",
+         "Services they buy", "Spend, last 3 yrs", "Customer since", "Main phone", "Contact on file",
+         "Bid posted?", "Source", "Status", "Notes"]
+    w = [12, 38, 20, 14, 14, 10, 7, 44, 14, 10, 15, 28, 22, 10, 15, 30]
+    rows = []
+    for x in comp:
+        end = datetime.date.fromisoformat(x["contract_end"]) if x.get("contract_end") else None
+        src = x.get("source") or f"https://opendata.usac.org/resource/qdmp-ygft.json?ben={x.get('ben', '')}"
+        rows.append([end, x["name"], x["vendor"].replace("TechnologiesLLC", "Technologies"), x.get("type", ""),
+                     x.get("city", ""), x.get("office", ""), x.get("miles", ""), x.get("services", ""),
+                     x.get("spend_recent", ""), x.get("first_year", ""), x.get("phone", ""),
+                     x.get("contact_email", ""), x.get("bid_posted") or "Not yet", ("Link", src), "New",
+                     x.get("note", "")])
+    table(cw, h, w, rows, freeze="C2", wrap_cols=(2, 8, 16), status_col=15, money_cols=(9,),
+          note=("Schools and libraries buying network/IT services from competitors (federal E-Rate records), plus public "
+                "contracts. Green = contract ends by " + renew_by + ": they re-bid this winter. Reach out BEFORE their "
+                "Form 470 posts; once it posts, respond only through the bid. No gifts or free services to E-Rate applicants."))
+    for rr in range(3, cw.max_row + 1):
+        cw.cell(rr, 1).number_format = "mmm d, yyyy"
+    cw.conditional_formatting.add(f"A3:P{cw.max_row}", FormulaRule(
+        formula=[f'AND($A3<>"",$A3<=DATE({renew_by[:4]},{int(renew_by[5:7])},{int(renew_by[8:])}))'],
+        fill=PatternFill("solid", fgColor="D8F0DE")))
+
+    # ================= School Bids (E-Rate) =================
+    bids = load(f"{d}/erate_bids.json", [])
+    sb = wb.create_sheet("School Bids")
+    h = ["Posted", "Contracts allowed from", "Organization", "City", "Nearest office", "Miles", "What they're buying",
+         "Contact", "Email", "Phone", "Technical contact", "RFP / application #", "Status", "Notes"]
+    w = [11, 13, 34, 14, 10, 7, 60, 22, 28, 15, 28, 18, 15, 30]
+    rows = []
+    for x in bids:
+        rows.append([datetime.date.fromisoformat(x["posted"]) if x.get("posted") else "",
+                     datetime.date.fromisoformat(x["contract_allowed_from"]) if x.get("contract_allowed_from") else "",
+                     x["name"], x["city"], x["office"], x["miles"], x["services"], x["contact"], x["contact_email"],
+                     x["contact_phone"], ", ".join(filter(None, [x["tech_contact"], x["tech_title"]])),
+                     x.get("rfp") or x["application_number"], "New", ""])
+    table(sb, h, w, rows, freeze="D2", wrap_cols=(3, 7, 11), status_col=13,
+          note=("Open FCC Form 470 bid requests from schools and libraries in your territory (last 6 months). Bidding on "
+                "E-Rate-funded work requires an E-Rate service provider number (SPIN). Respond through the bid; no gifts."))
+    for rr in range(3, sb.max_row + 1):
+        sb.cell(rr, 1).number_format = "mmm d"
+        sb.cell(rr, 2).number_format = "mmm d"
+
+    # ================= Cyber Pilot =================
+    cyb = load(f"{d}/cyber_pilot_bids.json", [])
+    cy = wb.create_sheet("Cyber Pilot")
+    h = ["Organization", "City", "Nearest office", "Miles", "Posted", "Cybersecurity they asked for", "Contact",
+         "Email", "Phone", "Technical contact", "Status", "Notes"]
+    w = [36, 16, 10, 7, 11, 60, 22, 28, 15, 28, 15, 30]
+    rows = [[x["name"], x["city"], x["office"], x["miles"],
+             datetime.date.fromisoformat(x["posted"]) if x.get("posted") else "", x["services"], x["contact"],
+             x["contact_email"], x["contact_phone"], ", ".join(filter(None, [x["tech_contact"], x["tech_title"]])),
+             "New", ""] for x in cyb]
+    table(cy, h, w, rows, freeze="B2", wrap_cols=(1, 6, 10), status_col=11,
+          note=("Districts and libraries in the FCC Schools & Libraries Cybersecurity Pilot: proven buyers of endpoint "
+                "protection, monitoring/detection and identity security. Pilot purchases go through bids; pitch the rest."))
+    for rr in range(3, cy.max_row + 1):
+        cy.cell(rr, 5).number_format = "mmm d, yyyy"
 
     # ================= Manufacturing (DoD) =================
     md = wb.create_sheet("Manufacturing (DoD)")

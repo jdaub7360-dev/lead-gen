@@ -212,5 +212,17 @@
     "email_finding": 5,
     "size_fit": 10,
     "size_large": 5
-  }
+  },
+  "competitors": [
+    {
+      "name": "FIT Technologies",
+      "website": "fittechnologies.com",
+      "erate_spin_match": "FIT Tech"
+    },
+    {
+      "name": "Blue Technologies",
+      "website": "btohio.com",
+      "erate_spin_match": "Blue Tech"
+    }
+  ]
 }

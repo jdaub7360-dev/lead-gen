@@ -36,6 +36,7 @@ if [ "$STEP" = data ] || [ "$STEP" = all ]; then
   step python3 sources/census_gus.py  "$CFG" "$RAW/gus/Govt_Units_2022_Final.xlsx" "$DATA"
   step python3 sources/usaspending.py "$CFG" "$DATA/dod.json"
   step python3 sources/hhs_breach.py  "$CFG" "$DATA/breaches.json"
+  step python3 sources/erate.py       "$CFG" "$DATA"   # competitor clients, open school bids, cyber pilot
   step python3 sources/irs_990.py     "$CFG" "$DATA/nonprofits.json" "$RAW"
   step python3 enrich.py domains "$DATA"
   step python3 sources/domain_check.py "$DATA/domains.json"
