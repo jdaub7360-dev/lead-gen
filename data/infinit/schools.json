@@ -1210,6 +1210,186 @@
   "enrollment": 2228
  },
  {
+  "website": "lion.stark.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "303 Latzer Ave",
+  "mail_city": "Minerva",
+  "zip": "44657",
+  "county": "Stark",
+  "name": "Minerva Local School District",
+  "enrollment": 1857
+ },
+ {
+  "website": "tuslaw.sparcc.org",
+  "contact_title": "School Board Treasurer",
+  "address": "1835 Manchester Ave Nw",
+  "mail_city": "Massillon",
+  "zip": "44647",
+  "county": "Stark",
+  "name": "Tuslaw Local School District",
+  "enrollment": 1282
+ },
+ {
+  "website": "cantonlocal.org",
+  "contact_title": "Supt",
+  "address": "4526 Ridge Ave Se",
+  "mail_city": "Canton",
+  "zip": "44707",
+  "county": "Stark",
+  "name": "Canton Local School District",
+  "enrollment": 2015
+ },
+ {
+  "website": "jackson.stark.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "7984 Fulton Dr Nw",
+  "mail_city": "Massillon",
+  "zip": "44646",
+  "county": "Stark",
+  "name": "Jackson Local School District",
+  "enrollment": 5809
+ },
+ {
+  "website": "massillon.sparcc.org",
+  "contact_title": "Treasurers Office",
+  "address": "207 Oak Ave Se",
+  "mail_city": "Massillon",
+  "zip": "44646",
+  "county": "Stark",
+  "name": "Massillon City School District",
+  "enrollment": 3985
+ },
+ {
+  "website": "northwest.stark.k12.oh.us",
+  "contact_title": "Clk Sch Bd",
+  "address": "104 Market St W",
+  "mail_city": "Canal Fulton",
+  "zip": "44614",
+  "county": "Stark",
+  "name": "Northwest Local School District",
+  "enrollment": 1789
+ },
+ {
+  "website": "eagle.stark.k12.oh.us",
+  "contact_title": "Cfo",
+  "address": "901 44Th St Nw",
+  "mail_city": "Canton",
+  "zip": "44709",
+  "county": "Stark",
+  "name": "Plain Local School District",
+  "enrollment": 6245
+ },
+ {
+  "website": "falcon.stark.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "11885 Navarre Rd Sw",
+  "mail_city": "Navarre",
+  "zip": "44662",
+  "county": "Stark",
+  "name": "Fairless Local School District",
+  "enrollment": 1406
+ },
+ {
+  "website": "ccsdistrict.org",
+  "contact_title": "Supt",
+  "address": "617 Mc Kinley Ave Sw",
+  "mail_city": "Canton",
+  "zip": "44707",
+  "county": "Stark",
+  "name": "Canton City School District",
+  "enrollment": 8045
+ },
+ {
+  "website": "aviators.stark.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "200 Glamorgan St",
+  "mail_city": "Alliance",
+  "zip": "44601",
+  "county": "Stark",
+  "name": "Alliance City School District",
+  "enrollment": 3084
+ },
+ {
+  "website": "leopard.sparcc.org",
+  "contact_title": "School Board Treasurer",
+  "address": "418 E Main St",
+  "mail_city": "Louisville",
+  "zip": "44641",
+  "county": "Stark",
+  "name": "Louisville City School District",
+  "enrollment": 2781
+ },
+ {
+  "website": "ecweb.sparcc.org",
+  "contact_title": "Supt",
+  "address": "310 Browning Ct N",
+  "mail_city": "East Canton",
+  "zip": "44730",
+  "county": "Stark",
+  "name": "Osnaburg Local School District",
+  "enrollment": 911
+ },
+ {
+  "website": "cardweb.stark.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "5362 State Route 183 Ne",
+  "mail_city": "Magnolia",
+  "zip": "44643",
+  "county": "Stark",
+  "name": "Sandy Valley Local School District",
+  "enrollment": 1325
+ },
+ {
+  "website": "dukes.stark.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "10320 Moulin Ave Ne",
+  "mail_city": "Alliance",
+  "zip": "44601",
+  "county": "Stark",
+  "name": "Marlington Local School District",
+  "enrollment": 2095
+ },
+ {
+  "website": "drage.stark.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "6805 Richville Dr Sw",
+  "mail_city": "Massillon",
+  "zip": "44646",
+  "county": "Stark",
+  "name": "Stark Co Jt Voc School District",
+  "enrollment": 0
+ },
+ {
+  "website": "lakelocal.org",
+  "contact_title": "Supt",
+  "address": "11936 King Church Ave Nw",
+  "mail_city": "Uniontown",
+  "zip": "44685",
+  "county": "Stark",
+  "name": "Lake Local School District",
+  "enrollment": 3419
+ },
+ {
+  "website": "northcantonschools.org/nccs",
+  "contact_title": "Supt",
+  "address": "525 7Th St Ne",
+  "mail_city": "North Canton",
+  "zip": "44720",
+  "county": "Stark",
+  "name": "North Canton City School District",
+  "enrollment": 4300
+ },
+ {
+  "website": "perrynet.stark.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "4201 13Th St Sw",
+  "mail_city": "Massillon",
+  "zip": "44646",
+  "county": "Stark",
+  "name": "Perry Local School District",
+  "enrollment": 4557
+ },
+ {
   "website": "coventrylocalschools.com",
   "contact_title": "Supt",
   "address": "3257 Cormany Rd",

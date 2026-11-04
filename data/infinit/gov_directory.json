@@ -1167,6 +1167,150 @@
   "zip": "44255",
   "county": "Portage"
  },
+ "Alliance|City": {
+  "website": "cityofalliance.com",
+  "contact_title": "Director Of Public Safety And Servic",
+  "address": "504 E Main St Ste 1",
+  "mail_city": "Alliance",
+  "zip": "44601",
+  "county": "Stark"
+ },
+ "East Sparta|Village": {
+  "website": "",
+  "contact_title": "Mayor Clerk Treasurer",
+  "address": "Po Box 357",
+  "mail_city": "East Sparta",
+  "zip": "44626",
+  "county": "Stark"
+ },
+ "Magnolia|Village": {
+  "website": "",
+  "contact_title": "Mayor",
+  "address": "Po Box 297",
+  "mail_city": "Magnolia",
+  "zip": "44643",
+  "county": "Stark"
+ },
+ "Canal Fulton|City": {
+  "website": "cityofcanalfultonoh.gov",
+  "contact_title": "Mayor",
+  "address": "155 Market St E Ste A",
+  "mail_city": "Canal Fulton",
+  "zip": "44614",
+  "county": "Stark"
+ },
+ "Hartville|Village": {
+  "website": "hartvilleoh.com",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 760",
+  "mail_city": "Hartville",
+  "zip": "44632",
+  "county": "Stark"
+ },
+ "Massillon|City": {
+  "website": "massillonohio.com",
+  "contact_title": "Community Development Director",
+  "address": "151 Lincoln Way E",
+  "mail_city": "Massillon",
+  "zip": "44646",
+  "county": "Stark"
+ },
+ "North Canton|City": {
+  "website": "northcantonohio.com",
+  "contact_title": "Administration",
+  "address": "145 N Main St",
+  "mail_city": "North Canton",
+  "zip": "44720",
+  "county": "Stark"
+ },
+ "Beach City|Village": {
+  "website": "beachcityohio.org",
+  "contact_title": "Mayor",
+  "address": "Po Box 695",
+  "mail_city": "Beach City",
+  "zip": "44608",
+  "county": "Stark"
+ },
+ "Brewster|Village": {
+  "website": "brewsterhio.com",
+  "contact_title": "Clerk Treasurer",
+  "address": "302 Wabash Ave S",
+  "mail_city": "Brewster",
+  "zip": "44613",
+  "county": "Stark"
+ },
+ "Canton|City": {
+  "website": "cityofcanton.com",
+  "contact_title": "Mayor",
+  "address": "218 Cleveland Ave Sw",
+  "mail_city": "Canton",
+  "zip": "44702",
+  "county": "Stark"
+ },
+ "East Canton|Village": {
+  "website": "eastcantonvillage.com",
+  "contact_title": "Fiscal Officer",
+  "address": "130 Cedar St S",
+  "mail_city": "East Canton",
+  "zip": "44730",
+  "county": "Stark"
+ },
+ "Hills And Dales|Village": {
+  "website": "",
+  "contact_title": "Mayor",
+  "address": "2200 Dunkeith Dr Nw",
+  "mail_city": "Canton",
+  "zip": "44708",
+  "county": "Stark"
+ },
+ "Louisville|City": {
+  "website": "louisvilleohio.com",
+  "contact_title": "Finance Director",
+  "address": "215 S Mill St",
+  "mail_city": "Louisville",
+  "zip": "44641",
+  "county": "Stark"
+ },
+ "Meyers Lake|Village": {
+  "website": "",
+  "contact_title": "Dana Miller,Cler-Treasurer",
+  "address": "1600 N Park Ave Nw",
+  "mail_city": "Canton",
+  "zip": "44708",
+  "county": "Stark"
+ },
+ "Waynesburg|Village": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 610",
+  "mail_city": "Waynesburg",
+  "zip": "44688",
+  "county": "Stark"
+ },
+ "Wilmot|Village": {
+  "website": "",
+  "contact_title": "Mayor",
+  "address": "Po Box 192",
+  "mail_city": "Wilmot",
+  "zip": "44689",
+  "county": "Stark"
+ },
+ "Minerva|Village": {
+  "website": "ci.minerva.oh.us",
+  "contact_title": "David Harp ",
+  "address": "209 N Market St",
+  "mail_city": "Minerva",
+  "zip": "44657",
+  "county": "Stark"
+ },
+ "Navarre|Village": {
+  "website": "navarreohio.net",
+  "contact_title": "Clerk-Treasurer",
+  "address": "27 Canal St W",
+  "mail_city": "Navarre",
+  "zip": "44662",
+  "county": "Stark"
+ },
  "Munroe Falls|City": {
   "website": "munroefalls.com",
   "contact_title": "Finance Director",
@@ -1672,12 +1816,12 @@
   "county": "Columbiana"
  },
  "Perry Township|Township": {
-  "website": "perrytownshiplake.com",
-  "contact_title": "Christine J. Page Fiscal Officer ",
-  "address": "Po Box 65",
-  "mail_city": "Perry",
-  "zip": "44081",
-  "county": "Lake"
+  "website": "perrytwp.com",
+  "contact_title": "Administrator",
+  "address": "3111 Hilton St Nw",
+  "mail_city": "Massillon",
+  "zip": "44646",
+  "county": "Stark"
  },
  "Yellow Creek Township|Township": {
   "website": "",
@@ -1745,11 +1889,11 @@
  },
  "Washington Township|Township": {
   "website": "",
-  "contact_title": "Chairman",
-  "address": "100 Commerce Street",
-  "mail_city": "Salineville",
-  "zip": "43945",
-  "county": "Columbiana"
+  "contact_title": "Fiscal Officer",
+  "address": "5843 Beechwood Ave",
+  "mail_city": "Alliance",
+  "zip": "44601",
+  "county": "Stark"
  },
  "West Township|Township": {
   "website": "",
@@ -2104,12 +2248,12 @@
   "county": "Mahoning"
  },
  "Jackson Township|Township": {
-  "website": "",
-  "contact_title": "Township Fiscal Officer",
-  "address": "Po Box 400",
-  "mail_city": "North Jackson",
-  "zip": "44451",
-  "county": "Mahoning"
+  "website": "jacksontwp.com",
+  "contact_title": "Administrator",
+  "address": "5735 Wales Ave Nw",
+  "mail_city": "Massillon",
+  "zip": "44646",
+  "county": "Stark"
  },
  "Smith Township|Township": {
   "website": "",
@@ -2417,11 +2561,11 @@
  },
  "Paris Township|Township": {
   "website": "",
-  "contact_title": "Township Fiscal Officer",
-  "address": "9174 Newton Falls Rd",
-  "mail_city": "Ravenna",
-  "zip": "44266",
-  "county": "Portage"
+  "contact_title": "Fiscal Officer",
+  "address": "14220 Freed St Se",
+  "mail_city": "Paris",
+  "zip": "44669",
+  "county": "Stark"
  },
  "Randolph Township|Township": {
   "website": "randolphtownshipohio.gov",
@@ -2454,6 +2598,110 @@
   "mail_city": "Diamond",
   "zip": "44412",
   "county": "Portage"
+ },
+ "Marlboro Township|Township": {
+  "website": "",
+  "contact_title": "Township Fiscal Officer",
+  "address": "7344 Edison St Ne",
+  "mail_city": "Hartville",
+  "zip": "44632",
+  "county": "Stark"
+ },
+ "Sandy Township|Township": {
+  "website": "",
+  "contact_title": "Township Fiscal Officer",
+  "address": "5880 Ravenna Ave Se",
+  "mail_city": "Waynesburg",
+  "zip": "44688",
+  "county": "Stark"
+ },
+ "Bethlehem Township|Township": {
+  "website": "",
+  "contact_title": "Bethlehem Township Trustee",
+  "address": "Po Box 161",
+  "mail_city": "Navarre",
+  "zip": "44662",
+  "county": "Stark"
+ },
+ "Plain Township|Township": {
+  "website": "plaintownship.com",
+  "contact_title": "Finance Assistant",
+  "address": "2600 Easton St Ne",
+  "mail_city": "Canton",
+  "zip": "44721",
+  "county": "Stark"
+ },
+ "Lake Township|Township": {
+  "website": "laketownshipstarkco.com",
+  "contact_title": "Lake Township Trustees",
+  "address": "12360 Market Ave N",
+  "mail_city": "Hartville",
+  "zip": "44632",
+  "county": "Stark"
+ },
+ "Lexington Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "14555 Gaskill Dr Ne",
+  "mail_city": "Alliance",
+  "zip": "44601",
+  "county": "Stark"
+ },
+ "Nimishillen Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 181",
+  "mail_city": "Louisville",
+  "zip": "44641",
+  "county": "Stark"
+ },
+ "Osnaburg Township|Township": {
+  "website": "osnaburgtwp.com",
+  "contact_title": "Fiscal Officer",
+  "address": "7115 Hillvale St Se",
+  "mail_city": "East Canton",
+  "zip": "44730",
+  "county": "Stark"
+ },
+ "Pike Township|Township": {
+  "website": "piketownship.com",
+  "contact_title": "Fiscal Officer",
+  "address": "7134 East Sparta Ave",
+  "mail_city": "East Sparta",
+  "zip": "44626",
+  "county": "Stark"
+ },
+ "Tuscarawas Township|Township": {
+  "website": "",
+  "contact_title": "Trutee",
+  "address": "956 Manchester Ave Sw",
+  "mail_city": "North Lawrence",
+  "zip": "44666",
+  "county": "Stark"
+ },
+ "Lawrence Township|Township": {
+  "website": "lawrencetwp-oh.org",
+  "contact_title": "Fiscal Officer",
+  "address": "5828 Manchester Ave Nw",
+  "mail_city": "North Lawrence",
+  "zip": "44666",
+  "county": "Stark"
+ },
+ "Canton Township|Township": {
+  "website": "cantontwp-oh.gov",
+  "contact_title": "Fiscal Officer",
+  "address": "4711 Central Ave Sw",
+  "mail_city": "Canton",
+  "zip": "44707",
+  "county": "Stark"
+ },
+ "Sugar Creek Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 38",
+  "mail_city": "Brewster",
+  "zip": "44613",
+  "county": "Stark"
  },
  "Boston Township|Township": {
   "website": "bostontownship.org",

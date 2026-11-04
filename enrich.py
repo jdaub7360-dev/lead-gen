@@ -113,8 +113,67 @@ def top(d):
         dom = re.sub(r"^www\.", "", (t.get("website") or "").split("/")[0])
         chk = checks.get(dom)
         t["email_security"] = "; ".join(chk["findings"]) if chk and chk["findings"] else ("No issues found" if chk else "")
+    for t in leads:
+        score_and_script(cfg, t, checks)
+    leads.sort(key=lambda t: -t["score"])
     json.dump(leads, open(f"{d}/top_leads.json", "w"), indent=1)
     print(f"enriched {len(leads)} top leads", file=sys.stderr)
+
+
+def score_and_script(cfg, t, checks):
+    """Appointment score, first-meeting offer, CTA, phone opener and voicemail."""
+    import datetime
+    w = cfg["scoring"]
+    parts = []
+    trig = t.get("trigger_type", "")
+    pts = w["trigger"].get(trig, 8)
+    parts.append(f"trigger {pts}")
+    days = None
+    if t.get("trigger_date"):
+        days = (datetime.date.today() - datetime.date.fromisoformat(t["trigger_date"])).days
+    rec = next((p for lim, p in w["recency_days"] if days is not None and days <= lim), w["recency_unknown"] if days is None else 0)
+    parts.append(f"recency {rec}")
+    cs = t.get("contacts", [])
+    if cs and not any("verify" in c["title"].lower() for c in cs[:1]):
+        con = w["named_contact"]
+    elif cs:
+        con = w["named_contact_verify"]
+    else:
+        con = 0
+    parts.append(f"contact {con}")
+    ph = w["phone"] if t.get("phone") else 0
+    parts.append(f"phone {ph}")
+    mi = t.get("miles")
+    near = next((p for lim, p in w["miles"] if mi is not None and mi <= lim), 0)
+    parts.append(f"distance {near}")
+    dom = re.sub(r"^www\.", "", (t.get("website") or "").split("/")[0])
+    chk = checks.get(dom) or {}
+    hook = any(f.startswith(("No DMARC", "DMARC set to monitor")) for f in chk.get("findings", []))
+    em = w["email_finding"] if hook else 0
+    parts.append(f"email hook {em}")
+    size = w["size_large"] if (t.get("employees") or 0) > 500 else w["size_fit"]
+    parts.append(f"size {size}")
+    t["score"] = pts + rec + con + ph + near + em + size
+    t["score_why"] = ", ".join(parts)
+    t["trigger_age_days"] = days
+
+    offer = cfg["offers"].get(trig) or cfg["offers"]["Good fit, no trigger"]
+    t["offer"] = offer
+    t["email_offer"] = cfg["offers"]["_email_security"] if hook else ""
+    t["cta"] = (f"Would {offer} be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, "
+                f"by phone or at your office.")
+    for k in ("body",):
+        if "{cta}" in t.get(k, ""):
+            t[k + "_final"] = t[k].replace("{cta}", t["cta"])
+        else:
+            t[k + "_final"] = t.get(k, "")
+    office = t.get("office") or "Northeast Ohio"
+    reason = t.get("call_reason") or "we help organizations like yours with IT and security"
+    t["phone_opener"] = (f"Hi {{first_name}}, this is [Rep name] with infinIT, the IT company in {office}. "
+                         f"I'll be quick: {reason}. We're offering {offer}. "
+                         f"Is that worth 15 minutes next week?")
+    t["voicemail"] = (f"Hi {{first_name}}, [Rep name] with infinIT in {office}. Calling because {reason}. "
+                      f"I'll send a short email too. My number is [phone]. Again, [Rep name], infinIT, [phone].")
 
 
 if __name__ == "__main__":

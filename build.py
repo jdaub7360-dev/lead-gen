@@ -8,6 +8,7 @@ from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 from openpyxl.formatting.rule import FormulaRule
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
+from openpyxl.comments import Comment
 
 # ---------- style ----------
 FONT = "Arial"
@@ -46,17 +47,24 @@ def short_findings(check):
 
 
 def table(ws, headers, widths, rows, freeze="C2", wrap_cols=(), row_height=None, status_col=None,
-          tier_col=None, link_cols=(), money_cols=(), int_cols=()):
-    """Write a styled table. rows: list of lists; a cell may be (text, url) for a hyperlink."""
+          tier_col=None, link_cols=(), money_cols=(), int_cols=(), note=None):
+    """Write a styled table. rows: list of lists; a cell may be (text, url) for a hyperlink.
+    note: optional one-line explanation placed above the header (header then sits on row 2)."""
+    top = 1
+    if note:
+        ws.append([note])
+        ws.cell(1, 1).font = f(9, italic=True, color=MUTED)
+        top = 2
+        freeze = freeze[0] + str(int(freeze[1:]) + 1)
     ws.append(headers)
     for i, w in enumerate(widths, 1):
         ws.column_dimensions[get_column_letter(i)].width = w
-        c = ws.cell(1, i)
+        c = ws.cell(top, i)
         c.font = f(bold=True, color="FFFFFF")
         c.fill = HDR_FILL
         c.alignment = Alignment(vertical="center", wrap_text=True)
-    ws.row_dimensions[1].height = 30
-    for r_i, row in enumerate(rows, 2):
+    ws.row_dimensions[top].height = 30
+    for r_i, row in enumerate(rows, top + 1):
         for c_i, val in enumerate(row, 1):
             cell = ws.cell(r_i, c_i)
             if isinstance(val, tuple):
@@ -78,32 +86,33 @@ def table(ws, headers, widths, rows, freeze="C2", wrap_cols=(), row_height=None,
                 cell.number_format = "#,##0"
         if row_height:
             ws.row_dimensions[r_i].height = row_height(row) if callable(row_height) else row_height
-    n = max(ws.max_row, 2)
+    n = max(ws.max_row, top + 1)
+    d1 = top + 1
     last = get_column_letter(len(headers))
     ws.freeze_panes = freeze
-    ws.auto_filter.ref = f"A1:{last}{n}"
+    ws.auto_filter.ref = f"A{top}:{last}{n}"
     ws.sheet_view.zoomScale = 100
     if status_col:
         col = get_column_letter(status_col)
         dv = DataValidation(type="list", formula1='"' + ",".join(STATUSES) + '"', allow_blank=True)
         ws.add_data_validation(dv)
-        dv.add(f"{col}2:{col}{n + 500}")
+        dv.add(f"{col}{d1}:{col}{n + 500}")
         for s, (bg, fg) in STATUS_COLORS.items():
-            ws.conditional_formatting.add(f"{col}2:{col}{n + 500}", FormulaRule(
-                formula=[f'${col}2="{s}"'], fill=PatternFill("solid", fgColor=bg), font=Font(color=fg, bold=True)))
+            ws.conditional_formatting.add(f"{col}{d1}:{col}{n + 500}", FormulaRule(
+                formula=[f'${col}{d1}="{s}"'], fill=PatternFill("solid", fgColor=bg), font=Font(color=fg, bold=True)))
     if tier_col:
         col = get_column_letter(tier_col)
         for t, (bg, fg) in TIER_COLORS.items():
-            ws.conditional_formatting.add(f"{col}2:{col}{n + 500}", FormulaRule(
-                formula=[f'${col}2="{t}"'], fill=PatternFill("solid", fgColor=bg), font=Font(color=fg, bold=True)))
-        for r in range(2, n + 1):
+            ws.conditional_formatting.add(f"{col}{d1}:{col}{n + 500}", FormulaRule(
+                formula=[f'${col}{d1}="{t}"'], fill=PatternFill("solid", fgColor=bg), font=Font(color=fg, bold=True)))
+        for r in range(d1, n + 1):
             ws.cell(r, tier_col).alignment = Alignment(horizontal="center", vertical="top")
-    ws.conditional_formatting.add(f"A2:{last}{n + 500}",  # banding last: tier/status colors win
+    ws.conditional_formatting.add(f"A{d1}:{last}{n + 500}",  # banding last: tier/status colors win
                                   FormulaRule(formula=["MOD(ROW(),2)=0"], fill=BAND_FILL, stopIfTrue=False))
     ws.page_setup.orientation = "landscape"
     ws.page_setup.fitToWidth, ws.page_setup.fitToHeight = 1, 0
     ws.sheet_properties.pageSetUpPr.fitToPage = True
-    ws.print_title_rows = "1:1"
+    ws.print_title_rows = f"{top}:{top}"
 
 
 def text_height(texts_widths, line_pt=12.75, pad=6, min_h=30):
@@ -184,7 +193,7 @@ def build(cfg, d, out):
         c = ws.cell(6, i, h)
         c.font = f(9, True, MUTED)
     lists = [
-        ("Top Leads", "'Top Leads'!B:B", None, "'Top Leads'!E:E", "Researched this week. Each has a reason to reach out now, contacts and drafts. Start here."),
+        ("Top Leads", "'Top Leads'!C:C", None, "'Top Leads'!F:F", "Researched this week. Each has a reason to reach out now, contacts and drafts. Start here."),
         ("Manufacturing (DoD)", "'Manufacturing (DoD)'!B:B", "'Manufacturing (DoD)'!A:A", "'Manufacturing (DoD)'!D:D", "Defense suppliers in your counties. NIST 800-171 / CMMC angle."),
         ("Nonprofits", "Nonprofits!B:B", "Nonprofits!A:A", "Nonprofits!D:D", "With website, phone and named leaders from IRS 990 filings."),
         ("Healthcare", "Healthcare!B:B", "Healthcare!A:A", "Healthcare!D:D", "Behavioral health, clinics, care providers. HIPAA angle."),
@@ -211,7 +220,7 @@ def build(cfg, d, out):
     for i, t in enumerate(top[:3], r + 1):
         ws.cell(i, 2, f"{i - r}. {t['name']}").font = f(bold=True)
         ws.cell(i, 2).alignment = Alignment(wrap_text=True, vertical="top")
-        ws.cell(i, 3, f"{t.get('office', '')} · {t.get('miles', '')} mi\n{t['vertical']}").font = f(9, color=MUTED)
+        ws.cell(i, 3, f"Score {t.get('score', '')}\n{t.get('office', '')} · {t.get('miles', '')} mi").font = f(9, color=MUTED)
         ws.cell(i, 3).alignment = Alignment(wrap_text=True, vertical="top")
         ws.merge_cells(start_row=i, start_column=4, end_row=i, end_column=7)
         ws.cell(i, 4, t["why_now"]).font = f()
@@ -220,10 +229,10 @@ def build(cfg, d, out):
     r = r + 5
     section(r, "Pipeline (Top Leads)")
     for i, (label, st) in enumerate([("Emailed or following up", None), ("Replied", "Replied"),
-                                     ("Meetings booked", "Meeting booked")], r + 1):
+                                     ("Meetings booked", "Meeting booked")], r + 1):  # Top Leads Status column
         ws.cell(i, 2, label).font = f()
-        formula = (f'=COUNTIF(\'Top Leads\'!O:O,"Emailed")+COUNTIF(\'Top Leads\'!O:O,"Follow-up 1")'
-                   f'+COUNTIF(\'Top Leads\'!O:O,"Follow-up 2")') if st is None else f'=COUNTIF(\'Top Leads\'!O:O,"{st}")'
+        formula = (f'=COUNTIF(\'Top Leads\'!Q:Q,"Emailed")+COUNTIF(\'Top Leads\'!Q:Q,"Follow-up 1")'
+                   f'+COUNTIF(\'Top Leads\'!Q:Q,"Follow-up 2")') if st is None else f'=COUNTIF(\'Top Leads\'!Q:Q,"{st}")'
         ws.cell(i, 3, formula).font = f(bold=True)
     r = r + 5
     section(r, "How to use it")
@@ -244,40 +253,91 @@ def build(cfg, d, out):
 
     # ================= Top Leads =================
     tl = wb.create_sheet("Top Leads")
-    h = ["#", "Organization", "Vertical", "City", "Nearest office", "Miles", "Trigger", "Why now", "Website", "Main phone",
+    h = ["#", "Score", "Organization", "Vertical", "City", "Nearest office", "Miles", "Trigger", "Why now", "First-meeting offer", "Website", "Main phone",
          "Contact 1 (click: LinkedIn search)", "Contact 2", "Email security", "Company on LinkedIn",
          "Status", "Rep", "Last touch", "Notes", "In HubSpot?"]
-    w = [4, 28, 16, 12, 10, 7, 18, 56, 22, 15, 34, 34, 22, 13, 15, 10, 11, 28, 11]
+    w = [4, 7, 28, 14, 12, 10, 7, 18, 52, 36, 22, 15, 34, 34, 22, 13, 15, 10, 11, 28, 11]
     rows = []
     for i, t in enumerate(top, 1):
         cs = t.get("contacts", [])
         cell = lambda c: (f"{c['name']} – {c['title']}", c.get("linkedin", "")) if c else ""
-        rows.append([i, t["name"], t["vertical"].replace(" (DoD supplier)", ""), t["city"], t.get("office", ""), t.get("miles", ""),
-                     t.get("trigger_type", ""), t["why_now"],
+        rows.append([i, t.get("score", ""), t["name"], t["vertical"].replace(" (DoD supplier)", ""), t["city"],
+                     t.get("office", ""), t.get("miles", ""), t.get("trigger_type", ""), t["why_now"],
+                     (t.get("offer", "")[:1].upper() + t.get("offer", "")[1:]),
                      site(t.get("website")), t.get("phone", ""),
                      cell(cs[0] if cs else None), cell(cs[1] if len(cs) > 1 else None),
                      short_findings(chk(t.get("website"))) or "", ("Search", t.get("linkedin_company", "")),
-                     "New", "", "", t.get("notes", ""), hubspot("B", i + 1)])
-    table(tl, h, w, rows, freeze="C2", wrap_cols=(2, 8, 11, 12, 13, 18), status_col=15,
-          row_height=lambda row: text_height([(row[7], 56), (row[10][0] if isinstance(row[10], tuple) else "", 30)]))
-    for rr in range(2, tl.max_row + 1):
-        tl.cell(rr, 17).number_format = "mmm d"
+                     "New", "", "", t.get("notes", ""), hubspot("C", i + 1)])
+    table(tl, h, w, rows, freeze="D2", wrap_cols=(3, 9, 10, 13, 14, 15, 20), status_col=17,
+          row_height=lambda row: text_height([(row[8], 52), (row[9], 36)]))
+    for rr, t in enumerate(top, 2):
+        tl.cell(rr, 19).number_format = "mmm d"
+        sc = tl.cell(rr, 2)
+        sc.alignment = Alignment(horizontal="center", vertical="top")
+        sc.font = f(bold=True, color=NAVY)
+        if t.get("score_why"):
+            sc.comment = Comment(f"Appointment score {t['score']}/100\n{t['score_why']}", "Lead report")
+    tl.conditional_formatting.add(f"B2:B{tl.max_row}", FormulaRule(formula=["$B2>=75"], fill=PatternFill("solid", fgColor="D8F0DE")))
 
     # ================= Drafts =================
     dr = wb.create_sheet("Drafts")
-    h = ["#", "Organization", "Who to email", "Subject", "Email (day 1)", "Follow-up 1 (day 4)",
-         "Follow-up 2 (day 10)", "Source 1", "Source 2", "Source 3"]
-    w = [4, 26, 28, 30, 70, 46, 40, 12, 12, 12]
+    h = ["#", "Organization", "Who to email", "Subject", "Email (day 1)", "Phone opener (day 2)", "Voicemail",
+         "Follow-up 1 (day 4)", "Follow-up 2 (day 10)", "Source 1", "Source 2", "Source 3"]
+    w = [4, 26, 28, 28, 66, 42, 34, 42, 36, 10, 10, 10]
     rows = []
     for i, t in enumerate(top, 1):
         srcs = t.get("sources", [])[:3] + [""] * 3
         who = t["contact_role"]
         if t.get("contacts"):
             who = f"{t['contacts'][0]['name']} ({t['contacts'][0]['title']})\nRole: {t['contact_role']}"
-        rows.append([i, t["name"], who, t["subject"], t["body"], t["fu1"], t["fu2"]]
+        rows.append([i, t["name"], who, t["subject"], t.get("body_final") or t["body"], t.get("phone_opener", ""),
+                     t.get("voicemail", ""), t["fu1"], t["fu2"]]
                     + [(f"Link {k + 1}", s) if s else "" for k, s in enumerate(srcs[:3])])
-    table(dr, h, w, rows, freeze="C2", wrap_cols=(2, 3, 4, 5, 6, 7),
-          row_height=lambda row: text_height([(row[4], 70), (row[5], 46), (row[6], 40)]))
+    table(dr, h, w, rows, freeze="C2", wrap_cols=(2, 3, 4, 5, 6, 7, 8, 9),
+          row_height=lambda row: text_height([(row[4], 66), (row[5], 42), (row[7], 42)]))
+
+    # ================= Call Plan =================
+    cp = wb.create_sheet("Call Plan")
+    start = today + datetime.timedelta(days=(7 - today.weekday()) % 7 or 0)  # this Monday if run on Monday, else next
+    if today.weekday() != 0:
+        start = today + datetime.timedelta(days=(7 - today.weekday()))
+    def biz(n):  # n-th business day after start (0 = start)
+        d, k = start, 0
+        while k < n:
+            d += datetime.timedelta(days=1)
+            if d.weekday() < 5:
+                k += 1
+        return d
+    steps = [(0, "Email 1 + view LinkedIn"), (1, "Call: opener, else voicemail"), (3, "Follow-up 1 email"),
+             (5, "Call #2"), (8, "Follow-up 2 email"), (10, "Last call: ask for the meeting")]
+    h = ["#", "Organization", "Contact", "Phone", "Nearest office"] + \
+        [f"{biz(n):%a %b %-d}\n{a}" for n, a in steps] + ["Booked?", "Meeting date", "Notes"]
+    w = [4, 28, 30, 15, 15] + [17] * len(steps) + [10, 12, 30]
+    rows = []
+    for i, t in enumerate(top, 1):
+        c0 = (t.get("contacts") or [{}])[0]
+        near_visit = t.get("miles") is not None and t["miles"] <= 15
+        cells = []
+        for n, a in steps:
+            txt = "☐"
+            if n == 5 and near_visit:
+                txt = "☐ or drop in (≤15 mi)"
+            cells.append(txt)
+        rows.append([i, t["name"], f"{c0.get('name', '')} – {c0.get('title', '')}" if c0 else t["contact_role"],
+                     t.get("phone", ""), f"{t.get('office', '')} · {t.get('miles', '')} mi"] + cells + ["", "", ""])
+    table(cp, h, w, rows, freeze="C2", wrap_cols=(2, 3),
+          note=("Two touches a week for two weeks. Replace ☐ with ✓ as you go. Leads within 15 miles of an office: "
+                "drop in on the day-8 touch. Mark Booked? = Yes when a first meeting is on the calendar."))
+    cp.row_dimensions[2].height = 44
+    booked_col = 6 + len(steps)
+    dvb = DataValidation(type="list", formula1='"Yes,No"', allow_blank=True)
+    cp.add_data_validation(dvb)
+    dvb.add(f"{get_column_letter(booked_col)}3:{get_column_letter(booked_col)}{cp.max_row + 200}")
+    cp.conditional_formatting.add(f"A3:{get_column_letter(len(h))}{cp.max_row + 200}", FormulaRule(
+        formula=[f'${get_column_letter(booked_col)}3="Yes"'], fill=PatternFill("solid", fgColor="C6EFCE")))
+    for rr in range(3, cp.max_row + 1):
+        cp.cell(rr, booked_col + 1).number_format = "mmm d"
+
 
     # ================= Manufacturing (DoD) =================
     md = wb.create_sheet("Manufacturing (DoD)")
@@ -362,15 +422,11 @@ def build(cfg, d, out):
     w = [11, 44, 18, 15, 20, 26, 18, 15, 40]
     rows = [[datetime.datetime.strptime(x["reported"], "%m/%d/%Y").date(), x["name"], x["entity_type"],
              x["individuals"], x["breach_type"], x["location"], "", "New", ""] for x in breaches]
-    table(bw, h, w, rows, freeze="C2", status_col=8, int_cols=(4,))
-    for rr in range(2, bw.max_row + 1):
+    table(bw, h, w, rows, freeze="C2", status_col=8, int_cols=(4,),
+          note="HHS lists the state only. Confirm the organization is in your area, and lead with help "
+               "(incident response, hardening), never with the breach itself.")
+    for rr in range(3, bw.max_row + 1):
         bw.cell(rr, 1).number_format = "mmm d, yyyy"
-    bw.insert_rows(1)
-    bw["A1"] = ("HHS lists the state only. Confirm the organization is in your area, and lead with help "
-                "(incident response, hardening), never with the breach itself.")
-    bw["A1"].font = f(9, italic=True, color=MUTED)
-    bw.freeze_panes = "C3"
-    bw.auto_filter.ref = f"A2:I{bw.max_row}"
 
     # ================= Apollo Import =================
     ai = wb.create_sheet("Apollo Import")
@@ -412,6 +468,12 @@ def build(cfg, d, out):
     st.conditional_formatting = type(st.conditional_formatting)()  # no banding over the yellow inputs
     st.cell(len(settings) + 3, 1, "Yellow cells are inputs. Tier formulas on the list tabs read these values.").font = f(9, italic=True, color=MUTED)
 
+    # Row banding must never hide tier/status/booked/score colors: give it the lowest priority everywhere
+    for sheet in wb.worksheets:
+        for cf in sheet.conditional_formatting:
+            for rule in cf.rules:
+                if rule.formula == ["MOD(ROW(),2)=0"]:
+                    rule.priority = 9999
     wb.save(out)
     print(f"wrote {out} | top {len(top)} | dod {len(dod)} | np {len(nps)} | gov {len(gov)} | schools {len(schools)} "
           f"| breaches {len(breaches)}", file=sys.stderr)

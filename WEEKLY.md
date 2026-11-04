@@ -25,6 +25,12 @@ If `data/infinit/pipeline_status.json` exists (pulled from the live Google Sheet
     Daily, Tribune Chronicle, Akron Beacon Journal).
   - Tier A rows on the list tabs with an email-security finding (no DMARC, GoDaddy email): good personalization.
 - **Every lead needs a dated, sourced reason to reach out now.** No source, no lead. Never invent facts.
+  Set `trigger_date` (YYYY-MM-DD, the date of the event) and `call_reason` (one phrase finishing "I'm calling
+  because ...") on every lead. A job posting only counts if the employer is named.
+- **Goal is booked first meetings.** Prefer leads with a fresh trigger (under 90 days), a named decision-maker
+  and a direct phone. Drop "Good fit, no trigger" leads unless there aren't 15 better ones.
+- In each draft body, end with the `{cta}` placeholder instead of a closing question; the build fills in the
+  offer for that trigger type (configs/infinit.json → offers) and two proposed times.
 - **Re-check** current CMMC status and Ohio HB 96 news before writing those drafts.
 - **Contacts:** for nonprofits the enrichment fills 990 officers automatically. For everyone else, find the
   leader on the organization's own site or a government page and add it to `data/infinit/top_leads_contacts.json`
@@ -33,7 +39,7 @@ If `data/infinit/pipeline_status.json` exists (pulled from the live Google Sheet
   new sites, Leadership change, Acquisition, HB 96 cyber mandate, CMMC / DFARS, Breach, IT contract decision,
   Critical operations, Good fit, no trigger).
 - Write `data/infinit/top_leads.json` in the same format as `data/infinit/history/top_leads_2026-11-04.json`
-  and put the three best first (they become "Call these first" on the Summary). Then copy it to
+  (the build sorts by appointment score; the top three become "Call these first"). Then copy it to
   `data/infinit/history/top_leads_YYYY-MM-DD.json`.
 
 ## 3. Build

@@ -2189,5 +2189,117 @@
   "recipient_id": "eb015a7a-a439-dd84-f081-efeee710ac91-C",
   "county": "Columbiana",
   "dod_total": 28340.0
+ },
+ {
+  "name": "THE TIMKEN CORPORATION",
+  "uei": "ZBR7R1G1MGB3",
+  "recipient_id": "0f52364c-bc79-9f2b-d867-6a6e6325ab98-C",
+  "county": "Stark",
+  "dod_total": 13049919.21
+ },
+ {
+  "name": "TRUCKCORP LLC",
+  "uei": "P5JSPNNVJ4W4",
+  "recipient_id": "83022c76-43c3-f8fd-ef30-4ce5f260b1ce-C",
+  "county": "Stark",
+  "dod_total": 2494320.4
+ },
+ {
+  "name": "EAGLE FORCE, INC",
+  "uei": "FAA5QLXFMKL9",
+  "recipient_id": "0495baa1-1cae-df8c-bd9b-e118ada54a29-C",
+  "county": "Stark",
+  "dod_total": 752431.5
+ },
+ {
+  "name": "MILLER WELDMASTER CORPORATION",
+  "uei": "DCDMW7N94JT3",
+  "recipient_id": "4eea572f-5403-b4a4-ae21-3a5b8eec20f5-C",
+  "county": "Stark",
+  "dod_total": 197650.85
+ },
+ {
+  "name": "WORTHINGTON PRODUCTS, LLC",
+  "uei": "CSN1NN21HEK6",
+  "recipient_id": "900bc26b-1a03-217e-ccf0-da54e93690f8-C",
+  "county": "Stark",
+  "dod_total": 151268.28
+ },
+ {
+  "name": "FLAWLESS LOGISTICS LLC",
+  "uei": "GQT7SLAG1JL5",
+  "recipient_id": "0fd0f305-cd4a-9f69-6226-1a4ff2541534-C",
+  "county": "Stark",
+  "dod_total": 142085.6
+ },
+ {
+  "name": "MIDWEST INDUSTRIAL SUPPLY INC",
+  "uei": "EABBXLU3UKX3",
+  "recipient_id": "2a590e07-b062-4fb8-7b0f-32d1c782b154-C",
+  "county": "Stark",
+  "dod_total": 133240.79
+ },
+ {
+  "name": "WHEELING & LAKE ERIE RAILWAY COMPANY",
+  "uei": "V5QKNABKE5M2",
+  "recipient_id": "88d12cea-1bff-ea2f-9362-e1ca889c44d9-C",
+  "county": "Stark",
+  "dod_total": 89768.39
+ },
+ {
+  "name": "SPECIALTY HOSE CORP",
+  "uei": "CDCCJGDG6SM5",
+  "recipient_id": "463c550c-2613-8b3b-e501-c79398cb423e-C",
+  "county": "Stark",
+  "dod_total": 84311.63
+ },
+ {
+  "name": "CANTON GEAR MANUFACTURING & DESIGNING CO., INC.",
+  "uei": "GKD2K9UF6VD5",
+  "recipient_id": "b2c6c805-5f88-08c8-4bdc-afbac3e3b566-C",
+  "county": "Stark",
+  "dod_total": 66321.84
+ },
+ {
+  "name": "DOYON MANAGEMENT SERVICES, LLC",
+  "uei": "L5LJD3R45FL5",
+  "recipient_id": "7acc9cc4-f2de-3c7c-1a56-edbdad9f2891-C",
+  "county": "Stark",
+  "dod_total": 54399.95
+ },
+ {
+  "name": "FREEDOM ATLANTIC INC.",
+  "uei": "D13HBWJH2B21",
+  "recipient_id": "564ef66f-f2b7-7835-0466-bc6fa9db3e30-C",
+  "county": "Stark",
+  "dod_total": 45360.0
+ },
+ {
+  "name": "POWER ASSET RECOVERY CORPORATION",
+  "uei": "R3WHNFQ72372",
+  "recipient_id": "14a4c85a-27a9-6687-bdfb-b1f5f413135f-C",
+  "county": "Stark",
+  "dod_total": 41980.0
+ },
+ {
+  "name": "CENTRAL PAINTING & SANDBLASTING, INC",
+  "uei": "VPBEJNNQBJC3",
+  "recipient_id": "49a3cb36-0269-f89d-005c-85260026d5d2-C",
+  "county": "Stark",
+  "dod_total": 39441.5
+ },
+ {
+  "name": "TECHNIBUS, INC.",
+  "uei": "CEWKZ322ZU41",
+  "recipient_id": "6ffcd95a-0b18-f171-ba66-87c179a81ba5-C",
+  "county": "Stark",
+  "dod_total": 31445.1
+ },
+ {
+  "name": "CPX CANTON AIRPORT, LLC",
+  "uei": "ZCVBEQJH8KF4",
+  "recipient_id": "39f8ef24-630c-5514-139b-a9a5839166e9-C",
+  "county": "Stark",
+  "dod_total": 30331.29
  }
 ]

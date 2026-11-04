@@ -139,12 +139,51 @@
   "Robeck Fluid Power Co.": "CMMC / DFARS",
   "AlphaMicron, Inc.": "CMMC / DFARS",
   "Salem-Republic Rubber Co.": "Good fit, no trigger",
-  "BOC Water Hydraulics, Inc.": "Good fit, no trigger"
+  "BOC Water Hydraulics, Inc.": "Good fit, no trigger",
+  "Centers for Dialysis Care": "Breach",
+  "Family Physicians, Inc.": "Breach",
+  "Northeast Professional Caregivers": "Breach"
  },
  "Crossroads Health": {
   "zip": "44060",
   "website": "",
   "phone": "",
   "contacts": []
+ },
+ "Centers for Dialysis Care": {
+  "zip": "44122",
+  "website": "cdcare.org",
+  "phone": "(216) 295-7000",
+  "contacts": [
+   {
+    "name": "Gayle Nemecek",
+    "title": "Chief Operating Officer (verify)",
+    "source": "Third-party directory"
+   }
+  ]
+ },
+ "Family Physicians, Inc.": {
+  "zip": "44720",
+  "website": "",
+  "phone": "(330) 494-7099",
+  "contacts": [
+   {
+    "name": "Amy Hupp",
+    "title": "Practice Administrator",
+    "source": "NPI Registry (authorized official)"
+   }
+  ]
+ },
+ "Northeast Professional Caregivers": {
+  "zip": "44720",
+  "website": "",
+  "phone": "(330) 966-2311",
+  "contacts": [
+   {
+    "name": "Kristen Lattimer, BSN, RN",
+    "title": "Administrator",
+    "source": "Ohio Council for Home Care & Hospice directory"
+   }
+  ]
  }
 }

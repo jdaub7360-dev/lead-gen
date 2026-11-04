@@ -15,7 +15,8 @@
     "055": "Geauga",
     "093": "Lorain",
     "007": "Ashtabula",
-    "029": "Columbiana"
+    "029": "Columbiana",
+    "151": "Stark"
   },
   "zip3": [
     "439",
@@ -143,5 +144,73 @@
       "zip": "44481"
     }
   ],
-  "max_miles_from_office": 45
+  "max_miles_from_office": 45,
+  "offers": {
+    "_note": "Suggested first-meeting offers by trigger type. CONFIRM with infinIT that each can be delivered before using.",
+    "Breach": "a no-cost post-incident review of your Microsoft 365 and email security (MFA, mailbox rules, sign-in alerts)",
+    "IT job posting": "a 20-minute co-managed coverage plan: what an outside team could take off your IT person's plate (after-hours, security, projects)",
+    "IT contract decision": "a fixed-price proposal with an HB 96 cyber program outline, ready to put in front of council",
+    "HB 96 cyber mandate": "a 30-minute HB 96 audit-readiness review, with a written list of what the State Auditor will look for and where you stand",
+    "CMMC / DFARS": "a 30-minute NIST 800-171 and SPRS score check, so the number you report is one you can defend",
+    "Acquisition": "an integration readiness review: what the new owner will ask for and which gaps to close first",
+    "Leadership change": "a one-page, no-cost IT and security snapshot for the new leadership team",
+    "Expansion / new sites": "a free review of your next site's network, phones and internet failover before it opens",
+    "Critical operations": "a phone and internet failover test for your crisis lines",
+    "Good fit, no trigger": "a free 15-minute IT and security snapshot",
+    "_email_security": "a free email-spoofing check and a plan to fix it (your domain has no DMARC protection today)"
+  },
+  "scoring": {
+    "_note": "Appointment score (0-100). Weights are editable; tune them once booked meetings come back.",
+    "trigger": {
+      "Breach": 30,
+      "IT contract decision": 30,
+      "IT job posting": 28,
+      "HB 96 cyber mandate": 24,
+      "Acquisition": 24,
+      "CMMC / DFARS": 22,
+      "Leadership change": 22,
+      "Expansion / new sites": 20,
+      "Critical operations": 16,
+      "Good fit, no trigger": 8
+    },
+    "recency_days": [
+      [
+        30,
+        20
+      ],
+      [
+        90,
+        15
+      ],
+      [
+        180,
+        10
+      ],
+      [
+        365,
+        5
+      ]
+    ],
+    "recency_unknown": 3,
+    "named_contact": 15,
+    "named_contact_verify": 8,
+    "phone": 5,
+    "miles": [
+      [
+        15,
+        15
+      ],
+      [
+        30,
+        10
+      ],
+      [
+        45,
+        5
+      ]
+    ],
+    "email_finding": 5,
+    "size_fit": 10,
+    "size_large": 5
+  }
 }

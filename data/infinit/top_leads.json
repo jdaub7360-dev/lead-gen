@@ -1,5 +1,53 @@
 [
  {
+  "name": "Family Physicians, Inc.",
+  "vertical": "Healthcare",
+  "city": "North Canton",
+  "county": "Stark",
+  "zip": "44720",
+  "size": "Independent family medicine practice, North Canton (4860 Frank Rd NW)",
+  "why_now": "Reported a breach of patient health information to HHS on October 1, 2026 (a few weeks ago). A small independent practice rarely has in-house IT or security staff to handle the follow-up.",
+  "angle": "Post-incident cleanup and managed IT/security for a small practice; HIPAA risk assessment.",
+  "contact_role": "Practice Administrator, physician owners",
+  "subject": "IT help for the practice",
+  "body": "Hi {first_name},\n\nI'm with infinIT, a Northeast Ohio IT and security company. I understand the practice recently had to report a data incident. For a practice your size, the follow-up (securing email, checking devices, documenting a HIPAA risk assessment) usually lands on someone who already has a full-time job.\n\nWe take that work off your plate and then keep things monitored and patched for a flat monthly fee, with a local team that answers the phone.\n\n{cta}\n\n[Rep name]\ninfinIT",
+  "fu1": "Hi {first_name}, following up. If it helps, we can review your HIPAA security risk assessment and tell you what's missing. Practices often need it for insurers after an incident.",
+  "fu2": "Hi {first_name}, last note from me. I'm at [phone] if IT or security comes up.",
+  "notes": "Very recent (Oct 1). Lead with help; don't speculate about what happened.",
+  "sources": [
+   "https://www.claimdepot.com/data-breach/family-physicians-2026",
+   "https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf",
+   "https://www.stedi.com/site/npi-registry/npis/1578537825"
+  ],
+  "trigger_date": "2026-10-01",
+  "call_reason": "I understand the practice recently had to deal with a data incident, and we help small practices handle the security follow-up so it doesn't land on your staff",
+  "website": "",
+  "phone": "(330) 494-7099",
+  "contacts": [
+   {
+    "name": "Amy Hupp",
+    "title": "Practice Administrator",
+    "source": "NPI Registry (authorized official)",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Amy%20Hupp%20Family%20Physicians%2C%20Inc."
+   }
+  ],
+  "contacts_source": "NPI Registry (authorized official)",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Family%20Physicians%2C%20Inc.",
+  "office": "Warren",
+  "miles": 33,
+  "trigger_type": "Breach",
+  "email_security": "",
+  "score": 80,
+  "score_why": "trigger 30, recency 15, contact 15, phone 5, distance 5, email hook 0, size 10",
+  "trigger_age_days": 34,
+  "offer": "a no-cost post-incident review of your Microsoft 365 and email security (MFA, mailbox rules, sign-in alerts)",
+  "email_offer": "",
+  "cta": "Would a no-cost post-incident review of your Microsoft 365 and email security (MFA, mailbox rules, sign-in alerts) be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.",
+  "body_final": "Hi {first_name},\n\nI'm with infinIT, a Northeast Ohio IT and security company. I understand the practice recently had to report a data incident. For a practice your size, the follow-up (securing email, checking devices, documenting a HIPAA risk assessment) usually lands on someone who already has a full-time job.\n\nWe take that work off your plate and then keep things monitored and patched for a flat monthly fee, with a local team that answers the phone.\n\nWould a no-cost post-incident review of your Microsoft 365 and email security (MFA, mailbox rules, sign-in alerts) be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.\n\n[Rep name]\ninfinIT",
+  "phone_opener": "Hi {first_name}, this is [Rep name] with infinIT, the IT company in Warren. I'll be quick: I understand the practice recently had to deal with a data incident, and we help small practices handle the security follow-up so it doesn't land on your staff. We're offering a no-cost post-incident review of your Microsoft 365 and email security (MFA, mailbox rules, sign-in alerts). Is that worth 15 minutes next week?",
+  "voicemail": "Hi {first_name}, [Rep name] with infinIT in Warren. Calling because I understand the practice recently had to deal with a data incident, and we help small practices handle the security follow-up so it doesn't land on your staff. I'll send a short email too. My number is [phone]. Again, [Rep name], infinIT, [phone]."
+ },
+ {
   "name": "Compass Family and Community Services",
   "vertical": "Healthcare",
   "city": "Youngstown",
@@ -9,7 +57,7 @@
   "angle": "Co-managed IT: back up their IT person with after-hours coverage, security and HIPAA depth. Warren office is 15 minutes away.",
   "contact_role": "CEO or CFO; Director of Operations; whoever was hired as IT Support Specialist",
   "subject": "Backup for your IT team",
-  "body": "Hi {first_name},\n\nI saw Compass was hiring an IT Support Specialist earlier this year. For an agency running outpatient, crisis and shelter programs across Mahoning and Trumbull, that's a lot of HIPAA-sensitive systems for one or two people to cover, especially nights and weekends.\n\ninfinIT works alongside internal IT teams in the Valley (our Warren office is a few miles from Mineral Ridge). We take after-hours monitoring, security and the projects that stall, and your team stays in control.\n\nWould a 20-minute call in the next couple of weeks be worth it to see where we could take some load off?\n\n[Rep name]\ninfinIT | Warren & Cleveland",
+  "body": "Hi {first_name},\n\nI saw Compass was hiring an IT Support Specialist earlier this year. For an agency running outpatient, crisis and shelter programs across Mahoning and Trumbull, that's a lot of HIPAA-sensitive systems for one or two people to cover, especially nights and weekends.\n\ninfinIT works alongside internal IT teams in the Valley (our Warren office is a few miles from Mineral Ridge). We take after-hours monitoring, security and the projects that stall, and your team stays in control.\n\n{cta}\n\n[Rep name]\ninfinIT | Warren & Cleveland",
   "fu1": "Hi {first_name}, following up on my note about backing up your IT staff. One thing we often help with first is a quick look at backups and after-hours alerting, since those gaps usually only show up during an incident. Happy to do that at no cost. Worth a call?",
   "fu2": "Hi {first_name}, I'll close the loop here. If IT coverage comes up later this year, I'm local and easy to reach at [phone]. Thanks for the work Compass does in the Valley.",
   "sources": [
@@ -37,7 +85,18 @@
   "trigger_type": "IT job posting",
   "email_security": "No issues found",
   "office": "Warren",
-  "miles": 6
+  "miles": 6,
+  "trigger_date": "2026-03-24",
+  "call_reason": "I saw Compass was hiring an IT support specialist this year, and we back up small internal IT teams with after-hours coverage and security",
+  "score": 78,
+  "score_why": "trigger 28, recency 5, contact 15, phone 5, distance 15, email hook 0, size 10",
+  "trigger_age_days": 225,
+  "offer": "a 20-minute co-managed coverage plan: what an outside team could take off your IT person's plate (after-hours, security, projects)",
+  "email_offer": "",
+  "cta": "Would a 20-minute co-managed coverage plan: what an outside team could take off your IT person's plate (after-hours, security, projects) be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.",
+  "body_final": "Hi {first_name},\n\nI saw Compass was hiring an IT Support Specialist earlier this year. For an agency running outpatient, crisis and shelter programs across Mahoning and Trumbull, that's a lot of HIPAA-sensitive systems for one or two people to cover, especially nights and weekends.\n\ninfinIT works alongside internal IT teams in the Valley (our Warren office is a few miles from Mineral Ridge). We take after-hours monitoring, security and the projects that stall, and your team stays in control.\n\nWould a 20-minute co-managed coverage plan: what an outside team could take off your IT person's plate (after-hours, security, projects) be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.\n\n[Rep name]\ninfinIT | Warren & Cleveland",
+  "phone_opener": "Hi {first_name}, this is [Rep name] with infinIT, the IT company in Warren. I'll be quick: I saw Compass was hiring an IT support specialist this year, and we back up small internal IT teams with after-hours coverage and security. We're offering a 20-minute co-managed coverage plan: what an outside team could take off your IT person's plate (after-hours, security, projects). Is that worth 15 minutes next week?",
+  "voicemail": "Hi {first_name}, [Rep name] with infinIT in Warren. Calling because I saw Compass was hiring an IT support specialist this year, and we back up small internal IT teams with after-hours coverage and security. I'll send a short email too. My number is [phone]. Again, [Rep name], infinIT, [phone]."
  },
  {
   "name": "Village of Lordstown",
@@ -49,7 +108,7 @@
   "angle": "HB 96 program plus continuity: a local firm that keeps the technician's knowledge documented, rather than replacing it. 10 minutes from the Warren office.",
   "contact_role": "Mayor, Village Administrator, Fiscal Officer, council member on the IT discussion",
   "subject": "Lordstown IT and HB 96",
-  "body": "Hi {first_name},\n\nI saw council has been weighing its IT support arrangement. Having one longtime technician who knows everything is valuable, and also a risk if that knowledge isn't documented.\n\ninfinIT is based in Warren. We help Ohio villages and townships meet the HB 96 cybersecurity program requirement and keep IT running, and we can work alongside your current technician rather than replacing them.\n\nCould I stop by for 20 minutes to hear what the village needs?\n\n[Rep name]\ninfinIT | Warren",
+  "body": "Hi {first_name},\n\nI saw council has been weighing its IT support arrangement. Having one longtime technician who knows everything is valuable, and also a risk if that knowledge isn't documented.\n\ninfinIT is based in Warren. We help Ohio villages and townships meet the HB 96 cybersecurity program requirement and keep IT running, and we can work alongside your current technician rather than replacing them.\n\n{cta}\n\n[Rep name]\ninfinIT | Warren",
   "fu1": "Hi {first_name}, following up. If it helps council's decision, we can provide a short written proposal with fixed monthly pricing and an HB 96 program outline. Just let me know.",
   "fu2": "Hi {first_name}, I'll leave it here. We're down the road in Warren if the village needs anything: [phone].",
   "notes": "Verify the current status of the IT contract in recent council minutes (lordstown.com) before sending.",
@@ -73,527 +132,68 @@
   "email_security": "No DMARC record: anyone can send email that appears to come from this domain",
   "office": "Warren",
   "miles": 0,
-  "zip": "44481"
+  "zip": "44481",
+  "trigger_date": "",
+  "call_reason": "council has been weighing the village's IT support, and we help Ohio villages run their HB 96 cyber program alongside a current technician",
+  "score": 78,
+  "score_why": "trigger 30, recency 3, contact 15, phone 0, distance 15, email hook 5, size 10",
+  "trigger_age_days": null,
+  "offer": "a fixed-price proposal with an HB 96 cyber program outline, ready to put in front of council",
+  "email_offer": "a free email-spoofing check and a plan to fix it (your domain has no DMARC protection today)",
+  "cta": "Would a fixed-price proposal with an HB 96 cyber program outline, ready to put in front of council be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.",
+  "body_final": "Hi {first_name},\n\nI saw council has been weighing its IT support arrangement. Having one longtime technician who knows everything is valuable, and also a risk if that knowledge isn't documented.\n\ninfinIT is based in Warren. We help Ohio villages and townships meet the HB 96 cybersecurity program requirement and keep IT running, and we can work alongside your current technician rather than replacing them.\n\nWould a fixed-price proposal with an HB 96 cyber program outline, ready to put in front of council be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.\n\n[Rep name]\ninfinIT | Warren",
+  "phone_opener": "Hi {first_name}, this is [Rep name] with infinIT, the IT company in Warren. I'll be quick: council has been weighing the village's IT support, and we help Ohio villages run their HB 96 cyber program alongside a current technician. We're offering a fixed-price proposal with an HB 96 cyber program outline, ready to put in front of council. Is that worth 15 minutes next week?",
+  "voicemail": "Hi {first_name}, [Rep name] with infinIT in Warren. Calling because council has been weighing the village's IT support, and we help Ohio villages run their HB 96 cyber program alongside a current technician. I'll send a short email too. My number is [phone]. Again, [Rep name], infinIT, [phone]."
  },
  {
-  "name": "Howland Township",
-  "vertical": "Government",
-  "city": "Howland",
-  "county": "Trumbull",
-  "size": "Township, population ~18,900",
-  "why_now": "Adopted its HB 96 cybersecurity policy in May 2026 and accepted a $12,800 state cybersecurity grant. A written policy now has to be carried out: training, backups, incident response, and an audit trail for the State Auditor.",
-  "angle": "Turn the adopted policy into a working, documented program. Neighbor to infinIT's Warren office.",
-  "contact_role": "Township Administrator, Fiscal Officer, Trustees",
-  "subject": "Putting Howland's cyber policy to work",
-  "body": "Hi {first_name},\n\nCongratulations on getting Howland's cybersecurity policy adopted this spring. The next step is usually the harder one: the training, backups, incident response plan and records the State Auditor will look for.\n\ninfinIT is right next door in Warren. We help Ohio townships run their HB 96 programs and keep their IT secure, and we can make the most of your state cyber grant.\n\nWould you be open to a short meeting at the township?\n\n[Rep name]\ninfinIT | Warren",
-  "fu1": "Hi {first_name}, following up. Happy to walk through what townships typically need to show for HB 96 at audit time, in 15 minutes by phone.",
-  "fu2": "Hi {first_name}, last note from me. We're a few minutes away in Warren if anything comes up: [phone].",
+  "name": "Centers for Dialysis Care",
+  "ein": "341140468",
+  "vertical": "Healthcare",
+  "city": "Shaker Heights",
+  "county": "Cuyahoga",
+  "zip": "44122",
+  "size": "$27.1M revenue (latest 990); nonprofit dialysis provider with multiple Northeast Ohio centers",
+  "why_now": "Reported a data security incident to HHS on May 15, 2026 affecting about 8,000 patients and employees. Organizations usually tighten email, access and backup controls in the months after, and often bring in outside help to do it.",
+  "angle": "Post-incident hardening and ongoing managed security for a multi-site dialysis provider; local team 9 miles away.",
+  "contact_role": "CEO, COO, CFO, IT lead",
+  "subject": "Supporting your team after this spring",
+  "body": "Hi {first_name},\n\nI saw the notice Centers for Dialysis Care shared earlier this year. Incidents like that usually leave the internal team with a long list: tightening Microsoft 365 and email, reviewing who can access what, and testing backups across every center.\n\ninfinIT is a Cleveland IT and security firm (35+ years, all in-house staff, our own data center on St. Clair). We help healthcare organizations work through that list and keep it from slipping, alongside the people you already have.\n\n{cta}\n\n[Rep name]\ninfinIT | Cleveland",
+  "fu1": "Hi {first_name}, following up. One thing we often find after an incident is mailbox forwarding rules or old accounts that were never cleaned up. We can check those for you at no cost. Worth 15 minutes?",
+  "fu2": "Hi {first_name}, I'll close the loop. If you want a second set of hands on security this year, I'm at [phone].",
+  "notes": "Be respectful: reference the public notice once, don't dwell on it. HHS lists 8,000 affected.",
   "sources": [
-   "https://www.tribtoday.com/news/local-news/2026/05/howland-adopts-cybersecurity-policy/"
+   "https://www.hipaajournal.com/ermi-mcleod-physician-associates-centers-for-dialysis-care-data-breaches/",
+   "https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf",
+   "https://projects.propublica.org/nonprofits/organizations/341140468"
   ],
-  "website": "howlandoh.gov",
-  "phone": "",
+  "trigger_date": "2026-05-15",
+  "call_reason": "you've had a lot on your plate since the security incident this spring, and we help healthcare teams tighten email and access controls afterward",
+  "website": "cdcare.org",
+  "phone": "(216) 295-7000",
+  "employees": 0,
   "contacts": [
    {
-    "name": "James T. Pantalone",
-    "title": "Township Administrator",
-    "source": "howlandoh.gov",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=James%20T.%20Pantalone%20Howland%20Township"
-   },
-   {
-    "name": "Thomas Krispinsky",
-    "title": "Fiscal Officer",
-    "source": "howlandoh.gov",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Thomas%20Krispinsky%20Howland%20Township"
+    "name": "Gayle Nemecek",
+    "title": "Chief Operating Officer (verify)",
+    "source": "Third-party directory",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Gayle%20Nemecek%20Centers%20for%20Dialysis%20Care"
    }
   ],
-  "contacts_source": "howlandoh.gov",
-  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Howland%20Township",
-  "trigger_type": "HB 96 cyber mandate",
-  "email_security": "No DMARC record: anyone can send email that appears to come from this domain",
-  "office": "Warren",
+  "contacts_source": "Third-party directory",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Centers%20for%20Dialysis%20Care",
+  "office": "Cleveland",
   "miles": 9,
-  "zip": "44484"
- },
- {
-  "name": "Alta Care Group",
-  "vertical": "Healthcare",
-  "city": "Youngstown",
-  "county": "Mahoning",
-  "size": "$27.6M revenue; nearly 350 employees; 8 behavioral health sites plus 21 Head Start sites in Mahoning and Trumbull",
-  "why_now": "Kept opening locations (Boardman, Howland, new building at Camp Challenge). Every new site adds network, phone and security work. Leadership change reported in 2025 (Tribune Chronicle).",
-  "angle": "Multi-site managed IT, phones (VoIP) and SD-WAN, with HIPAA-aligned security. Local team near Howland and Boardman sites.",
-  "contact_role": "CEO, CFO, Director of Operations, IT Manager if one exists",
-  "subject": "IT across Alta's sites",
-  "body": "Hi {first_name},\n\nAlta has added a lot of ground lately: Boardman, Howland, the new building at Camp Challenge, on top of the Head Start sites. Every new location means another network, phone system and set of devices that need to be secure and HIPAA-ready.\n\ninfinIT is based in Warren and Cleveland. We run IT, phones, internet and security for multi-site organizations in the Valley, with an in-house team (no subcontractors) and a written root-cause report after any significant issue.\n\nCould we find 20 minutes to compare notes on how IT is holding up across the sites?\n\n[Rep name]\ninfinIT",
-  "fu1": "Hi {first_name}, a quick follow-up. Many multi-site agencies we talk with are paying for separate internet and phone contracts at each location. Consolidating those under SD-WAN and one phone system usually saves money and makes the network easier to secure. Open to a short call?",
-  "fu2": "Hi {first_name}, last note from me. If a site opening or a phone contract renewal comes up, I'd be glad to help. I'm at [phone].",
-  "sources": [
-   "https://www.tribtoday.com/news/business/2025/08/business-briefs-273/",
-   "https://businessjournaldaily.com/?p=197342",
-   "https://projects.propublica.org/nonprofits/organizations/341205791"
-  ],
-  "website": "altacaregroup.org",
-  "ein": "341205791",
-  "phone": "(330) 793-2487",
-  "employees": 408,
-  "contacts": [
-   {
-    "name": "Vincent Paolucci",
-    "title": "Chief Executive Officer",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Vincent%20Paolucci%20Alta%20Care%20Group"
-   },
-   {
-    "name": "Wendy Saul",
-    "title": "Chief Financial Officer",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Wendy%20Saul%20Alta%20Care%20Group"
-   },
-   {
-    "name": "Vince Paolucci",
-    "title": "Listed as principal officer on 990",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Vince%20Paolucci%20Alta%20Care%20Group"
-   }
-  ],
-  "contacts_source": "IRS Form 990, period ending 2025-06-30",
-  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Alta%20Care%20Group",
-  "trigger_type": "Expansion / new sites",
-  "email_security": "No DMARC record: anyone can send email that appears to come from this domain",
-  "office": "Warren",
-  "miles": 9
- },
- {
-  "name": "Kaeper Machine, Inc.",
-  "vertical": "Manufacturing (DoD supplier)",
-  "city": "Mentor",
-  "county": "Lake",
-  "size": "About 25 employees (directory estimate); $6.1M in DoD obligations FY24-FY26; small arms parts (M240, M249, M2, MK19)",
-  "why_now": "Weapons-component drawings are almost certainly controlled unclassified information (CUI). CMMC Phase 2 is paused, but DFARS 7012, NIST SP 800-171 and an SPRS score are required today, and a 25-person shop rarely has someone who owns that.",
-  "angle": "NIST 800-171 gap assessment, SPRS score, and a managed environment for CUI, so they're ready when CMMC certification restarts.",
-  "contact_role": "President/Owner, Quality Manager, Controller",
-  "subject": "Your SPRS score while CMMC is paused",
-  "body": "Hi {first_name},\n\nWith CMMC Phase 2 paused since July, a lot of DoD shops have put compliance on the back burner. The catch is that DFARS 7012 and NIST 800-171 still apply to any contract with controlled drawings, and primes are still asking suppliers for their SPRS scores.\n\nFor a shop making small-arms components, that's likely you. infinIT is a Northeast Ohio IT and security firm (35+ years, in-house team) that helps manufacturers close 800-171 gaps without disrupting production, so certification is a formality when it restarts.\n\nWould a 20-minute call to talk through where you stand be worth it?\n\n[Rep name]\ninfinIT",
-  "fu1": "Hi {first_name}, following up. If it's useful, we can start with a short gap review against the 110 NIST 800-171 controls and help you confirm your SPRS score is accurate. An inflated score is the bigger risk under the False Claims Act.",
-  "fu2": "Hi {first_name}, last note. When CMMC restarts, assessor calendars will fill fast. If you want to get ahead of it, I'm at [phone].",
-  "notes": "Don't assume what's on their SPRS record; ask.",
-  "sources": [
-   "https://governmentbidders.com/government-bidders/contractor-5488403-KAEPER-MACHINE-INC.htm",
-   "https://www.wilmerhale.com/en/insights/client-alerts/20260720-pentagon-suspends-cmmc-phase-2-requirements-and-launches-review-of-cybersecurity-certification-program"
-  ],
-  "website": "",
-  "phone": "(440) 974-1010",
-  "contacts": [
-   {
-    "name": "Kye Hwang",
-    "title": "President (verify)",
-    "source": "Government contractor directory",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Kye%20Hwang%20Kaeper%20Machine%2C%20Inc."
-   }
-  ],
-  "contacts_source": "Government contractor directory",
-  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Kaeper%20Machine%2C%20Inc.",
-  "trigger_type": "CMMC / DFARS",
-  "email_security": "",
-  "office": "Cleveland",
-  "miles": 21,
-  "zip": "44060"
- },
- {
-  "name": "Falls Filtration Technologies",
-  "vertical": "Manufacturing (DoD supplier)",
-  "city": "Stow",
-  "county": "Summit",
-  "size": "About 34-100 employees; aerospace and defense filtration since 1927; $2.8M DoD obligations FY24-FY26",
-  "why_now": "Acquired on March 24, 2026 by Velocity One, a Charlesbank-backed aerospace and defense platform. Post-acquisition, new owners usually require security upgrades, separation from the old IT setup, and CMMC readiness across the portfolio.",
-  "angle": "Local hands for the post-acquisition IT integration and NIST 800-171 work; co-managed with the parent's IT team.",
-  "contact_role": "General Manager/President, Controller, and Velocity One's IT or integration lead",
-  "subject": "Local IT help after the Velocity One deal",
-  "body": "Hi {first_name},\n\nCongratulations on joining Velocity One. In most acquisitions we've seen, the next few months bring a list of IT and security requirements from the new owner: new standards, separating systems, and getting defense work aligned with NIST 800-171 ahead of CMMC.\n\ninfinIT is an IT and security firm in Northeast Ohio with an in-house team. We can be the local hands for that work, alongside the parent company's IT team rather than instead of it.\n\nWould a short call to hear what's on your list be useful?\n\n[Rep name]\ninfinIT",
-  "fu1": "Hi {first_name}, following up. We often help acquired plants with the practical pieces, like network segmentation for the shop floor, MFA, backups, and documentation that satisfies the parent's audit. Happy to compare notes.",
-  "fu2": "Hi {first_name}, last note. If you need local IT support during the integration, I'm at [phone].",
-  "sources": [
-   "https://www.accessnewswire.com/newsroom/en/aerospace-and-defense/velocity-one-acquires-falls-filtration-1150357",
-   "https://www.highergov.com/awardee/falls-filtration-technologies-inc-10018824/"
-  ],
-  "website": "fallsfti.com",
-  "phone": "(330) 928-4100",
-  "contacts": [
-   {
-    "name": "John Borduin",
-    "title": "CEO, Velocity One (parent company)",
-    "source": "Acquisition press release, Mar 2026",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=John%20Borduin%20Falls%20Filtration%20Technologies"
-   }
-  ],
-  "contacts_source": "Acquisition press release, Mar 2026",
-  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Falls%20Filtration%20Technologies",
-  "trigger_type": "Acquisition",
-  "email_security": "No DMARC record: anyone can send email that appears to come from this domain; Website appears to load only over plain HTTP, not HTTPS (verify in a browser before mentioning)",
-  "office": "Cleveland",
-  "miles": 27,
-  "zip": "44224"
- },
- {
-  "name": "Robeck Fluid Power Co.",
-  "vertical": "Manufacturing (DoD supplier)",
-  "city": "Aurora",
-  "county": "Portage",
-  "size": "About 35 employees (estimate); 65,000 sq ft facility; 1,060 federal awards totaling $7.3M; $5.3M DoD obligations FY24-FY26",
-  "why_now": "A very high volume of small DoD orders means constant contract paperwork and drawings coming through email. Any of those with CUI markings pull them under DFARS 7012 and NIST 800-171 today, regardless of the CMMC pause.",
-  "angle": "Secure handling of DoD drawings and email, an SPRS score they can defend, and managed IT for a small team.",
-  "contact_role": "President/Owner, Operations Manager, Contracts administrator",
-  "subject": "1,000+ DoD orders and NIST 800-171",
-  "body": "Hi {first_name},\n\nRobeck has handled over a thousand federal orders, which is impressive for a company your size. It also means a lot of DoD paperwork and drawings moving through email and file shares, and if any of it is marked CUI, DFARS 7012 and NIST 800-171 apply now, even with CMMC Phase 2 on pause.\n\ninfinIT is a Northeast Ohio IT and security firm. We help small manufacturers and distributors set up a secure, documented environment for that data and manage the rest of their IT, for less than one full-time hire.\n\nOpen to a 20-minute call?\n\n[Rep name]\ninfinIT",
-  "fu1": "Hi {first_name}, following up. A common quick win is moving DoD drawings into a properly configured enclave instead of general email, which shrinks what has to meet 800-171. Happy to explain how that works.",
-  "fu2": "Hi {first_name}, I'll close the loop. If DoD cyber requirements come up with a customer, I'm at [phone].",
-  "sources": [
-   "https://www.govconinabox.com/explore/contractors/profile/KCVUERY6ZBM5",
-   "https://robeckfluidpower.com/about-us"
-  ],
-  "website": "robeckfluidpower.com",
-  "phone": "(330) 562-1140",
-  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Robeck%20Fluid%20Power%20Co.",
-  "trigger_type": "CMMC / DFARS",
+  "trigger_type": "Breach",
   "email_security": "No issues found",
-  "office": "Cleveland",
-  "miles": 22,
-  "zip": "44202"
- },
- {
-  "name": "Salem-Republic Rubber Co.",
-  "vertical": "Manufacturing (DoD supplier)",
-  "city": "Sebring",
-  "county": "Mahoning",
-  "size": "About 77 employees (estimate); custom industrial hose and calendered rubber; $855K DoD obligations FY24-FY26",
-  "why_now": "Established manufacturer with repeat DoD sales and a union plant floor. Likely lean on IT staff; production uptime and customer security questionnaires are the pressure points. Closest of the DoD list to infinIT's Warren office.",
-  "angle": "Managed IT for production uptime plus DoD/NIST readiness; local Valley team.",
-  "contact_role": "President, Plant Manager, Controller",
-  "subject": "IT for the Sebring plant",
-  "body": "Hi {first_name},\n\nI'm with infinIT in Warren. We support manufacturers around the Valley with day-to-day IT, security and the customer cybersecurity questionnaires that keep getting longer, especially for DoD suppliers like Salem-Republic.\n\nOur team is in-house and local, so when something breaks on the plant floor we're close by, and we send a written root-cause report afterward so it doesn't happen again.\n\nWould you be open to a quick call to see if we'd be a fit?\n\n[Rep name]\ninfinIT | Warren",
-  "fu1": "Hi {first_name}, following up. If a customer has sent a security questionnaire or asked for an SPRS score lately, we can help you answer it accurately. Happy to take a look.",
-  "fu2": "Hi {first_name}, last note. We're about 30 minutes away in Warren if you ever need IT help: [phone].",
-  "sources": [
-   "https://www.datanyze.com/people/Marlen-Hartsoe/3616284014",
-   "https://governmentbidders.com/government-bidders/contractor-5611181-Salem-republic-Rubbe.htm"
-  ],
-  "website": "salem-republic.com",
-  "phone": "(330) 938-9801",
-  "contacts": [
-   {
-    "name": "Anita Beck-Leifheit",
-    "title": "Director of Financial & Administrative Services (verify)",
-    "source": "Third-party directory",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Anita%20Beck-Leifheit%20Salem-Republic%20Rubber%20Co."
-   },
-   {
-    "name": "Skip Anderson",
-    "title": "Director of Sales & Marketing (verify)",
-    "source": "Third-party directory",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Skip%20Anderson%20Salem-Republic%20Rubber%20Co."
-   }
-  ],
-  "contacts_source": "Third-party directory",
-  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Salem-Republic%20Rubber%20Co.",
-  "trigger_type": "Good fit, no trigger",
-  "email_security": "No DMARC record: anyone can send email that appears to come from this domain",
-  "office": "Warren",
-  "miles": 19,
-  "zip": "44672"
- },
- {
-  "name": "City of Struthers",
-  "vertical": "Government",
-  "city": "Struthers",
-  "county": "Mahoning",
-  "size": "City, population ~9,900",
-  "why_now": "Adopted its HB 96 cybersecurity program; the mayor said a $20,000 grant would cover the changes. The city now has to implement it on a limited budget.",
-  "angle": "Implement the adopted program within the grant budget; ongoing managed security.",
-  "contact_role": "Mayor, Safety-Service Director, Auditor",
-  "subject": "Struthers' HB 96 program",
-  "body": "Hi {first_name},\n\nI read that Struthers adopted its HB 96 cybersecurity program and is using a $20,000 grant to cover the changes. Stretching that grant across training, backups, MFA and incident response is a tight fit, and we've helped other Ohio local governments do exactly that.\n\ninfinIT is a Northeast Ohio IT firm with offices in Warren and Cleveland and an in-house team.\n\nWould a 20-minute call to walk through your plan be useful?\n\n[Rep name]\ninfinIT",
-  "fu1": "Hi {first_name}, following up. Happy to walk through what the State Auditor typically looks for under HB 96, in 15 minutes by phone.",
-  "fu2": "Hi {first_name}, last note. I'm at [phone] if the city needs IT or security help.",
-  "sources": [
-   "https://cpo.soar.com/articles/7240973/Ohio/Struthers-adopts-cybersecurity-program-required-by-Ohio-HB-96-mayor-says-20000-grant-will-cover-changes"
-  ],
-  "website": "cityofstruthers.com",
-  "phone": "",
-  "contacts": [
-   {
-    "name": "Catherine Cercone Miller",
-    "title": "Mayor (verify)",
-    "source": "cityofstruthers.com mayor page",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Catherine%20Cercone%20Miller%20City%20of%20Struthers"
-   },
-   {
-    "name": "Anthony O'Riches",
-    "title": "Safety-Service Director (verify spelling)",
-    "source": "Struthers council reports, 2026",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Anthony%20O%27Riches%20City%20of%20Struthers"
-   }
-  ],
-  "contacts_source": "Struthers council reports, 2026; cityofstruthers.com mayor page",
-  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=City%20of%20Struthers",
-  "trigger_type": "HB 96 cyber mandate",
-  "email_security": "No DMARC record: anyone can send email that appears to come from this domain",
-  "office": "Warren",
-  "miles": 18,
-  "zip": "44471"
- },
- {
-  "name": "Crossroads Health",
-  "vertical": "Healthcare",
-  "city": "Mentor",
-  "county": "Lake",
-  "size": "$24.6M revenue; primary care plus behavioral health in Mentor, Willoughby and Euclid; Lake County's only CCBHC",
-  "why_now": "New executive leadership (per its 2026 Grants Manager job posting) and active hiring for clinical leadership roles. New leaders often review vendors and contracts in their first year.",
-  "angle": "Managed IT and security for an integrated primary care and behavioral health provider; reliable EHR access across 3 sites.",
-  "contact_role": "CEO (new), CFO, COO",
-  "subject": "IT review for the new leadership team",
-  "body": "Hi {first_name},\n\nI understand Crossroads has new executive leadership this year and is building out integrated care across Mentor, Willoughby and Euclid. When leadership changes, IT is often one of the first things to get a fresh look: who supports it, what it costs, and whether it's secure enough for both primary care and behavioral health records.\n\ninfinIT has supported Northeast Ohio healthcare and nonprofit organizations for over 35 years with an in-house team. We'd be glad to offer an independent second opinion, with no obligation.\n\nWould a 20-minute conversation be useful?\n\n[Rep name]\ninfinIT",
-  "fu1": "Hi {first_name}, following up. If it's helpful, we can start with a short written assessment of security and backups across your three sites, which is useful for the board and for cyber insurance renewals either way. Interested?",
-  "fu2": "Hi {first_name}, closing the loop. If an IT review lands on the list later, I'm at [phone].",
-  "sources": [
-   "https://www.idealist.org/es/ong-empleo/25c4c8febaf94fa7ba425fc013f9580e-grants-manager-crossroads-health-mentor",
-   "https://projects.propublica.org/nonprofits/organizations/341458441"
-  ],
-  "website": "crossroadshealth.org",
-  "ein": "341458441",
-  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Crossroads%20Health",
-  "trigger_type": "Leadership change",
-  "email_security": "No issues found",
-  "office": "Cleveland",
-  "miles": 21,
-  "zip": "44060",
-  "phone": "(440) 255-1700",
-  "employees": 439,
-  "contacts": [
-   {
-    "name": "Shayna Jackson",
-    "title": "President & Ceo(Beg.12/22)",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Shayna%20Jackson%20Crossroads%20Health"
-   },
-   {
-    "name": "Alice Iden",
-    "title": "Coo",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Alice%20Iden%20Crossroads%20Health"
-   },
-   {
-    "name": "Craig Hargenrader",
-    "title": "Cfo",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Craig%20Hargenrader%20Crossroads%20Health"
-   }
-  ],
-  "contacts_source": "IRS Form 990, period ending 2023-06-30"
- },
- {
-  "name": "Portage Path Behavioral Health",
-  "vertical": "Healthcare",
-  "city": "Akron",
-  "county": "Summit",
-  "size": "$17.4M revenue; clinics in Akron, Barberton, Cuyahoga Falls; runs psychiatric emergency services and answers 988 calls for Summit and Lake counties",
-  "why_now": "Runs 24/7 crisis lines and a mobile therapy RV, so phone and network uptime is critical. Holds a $3.96M federal CCBHC expansion grant (2023-2027).",
-  "angle": "Uptime for crisis phone lines (VoIP with failover), secure mobile connectivity, HIPAA security.",
-  "contact_role": "CEO, CFO, Director of Operations, IT lead",
-  "subject": "Keeping the crisis lines up",
-  "body": "Hi {first_name},\n\nPortage Path answers 988 calls for Summit and Lake counties and runs psychiatric emergency services, so a phone or network outage isn't an inconvenience; it's a safety issue.\n\ninfinIT runs business phone systems, internet with automatic failover, and managed IT for Northeast Ohio organizations from our own Cleveland data center. We'd be glad to walk through how your phones and connectivity hold up if a line or a building goes down.\n\nWorth 20 minutes?\n\n[Rep name]\ninfinIT",
-  "fu1": "Hi {first_name}, one follow-up. A quick failover test of phones and internet at each site is something we can do with you, and it tends to surface one or two surprises. Happy to set it up.",
-  "fu2": "Hi {first_name}, last note from me. If uptime or phones come up in planning, I'm at [phone].",
-  "sources": [
-   "https://www.highergov.com/grant/H79SM089227/",
-   "https://projects.propublica.org/nonprofits/organizations/341096055"
-  ],
-  "website": "portagepath.org",
-  "ein": "341096055",
-  "phone": "(330) 253-3100",
-  "employees": 221,
-  "contacts": [
-   {
-    "name": "Tracy Yaeger Phd",
-    "title": "President",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Tracy%20Yaeger%20Phd%20Portage%20Path%20Behavioral%20Health"
-   },
-   {
-    "name": "Jessica Bahry",
-    "title": "Cfo",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Jessica%20Bahry%20Portage%20Path%20Behavioral%20Health"
-   },
-   {
-    "name": "Raman Krimpuri",
-    "title": "Vp/Medical Director",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Raman%20Krimpuri%20Portage%20Path%20Behavioral%20Health"
-   }
-  ],
-  "contacts_source": "IRS Form 990, period ending 2024-06-30",
-  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Portage%20Path%20Behavioral%20Health",
-  "trigger_type": "Critical operations",
-  "email_security": "No DMARC record: anyone can send email that appears to come from this domain",
-  "office": "Cleveland",
-  "miles": 31
- },
- {
-  "name": "Child Guidance & Family Solutions",
-  "vertical": "Healthcare",
-  "city": "Akron",
-  "county": "Summit",
-  "size": "$9.5M revenue; offices in Akron, Barberton, Cuyahoga Falls and a new Green office; telehealth program",
-  "why_now": "Opened a new Green office and is hiring heavily in 2026 (therapists with signing bonuses, telehealth roles). New staff and sites mean more devices, accounts and security exposure.",
-  "angle": "Managed IT that scales with hiring: fast onboarding, secure telehealth, multi-office network.",
-  "contact_role": "CEO, CFO, Director of Operations",
-  "subject": "Onboarding all those new therapists",
-  "body": "Hi {first_name},\n\nI noticed CGFS opened a Green office and is hiring a lot of therapists, including telehealth roles. Growth like that tends to strain IT: laptops to set up, accounts to create and remove, and telehealth sessions that have to be secure and reliable.\n\ninfinIT handles that for Northeast Ohio nonprofits and healthcare providers, with an in-house team and flat monthly pricing. Most clients pay less than the cost of one full-time IT hire.\n\nOpen to a short call to see if it'd help?\n\n[Rep name]\ninfinIT",
-  "fu1": "Hi {first_name}, following up. We can set up a standard new-hire checklist (device, accounts, security training) so onboarding takes hours instead of days. Glad to show you how it works.",
-  "fu2": "Hi {first_name}, I'll leave it here. If IT gets in the way of growth, I'm at [phone].",
-  "sources": [
-   "https://www.career.com/job/child-guidance-family-solutions/telehealth-outpatient-therapist-akron/j202511201205223766550",
-   "https://projects.propublica.org/nonprofits/organizations/340726083"
-  ],
-  "website": "cgfs.org",
-  "ein": "340726083",
-  "phone": "(330) 762-0591",
-  "employees": 164,
-  "contacts": [
-   {
-    "name": "Karen Talbott",
-    "title": "President & Ceo",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Karen%20Talbott%20Child%20Guidance%20%26%20Family%20Solutions"
-   },
-   {
-    "name": "Patrick Watson",
-    "title": "Cfo",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Patrick%20Watson%20Child%20Guidance%20%26%20Family%20Solutions"
-   },
-   {
-    "name": "Cassandra Galloway",
-    "title": "Listed as principal officer on 990",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Cassandra%20Galloway%20Child%20Guidance%20%26%20Family%20Solutions"
-   }
-  ],
-  "contacts_source": "IRS Form 990, period ending 2024-12-31",
-  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Child%20Guidance%20%26%20Family%20Solutions",
-  "trigger_type": "Expansion / new sites",
-  "email_security": "No issues found",
-  "office": "Cleveland",
-  "miles": 31
- },
- {
-  "name": "BOC Water Hydraulics, Inc.",
-  "vertical": "Manufacturing (DoD supplier)",
-  "city": "Salem",
-  "county": "Mahoning",
-  "size": "About 46 employees (estimate); water hydraulic valves and components; $134K DoD obligations FY24-FY26",
-  "why_now": "Small engineered-products manufacturer selling to DoD, on Salem-Warren Road. Too small for an IT department, big enough to need real security for engineering files and customer requirements.",
-  "angle": "Managed IT for a small engineering manufacturer; protect designs; DoD readiness. Very close to the Warren office.",
-  "contact_role": "President/Owner, Engineering Manager, Office Manager",
-  "subject": "IT help from down the road",
-  "body": "Hi {first_name},\n\nI'm with infinIT, an IT firm with an office in Warren, just up Salem-Warren Road from you. We work with small manufacturers that don't have an IT department but have engineering files, ERP data and customer security requirements that need real protection.\n\nWe provide a full in-house team for less than the cost of one IT hire, and we're close enough to show up when something breaks.\n\nWould a short call or visit be worth it?\n\n[Rep name]\ninfinIT | Warren",
-  "fu1": "Hi {first_name}, following up. Many small DoD suppliers we meet aren't sure whether NIST 800-171 applies to them. We can help you figure that out in one conversation.",
-  "fu2": "Hi {first_name}, last note. I'm at [phone] if IT comes up.",
-  "notes": "Directories list Salem (Columbiana County address on Salem-Warren Rd); USAspending places it in Mahoning County. Verify location.",
-  "sources": [
-   "https://naicslist.com/company-profile/boc-water-hydraulics-inc-salem-oh-44460"
-  ],
-  "website": "",
-  "phone": "(330) 332-4444",
-  "contacts": [
-   {
-    "name": "Todd Olson",
-    "title": "President/Owner (verify)",
-    "source": "Third-party directory",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Todd%20Olson%20BOC%20Water%20Hydraulics%2C%20Inc."
-   }
-  ],
-  "contacts_source": "Third-party directory",
-  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=BOC%20Water%20Hydraulics%2C%20Inc.",
-  "trigger_type": "Good fit, no trigger",
-  "email_security": "",
-  "office": "Warren",
-  "miles": 19,
-  "zip": "44460"
- },
- {
-  "name": "AlphaMicron, Inc.",
-  "vertical": "Manufacturing (DoD supplier)",
-  "city": "Kent",
-  "county": "Portage",
-  "size": "Kent State spin-off; liquid crystal (e-Tint) technology; $2.1M DoD obligations FY24-FY26",
-  "why_now": "Long-running Air Force Research Lab partner developing sun and laser protection for pilots. R&D work like this typically involves controlled technical data, and protecting intellectual property is critical for a technology company.",
-  "angle": "Protect IP and controlled R&D data; NIST 800-171 compliance for research contracts.",
-  "contact_role": "CEO, CFO/Controller, Director of Operations",
-  "subject": "Protecting your AFRL work",
-  "body": "Hi {first_name},\n\nAlphaMicron's work with the Air Force Research Lab on pilot eye protection is the kind of R&D that adversaries target. It's also the kind of controlled technical data that DFARS 7012 and NIST 800-171 cover, even with CMMC certification on pause.\n\ninfinIT is a Northeast Ohio IT and security firm with an in-house team. We help technology and manufacturing companies keep their IP and defense data secure and documented, so compliance doesn't slow down the research.\n\nWould 20 minutes be worth it to compare notes?\n\n[Rep name]\ninfinIT",
-  "fu1": "Hi {first_name}, following up. If it helps, we can do a short review of how your controlled data is stored and shared today and where it would fall short of 800-171.",
-  "fu2": "Hi {first_name}, last note from me. I'm at [phone] if security or compliance comes up.",
-  "sources": [
-   "https://soldiersystems.net/2023/04/28/af-research-lab-re-ups-affiliation-with-longtime-liquid-crystal-industry-partner-alphamicron-inc-to-meet-dod-needs/"
-  ],
-  "website": "alphamicron.com",
-  "phone": "(330) 676-0648",
-  "contacts": [
-   {
-    "name": "Tamas Kosa",
-    "title": "COO (verify)",
-    "source": "Third-party profile",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Tamas%20Kosa%20AlphaMicron%2C%20Inc."
-   },
-   {
-    "name": "Eui Yeul Park",
-    "title": "VP Production (verify)",
-    "source": "Third-party profile",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Eui%20Yeul%20Park%20AlphaMicron%2C%20Inc."
-   }
-  ],
-  "contacts_source": "Third-party profile",
-  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=AlphaMicron%2C%20Inc.",
-  "trigger_type": "CMMC / DFARS",
-  "email_security": "No issues found",
-  "office": "Warren",
-  "miles": 23,
-  "zip": "44240"
- },
- {
-  "name": "Lorain County Health & Dentistry",
-  "vertical": "Healthcare",
-  "city": "Lorain",
-  "county": "Lorain",
-  "size": "$16.6M revenue; federally qualified health center; medical, dental and behavioral health; sites in Lorain and North Ridgeville",
-  "why_now": "Has been adding clinics (pediatric site in Lorain, North Ridgeville center with state-funded dental equipment). New clinics mean new networks, imaging and phones.",
-  "angle": "Multi-site managed IT, HIPAA security, and phone systems for an FQHC.",
-  "contact_role": "CEO, CFO, COO",
-  "subject": "IT for your new clinics",
-  "body": "Hi {first_name},\n\nLorain County Health & Dentistry has added sites over the last couple of years, including North Ridgeville. Each new clinic adds a network, phones, dental imaging and patient data to keep secure.\n\ninfinIT supports Northeast Ohio healthcare organizations with managed IT, phones, internet and security from a local, in-house team. We'd be glad to give you a second opinion on how your sites are set up, with no obligation.\n\nWould 20 minutes in the next few weeks work?\n\n[Rep name]\ninfinIT",
-  "fu1": "Hi {first_name}, a follow-up. Health centers we work with often find their HIPAA security risk assessment is overdue or thin. We can help complete or refresh it. Interested?",
-  "fu2": "Hi {first_name}, last note. If IT or phones come up for a new site, I'm at [phone].",
-  "sources": [
-   "https://ohiohouse.gov/members/david-thomas/news/lorain-county-health-dentistry-receives-state-funding-123005",
-   "https://projects.propublica.org/nonprofits/organizations/341957404"
-  ],
-  "website": "lorainhealth-dentistry.org",
-  "ein": "341957404",
-  "phone": "(440) 233-1075",
-  "employees": 154,
-  "contacts": [
-   {
-    "name": "Stephanie Wiersma",
-    "title": "President / Chief Executive Officer",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Stephanie%20Wiersma%20Lorain%20County%20Health%20%26%20Dentistry"
-   },
-   {
-    "name": "Lisa Hemker",
-    "title": "Cfo",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Lisa%20Hemker%20Lorain%20County%20Health%20%26%20Dentistry"
-   },
-   {
-    "name": "Troy Chaffin",
-    "title": "Chief Operating Officer",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Troy%20Chaffin%20Lorain%20County%20Health%20%26%20Dentistry"
-   }
-  ],
-  "contacts_source": "IRS Form 990, period ending 2024-12-31",
-  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Lorain%20County%20Health%20%26%20Dentistry",
-  "trigger_type": "Expansion / new sites",
-  "email_security": "DMARC set to monitor only (p=none): spoofed email still gets delivered",
-  "office": "Cleveland",
-  "miles": 26
+  "score": 78,
+  "score_why": "trigger 30, recency 10, contact 8, phone 5, distance 15, email hook 0, size 10",
+  "trigger_age_days": 173,
+  "offer": "a no-cost post-incident review of your Microsoft 365 and email security (MFA, mailbox rules, sign-in alerts)",
+  "email_offer": "",
+  "cta": "Would a no-cost post-incident review of your Microsoft 365 and email security (MFA, mailbox rules, sign-in alerts) be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.",
+  "body_final": "Hi {first_name},\n\nI saw the notice Centers for Dialysis Care shared earlier this year. Incidents like that usually leave the internal team with a long list: tightening Microsoft 365 and email, reviewing who can access what, and testing backups across every center.\n\ninfinIT is a Cleveland IT and security firm (35+ years, all in-house staff, our own data center on St. Clair). We help healthcare organizations work through that list and keep it from slipping, alongside the people you already have.\n\nWould a no-cost post-incident review of your Microsoft 365 and email security (MFA, mailbox rules, sign-in alerts) be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.\n\n[Rep name]\ninfinIT | Cleveland",
+  "phone_opener": "Hi {first_name}, this is [Rep name] with infinIT, the IT company in Cleveland. I'll be quick: you've had a lot on your plate since the security incident this spring, and we help healthcare teams tighten email and access controls afterward. We're offering a no-cost post-incident review of your Microsoft 365 and email security (MFA, mailbox rules, sign-in alerts). Is that worth 15 minutes next week?",
+  "voicemail": "Hi {first_name}, [Rep name] with infinIT in Cleveland. Calling because you've had a lot on your plate since the security incident this spring, and we help healthcare teams tighten email and access controls afterward. I'll send a short email too. My number is [phone]. Again, [Rep name], infinIT, [phone]."
  },
  {
   "name": "HELP Foundation",
@@ -605,7 +205,7 @@
   "angle": "Managed IT for a growing multi-site disability services provider; secure resident and Medicaid data.",
   "contact_role": "Executive Director, CFO, Operations Director",
   "subject": "IT for HELP's expanded sites",
-  "body": "Hi {first_name},\n\nCongratulations on the Lakewood renovation and the expanded work with the City of Euclid. Growth across sites usually means more devices, more staff accounts and more resident data to protect.\n\ninfinIT has supported Northeast Ohio nonprofits for over 35 years with an in-house team and predictable monthly pricing. Most of our nonprofit clients get a full IT team for less than the cost of one hire.\n\nWould a short call be worth it to see if we can help?\n\n[Rep name]\ninfinIT",
+  "body": "Hi {first_name},\n\nCongratulations on the Lakewood renovation and the expanded work with the City of Euclid. Growth across sites usually means more devices, more staff accounts and more resident data to protect.\n\ninfinIT has supported Northeast Ohio nonprofits for over 35 years with an in-house team and predictable monthly pricing. Most of our nonprofit clients get a full IT team for less than the cost of one hire.\n\n{cta}\n\n[Rep name]\ninfinIT",
   "fu1": "Hi {first_name}, following up. Many disability services providers we talk to are preparing for cyber insurance renewals that now ask about MFA and backups. We can help you answer those questions confidently. Open to a call?",
   "fu2": "Hi {first_name}, I'll close the loop. If IT comes up, I'm at [phone].",
   "sources": [
@@ -639,50 +239,629 @@
   "trigger_type": "Expansion / new sites",
   "email_security": "DMARC set to monitor only (p=none): spoofed email still gets delivered",
   "office": "Cleveland",
-  "miles": 11
+  "miles": 11,
+  "trigger_date": "2026-03-16",
+  "call_reason": "congrats on the Lakewood renovation and the expanded Euclid work; growth like that usually stretches IT",
+  "score": 75,
+  "score_why": "trigger 20, recency 5, contact 15, phone 5, distance 15, email hook 5, size 10",
+  "trigger_age_days": 233,
+  "offer": "a free review of your next site's network, phones and internet failover before it opens",
+  "email_offer": "a free email-spoofing check and a plan to fix it (your domain has no DMARC protection today)",
+  "cta": "Would a free review of your next site's network, phones and internet failover before it opens be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.",
+  "body_final": "Hi {first_name},\n\nCongratulations on the Lakewood renovation and the expanded work with the City of Euclid. Growth across sites usually means more devices, more staff accounts and more resident data to protect.\n\ninfinIT has supported Northeast Ohio nonprofits for over 35 years with an in-house team and predictable monthly pricing. Most of our nonprofit clients get a full IT team for less than the cost of one hire.\n\nWould a free review of your next site's network, phones and internet failover before it opens be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.\n\n[Rep name]\ninfinIT",
+  "phone_opener": "Hi {first_name}, this is [Rep name] with infinIT, the IT company in Cleveland. I'll be quick: congrats on the Lakewood renovation and the expanded Euclid work; growth like that usually stretches IT. We're offering a free review of your next site's network, phones and internet failover before it opens. Is that worth 15 minutes next week?",
+  "voicemail": "Hi {first_name}, [Rep name] with infinIT in Cleveland. Calling because congrats on the Lakewood renovation and the expanded Euclid work; growth like that usually stretches IT. I'll send a short email too. My number is [phone]. Again, [Rep name], infinIT, [phone]."
  },
  {
-  "name": "Lutheran Metropolitan Ministry",
-  "vertical": "Religious",
-  "city": "Cleveland",
-  "county": "Cuyahoga",
-  "size": "$13.1M revenue; housing and shelter, workforce development, health and wellness programs",
-  "why_now": "No specific 2026 trigger found. Good fit on size and mission: faith-based, multi-program, client data for shelter and workforce services.",
-  "angle": "Faith-based nonprofit IT on a budget; secure client data; reliable shelter and office networks.",
-  "contact_role": "President/CEO, CFO, Director of Operations",
-  "subject": "IT support for LMM",
-  "body": "Hi {first_name},\n\ninfinIT supports faith-based and community organizations across Northeast Ohio, and LMM's mix of shelter, workforce and health programs is the kind of work where reliable IT and well-protected client data matter.\n\nWe're a local firm with an in-house team, our own Cleveland data center, and flat monthly pricing built for nonprofit budgets.\n\nWould you be open to a 20-minute conversation about how IT is working for your team today?\n\n[Rep name]\ninfinIT",
-  "fu1": "Hi {first_name}, following up. If a no-cost review of backups and security would be useful ahead of your next budget cycle, we're glad to do one.",
-  "fu2": "Hi {first_name}, last note. I'm at [phone] if IT comes up.",
+  "name": "Northeast Professional Caregivers",
+  "vertical": "Healthcare",
+  "city": "North Canton",
+  "county": "Stark",
+  "zip": "44720",
+  "size": "Locally owned home care agency; offices in North Canton, Mansfield and Austintown",
+  "why_now": "An employee's email account was accessed without authorization (detected April 2026, reported to HHS June 22, 2026). Email-account takeover is the most preventable incident type, and home care agencies with staff in the field are frequent targets.",
+  "angle": "Microsoft 365/email hardening (MFA, phishing protection, DMARC) and managed IT for a multi-office home care agency; Austintown office is near Warren.",
+  "contact_role": "Administrator, owner",
+  "subject": "Locking down email across your offices",
+  "body": "Hi {first_name},\n\nI read the notice about the email account incident this spring. That kind of account takeover is common for home care agencies, because staff log in from the field on phones and shared devices.\n\ninfinIT is a Northeast Ohio IT and security company with an office in Warren, near your Austintown location. We set up the protections that stop it from happening again (multi-factor sign-in, phishing filtering, alerts on unusual logins) and manage it from there.\n\n{cta}\n\n[Rep name]\ninfinIT | Warren",
+  "fu1": "Hi {first_name}, following up. A quick check of your Microsoft 365 or Google sign-in settings usually shows the gaps in a few minutes. Happy to do that with you at no cost.",
+  "fu2": "Hi {first_name}, I'll close the loop. If email security comes up again, I'm at [phone].",
+  "notes": "Company said no medical, financial or SSN data was involved; don't imply otherwise.",
   "sources": [
-   "https://projects.propublica.org/nonprofits/organizations/341043756"
+   "https://www.teiss.co.uk/news/northeast-professional-caregivers-alerts-patients-to-potential-data-breach-after-unauthorized-email-access-14916",
+   "https://ohiocouncilforhomecarehospiceochch.growthzoneapp.com/directory/Details/northeast-professional-home-care-nepro-home-care-2785267"
   ],
-  "website": "lutheranmetro.org",
-  "ein": "341043756",
-  "phone": "(216) 696-2715",
-  "employees": 191,
+  "trigger_date": "2026-06-22",
+  "call_reason": "after the email account incident this spring, we help agencies like yours lock down staff email so it doesn't happen again",
+  "website": "",
+  "phone": "(330) 966-2311",
   "contacts": [
    {
-    "name": "Maria Foschia",
-    "title": "President And Ceo",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Maria%20Foschia%20Lutheran%20Metropolitan%20Ministry"
+    "name": "Kristen Lattimer, BSN, RN",
+    "title": "Administrator",
+    "source": "Ohio Council for Home Care & Hospice directory",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Kristen%20Lattimer%2C%20BSN%2C%20RN%20Northeast%20Professional%20Caregivers"
+   }
+  ],
+  "contacts_source": "Ohio Council for Home Care & Hospice directory",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Northeast%20Professional%20Caregivers",
+  "office": "Warren",
+  "miles": 33,
+  "trigger_type": "Breach",
+  "email_security": "",
+  "score": 75,
+  "score_why": "trigger 30, recency 10, contact 15, phone 5, distance 5, email hook 0, size 10",
+  "trigger_age_days": 135,
+  "offer": "a no-cost post-incident review of your Microsoft 365 and email security (MFA, mailbox rules, sign-in alerts)",
+  "email_offer": "",
+  "cta": "Would a no-cost post-incident review of your Microsoft 365 and email security (MFA, mailbox rules, sign-in alerts) be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.",
+  "body_final": "Hi {first_name},\n\nI read the notice about the email account incident this spring. That kind of account takeover is common for home care agencies, because staff log in from the field on phones and shared devices.\n\ninfinIT is a Northeast Ohio IT and security company with an office in Warren, near your Austintown location. We set up the protections that stop it from happening again (multi-factor sign-in, phishing filtering, alerts on unusual logins) and manage it from there.\n\nWould a no-cost post-incident review of your Microsoft 365 and email security (MFA, mailbox rules, sign-in alerts) be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.\n\n[Rep name]\ninfinIT | Warren",
+  "phone_opener": "Hi {first_name}, this is [Rep name] with infinIT, the IT company in Warren. I'll be quick: after the email account incident this spring, we help agencies like yours lock down staff email so it doesn't happen again. We're offering a no-cost post-incident review of your Microsoft 365 and email security (MFA, mailbox rules, sign-in alerts). Is that worth 15 minutes next week?",
+  "voicemail": "Hi {first_name}, [Rep name] with infinIT in Warren. Calling because after the email account incident this spring, we help agencies like yours lock down staff email so it doesn't happen again. I'll send a short email too. My number is [phone]. Again, [Rep name], infinIT, [phone]."
+ },
+ {
+  "name": "Howland Township",
+  "vertical": "Government",
+  "city": "Howland",
+  "county": "Trumbull",
+  "size": "Township, population ~18,900",
+  "why_now": "Adopted its HB 96 cybersecurity policy in May 2026 and accepted a $12,800 state cybersecurity grant. A written policy now has to be carried out: training, backups, incident response, and an audit trail for the State Auditor.",
+  "angle": "Turn the adopted policy into a working, documented program. Neighbor to infinIT's Warren office.",
+  "contact_role": "Township Administrator, Fiscal Officer, Trustees",
+  "subject": "Putting Howland's cyber policy to work",
+  "body": "Hi {first_name},\n\nCongratulations on getting Howland's cybersecurity policy adopted this spring. The next step is usually the harder one: the training, backups, incident response plan and records the State Auditor will look for.\n\ninfinIT is right next door in Warren. We help Ohio townships run their HB 96 programs and keep their IT secure, and we can make the most of your state cyber grant.\n\n{cta}\n\n[Rep name]\ninfinIT | Warren",
+  "fu1": "Hi {first_name}, following up. Happy to walk through what townships typically need to show for HB 96 at audit time, in 15 minutes by phone.",
+  "fu2": "Hi {first_name}, last note from me. We're a few minutes away in Warren if anything comes up: [phone].",
+  "sources": [
+   "https://www.tribtoday.com/news/local-news/2026/05/howland-adopts-cybersecurity-policy/"
+  ],
+  "website": "howlandoh.gov",
+  "phone": "",
+  "contacts": [
+   {
+    "name": "James T. Pantalone",
+    "title": "Township Administrator",
+    "source": "howlandoh.gov",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=James%20T.%20Pantalone%20Howland%20Township"
    },
    {
-    "name": "Sue Cyncynatus",
+    "name": "Thomas Krispinsky",
+    "title": "Fiscal Officer",
+    "source": "howlandoh.gov",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Thomas%20Krispinsky%20Howland%20Township"
+   }
+  ],
+  "contacts_source": "howlandoh.gov",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Howland%20Township",
+  "trigger_type": "HB 96 cyber mandate",
+  "email_security": "No DMARC record: anyone can send email that appears to come from this domain",
+  "office": "Warren",
+  "miles": 9,
+  "zip": "44484",
+  "trigger_date": "2026-05-01",
+  "call_reason": "the township adopted its HB 96 cyber policy this spring, and we help townships put the policy into practice before the Auditor looks at it",
+  "score": 74,
+  "score_why": "trigger 24, recency 5, contact 15, phone 0, distance 15, email hook 5, size 10",
+  "trigger_age_days": 187,
+  "offer": "a 30-minute HB 96 audit-readiness review, with a written list of what the State Auditor will look for and where you stand",
+  "email_offer": "a free email-spoofing check and a plan to fix it (your domain has no DMARC protection today)",
+  "cta": "Would a 30-minute HB 96 audit-readiness review, with a written list of what the State Auditor will look for and where you stand be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.",
+  "body_final": "Hi {first_name},\n\nCongratulations on getting Howland's cybersecurity policy adopted this spring. The next step is usually the harder one: the training, backups, incident response plan and records the State Auditor will look for.\n\ninfinIT is right next door in Warren. We help Ohio townships run their HB 96 programs and keep their IT secure, and we can make the most of your state cyber grant.\n\nWould a 30-minute HB 96 audit-readiness review, with a written list of what the State Auditor will look for and where you stand be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.\n\n[Rep name]\ninfinIT | Warren",
+  "phone_opener": "Hi {first_name}, this is [Rep name] with infinIT, the IT company in Warren. I'll be quick: the township adopted its HB 96 cyber policy this spring, and we help townships put the policy into practice before the Auditor looks at it. We're offering a 30-minute HB 96 audit-readiness review, with a written list of what the State Auditor will look for and where you stand. Is that worth 15 minutes next week?",
+  "voicemail": "Hi {first_name}, [Rep name] with infinIT in Warren. Calling because the township adopted its HB 96 cyber policy this spring, and we help townships put the policy into practice before the Auditor looks at it. I'll send a short email too. My number is [phone]. Again, [Rep name], infinIT, [phone]."
+ },
+ {
+  "name": "Falls Filtration Technologies",
+  "vertical": "Manufacturing (DoD supplier)",
+  "city": "Stow",
+  "county": "Summit",
+  "size": "About 34-100 employees; aerospace and defense filtration since 1927; $2.8M DoD obligations FY24-FY26",
+  "why_now": "Acquired on March 24, 2026 by Velocity One, a Charlesbank-backed aerospace and defense platform. Post-acquisition, new owners usually require security upgrades, separation from the old IT setup, and CMMC readiness across the portfolio.",
+  "angle": "Local hands for the post-acquisition IT integration and NIST 800-171 work; co-managed with the parent's IT team.",
+  "contact_role": "General Manager/President, Controller, and Velocity One's IT or integration lead",
+  "subject": "Local IT help after the Velocity One deal",
+  "body": "Hi {first_name},\n\nCongratulations on joining Velocity One. In most acquisitions we've seen, the next few months bring a list of IT and security requirements from the new owner: new standards, separating systems, and getting defense work aligned with NIST 800-171 ahead of CMMC.\n\ninfinIT is an IT and security firm in Northeast Ohio with an in-house team. We can be the local hands for that work, alongside the parent company's IT team rather than instead of it.\n\n{cta}\n\n[Rep name]\ninfinIT",
+  "fu1": "Hi {first_name}, following up. We often help acquired plants with the practical pieces, like network segmentation for the shop floor, MFA, backups, and documentation that satisfies the parent's audit. Happy to compare notes.",
+  "fu2": "Hi {first_name}, last note. If you need local IT support during the integration, I'm at [phone].",
+  "sources": [
+   "https://www.accessnewswire.com/newsroom/en/aerospace-and-defense/velocity-one-acquires-falls-filtration-1150357",
+   "https://www.highergov.com/awardee/falls-filtration-technologies-inc-10018824/"
+  ],
+  "website": "fallsfti.com",
+  "phone": "(330) 928-4100",
+  "contacts": [
+   {
+    "name": "John Borduin",
+    "title": "CEO, Velocity One (parent company)",
+    "source": "Acquisition press release, Mar 2026",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=John%20Borduin%20Falls%20Filtration%20Technologies"
+   }
+  ],
+  "contacts_source": "Acquisition press release, Mar 2026",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Falls%20Filtration%20Technologies",
+  "trigger_type": "Acquisition",
+  "email_security": "No DMARC record: anyone can send email that appears to come from this domain; Website appears to load only over plain HTTP, not HTTPS (verify in a browser before mentioning)",
+  "office": "Cleveland",
+  "miles": 27,
+  "zip": "44224",
+  "trigger_date": "2026-03-24",
+  "call_reason": "after the Velocity One acquisition, new owners usually hand down IT and security requirements, and we can be the local hands for that",
+  "score": 74,
+  "score_why": "trigger 24, recency 5, contact 15, phone 5, distance 10, email hook 5, size 10",
+  "trigger_age_days": 225,
+  "offer": "an integration readiness review: what the new owner will ask for and which gaps to close first",
+  "email_offer": "a free email-spoofing check and a plan to fix it (your domain has no DMARC protection today)",
+  "cta": "Would an integration readiness review: what the new owner will ask for and which gaps to close first be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.",
+  "body_final": "Hi {first_name},\n\nCongratulations on joining Velocity One. In most acquisitions we've seen, the next few months bring a list of IT and security requirements from the new owner: new standards, separating systems, and getting defense work aligned with NIST 800-171 ahead of CMMC.\n\ninfinIT is an IT and security firm in Northeast Ohio with an in-house team. We can be the local hands for that work, alongside the parent company's IT team rather than instead of it.\n\nWould an integration readiness review: what the new owner will ask for and which gaps to close first be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.\n\n[Rep name]\ninfinIT",
+  "phone_opener": "Hi {first_name}, this is [Rep name] with infinIT, the IT company in Cleveland. I'll be quick: after the Velocity One acquisition, new owners usually hand down IT and security requirements, and we can be the local hands for that. We're offering an integration readiness review: what the new owner will ask for and which gaps to close first. Is that worth 15 minutes next week?",
+  "voicemail": "Hi {first_name}, [Rep name] with infinIT in Cleveland. Calling because after the Velocity One acquisition, new owners usually hand down IT and security requirements, and we can be the local hands for that. I'll send a short email too. My number is [phone]. Again, [Rep name], infinIT, [phone]."
+ },
+ {
+  "name": "Portage Path Behavioral Health",
+  "vertical": "Healthcare",
+  "city": "Akron",
+  "county": "Summit",
+  "size": "$17.4M revenue; clinics in Akron, Barberton, Cuyahoga Falls; runs psychiatric emergency services and answers 988 calls for Summit and Lake counties",
+  "why_now": "Runs 24/7 crisis lines and a mobile therapy RV, so phone and network uptime is critical. Holds a $3.96M federal CCBHC expansion grant (2023-2027).",
+  "angle": "Uptime for crisis phone lines (VoIP with failover), secure mobile connectivity, HIPAA security.",
+  "contact_role": "CEO, CFO, Director of Operations, IT lead",
+  "subject": "Keeping the crisis lines up",
+  "body": "Hi {first_name},\n\nPortage Path answers 988 calls for Summit and Lake counties and runs psychiatric emergency services, so a phone or network outage isn't an inconvenience; it's a safety issue.\n\ninfinIT runs business phone systems, internet with automatic failover, and managed IT for Northeast Ohio organizations from our own Cleveland data center. We'd be glad to walk through how your phones and connectivity hold up if a line or a building goes down.\n\n{cta}\n\n[Rep name]\ninfinIT",
+  "fu1": "Hi {first_name}, one follow-up. A quick failover test of phones and internet at each site is something we can do with you, and it tends to surface one or two surprises. Happy to set it up.",
+  "fu2": "Hi {first_name}, last note from me. If uptime or phones come up in planning, I'm at [phone].",
+  "sources": [
+   "https://www.highergov.com/grant/H79SM089227/",
+   "https://projects.propublica.org/nonprofits/organizations/341096055"
+  ],
+  "website": "portagepath.org",
+  "ein": "341096055",
+  "phone": "(330) 253-3100",
+  "employees": 221,
+  "contacts": [
+   {
+    "name": "Tracy Yaeger Phd",
+    "title": "President",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Tracy%20Yaeger%20Phd%20Portage%20Path%20Behavioral%20Health"
+   },
+   {
+    "name": "Jessica Bahry",
     "title": "Cfo",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Sue%20Cyncynatus%20Lutheran%20Metropolitan%20Ministry"
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Jessica%20Bahry%20Portage%20Path%20Behavioral%20Health"
    },
    {
-    "name": "Michael Sering",
-    "title": "Vp Housing And Shelter",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Michael%20Sering%20Lutheran%20Metropolitan%20Ministry"
+    "name": "Raman Krimpuri",
+    "title": "Vp/Medical Director",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Raman%20Krimpuri%20Portage%20Path%20Behavioral%20Health"
+   }
+  ],
+  "contacts_source": "IRS Form 990, period ending 2024-06-30",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Portage%20Path%20Behavioral%20Health",
+  "trigger_type": "Critical operations",
+  "email_security": "No DMARC record: anyone can send email that appears to come from this domain",
+  "office": "Cleveland",
+  "miles": 31,
+  "trigger_date": "2026-09-22",
+  "call_reason": "your crisis lines can't go down, and we set up phone and internet failover for organizations like yours",
+  "score": 71,
+  "score_why": "trigger 16, recency 15, contact 15, phone 5, distance 5, email hook 5, size 10",
+  "trigger_age_days": 43,
+  "offer": "a phone and internet failover test for your crisis lines",
+  "email_offer": "a free email-spoofing check and a plan to fix it (your domain has no DMARC protection today)",
+  "cta": "Would a phone and internet failover test for your crisis lines be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.",
+  "body_final": "Hi {first_name},\n\nPortage Path answers 988 calls for Summit and Lake counties and runs psychiatric emergency services, so a phone or network outage isn't an inconvenience; it's a safety issue.\n\ninfinIT runs business phone systems, internet with automatic failover, and managed IT for Northeast Ohio organizations from our own Cleveland data center. We'd be glad to walk through how your phones and connectivity hold up if a line or a building goes down.\n\nWould a phone and internet failover test for your crisis lines be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.\n\n[Rep name]\ninfinIT",
+  "phone_opener": "Hi {first_name}, this is [Rep name] with infinIT, the IT company in Cleveland. I'll be quick: your crisis lines can't go down, and we set up phone and internet failover for organizations like yours. We're offering a phone and internet failover test for your crisis lines. Is that worth 15 minutes next week?",
+  "voicemail": "Hi {first_name}, [Rep name] with infinIT in Cleveland. Calling because your crisis lines can't go down, and we set up phone and internet failover for organizations like yours. I'll send a short email too. My number is [phone]. Again, [Rep name], infinIT, [phone]."
+ },
+ {
+  "name": "Alta Care Group",
+  "vertical": "Healthcare",
+  "city": "Youngstown",
+  "county": "Mahoning",
+  "size": "$27.6M revenue; nearly 350 employees; 8 behavioral health sites plus 21 Head Start sites in Mahoning and Trumbull",
+  "why_now": "Kept opening locations (Boardman, Howland, new building at Camp Challenge). Every new site adds network, phone and security work. Leadership change reported in 2025 (Tribune Chronicle).",
+  "angle": "Multi-site managed IT, phones (VoIP) and SD-WAN, with HIPAA-aligned security. Local team near Howland and Boardman sites.",
+  "contact_role": "CEO, CFO, Director of Operations, IT Manager if one exists",
+  "subject": "IT across Alta's sites",
+  "body": "Hi {first_name},\n\nAlta has added a lot of ground lately: Boardman, Howland, the new building at Camp Challenge, on top of the Head Start sites. Every new location means another network, phone system and set of devices that need to be secure and HIPAA-ready.\n\ninfinIT is based in Warren and Cleveland. We run IT, phones, internet and security for multi-site organizations in the Valley, with an in-house team (no subcontractors) and a written root-cause report after any significant issue.\n\n{cta}\n\n[Rep name]\ninfinIT",
+  "fu1": "Hi {first_name}, a quick follow-up. Many multi-site agencies we talk with are paying for separate internet and phone contracts at each location. Consolidating those under SD-WAN and one phone system usually saves money and makes the network easier to secure. Open to a short call?",
+  "fu2": "Hi {first_name}, last note from me. If a site opening or a phone contract renewal comes up, I'd be glad to help. I'm at [phone].",
+  "sources": [
+   "https://www.tribtoday.com/news/business/2025/08/business-briefs-273/",
+   "https://businessjournaldaily.com/?p=197342",
+   "https://projects.propublica.org/nonprofits/organizations/341205791"
+  ],
+  "website": "altacaregroup.org",
+  "ein": "341205791",
+  "phone": "(330) 793-2487",
+  "employees": 408,
+  "contacts": [
+   {
+    "name": "Vincent Paolucci",
+    "title": "Chief Executive Officer",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Vincent%20Paolucci%20Alta%20Care%20Group"
+   },
+   {
+    "name": "Wendy Saul",
+    "title": "Chief Financial Officer",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Wendy%20Saul%20Alta%20Care%20Group"
+   },
+   {
+    "name": "Vince Paolucci",
+    "title": "Listed as principal officer on 990",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Vince%20Paolucci%20Alta%20Care%20Group"
+   }
+  ],
+  "contacts_source": "IRS Form 990, period ending 2025-06-30",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Alta%20Care%20Group",
+  "trigger_type": "Expansion / new sites",
+  "email_security": "No DMARC record: anyone can send email that appears to come from this domain",
+  "office": "Warren",
+  "miles": 9,
+  "trigger_date": "2025-08-01",
+  "call_reason": "Alta keeps adding sites, and we run networks, phones and security for multi-site providers in the Valley",
+  "score": 70,
+  "score_why": "trigger 20, recency 0, contact 15, phone 5, distance 15, email hook 5, size 10",
+  "trigger_age_days": 460,
+  "offer": "a free review of your next site's network, phones and internet failover before it opens",
+  "email_offer": "a free email-spoofing check and a plan to fix it (your domain has no DMARC protection today)",
+  "cta": "Would a free review of your next site's network, phones and internet failover before it opens be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.",
+  "body_final": "Hi {first_name},\n\nAlta has added a lot of ground lately: Boardman, Howland, the new building at Camp Challenge, on top of the Head Start sites. Every new location means another network, phone system and set of devices that need to be secure and HIPAA-ready.\n\ninfinIT is based in Warren and Cleveland. We run IT, phones, internet and security for multi-site organizations in the Valley, with an in-house team (no subcontractors) and a written root-cause report after any significant issue.\n\nWould a free review of your next site's network, phones and internet failover before it opens be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.\n\n[Rep name]\ninfinIT",
+  "phone_opener": "Hi {first_name}, this is [Rep name] with infinIT, the IT company in Warren. I'll be quick: Alta keeps adding sites, and we run networks, phones and security for multi-site providers in the Valley. We're offering a free review of your next site's network, phones and internet failover before it opens. Is that worth 15 minutes next week?",
+  "voicemail": "Hi {first_name}, [Rep name] with infinIT in Warren. Calling because Alta keeps adding sites, and we run networks, phones and security for multi-site providers in the Valley. I'll send a short email too. My number is [phone]. Again, [Rep name], infinIT, [phone]."
+ },
+ {
+  "name": "Crossroads Health",
+  "vertical": "Healthcare",
+  "city": "Mentor",
+  "county": "Lake",
+  "size": "$24.6M revenue; primary care plus behavioral health in Mentor, Willoughby and Euclid; Lake County's only CCBHC",
+  "why_now": "New executive leadership (per its 2026 Grants Manager job posting) and active hiring for clinical leadership roles. New leaders often review vendors and contracts in their first year.",
+  "angle": "Managed IT and security for an integrated primary care and behavioral health provider; reliable EHR access across 3 sites.",
+  "contact_role": "CEO (new), CFO, COO",
+  "subject": "IT review for the new leadership team",
+  "body": "Hi {first_name},\n\nI understand Crossroads has new executive leadership this year and is building out integrated care across Mentor, Willoughby and Euclid. When leadership changes, IT is often one of the first things to get a fresh look: who supports it, what it costs, and whether it's secure enough for both primary care and behavioral health records.\n\ninfinIT has supported Northeast Ohio healthcare and nonprofit organizations for over 35 years with an in-house team. We'd be glad to offer an independent second opinion, with no obligation.\n\n{cta}\n\n[Rep name]\ninfinIT",
+  "fu1": "Hi {first_name}, following up. If it's helpful, we can start with a short written assessment of security and backups across your three sites, which is useful for the board and for cyber insurance renewals either way. Interested?",
+  "fu2": "Hi {first_name}, closing the loop. If an IT review lands on the list later, I'm at [phone].",
+  "sources": [
+   "https://www.idealist.org/es/ong-empleo/25c4c8febaf94fa7ba425fc013f9580e-grants-manager-crossroads-health-mentor",
+   "https://projects.propublica.org/nonprofits/organizations/341458441"
+  ],
+  "website": "crossroadshealth.org",
+  "ein": "341458441",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Crossroads%20Health",
+  "trigger_type": "Leadership change",
+  "email_security": "No issues found",
+  "office": "Cleveland",
+  "miles": 21,
+  "zip": "44060",
+  "phone": "(440) 255-1700",
+  "employees": 439,
+  "contacts": [
+   {
+    "name": "Shayna Jackson",
+    "title": "President & Ceo(Beg.12/22)",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Shayna%20Jackson%20Crossroads%20Health"
+   },
+   {
+    "name": "Alice Iden",
+    "title": "Coo",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Alice%20Iden%20Crossroads%20Health"
+   },
+   {
+    "name": "Craig Hargenrader",
+    "title": "Cfo",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Craig%20Hargenrader%20Crossroads%20Health"
+   }
+  ],
+  "contacts_source": "IRS Form 990, period ending 2023-06-30",
+  "trigger_date": "2026-04-20",
+  "call_reason": "with new leadership in place, it's a natural time for an independent look at IT and security across your three sites",
+  "score": 67,
+  "score_why": "trigger 22, recency 5, contact 15, phone 5, distance 10, email hook 0, size 10",
+  "trigger_age_days": 198,
+  "offer": "a one-page, no-cost IT and security snapshot for the new leadership team",
+  "email_offer": "",
+  "cta": "Would a one-page, no-cost IT and security snapshot for the new leadership team be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.",
+  "body_final": "Hi {first_name},\n\nI understand Crossroads has new executive leadership this year and is building out integrated care across Mentor, Willoughby and Euclid. When leadership changes, IT is often one of the first things to get a fresh look: who supports it, what it costs, and whether it's secure enough for both primary care and behavioral health records.\n\ninfinIT has supported Northeast Ohio healthcare and nonprofit organizations for over 35 years with an in-house team. We'd be glad to offer an independent second opinion, with no obligation.\n\nWould a one-page, no-cost IT and security snapshot for the new leadership team be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.\n\n[Rep name]\ninfinIT",
+  "phone_opener": "Hi {first_name}, this is [Rep name] with infinIT, the IT company in Cleveland. I'll be quick: with new leadership in place, it's a natural time for an independent look at IT and security across your three sites. We're offering a one-page, no-cost IT and security snapshot for the new leadership team. Is that worth 15 minutes next week?",
+  "voicemail": "Hi {first_name}, [Rep name] with infinIT in Cleveland. Calling because with new leadership in place, it's a natural time for an independent look at IT and security across your three sites. I'll send a short email too. My number is [phone]. Again, [Rep name], infinIT, [phone]."
+ },
+ {
+  "name": "Kaeper Machine, Inc.",
+  "vertical": "Manufacturing (DoD supplier)",
+  "city": "Mentor",
+  "county": "Lake",
+  "size": "About 25 employees (directory estimate); $6.1M in DoD obligations FY24-FY26; small arms parts (M240, M249, M2, MK19)",
+  "why_now": "Weapons-component drawings are almost certainly controlled unclassified information (CUI). CMMC Phase 2 is paused, but DFARS 7012, NIST SP 800-171 and an SPRS score are required today, and a 25-person shop rarely has someone who owns that.",
+  "angle": "NIST 800-171 gap assessment, SPRS score, and a managed environment for CUI, so they're ready when CMMC certification restarts.",
+  "contact_role": "President/Owner, Quality Manager, Controller",
+  "subject": "Your SPRS score while CMMC is paused",
+  "body": "Hi {first_name},\n\nWith CMMC Phase 2 paused since July, a lot of DoD shops have put compliance on the back burner. The catch is that DFARS 7012 and NIST 800-171 still apply to any contract with controlled drawings, and primes are still asking suppliers for their SPRS scores.\n\nFor a shop making small-arms components, that's likely you. infinIT is a Northeast Ohio IT and security firm (35+ years, in-house team) that helps manufacturers close 800-171 gaps without disrupting production, so certification is a formality when it restarts.\n\n{cta}\n\n[Rep name]\ninfinIT",
+  "fu1": "Hi {first_name}, following up. If it's useful, we can start with a short gap review against the 110 NIST 800-171 controls and help you confirm your SPRS score is accurate. An inflated score is the bigger risk under the False Claims Act.",
+  "fu2": "Hi {first_name}, last note. When CMMC restarts, assessor calendars will fill fast. If you want to get ahead of it, I'm at [phone].",
+  "notes": "Don't assume what's on their SPRS record; ask.",
+  "sources": [
+   "https://governmentbidders.com/government-bidders/contractor-5488403-KAEPER-MACHINE-INC.htm",
+   "https://www.wilmerhale.com/en/insights/client-alerts/20260720-pentagon-suspends-cmmc-phase-2-requirements-and-launches-review-of-cybersecurity-certification-program"
+  ],
+  "website": "",
+  "phone": "(440) 974-1010",
+  "contacts": [
+   {
+    "name": "Kye Hwang",
+    "title": "President (verify)",
+    "source": "Government contractor directory",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Kye%20Hwang%20Kaeper%20Machine%2C%20Inc."
+   }
+  ],
+  "contacts_source": "Government contractor directory",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Kaeper%20Machine%2C%20Inc.",
+  "trigger_type": "CMMC / DFARS",
+  "email_security": "",
+  "office": "Cleveland",
+  "miles": 21,
+  "zip": "44060",
+  "trigger_date": "2026-07-13",
+  "call_reason": "with CMMC paused, primes are still asking suppliers for NIST 800-171 and SPRS scores, and we help small shops get those right",
+  "score": 65,
+  "score_why": "trigger 22, recency 10, contact 8, phone 5, distance 10, email hook 0, size 10",
+  "trigger_age_days": 114,
+  "offer": "a 30-minute NIST 800-171 and SPRS score check, so the number you report is one you can defend",
+  "email_offer": "",
+  "cta": "Would a 30-minute NIST 800-171 and SPRS score check, so the number you report is one you can defend be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.",
+  "body_final": "Hi {first_name},\n\nWith CMMC Phase 2 paused since July, a lot of DoD shops have put compliance on the back burner. The catch is that DFARS 7012 and NIST 800-171 still apply to any contract with controlled drawings, and primes are still asking suppliers for their SPRS scores.\n\nFor a shop making small-arms components, that's likely you. infinIT is a Northeast Ohio IT and security firm (35+ years, in-house team) that helps manufacturers close 800-171 gaps without disrupting production, so certification is a formality when it restarts.\n\nWould a 30-minute NIST 800-171 and SPRS score check, so the number you report is one you can defend be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.\n\n[Rep name]\ninfinIT",
+  "phone_opener": "Hi {first_name}, this is [Rep name] with infinIT, the IT company in Cleveland. I'll be quick: with CMMC paused, primes are still asking suppliers for NIST 800-171 and SPRS scores, and we help small shops get those right. We're offering a 30-minute NIST 800-171 and SPRS score check, so the number you report is one you can defend. Is that worth 15 minutes next week?",
+  "voicemail": "Hi {first_name}, [Rep name] with infinIT in Cleveland. Calling because with CMMC paused, primes are still asking suppliers for NIST 800-171 and SPRS scores, and we help small shops get those right. I'll send a short email too. My number is [phone]. Again, [Rep name], infinIT, [phone]."
+ },
+ {
+  "name": "Child Guidance & Family Solutions",
+  "vertical": "Healthcare",
+  "city": "Akron",
+  "county": "Summit",
+  "size": "$9.5M revenue; offices in Akron, Barberton, Cuyahoga Falls and a new Green office; telehealth program",
+  "why_now": "Opened a new Green office and is hiring heavily in 2026 (therapists with signing bonuses, telehealth roles). New staff and sites mean more devices, accounts and security exposure.",
+  "angle": "Managed IT that scales with hiring: fast onboarding, secure telehealth, multi-office network.",
+  "contact_role": "CEO, CFO, Director of Operations",
+  "subject": "Onboarding all those new therapists",
+  "body": "Hi {first_name},\n\nI noticed CGFS opened a Green office and is hiring a lot of therapists, including telehealth roles. Growth like that tends to strain IT: laptops to set up, accounts to create and remove, and telehealth sessions that have to be secure and reliable.\n\ninfinIT handles that for Northeast Ohio nonprofits and healthcare providers, with an in-house team and flat monthly pricing. Most clients pay less than the cost of one full-time IT hire.\n\n{cta}\n\n[Rep name]\ninfinIT",
+  "fu1": "Hi {first_name}, following up. We can set up a standard new-hire checklist (device, accounts, security training) so onboarding takes hours instead of days. Glad to show you how it works.",
+  "fu2": "Hi {first_name}, I'll leave it here. If IT gets in the way of growth, I'm at [phone].",
+  "sources": [
+   "https://www.career.com/job/child-guidance-family-solutions/telehealth-outpatient-therapist-akron/j202511201205223766550",
+   "https://projects.propublica.org/nonprofits/organizations/340726083"
+  ],
+  "website": "cgfs.org",
+  "ein": "340726083",
+  "phone": "(330) 762-0591",
+  "employees": 164,
+  "contacts": [
+   {
+    "name": "Karen Talbott",
+    "title": "President & Ceo",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Karen%20Talbott%20Child%20Guidance%20%26%20Family%20Solutions"
+   },
+   {
+    "name": "Patrick Watson",
+    "title": "Cfo",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Patrick%20Watson%20Child%20Guidance%20%26%20Family%20Solutions"
+   },
+   {
+    "name": "Cassandra Galloway",
+    "title": "Listed as principal officer on 990",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Cassandra%20Galloway%20Child%20Guidance%20%26%20Family%20Solutions"
    }
   ],
   "contacts_source": "IRS Form 990, period ending 2024-12-31",
-  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Lutheran%20Metropolitan%20Ministry",
-  "trigger_type": "Good fit, no trigger",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Child%20Guidance%20%26%20Family%20Solutions",
+  "trigger_type": "Expansion / new sites",
   "email_security": "No issues found",
   "office": "Cleveland",
-  "miles": 2
+  "miles": 31,
+  "trigger_date": "2026-06-01",
+  "call_reason": "you're hiring a lot of therapists and opened the Green office, and we make onboarding and telehealth IT painless",
+  "score": 65,
+  "score_why": "trigger 20, recency 10, contact 15, phone 5, distance 5, email hook 0, size 10",
+  "trigger_age_days": 156,
+  "offer": "a free review of your next site's network, phones and internet failover before it opens",
+  "email_offer": "",
+  "cta": "Would a free review of your next site's network, phones and internet failover before it opens be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.",
+  "body_final": "Hi {first_name},\n\nI noticed CGFS opened a Green office and is hiring a lot of therapists, including telehealth roles. Growth like that tends to strain IT: laptops to set up, accounts to create and remove, and telehealth sessions that have to be secure and reliable.\n\ninfinIT handles that for Northeast Ohio nonprofits and healthcare providers, with an in-house team and flat monthly pricing. Most clients pay less than the cost of one full-time IT hire.\n\nWould a free review of your next site's network, phones and internet failover before it opens be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.\n\n[Rep name]\ninfinIT",
+  "phone_opener": "Hi {first_name}, this is [Rep name] with infinIT, the IT company in Cleveland. I'll be quick: you're hiring a lot of therapists and opened the Green office, and we make onboarding and telehealth IT painless. We're offering a free review of your next site's network, phones and internet failover before it opens. Is that worth 15 minutes next week?",
+  "voicemail": "Hi {first_name}, [Rep name] with infinIT in Cleveland. Calling because you're hiring a lot of therapists and opened the Green office, and we make onboarding and telehealth IT painless. I'll send a short email too. My number is [phone]. Again, [Rep name], infinIT, [phone]."
+ },
+ {
+  "name": "AlphaMicron, Inc.",
+  "vertical": "Manufacturing (DoD supplier)",
+  "city": "Kent",
+  "county": "Portage",
+  "size": "Kent State spin-off; liquid crystal (e-Tint) technology; $2.1M DoD obligations FY24-FY26",
+  "why_now": "Long-running Air Force Research Lab partner developing sun and laser protection for pilots. R&D work like this typically involves controlled technical data, and protecting intellectual property is critical for a technology company.",
+  "angle": "Protect IP and controlled R&D data; NIST 800-171 compliance for research contracts.",
+  "contact_role": "CEO, CFO/Controller, Director of Operations",
+  "subject": "Protecting your AFRL work",
+  "body": "Hi {first_name},\n\nAlphaMicron's work with the Air Force Research Lab on pilot eye protection is the kind of R&D that adversaries target. It's also the kind of controlled technical data that DFARS 7012 and NIST 800-171 cover, even with CMMC certification on pause.\n\ninfinIT is a Northeast Ohio IT and security firm with an in-house team. We help technology and manufacturing companies keep their IP and defense data secure and documented, so compliance doesn't slow down the research.\n\n{cta}\n\n[Rep name]\ninfinIT",
+  "fu1": "Hi {first_name}, following up. If it helps, we can do a short review of how your controlled data is stored and shared today and where it would fall short of 800-171.",
+  "fu2": "Hi {first_name}, last note from me. I'm at [phone] if security or compliance comes up.",
+  "sources": [
+   "https://soldiersystems.net/2023/04/28/af-research-lab-re-ups-affiliation-with-longtime-liquid-crystal-industry-partner-alphamicron-inc-to-meet-dod-needs/"
+  ],
+  "website": "alphamicron.com",
+  "phone": "(330) 676-0648",
+  "contacts": [
+   {
+    "name": "Tamas Kosa",
+    "title": "COO (verify)",
+    "source": "Third-party profile",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Tamas%20Kosa%20AlphaMicron%2C%20Inc."
+   },
+   {
+    "name": "Eui Yeul Park",
+    "title": "VP Production (verify)",
+    "source": "Third-party profile",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Eui%20Yeul%20Park%20AlphaMicron%2C%20Inc."
+   }
+  ],
+  "contacts_source": "Third-party profile",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=AlphaMicron%2C%20Inc.",
+  "trigger_type": "CMMC / DFARS",
+  "email_security": "No issues found",
+  "office": "Warren",
+  "miles": 23,
+  "zip": "44240",
+  "trigger_date": "2026-07-13",
+  "call_reason": "your AFRL work likely involves controlled technical data, and we help R&D companies protect it under NIST 800-171",
+  "score": 65,
+  "score_why": "trigger 22, recency 10, contact 8, phone 5, distance 10, email hook 0, size 10",
+  "trigger_age_days": 114,
+  "offer": "a 30-minute NIST 800-171 and SPRS score check, so the number you report is one you can defend",
+  "email_offer": "",
+  "cta": "Would a 30-minute NIST 800-171 and SPRS score check, so the number you report is one you can defend be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.",
+  "body_final": "Hi {first_name},\n\nAlphaMicron's work with the Air Force Research Lab on pilot eye protection is the kind of R&D that adversaries target. It's also the kind of controlled technical data that DFARS 7012 and NIST 800-171 cover, even with CMMC certification on pause.\n\ninfinIT is a Northeast Ohio IT and security firm with an in-house team. We help technology and manufacturing companies keep their IP and defense data secure and documented, so compliance doesn't slow down the research.\n\nWould a 30-minute NIST 800-171 and SPRS score check, so the number you report is one you can defend be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.\n\n[Rep name]\ninfinIT",
+  "phone_opener": "Hi {first_name}, this is [Rep name] with infinIT, the IT company in Warren. I'll be quick: your AFRL work likely involves controlled technical data, and we help R&D companies protect it under NIST 800-171. We're offering a 30-minute NIST 800-171 and SPRS score check, so the number you report is one you can defend. Is that worth 15 minutes next week?",
+  "voicemail": "Hi {first_name}, [Rep name] with infinIT in Warren. Calling because your AFRL work likely involves controlled technical data, and we help R&D companies protect it under NIST 800-171. I'll send a short email too. My number is [phone]. Again, [Rep name], infinIT, [phone]."
+ },
+ {
+  "name": "Lorain County Health & Dentistry",
+  "vertical": "Healthcare",
+  "city": "Lorain",
+  "county": "Lorain",
+  "size": "$16.6M revenue; federally qualified health center; medical, dental and behavioral health; sites in Lorain and North Ridgeville",
+  "why_now": "Has been adding clinics (pediatric site in Lorain, North Ridgeville center with state-funded dental equipment). New clinics mean new networks, imaging and phones.",
+  "angle": "Multi-site managed IT, HIPAA security, and phone systems for an FQHC.",
+  "contact_role": "CEO, CFO, COO",
+  "subject": "IT for your new clinics",
+  "body": "Hi {first_name},\n\nLorain County Health & Dentistry has added sites over the last couple of years, including North Ridgeville. Each new clinic adds a network, phones, dental imaging and patient data to keep secure.\n\ninfinIT supports Northeast Ohio healthcare organizations with managed IT, phones, internet and security from a local, in-house team. We'd be glad to give you a second opinion on how your sites are set up, with no obligation.\n\n{cta}\n\n[Rep name]\ninfinIT",
+  "fu1": "Hi {first_name}, a follow-up. Health centers we work with often find their HIPAA security risk assessment is overdue or thin. We can help complete or refresh it. Interested?",
+  "fu2": "Hi {first_name}, last note. If IT or phones come up for a new site, I'm at [phone].",
+  "sources": [
+   "https://ohiohouse.gov/members/david-thomas/news/lorain-county-health-dentistry-receives-state-funding-123005",
+   "https://projects.propublica.org/nonprofits/organizations/341957404"
+  ],
+  "website": "lorainhealth-dentistry.org",
+  "ein": "341957404",
+  "phone": "(440) 233-1075",
+  "employees": 154,
+  "contacts": [
+   {
+    "name": "Stephanie Wiersma",
+    "title": "President / Chief Executive Officer",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Stephanie%20Wiersma%20Lorain%20County%20Health%20%26%20Dentistry"
+   },
+   {
+    "name": "Lisa Hemker",
+    "title": "Cfo",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Lisa%20Hemker%20Lorain%20County%20Health%20%26%20Dentistry"
+   },
+   {
+    "name": "Troy Chaffin",
+    "title": "Chief Operating Officer",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Troy%20Chaffin%20Lorain%20County%20Health%20%26%20Dentistry"
+   }
+  ],
+  "contacts_source": "IRS Form 990, period ending 2024-12-31",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Lorain%20County%20Health%20%26%20Dentistry",
+  "trigger_type": "Expansion / new sites",
+  "email_security": "DMARC set to monitor only (p=none): spoofed email still gets delivered",
+  "office": "Cleveland",
+  "miles": 26,
+  "trigger_date": "2024-12-01",
+  "call_reason": "you've added clinics, and each one adds a network, phones and patient data to secure",
+  "score": 65,
+  "score_why": "trigger 20, recency 0, contact 15, phone 5, distance 10, email hook 5, size 10",
+  "trigger_age_days": 703,
+  "offer": "a free review of your next site's network, phones and internet failover before it opens",
+  "email_offer": "a free email-spoofing check and a plan to fix it (your domain has no DMARC protection today)",
+  "cta": "Would a free review of your next site's network, phones and internet failover before it opens be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.",
+  "body_final": "Hi {first_name},\n\nLorain County Health & Dentistry has added sites over the last couple of years, including North Ridgeville. Each new clinic adds a network, phones, dental imaging and patient data to keep secure.\n\ninfinIT supports Northeast Ohio healthcare organizations with managed IT, phones, internet and security from a local, in-house team. We'd be glad to give you a second opinion on how your sites are set up, with no obligation.\n\nWould a free review of your next site's network, phones and internet failover before it opens be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.\n\n[Rep name]\ninfinIT",
+  "phone_opener": "Hi {first_name}, this is [Rep name] with infinIT, the IT company in Cleveland. I'll be quick: you've added clinics, and each one adds a network, phones and patient data to secure. We're offering a free review of your next site's network, phones and internet failover before it opens. Is that worth 15 minutes next week?",
+  "voicemail": "Hi {first_name}, [Rep name] with infinIT in Cleveland. Calling because you've added clinics, and each one adds a network, phones and patient data to secure. I'll send a short email too. My number is [phone]. Again, [Rep name], infinIT, [phone]."
+ },
+ {
+  "name": "City of Struthers",
+  "vertical": "Government",
+  "city": "Struthers",
+  "county": "Mahoning",
+  "size": "City, population ~9,900",
+  "why_now": "Adopted its HB 96 cybersecurity program; the mayor said a $20,000 grant would cover the changes. The city now has to implement it on a limited budget.",
+  "angle": "Implement the adopted program within the grant budget; ongoing managed security.",
+  "contact_role": "Mayor, Safety-Service Director, Auditor",
+  "subject": "Struthers' HB 96 program",
+  "body": "Hi {first_name},\n\nI read that Struthers adopted its HB 96 cybersecurity program and is using a $20,000 grant to cover the changes. Stretching that grant across training, backups, MFA and incident response is a tight fit, and we've helped other Ohio local governments do exactly that.\n\ninfinIT is a Northeast Ohio IT firm with offices in Warren and Cleveland and an in-house team.\n\n{cta}\n\n[Rep name]\ninfinIT",
+  "fu1": "Hi {first_name}, following up. Happy to walk through what the State Auditor typically looks for under HB 96, in 15 minutes by phone.",
+  "fu2": "Hi {first_name}, last note. I'm at [phone] if the city needs IT or security help.",
+  "sources": [
+   "https://cpo.soar.com/articles/7240973/Ohio/Struthers-adopts-cybersecurity-program-required-by-Ohio-HB-96-mayor-says-20000-grant-will-cover-changes"
+  ],
+  "website": "cityofstruthers.com",
+  "phone": "",
+  "contacts": [
+   {
+    "name": "Catherine Cercone Miller",
+    "title": "Mayor (verify)",
+    "source": "cityofstruthers.com mayor page",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Catherine%20Cercone%20Miller%20City%20of%20Struthers"
+   },
+   {
+    "name": "Anthony O'Riches",
+    "title": "Safety-Service Director (verify spelling)",
+    "source": "Struthers council reports, 2026",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Anthony%20O%27Riches%20City%20of%20Struthers"
+   }
+  ],
+  "contacts_source": "Struthers council reports, 2026; cityofstruthers.com mayor page",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=City%20of%20Struthers",
+  "trigger_type": "HB 96 cyber mandate",
+  "email_security": "No DMARC record: anyone can send email that appears to come from this domain",
+  "office": "Warren",
+  "miles": 18,
+  "zip": "44471",
+  "trigger_date": "2025-12-01",
+  "call_reason": "the city adopted its HB 96 program and is using a grant to cover it, and we help cities stretch that grant across training, backups and MFA",
+  "score": 62,
+  "score_why": "trigger 24, recency 5, contact 8, phone 0, distance 10, email hook 5, size 10",
+  "trigger_age_days": 338,
+  "offer": "a 30-minute HB 96 audit-readiness review, with a written list of what the State Auditor will look for and where you stand",
+  "email_offer": "a free email-spoofing check and a plan to fix it (your domain has no DMARC protection today)",
+  "cta": "Would a 30-minute HB 96 audit-readiness review, with a written list of what the State Auditor will look for and where you stand be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.",
+  "body_final": "Hi {first_name},\n\nI read that Struthers adopted its HB 96 cybersecurity program and is using a $20,000 grant to cover the changes. Stretching that grant across training, backups, MFA and incident response is a tight fit, and we've helped other Ohio local governments do exactly that.\n\ninfinIT is a Northeast Ohio IT firm with offices in Warren and Cleveland and an in-house team.\n\nWould a 30-minute HB 96 audit-readiness review, with a written list of what the State Auditor will look for and where you stand be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.\n\n[Rep name]\ninfinIT",
+  "phone_opener": "Hi {first_name}, this is [Rep name] with infinIT, the IT company in Warren. I'll be quick: the city adopted its HB 96 program and is using a grant to cover it, and we help cities stretch that grant across training, backups and MFA. We're offering a 30-minute HB 96 audit-readiness review, with a written list of what the State Auditor will look for and where you stand. Is that worth 15 minutes next week?",
+  "voicemail": "Hi {first_name}, [Rep name] with infinIT in Warren. Calling because the city adopted its HB 96 program and is using a grant to cover it, and we help cities stretch that grant across training, backups and MFA. I'll send a short email too. My number is [phone]. Again, [Rep name], infinIT, [phone]."
+ },
+ {
+  "name": "Robeck Fluid Power Co.",
+  "vertical": "Manufacturing (DoD supplier)",
+  "city": "Aurora",
+  "county": "Portage",
+  "size": "About 35 employees (estimate); 65,000 sq ft facility; 1,060 federal awards totaling $7.3M; $5.3M DoD obligations FY24-FY26",
+  "why_now": "A very high volume of small DoD orders means constant contract paperwork and drawings coming through email. Any of those with CUI markings pull them under DFARS 7012 and NIST 800-171 today, regardless of the CMMC pause.",
+  "angle": "Secure handling of DoD drawings and email, an SPRS score they can defend, and managed IT for a small team.",
+  "contact_role": "President/Owner, Operations Manager, Contracts administrator",
+  "subject": "1,000+ DoD orders and NIST 800-171",
+  "body": "Hi {first_name},\n\nRobeck has handled over a thousand federal orders, which is impressive for a company your size. It also means a lot of DoD paperwork and drawings moving through email and file shares, and if any of it is marked CUI, DFARS 7012 and NIST 800-171 apply now, even with CMMC Phase 2 on pause.\n\ninfinIT is a Northeast Ohio IT and security firm. We help small manufacturers and distributors set up a secure, documented environment for that data and manage the rest of their IT, for less than one full-time hire.\n\n{cta}\n\n[Rep name]\ninfinIT",
+  "fu1": "Hi {first_name}, following up. A common quick win is moving DoD drawings into a properly configured enclave instead of general email, which shrinks what has to meet 800-171. Happy to explain how that works.",
+  "fu2": "Hi {first_name}, I'll close the loop. If DoD cyber requirements come up with a customer, I'm at [phone].",
+  "sources": [
+   "https://www.govconinabox.com/explore/contractors/profile/KCVUERY6ZBM5",
+   "https://robeckfluidpower.com/about-us"
+  ],
+  "website": "robeckfluidpower.com",
+  "phone": "(330) 562-1140",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Robeck%20Fluid%20Power%20Co.",
+  "trigger_type": "CMMC / DFARS",
+  "email_security": "No issues found",
+  "office": "Cleveland",
+  "miles": 22,
+  "zip": "44202",
+  "trigger_date": "2026-07-13",
+  "call_reason": "you handle a lot of DoD orders, and if any drawings are marked CUI, NIST 800-171 applies now even with CMMC paused",
+  "score": 57,
+  "score_why": "trigger 22, recency 10, contact 0, phone 5, distance 10, email hook 0, size 10",
+  "trigger_age_days": 114,
+  "offer": "a 30-minute NIST 800-171 and SPRS score check, so the number you report is one you can defend",
+  "email_offer": "",
+  "cta": "Would a 30-minute NIST 800-171 and SPRS score check, so the number you report is one you can defend be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.",
+  "body_final": "Hi {first_name},\n\nRobeck has handled over a thousand federal orders, which is impressive for a company your size. It also means a lot of DoD paperwork and drawings moving through email and file shares, and if any of it is marked CUI, DFARS 7012 and NIST 800-171 apply now, even with CMMC Phase 2 on pause.\n\ninfinIT is a Northeast Ohio IT and security firm. We help small manufacturers and distributors set up a secure, documented environment for that data and manage the rest of their IT, for less than one full-time hire.\n\nWould a 30-minute NIST 800-171 and SPRS score check, so the number you report is one you can defend be useful? I can do [Tuesday at 10] or [Thursday at 2], 15-30 minutes, by phone or at your office.\n\n[Rep name]\ninfinIT",
+  "phone_opener": "Hi {first_name}, this is [Rep name] with infinIT, the IT company in Cleveland. I'll be quick: you handle a lot of DoD orders, and if any drawings are marked CUI, NIST 800-171 applies now even with CMMC paused. We're offering a 30-minute NIST 800-171 and SPRS score check, so the number you report is one you can defend. Is that worth 15 minutes next week?",
+  "voicemail": "Hi {first_name}, [Rep name] with infinIT in Cleveland. Calling because you handle a lot of DoD orders, and if any drawings are marked CUI, NIST 800-171 applies now even with CMMC paused. I'll send a short email too. My number is [phone]. Again, [Rep name], infinIT, [phone]."
  }
 ]

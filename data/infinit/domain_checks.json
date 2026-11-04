@@ -12553,5 +12553,503 @@
   "website": "https",
   "findings": [],
   "hook": ""
+ },
+ "aviators.stark.k12.oh.us": {
+  "domain": "aviators.stark.k12.oh.us",
+  "checked": "2026-11-04",
+  "mx_provider": "No MX record",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "unreachable",
+  "findings": [],
+  "hook": ""
+ },
+ "beachcityohio.org": {
+  "domain": "beachcityohio.org",
+  "checked": "2026-11-04",
+  "mx_provider": "Microsoft 365",
+  "security_gateway": false,
+  "spf": true,
+  "spf_all": "-all",
+  "dmarc": "quarantine",
+  "website": "unreachable",
+  "findings": [],
+  "hook": ""
+ },
+ "brewsterhio.com": {
+  "domain": "brewsterhio.com",
+  "checked": "2026-11-04",
+  "mx_provider": "No MX record",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "unreachable",
+  "findings": [],
+  "hook": ""
+ },
+ "cantonlocal.org": {
+  "domain": "cantonlocal.org",
+  "checked": "2026-11-04",
+  "mx_provider": "Google Workspace",
+  "security_gateway": false,
+  "spf": true,
+  "spf_all": "-all",
+  "dmarc": "missing",
+  "website": "https",
+  "findings": [
+   "No DMARC record: anyone can send email that appears to come from this domain"
+  ],
+  "hook": "No DMARC record: anyone can send email that appears to come from this domain"
+ },
+ "cantontwp-oh.gov": {
+  "domain": "cantontwp-oh.gov",
+  "checked": "2026-11-04",
+  "mx_provider": "Microsoft 365",
+  "security_gateway": false,
+  "spf": true,
+  "spf_all": "-all",
+  "dmarc": "missing",
+  "website": "https",
+  "findings": [
+   "No DMARC record: anyone can send email that appears to come from this domain"
+  ],
+  "hook": "No DMARC record: anyone can send email that appears to come from this domain"
+ },
+ "cardweb.stark.k12.oh.us": {
+  "domain": "cardweb.stark.k12.oh.us",
+  "checked": "2026-11-04",
+  "mx_provider": "No MX record",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "http-only",
+  "findings": [
+   "Website appears to load only over plain HTTP, not HTTPS (verify in a browser before mentioning)"
+  ],
+  "hook": "Website appears to load only over plain HTTP, not HTTPS (verify in a browser before mentioning)"
+ },
+ "ccsdistrict.org": {
+  "domain": "ccsdistrict.org",
+  "checked": "2026-11-04",
+  "mx_provider": "Google Workspace",
+  "security_gateway": false,
+  "spf": true,
+  "spf_all": "~all",
+  "dmarc": "none",
+  "website": "https",
+  "findings": [
+   "DMARC set to monitor only (p=none): spoofed email still gets delivered"
+  ],
+  "hook": "DMARC set to monitor only (p=none): spoofed email still gets delivered"
+ },
+ "ci.minerva.oh.us": {
+  "domain": "ci.minerva.oh.us",
+  "checked": "2026-11-04",
+  "mx_provider": "Microsoft 365",
+  "security_gateway": false,
+  "spf": true,
+  "spf_all": "~all",
+  "dmarc": "none",
+  "website": "unreachable",
+  "findings": [
+   "DMARC set to monitor only (p=none): spoofed email still gets delivered"
+  ],
+  "hook": "DMARC set to monitor only (p=none): spoofed email still gets delivered"
+ },
+ "cityofalliance.com": {
+  "domain": "cityofalliance.com",
+  "checked": "2026-11-04",
+  "mx_provider": "No MX record",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "https",
+  "findings": [],
+  "hook": ""
+ },
+ "cityofcanalfultonoh.gov": {
+  "domain": "cityofcanalfultonoh.gov",
+  "checked": "2026-11-04",
+  "mx_provider": "No MX record",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "unreachable",
+  "findings": [],
+  "hook": ""
+ },
+ "cityofcanton.com": {
+  "domain": "cityofcanton.com",
+  "checked": "2026-11-04",
+  "mx_provider": "No MX record",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "https",
+  "findings": [],
+  "hook": ""
+ },
+ "drage.stark.k12.oh.us": {
+  "domain": "drage.stark.k12.oh.us",
+  "checked": "2026-11-04",
+  "mx_provider": "No MX record",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "unreachable",
+  "findings": [],
+  "hook": ""
+ },
+ "dukes.stark.k12.oh.us": {
+  "domain": "dukes.stark.k12.oh.us",
+  "checked": "2026-11-04",
+  "mx_provider": "Self-hosted / other",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "http-only",
+  "findings": [
+   "No DMARC record: anyone can send email that appears to come from this domain",
+   "No SPF record",
+   "Website appears to load only over plain HTTP, not HTTPS (verify in a browser before mentioning)"
+  ],
+  "hook": "No DMARC record: anyone can send email that appears to come from this domain"
+ },
+ "eagle.stark.k12.oh.us": {
+  "domain": "eagle.stark.k12.oh.us",
+  "checked": "2026-11-04",
+  "mx_provider": "No MX record",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "unreachable",
+  "findings": [],
+  "hook": ""
+ },
+ "eastcantonvillage.com": {
+  "domain": "eastcantonvillage.com",
+  "checked": "2026-11-04",
+  "mx_provider": "No MX record",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "unreachable",
+  "findings": [],
+  "hook": ""
+ },
+ "ecweb.sparcc.org": {
+  "domain": "ecweb.sparcc.org",
+  "checked": "2026-11-04",
+  "mx_provider": "No MX record",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "unreachable",
+  "findings": [],
+  "hook": ""
+ },
+ "falcon.stark.k12.oh.us": {
+  "domain": "falcon.stark.k12.oh.us",
+  "checked": "2026-11-04",
+  "mx_provider": "No MX record",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "https",
+  "findings": [],
+  "hook": ""
+ },
+ "hartvilleoh.com": {
+  "domain": "hartvilleoh.com",
+  "checked": "2026-11-04",
+  "mx_provider": "Microsoft 365",
+  "security_gateway": false,
+  "spf": true,
+  "spf_all": "-all",
+  "dmarc": "missing",
+  "website": "https",
+  "findings": [
+   "No DMARC record: anyone can send email that appears to come from this domain"
+  ],
+  "hook": "No DMARC record: anyone can send email that appears to come from this domain"
+ },
+ "jackson.stark.k12.oh.us": {
+  "domain": "jackson.stark.k12.oh.us",
+  "checked": "2026-11-04",
+  "mx_provider": "Google Workspace",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "https",
+  "findings": [
+   "No DMARC record: anyone can send email that appears to come from this domain",
+   "No SPF record"
+  ],
+  "hook": "No DMARC record: anyone can send email that appears to come from this domain"
+ },
+ "jacksontwp.com": {
+  "domain": "jacksontwp.com",
+  "checked": "2026-11-04",
+  "mx_provider": "Self-hosted / other",
+  "security_gateway": false,
+  "spf": true,
+  "spf_all": "~all",
+  "dmarc": "none",
+  "website": "https",
+  "findings": [
+   "DMARC set to monitor only (p=none): spoofed email still gets delivered"
+  ],
+  "hook": "DMARC set to monitor only (p=none): spoofed email still gets delivered"
+ },
+ "lakelocal.org": {
+  "domain": "lakelocal.org",
+  "checked": "2026-11-04",
+  "mx_provider": "Google Workspace",
+  "security_gateway": false,
+  "spf": true,
+  "spf_all": "~all",
+  "dmarc": "missing",
+  "website": "https",
+  "findings": [
+   "No DMARC record: anyone can send email that appears to come from this domain"
+  ],
+  "hook": "No DMARC record: anyone can send email that appears to come from this domain"
+ },
+ "laketownshipstarkco.com": {
+  "domain": "laketownshipstarkco.com",
+  "checked": "2026-11-04",
+  "mx_provider": "No MX record",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "unreachable",
+  "findings": [],
+  "hook": ""
+ },
+ "lawrencetwp-oh.org": {
+  "domain": "lawrencetwp-oh.org",
+  "checked": "2026-11-04",
+  "mx_provider": "Microsoft 365",
+  "security_gateway": false,
+  "spf": true,
+  "spf_all": "-all",
+  "dmarc": "none",
+  "website": "https",
+  "findings": [
+   "DMARC set to monitor only (p=none): spoofed email still gets delivered"
+  ],
+  "hook": "DMARC set to monitor only (p=none): spoofed email still gets delivered"
+ },
+ "leopard.sparcc.org": {
+  "domain": "leopard.sparcc.org",
+  "checked": "2026-11-04",
+  "mx_provider": "Self-hosted / other",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "unreachable",
+  "findings": [
+   "No DMARC record: anyone can send email that appears to come from this domain",
+   "No SPF record"
+  ],
+  "hook": "No DMARC record: anyone can send email that appears to come from this domain"
+ },
+ "lion.stark.k12.oh.us": {
+  "domain": "lion.stark.k12.oh.us",
+  "checked": "2026-11-04",
+  "mx_provider": "No MX record",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "unreachable",
+  "findings": [],
+  "hook": ""
+ },
+ "louisvilleohio.com": {
+  "domain": "louisvilleohio.com",
+  "checked": "2026-11-04",
+  "mx_provider": "No MX record",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "reject",
+  "website": "https",
+  "findings": [],
+  "hook": ""
+ },
+ "massillon.sparcc.org": {
+  "domain": "massillon.sparcc.org",
+  "checked": "2026-11-04",
+  "mx_provider": "Google Workspace",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "unreachable",
+  "findings": [
+   "No DMARC record: anyone can send email that appears to come from this domain",
+   "No SPF record"
+  ],
+  "hook": "No DMARC record: anyone can send email that appears to come from this domain"
+ },
+ "massillonohio.com": {
+  "domain": "massillonohio.com",
+  "checked": "2026-11-04",
+  "mx_provider": "No MX record",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "unreachable",
+  "findings": [],
+  "hook": ""
+ },
+ "navarreohio.net": {
+  "domain": "navarreohio.net",
+  "checked": "2026-11-04",
+  "mx_provider": "Self-hosted / other",
+  "security_gateway": false,
+  "spf": true,
+  "spf_all": "-all",
+  "dmarc": "missing",
+  "website": "https",
+  "findings": [
+   "No DMARC record: anyone can send email that appears to come from this domain"
+  ],
+  "hook": "No DMARC record: anyone can send email that appears to come from this domain"
+ },
+ "northcantonohio.com": {
+  "domain": "northcantonohio.com",
+  "checked": "2026-11-04",
+  "mx_provider": "No MX record",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "https",
+  "findings": [],
+  "hook": ""
+ },
+ "northcantonschools.org": {
+  "domain": "northcantonschools.org",
+  "checked": "2026-11-04",
+  "mx_provider": "Google Workspace",
+  "security_gateway": false,
+  "spf": true,
+  "spf_all": "~all",
+  "dmarc": "missing",
+  "website": "https",
+  "findings": [
+   "No DMARC record: anyone can send email that appears to come from this domain"
+  ],
+  "hook": "No DMARC record: anyone can send email that appears to come from this domain"
+ },
+ "northwest.stark.k12.oh.us": {
+  "domain": "northwest.stark.k12.oh.us",
+  "checked": "2026-11-04",
+  "mx_provider": "No MX record",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "unreachable",
+  "findings": [],
+  "hook": ""
+ },
+ "osnaburgtwp.com": {
+  "domain": "osnaburgtwp.com",
+  "checked": "2026-11-04",
+  "mx_provider": "Proofpoint Essentials gateway",
+  "security_gateway": true,
+  "spf": true,
+  "spf_all": "~all",
+  "dmarc": "missing",
+  "website": "https",
+  "findings": [
+   "No DMARC record: anyone can send email that appears to come from this domain"
+  ],
+  "hook": "No DMARC record: anyone can send email that appears to come from this domain"
+ },
+ "perrynet.stark.k12.oh.us": {
+  "domain": "perrynet.stark.k12.oh.us",
+  "checked": "2026-11-04",
+  "mx_provider": "No MX record",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "unreachable",
+  "findings": [],
+  "hook": ""
+ },
+ "perrytwp.com": {
+  "domain": "perrytwp.com",
+  "checked": "2026-11-04",
+  "mx_provider": "Microsoft 365",
+  "security_gateway": false,
+  "spf": true,
+  "spf_all": "~all",
+  "dmarc": "quarantine",
+  "website": "https",
+  "findings": [],
+  "hook": ""
+ },
+ "piketownship.com": {
+  "domain": "piketownship.com",
+  "checked": "2026-11-04",
+  "mx_provider": "Microsoft 365",
+  "security_gateway": false,
+  "spf": true,
+  "spf_all": "-all",
+  "dmarc": "missing",
+  "website": "unreachable",
+  "findings": [
+   "No DMARC record: anyone can send email that appears to come from this domain"
+  ],
+  "hook": "No DMARC record: anyone can send email that appears to come from this domain"
+ },
+ "plaintownship.com": {
+  "domain": "plaintownship.com",
+  "checked": "2026-11-04",
+  "mx_provider": "No MX record",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "unreachable",
+  "findings": [],
+  "hook": ""
+ },
+ "tuslaw.sparcc.org": {
+  "domain": "tuslaw.sparcc.org",
+  "checked": "2026-11-04",
+  "mx_provider": "Google Workspace",
+  "security_gateway": false,
+  "spf": false,
+  "spf_all": "",
+  "dmarc": "missing",
+  "website": "unreachable",
+  "findings": [
+   "No DMARC record: anyone can send email that appears to come from this domain",
+   "No SPF record"
+  ],
+  "hook": "No DMARC record: anyone can send email that appears to come from this domain"
  }
 }

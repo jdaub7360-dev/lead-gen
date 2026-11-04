@@ -1246,6 +1246,167 @@
   "segment": "Government"
  },
  {
+  "name": "Canal Fulton",
+  "kind": "City",
+  "county": "Stark",
+  "population": 5382,
+  "segment": "Government"
+ },
+ {
+  "name": "Canton",
+  "kind": "City",
+  "county": "Stark",
+  "population": 69211,
+  "segment": "Government (co-managed)"
+ },
+ {
+  "name": "Hartville",
+  "kind": "Village",
+  "county": "Stark",
+  "population": 3439,
+  "segment": "Government"
+ },
+ {
+  "name": "Louisville",
+  "kind": "City",
+  "county": "Stark",
+  "population": 9793,
+  "segment": "Government"
+ },
+ {
+  "name": "Massillon",
+  "kind": "City",
+  "county": "Stark",
+  "population": 32750,
+  "segment": "Government"
+ },
+ {
+  "name": "North Canton",
+  "kind": "City",
+  "county": "Stark",
+  "population": 17677,
+  "segment": "Government"
+ },
+ {
+  "name": "Bethlehem Township",
+  "kind": "Township",
+  "county": "Stark",
+  "population": 5509,
+  "segment": "Government"
+ },
+ {
+  "name": "Canton Township",
+  "kind": "Township",
+  "county": "Stark",
+  "population": 12366,
+  "segment": "Government"
+ },
+ {
+  "name": "Jackson Township",
+  "kind": "Township",
+  "county": "Stark",
+  "population": 43375,
+  "segment": "Government (co-managed)"
+ },
+ {
+  "name": "Lake Township",
+  "kind": "Township",
+  "county": "Stark",
+  "population": 30452,
+  "segment": "Government"
+ },
+ {
+  "name": "Lawrence Township",
+  "kind": "Township",
+  "county": "Stark",
+  "population": 13604,
+  "segment": "Government"
+ },
+ {
+  "name": "Lexington Township",
+  "kind": "Township",
+  "county": "Stark",
+  "population": 4925,
+  "segment": "Government"
+ },
+ {
+  "name": "Marlboro Township",
+  "kind": "Township",
+  "county": "Stark",
+  "population": 4263,
+  "segment": "Government"
+ },
+ {
+  "name": "Nimishillen Township",
+  "kind": "Township",
+  "county": "Stark",
+  "population": 9327,
+  "segment": "Government"
+ },
+ {
+  "name": "Osnaburg Township",
+  "kind": "Township",
+  "county": "Stark",
+  "population": 5487,
+  "segment": "Government"
+ },
+ {
+  "name": "Paris Township",
+  "kind": "Township",
+  "county": "Stark",
+  "population": 5699,
+  "segment": "Government"
+ },
+ {
+  "name": "Perry Township",
+  "kind": "Township",
+  "county": "Stark",
+  "population": 28270,
+  "segment": "Government"
+ },
+ {
+  "name": "Pike Township",
+  "kind": "Township",
+  "county": "Stark",
+  "population": 3848,
+  "segment": "Government"
+ },
+ {
+  "name": "Plain Township",
+  "kind": "Township",
+  "county": "Stark",
+  "population": 53408,
+  "segment": "Government (co-managed)"
+ },
+ {
+  "name": "Sandy Township",
+  "kind": "Township",
+  "county": "Stark",
+  "population": 3563,
+  "segment": "Government"
+ },
+ {
+  "name": "Sugarcreek Township",
+  "kind": "Township",
+  "county": "Stark",
+  "population": 6510,
+  "segment": "Government"
+ },
+ {
+  "name": "Tuscarawas Township",
+  "kind": "Township",
+  "county": "Stark",
+  "population": 5822,
+  "segment": "Government"
+ },
+ {
+  "name": "Washington Township",
+  "kind": "Township",
+  "county": "Stark",
+  "population": 4432,
+  "segment": "Government"
+ },
+ {
   "name": "Barberton",
   "kind": "City",
   "county": "Summit",
