@@ -1,0 +1,1346 @@
+[
+ {
+  "name": "Bay Village",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 15903,
+  "segment": "Government"
+ },
+ {
+  "name": "Beachwood",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 13820,
+  "segment": "Government"
+ },
+ {
+  "name": "Bedford",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 12834,
+  "segment": "Government"
+ },
+ {
+  "name": "Bedford Heights",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 10791,
+  "segment": "Government"
+ },
+ {
+  "name": "Berea",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 17998,
+  "segment": "Government"
+ },
+ {
+  "name": "Brecksville",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 13951,
+  "segment": "Government"
+ },
+ {
+  "name": "Broadview Heights",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 19792,
+  "segment": "Government"
+ },
+ {
+  "name": "Brooklyn",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 11072,
+  "segment": "Government"
+ },
+ {
+  "name": "Brook Park",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 18142,
+  "segment": "Government"
+ },
+ {
+  "name": "Chagrin Falls",
+  "kind": "Village",
+  "county": "Cuyahoga",
+  "population": 4118,
+  "segment": "Government"
+ },
+ {
+  "name": "Cleveland Heights",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 44064,
+  "segment": "Government (co-managed)"
+ },
+ {
+  "name": "East Cleveland",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 13402,
+  "segment": "Government"
+ },
+ {
+  "name": "Euclid",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 48421,
+  "segment": "Government (co-managed)"
+ },
+ {
+  "name": "Fairview Park",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 16860,
+  "segment": "Government"
+ },
+ {
+  "name": "Garfield Heights",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 29014,
+  "segment": "Government"
+ },
+ {
+  "name": "Highland Heights",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 8612,
+  "segment": "Government"
+ },
+ {
+  "name": "Independence",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 7518,
+  "segment": "Government"
+ },
+ {
+  "name": "Lakewood",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 49517,
+  "segment": "Government (co-managed)"
+ },
+ {
+  "name": "Lyndhurst",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 13700,
+  "segment": "Government"
+ },
+ {
+  "name": "Maple Heights",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 23081,
+  "segment": "Government"
+ },
+ {
+  "name": "Mayfield",
+  "kind": "Village",
+  "county": "Cuyahoga",
+  "population": 3324,
+  "segment": "Government"
+ },
+ {
+  "name": "Mayfield Heights",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 19886,
+  "segment": "Government"
+ },
+ {
+  "name": "Middleburg Heights",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 15672,
+  "segment": "Government"
+ },
+ {
+  "name": "Moreland Hills",
+  "kind": "Village",
+  "county": "Cuyahoga",
+  "population": 3489,
+  "segment": "Government"
+ },
+ {
+  "name": "North Olmsted",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 31690,
+  "segment": "Government"
+ },
+ {
+  "name": "North Royalton",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 30894,
+  "segment": "Government"
+ },
+ {
+  "name": "Oakwood",
+  "kind": "Village",
+  "county": "Cuyahoga",
+  "population": 3496,
+  "segment": "Government"
+ },
+ {
+  "name": "Olmsted Falls",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 8676,
+  "segment": "Government"
+ },
+ {
+  "name": "Orange",
+  "kind": "Village",
+  "county": "Cuyahoga",
+  "population": 3544,
+  "segment": "Government"
+ },
+ {
+  "name": "Parma",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 79350,
+  "segment": "Government (co-managed)"
+ },
+ {
+  "name": "Parma Heights",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 20524,
+  "segment": "Government"
+ },
+ {
+  "name": "Pepper Pike",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 6881,
+  "segment": "Government"
+ },
+ {
+  "name": "Richmond Heights",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 10552,
+  "segment": "Government"
+ },
+ {
+  "name": "Rocky River",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 21468,
+  "segment": "Government"
+ },
+ {
+  "name": "Seven Hills",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 11560,
+  "segment": "Government"
+ },
+ {
+  "name": "Shaker Heights",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 28689,
+  "segment": "Government"
+ },
+ {
+  "name": "Solon",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 23875,
+  "segment": "Government"
+ },
+ {
+  "name": "South Euclid",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 21363,
+  "segment": "Government"
+ },
+ {
+  "name": "Strongsville",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 45768,
+  "segment": "Government (co-managed)"
+ },
+ {
+  "name": "University Heights",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 13265,
+  "segment": "Government"
+ },
+ {
+  "name": "Warrensville Heights",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 13450,
+  "segment": "Government"
+ },
+ {
+  "name": "Westlake",
+  "kind": "City",
+  "county": "Cuyahoga",
+  "population": 34232,
+  "segment": "Government"
+ },
+ {
+  "name": "Chagrin Falls Township",
+  "kind": "Township",
+  "county": "Cuyahoga",
+  "population": 4248,
+  "segment": "Government"
+ },
+ {
+  "name": "Olmsted Township",
+  "kind": "Township",
+  "county": "Cuyahoga",
+  "population": 14565,
+  "segment": "Government"
+ },
+ {
+  "name": "Chardon",
+  "kind": "City",
+  "county": "Geauga",
+  "population": 5233,
+  "segment": "Government"
+ },
+ {
+  "name": "Middlefield",
+  "kind": "Village",
+  "county": "Geauga",
+  "population": 2749,
+  "segment": "Government"
+ },
+ {
+  "name": "South Russell",
+  "kind": "Village",
+  "county": "Geauga",
+  "population": 3923,
+  "segment": "Government"
+ },
+ {
+  "name": "Auburn Township",
+  "kind": "Township",
+  "county": "Geauga",
+  "population": 6578,
+  "segment": "Government"
+ },
+ {
+  "name": "Bainbridge Township",
+  "kind": "Township",
+  "county": "Geauga",
+  "population": 12914,
+  "segment": "Government"
+ },
+ {
+  "name": "Burton Township",
+  "kind": "Township",
+  "county": "Geauga",
+  "population": 4369,
+  "segment": "Government"
+ },
+ {
+  "name": "Chardon Township",
+  "kind": "Township",
+  "county": "Geauga",
+  "population": 4498,
+  "segment": "Government"
+ },
+ {
+  "name": "Chester Township",
+  "kind": "Township",
+  "county": "Geauga",
+  "population": 9955,
+  "segment": "Government"
+ },
+ {
+  "name": "Claridon Township",
+  "kind": "Township",
+  "county": "Geauga",
+  "population": 3110,
+  "segment": "Government"
+ },
+ {
+  "name": "Hambden Township",
+  "kind": "Township",
+  "county": "Geauga",
+  "population": 4702,
+  "segment": "Government"
+ },
+ {
+  "name": "Huntsburg Township",
+  "kind": "Township",
+  "county": "Geauga",
+  "population": 3650,
+  "segment": "Government"
+ },
+ {
+  "name": "Middlefield Township",
+  "kind": "Township",
+  "county": "Geauga",
+  "population": 4522,
+  "segment": "Government"
+ },
+ {
+  "name": "Munson Township",
+  "kind": "Township",
+  "county": "Geauga",
+  "population": 7083,
+  "segment": "Government"
+ },
+ {
+  "name": "Newbury Township",
+  "kind": "Township",
+  "county": "Geauga",
+  "population": 5234,
+  "segment": "Government"
+ },
+ {
+  "name": "Parkman Township",
+  "kind": "Township",
+  "county": "Geauga",
+  "population": 4450,
+  "segment": "Government"
+ },
+ {
+  "name": "Russell Township",
+  "kind": "Township",
+  "county": "Geauga",
+  "population": 5392,
+  "segment": "Government"
+ },
+ {
+  "name": "Troy Township",
+  "kind": "Township",
+  "county": "Geauga",
+  "population": 2787,
+  "segment": "Government"
+ },
+ {
+  "name": "Eastlake",
+  "kind": "City",
+  "county": "Lake",
+  "population": 17423,
+  "segment": "Government"
+ },
+ {
+  "name": "Fairport Harbor",
+  "kind": "Village",
+  "county": "Lake",
+  "population": 3088,
+  "segment": "Government"
+ },
+ {
+  "name": "Kirtland",
+  "kind": "City",
+  "county": "Lake",
+  "population": 6914,
+  "segment": "Government"
+ },
+ {
+  "name": "Madison",
+  "kind": "Village",
+  "county": "Lake",
+  "population": 3424,
+  "segment": "Government"
+ },
+ {
+  "name": "Mentor",
+  "kind": "City",
+  "county": "Lake",
+  "population": 47113,
+  "segment": "Government (co-managed)"
+ },
+ {
+  "name": "Mentor-on-the-Lake",
+  "kind": "City",
+  "county": "Lake",
+  "population": 7106,
+  "segment": "Government"
+ },
+ {
+  "name": "Painesville",
+  "kind": "City",
+  "county": "Lake",
+  "population": 20660,
+  "segment": "Government"
+ },
+ {
+  "name": "Wickliffe",
+  "kind": "City",
+  "county": "Lake",
+  "population": 12659,
+  "segment": "Government"
+ },
+ {
+  "name": "Willoughby",
+  "kind": "City",
+  "county": "Lake",
+  "population": 24208,
+  "segment": "Government"
+ },
+ {
+  "name": "Willoughby Hills",
+  "kind": "City",
+  "county": "Lake",
+  "population": 9986,
+  "segment": "Government"
+ },
+ {
+  "name": "Willowick",
+  "kind": "City",
+  "county": "Lake",
+  "population": 14159,
+  "segment": "Government"
+ },
+ {
+  "name": "Concord Township",
+  "kind": "Township",
+  "county": "Lake",
+  "population": 19231,
+  "segment": "Government"
+ },
+ {
+  "name": "Leroy Township",
+  "kind": "Township",
+  "county": "Lake",
+  "population": 3125,
+  "segment": "Government"
+ },
+ {
+  "name": "Madison Township",
+  "kind": "Township",
+  "county": "Lake",
+  "population": 18462,
+  "segment": "Government"
+ },
+ {
+  "name": "Painesville Township",
+  "kind": "Township",
+  "county": "Lake",
+  "population": 20434,
+  "segment": "Government"
+ },
+ {
+  "name": "Perry Township",
+  "kind": "Township",
+  "county": "Lake",
+  "population": 8841,
+  "segment": "Government"
+ },
+ {
+  "name": "Amherst",
+  "kind": "City",
+  "county": "Lorain",
+  "population": 13048,
+  "segment": "Government"
+ },
+ {
+  "name": "Avon",
+  "kind": "City",
+  "county": "Lorain",
+  "population": 25573,
+  "segment": "Government"
+ },
+ {
+  "name": "Avon Lake",
+  "kind": "City",
+  "county": "Lorain",
+  "population": 26342,
+  "segment": "Government"
+ },
+ {
+  "name": "Elyria",
+  "kind": "City",
+  "county": "Lorain",
+  "population": 53604,
+  "segment": "Government (co-managed)"
+ },
+ {
+  "name": "Grafton",
+  "kind": "Village",
+  "county": "Lorain",
+  "population": 5804,
+  "segment": "Government"
+ },
+ {
+  "name": "LaGrange",
+  "kind": "Village",
+  "county": "Lorain",
+  "population": 2906,
+  "segment": "Government"
+ },
+ {
+  "name": "Lorain",
+  "kind": "City",
+  "county": "Lorain",
+  "population": 65751,
+  "segment": "Government (co-managed)"
+ },
+ {
+  "name": "North Ridgeville",
+  "kind": "City",
+  "county": "Lorain",
+  "population": 37504,
+  "segment": "Government"
+ },
+ {
+  "name": "Oberlin",
+  "kind": "City",
+  "county": "Lorain",
+  "population": 8587,
+  "segment": "Government"
+ },
+ {
+  "name": "Sheffield",
+  "kind": "Village",
+  "county": "Lorain",
+  "population": 4605,
+  "segment": "Government"
+ },
+ {
+  "name": "Sheffield Lake",
+  "kind": "City",
+  "county": "Lorain",
+  "population": 9035,
+  "segment": "Government"
+ },
+ {
+  "name": "Wellington",
+  "kind": "Village",
+  "county": "Lorain",
+  "population": 4894,
+  "segment": "Government"
+ },
+ {
+  "name": "Amherst Township",
+  "kind": "Township",
+  "county": "Lorain",
+  "population": 6523,
+  "segment": "Government"
+ },
+ {
+  "name": "Brownhelm Township",
+  "kind": "Township",
+  "county": "Lorain",
+  "population": 8100,
+  "segment": "Government"
+ },
+ {
+  "name": "Carlisle Township",
+  "kind": "Township",
+  "county": "Lorain",
+  "population": 7139,
+  "segment": "Government"
+ },
+ {
+  "name": "Columbia Township",
+  "kind": "Township",
+  "county": "Lorain",
+  "population": 8847,
+  "segment": "Government"
+ },
+ {
+  "name": "Eaton Township",
+  "kind": "Township",
+  "county": "Lorain",
+  "population": 6013,
+  "segment": "Government"
+ },
+ {
+  "name": "Elyria Township",
+  "kind": "Township",
+  "county": "Lorain",
+  "population": 3231,
+  "segment": "Government"
+ },
+ {
+  "name": "Grafton Township",
+  "kind": "Township",
+  "county": "Lorain",
+  "population": 2853,
+  "segment": "Government"
+ },
+ {
+  "name": "LaGrange Township",
+  "kind": "Township",
+  "county": "Lorain",
+  "population": 6989,
+  "segment": "Government"
+ },
+ {
+  "name": "Sheffield Township",
+  "kind": "Township",
+  "county": "Lorain",
+  "population": 3947,
+  "segment": "Government"
+ },
+ {
+  "name": "Wellington Township",
+  "kind": "Township",
+  "county": "Lorain",
+  "population": 6252,
+  "segment": "Government"
+ },
+ {
+  "name": "Campbell",
+  "kind": "City",
+  "county": "Mahoning",
+  "population": 7751,
+  "segment": "Government"
+ },
+ {
+  "name": "Canfield",
+  "kind": "City",
+  "county": "Mahoning",
+  "population": 7628,
+  "segment": "Government"
+ },
+ {
+  "name": "Sebring",
+  "kind": "Village",
+  "county": "Mahoning",
+  "population": 4134,
+  "segment": "Government"
+ },
+ {
+  "name": "Struthers",
+  "kind": "City",
+  "county": "Mahoning",
+  "population": 9891,
+  "segment": "Government"
+ },
+ {
+  "name": "Austintown Township",
+  "kind": "Township",
+  "county": "Mahoning",
+  "population": 35643,
+  "segment": "Government"
+ },
+ {
+  "name": "Beaver Township",
+  "kind": "Township",
+  "county": "Mahoning",
+  "population": 6684,
+  "segment": "Government"
+ },
+ {
+  "name": "Boardman Township",
+  "kind": "Township",
+  "county": "Mahoning",
+  "population": 39749,
+  "segment": "Government"
+ },
+ {
+  "name": "Canfield Township",
+  "kind": "Township",
+  "county": "Mahoning",
+  "population": 16780,
+  "segment": "Government"
+ },
+ {
+  "name": "Goshen Township",
+  "kind": "Township",
+  "county": "Mahoning",
+  "population": 3081,
+  "segment": "Government"
+ },
+ {
+  "name": "Green Township",
+  "kind": "Township",
+  "county": "Mahoning",
+  "population": 3371,
+  "segment": "Government"
+ },
+ {
+  "name": "Milton Township",
+  "kind": "Township",
+  "county": "Mahoning",
+  "population": 3531,
+  "segment": "Government"
+ },
+ {
+  "name": "Poland Township",
+  "kind": "Township",
+  "county": "Mahoning",
+  "population": 14522,
+  "segment": "Government"
+ },
+ {
+  "name": "Smith Township",
+  "kind": "Township",
+  "county": "Mahoning",
+  "population": 4052,
+  "segment": "Government"
+ },
+ {
+  "name": "Springfield Township",
+  "kind": "Township",
+  "county": "Mahoning",
+  "population": 6747,
+  "segment": "Government"
+ },
+ {
+  "name": "Brunswick",
+  "kind": "City",
+  "county": "Medina",
+  "population": 35166,
+  "segment": "Government"
+ },
+ {
+  "name": "Lodi",
+  "kind": "Village",
+  "county": "Medina",
+  "population": 2794,
+  "segment": "Government"
+ },
+ {
+  "name": "Medina",
+  "kind": "City",
+  "county": "Medina",
+  "population": 25757,
+  "segment": "Government"
+ },
+ {
+  "name": "Wadsworth",
+  "kind": "City",
+  "county": "Medina",
+  "population": 24753,
+  "segment": "Government"
+ },
+ {
+  "name": "Brunswick Hills Township",
+  "kind": "Township",
+  "county": "Medina",
+  "population": 11472,
+  "segment": "Government"
+ },
+ {
+  "name": "Granger Township",
+  "kind": "Township",
+  "county": "Medina",
+  "population": 4648,
+  "segment": "Government"
+ },
+ {
+  "name": "Guilford Township",
+  "kind": "Township",
+  "county": "Medina",
+  "population": 3132,
+  "segment": "Government"
+ },
+ {
+  "name": "Hinckley Township",
+  "kind": "Township",
+  "county": "Medina",
+  "population": 8187,
+  "segment": "Government"
+ },
+ {
+  "name": "Lafayette Township",
+  "kind": "Township",
+  "county": "Medina",
+  "population": 6191,
+  "segment": "Government"
+ },
+ {
+  "name": "Litchfield Township",
+  "kind": "Township",
+  "county": "Medina",
+  "population": 3285,
+  "segment": "Government"
+ },
+ {
+  "name": "Liverpool Township",
+  "kind": "Township",
+  "county": "Medina",
+  "population": 5871,
+  "segment": "Government"
+ },
+ {
+  "name": "Medina Township",
+  "kind": "Township",
+  "county": "Medina",
+  "population": 9390,
+  "segment": "Government"
+ },
+ {
+  "name": "Montville Township",
+  "kind": "Township",
+  "county": "Medina",
+  "population": 13437,
+  "segment": "Government"
+ },
+ {
+  "name": "Sharon Township",
+  "kind": "Township",
+  "county": "Medina",
+  "population": 6084,
+  "segment": "Government"
+ },
+ {
+  "name": "Wadsworth Township",
+  "kind": "Township",
+  "county": "Medina",
+  "population": 4455,
+  "segment": "Government"
+ },
+ {
+  "name": "Westfield Township",
+  "kind": "Township",
+  "county": "Medina",
+  "population": 2679,
+  "segment": "Government"
+ },
+ {
+  "name": "York Township",
+  "kind": "Township",
+  "county": "Medina",
+  "population": 4328,
+  "segment": "Government"
+ },
+ {
+  "name": "Aurora",
+  "kind": "City",
+  "county": "Portage",
+  "population": 17985,
+  "segment": "Government"
+ },
+ {
+  "name": "Kent",
+  "kind": "City",
+  "county": "Portage",
+  "population": 27720,
+  "segment": "Government"
+ },
+ {
+  "name": "Ravenna",
+  "kind": "City",
+  "county": "Portage",
+  "population": 11236,
+  "segment": "Government"
+ },
+ {
+  "name": "Streetsboro",
+  "kind": "City",
+  "county": "Portage",
+  "population": 17877,
+  "segment": "Government"
+ },
+ {
+  "name": "Atwater Township",
+  "kind": "Township",
+  "county": "Portage",
+  "population": 2589,
+  "segment": "Government"
+ },
+ {
+  "name": "Brimfield Township",
+  "kind": "Township",
+  "county": "Portage",
+  "population": 11496,
+  "segment": "Government"
+ },
+ {
+  "name": "Deerfield Township",
+  "kind": "Township",
+  "county": "Portage",
+  "population": 2896,
+  "segment": "Government"
+ },
+ {
+  "name": "Franklin Township",
+  "kind": "Township",
+  "county": "Portage",
+  "population": 6379,
+  "segment": "Government"
+ },
+ {
+  "name": "Freedom Township",
+  "kind": "Township",
+  "county": "Portage",
+  "population": 2703,
+  "segment": "Government"
+ },
+ {
+  "name": "Mantua Township",
+  "kind": "Township",
+  "county": "Portage",
+  "population": 4647,
+  "segment": "Government"
+ },
+ {
+  "name": "Nelson Township",
+  "kind": "Township",
+  "county": "Portage",
+  "population": 3134,
+  "segment": "Government"
+ },
+ {
+  "name": "Palmyra Township",
+  "kind": "Township",
+  "county": "Portage",
+  "population": 2817,
+  "segment": "Government"
+ },
+ {
+  "name": "Randolph Township",
+  "kind": "Township",
+  "county": "Portage",
+  "population": 5356,
+  "segment": "Government"
+ },
+ {
+  "name": "Ravenna Township",
+  "kind": "Township",
+  "county": "Portage",
+  "population": 9169,
+  "segment": "Government"
+ },
+ {
+  "name": "Rootstown Township",
+  "kind": "Township",
+  "county": "Portage",
+  "population": 8724,
+  "segment": "Government"
+ },
+ {
+  "name": "Shalersville Township",
+  "kind": "Township",
+  "county": "Portage",
+  "population": 5314,
+  "segment": "Government"
+ },
+ {
+  "name": "Suffield Township",
+  "kind": "Township",
+  "county": "Portage",
+  "population": 6047,
+  "segment": "Government"
+ },
+ {
+  "name": "Barberton",
+  "kind": "City",
+  "county": "Summit",
+  "population": 24624,
+  "segment": "Government"
+ },
+ {
+  "name": "Cuyahoga Falls",
+  "kind": "City",
+  "county": "Summit",
+  "population": 50979,
+  "segment": "Government (co-managed)"
+ },
+ {
+  "name": "Fairlawn",
+  "kind": "City",
+  "county": "Summit",
+  "population": 7773,
+  "segment": "Government"
+ },
+ {
+  "name": "Green",
+  "kind": "City",
+  "county": "Summit",
+  "population": 27476,
+  "segment": "Government"
+ },
+ {
+  "name": "Hudson",
+  "kind": "City",
+  "county": "Summit",
+  "population": 23073,
+  "segment": "Government"
+ },
+ {
+  "name": "Lakemore",
+  "kind": "Village",
+  "county": "Summit",
+  "population": 2915,
+  "segment": "Government"
+ },
+ {
+  "name": "Macedonia",
+  "kind": "City",
+  "county": "Summit",
+  "population": 12139,
+  "segment": "Government"
+ },
+ {
+  "name": "Munroe Falls",
+  "kind": "City",
+  "county": "Summit",
+  "population": 4987,
+  "segment": "Government"
+ },
+ {
+  "name": "New Franklin",
+  "kind": "City",
+  "county": "Summit",
+  "population": 13859,
+  "segment": "Government"
+ },
+ {
+  "name": "Northfield",
+  "kind": "Village",
+  "county": "Summit",
+  "population": 3560,
+  "segment": "Government"
+ },
+ {
+  "name": "Reminderville",
+  "kind": "City",
+  "county": "Summit",
+  "population": 5345,
+  "segment": "Government"
+ },
+ {
+  "name": "Richfield",
+  "kind": "Village",
+  "county": "Summit",
+  "population": 3720,
+  "segment": "Government"
+ },
+ {
+  "name": "Silver Lake",
+  "kind": "Village",
+  "county": "Summit",
+  "population": 2509,
+  "segment": "Government"
+ },
+ {
+  "name": "Stow",
+  "kind": "City",
+  "county": "Summit",
+  "population": 34101,
+  "segment": "Government"
+ },
+ {
+  "name": "Twinsburg",
+  "kind": "City",
+  "county": "Summit",
+  "population": 19504,
+  "segment": "Government"
+ },
+ {
+  "name": "Bath Township",
+  "kind": "Township",
+  "county": "Summit",
+  "population": 10011,
+  "segment": "Government"
+ },
+ {
+  "name": "Copley Township",
+  "kind": "Township",
+  "county": "Summit",
+  "population": 18408,
+  "segment": "Government"
+ },
+ {
+  "name": "Coventry Township",
+  "kind": "Township",
+  "county": "Summit",
+  "population": 10215,
+  "segment": "Government"
+ },
+ {
+  "name": "Northfield Center Township",
+  "kind": "Township",
+  "county": "Summit",
+  "population": 5592,
+  "segment": "Government"
+ },
+ {
+  "name": "Richfield Township",
+  "kind": "Township",
+  "county": "Summit",
+  "population": 6426,
+  "segment": "Government"
+ },
+ {
+  "name": "Sagamore Hills Township",
+  "kind": "Township",
+  "county": "Summit",
+  "population": 10837,
+  "segment": "Government"
+ },
+ {
+  "name": "Springfield Township",
+  "kind": "Township",
+  "county": "Summit",
+  "population": 14169,
+  "segment": "Government"
+ },
+ {
+  "name": "Twinsburg Township",
+  "kind": "Township",
+  "county": "Summit",
+  "population": 3872,
+  "segment": "Government"
+ },
+ {
+  "name": "Cortland",
+  "kind": "City",
+  "county": "Trumbull",
+  "population": 7069,
+  "segment": "Government"
+ },
+ {
+  "name": "Girard",
+  "kind": "City",
+  "county": "Trumbull",
+  "population": 9454,
+  "segment": "Government"
+ },
+ {
+  "name": "Hubbard",
+  "kind": "City",
+  "county": "Trumbull",
+  "population": 7565,
+  "segment": "Government"
+ },
+ {
+  "name": "Lordstown",
+  "kind": "Village",
+  "county": "Trumbull",
+  "population": 3331,
+  "segment": "Government"
+ },
+ {
+  "name": "McDonald",
+  "kind": "Village",
+  "county": "Trumbull",
+  "population": 3126,
+  "segment": "Government"
+ },
+ {
+  "name": "Newton Falls",
+  "kind": "Village",
+  "county": "Trumbull",
+  "population": 4536,
+  "segment": "Government"
+ },
+ {
+  "name": "Niles",
+  "kind": "City",
+  "county": "Trumbull",
+  "population": 18238,
+  "segment": "Government"
+ },
+ {
+  "name": "Warren",
+  "kind": "City",
+  "county": "Trumbull",
+  "population": 38683,
+  "segment": "Government"
+ },
+ {
+  "name": "Bazetta Township",
+  "kind": "Township",
+  "county": "Trumbull",
+  "population": 5880,
+  "segment": "Government"
+ },
+ {
+  "name": "Bristol Township",
+  "kind": "Township",
+  "county": "Trumbull",
+  "population": 2685,
+  "segment": "Government"
+ },
+ {
+  "name": "Brookfield Township",
+  "kind": "Township",
+  "county": "Trumbull",
+  "population": 8394,
+  "segment": "Government"
+ },
+ {
+  "name": "Champion Township",
+  "kind": "Township",
+  "county": "Trumbull",
+  "population": 9322,
+  "segment": "Government"
+ },
+ {
+  "name": "Farmington Township",
+  "kind": "Township",
+  "county": "Trumbull",
+  "population": 2947,
+  "segment": "Government"
+ },
+ {
+  "name": "Howland Township",
+  "kind": "Township",
+  "county": "Trumbull",
+  "population": 18937,
+  "segment": "Government"
+ },
+ {
+  "name": "Hubbard Township",
+  "kind": "Township",
+  "county": "Trumbull",
+  "population": 12846,
+  "segment": "Government"
+ },
+ {
+  "name": "Liberty Township",
+  "kind": "Township",
+  "county": "Trumbull",
+  "population": 21325,
+  "segment": "Government"
+ },
+ {
+  "name": "Mesopotamia Township",
+  "kind": "Township",
+  "county": "Trumbull",
+  "population": 3402,
+  "segment": "Government"
+ },
+ {
+  "name": "Newton Township",
+  "kind": "Township",
+  "county": "Trumbull",
+  "population": 8554,
+  "segment": "Government"
+ },
+ {
+  "name": "Southington Township",
+  "kind": "Township",
+  "county": "Trumbull",
+  "population": 3728,
+  "segment": "Government"
+ },
+ {
+  "name": "Vienna Township",
+  "kind": "Township",
+  "county": "Trumbull",
+  "population": 4055,
+  "segment": "Government"
+ },
+ {
+  "name": "Warren Township",
+  "kind": "Township",
+  "county": "Trumbull",
+  "population": 4674,
+  "segment": "Government"
+ },
+ {
+  "name": "Weathersfield Township",
+  "kind": "Township",
+  "county": "Trumbull",
+  "population": 24420,
+  "segment": "Government"
+ }
+]

@@ -1,0 +1,120 @@
+{
+  "client": "infinIT",
+  "website": "https://infinit.us",
+  "sender_note": "Outreach is sent manually by the sales rep (option B). Drafts live in the sheet.",
+  "state_fips": "39",
+  "state_abbr": "OH",
+  "counties": {
+    "035": "Cuyahoga",
+    "153": "Summit",
+    "155": "Trumbull",
+    "099": "Mahoning",
+    "133": "Portage",
+    "103": "Medina",
+    "085": "Lake",
+    "055": "Geauga",
+    "093": "Lorain"
+  },
+  "zip3": [
+    "440",
+    "441",
+    "442",
+    "443",
+    "444",
+    "445"
+  ],
+  "nonprofit": {
+    "min_revenue": 1000000,
+    "max_revenue": 75000000,
+    "sweet_spot": [
+      2000000,
+      30000000
+    ],
+    "exclude_private_foundations": true,
+    "vertical_by_ntee_prefix": {
+      "E": "Healthcare",
+      "F": "Healthcare",
+      "X": "Religious"
+    },
+    "default_vertical": "Nonprofit"
+  },
+  "dod": {
+    "agency": "Department of Defense",
+    "start_date": "2023-10-01",
+    "end_date": "2026-09-30",
+    "min_total": 25000,
+    "max_total": 40000000,
+    "exclude_name_keywords": [
+      "UNIVERSITY",
+      "COUNTY",
+      "CITY OF",
+      "CONSTRUCTION",
+      "CONTRACT",
+      "BUILDERS",
+      "PROPERTIES",
+      "PIZZA",
+      "FSS",
+      "FSVC",
+      "OIL CO",
+      "ELECTRIC COMPANY",
+      "FIRSTENERGY",
+      "DEVELOPMENT",
+      "CEMENT",
+      "BRIDGE",
+      "TOWING",
+      "GOODWILL",
+      "INSTITUTE",
+      "HOSPITAL",
+      "CLINIC",
+      "FOUNDATION",
+      "RENTAL",
+      "FUEL",
+      "AIRLINE",
+      "JV,",
+      "JV ",
+      "LOVE & FAITH",
+      "GRACE SERVICES"
+    ],
+    "exclude_large_companies": [
+      "LOCKHEED MARTIN",
+      "SHERWIN-WILLIAMS",
+      "TRANSDIGM",
+      "EATON",
+      "ABB INC",
+      "AIRGAS",
+      "SAFRAN",
+      "THYSSENKRUPP",
+      "AVIENT",
+      "STRUERS",
+      "ASM INTERNATIONAL",
+      "PARKER",
+      "GOODYEAR",
+      "NORTHROP",
+      "GENERAL ELECTRIC",
+      "OVERDRIVE",
+      "W.W. WILLIAMS"
+    ]
+  },
+  "government": {
+    "min_population": 2500,
+    "co_managed_above": 40000,
+    "max_population": 120000
+  },
+  "messaging": {
+    "proof_points": [
+      "35+ years supporting Northeast Ohio organizations",
+      "100% in-house team, no subcontractors",
+      "Own N+1 data center in Cleveland",
+      "Root-cause write-ups after every significant issue",
+      "A full IT team for less than one full-time hire"
+    ],
+    "vertical_angles": {
+      "Manufacturing (DoD supplier)": "CMMC Phase 2 (third-party Level 2 certification) was paused in July 2026, but DFARS 7012, NIST SP 800-171 and SPRS self-assessment scores still apply, and primes are still asking suppliers for them. Use the pause to close gaps before certification restarts.",
+      "Nonprofit": "Enterprise-grade IT and security on a nonprofit budget; predictable monthly cost; board-ready reporting.",
+      "Healthcare": "HIPAA-aligned security, reliable uptime for clinical systems, and a local team that answers the phone.",
+      "Religious": "Reliable networks, AV/streaming, phones and security for multi-building campuses, with a budget-friendly flat rate.",
+      "Government": "Ohio HB 96 (ORC 9.64) now requires every city, village and township to adopt a cybersecurity program (cities by Jan 1 2026, townships and villages by July 1 2026), and the State Auditor is adding it to audits. infinIT can build, document and run the program, plus training and incident response.",
+      "Government (co-managed)": "HB 96 cyber program requirements plus after-hours coverage, security depth and project help for your internal IT staff, without adding headcount."
+    }
+  }
+}
