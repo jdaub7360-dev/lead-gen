@@ -123,6 +123,7 @@
       "eric.conaway@infinit.us"
     ],
     "schedule": "Mondays 7:00 am America/New_York",
-    "method": "mailer.py (Microsoft Graph)"
+    "method": "mailer.py (Resend, from leads@daubenmiregroup.com)",
+    "from": "Daubenmire Group Leads <leads@daubenmiregroup.com>"
   }
 }

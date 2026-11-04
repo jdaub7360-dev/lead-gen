@@ -15,7 +15,7 @@ The scheduled task runs this every Monday at 7:00 am Eastern. Follow it step by 
 3. **Build:** `python3 build.py configs/infinit.json data/infinit output/infinit_leads_YYYY-MM-DD.xlsx`
    (run.sh already does this; rerun it after writing the new top leads).
 4. **Check:** recalculate with LibreOffice and confirm no `#` errors, as in the first run.
-5. **Email** the workbook with `mailer.py` to the recipients in `configs/infinit.json` → `email.to`.
+5. **Email** the workbook with `mailer.py` (Resend, from leads@daubenmiregroup.com; never from infinit.us) to the recipients in `configs/infinit.json` → `email.to`.
    Body: number of new Top Leads by vertical, the 3 to call first and why, and anything notable
    (e.g. a regulation change). Subject: `infinIT leads – week of <Mon date>`.
 6. **Commit and push** to `main`: new data, history file and workbook. Message: `Weekly leads YYYY-MM-DD`.
