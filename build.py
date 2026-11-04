@@ -194,7 +194,7 @@ def build(cfg, d, out):
         c.font = f(9, True, MUTED)
     lists = [
         ("Top Leads", "'Top Leads'!C:C", None, "'Top Leads'!F:F", "Researched this week. Each has a reason to reach out now, contacts and drafts. Start here."),
-        ("Manufacturing (DoD)", "'Manufacturing (DoD)'!B:B", "'Manufacturing (DoD)'!A:A", "'Manufacturing (DoD)'!D:D", "Defense suppliers in your counties. NIST 800-171 / CMMC angle."),
+        ("Manufacturing (DoD)", "'Manufacturing (DoD)'!B:B", "'Manufacturing (DoD)'!A:A", "'Manufacturing (DoD)'!E:E", "Defense suppliers in your counties. NIST 800-171 / CMMC angle."),
         ("Nonprofits", "Nonprofits!B:B", "Nonprofits!A:A", "Nonprofits!D:D", "With website, phone and named leaders from IRS 990 filings."),
         ("Healthcare", "Healthcare!B:B", "Healthcare!A:A", "Healthcare!D:D", "Behavioral health, clinics, care providers. HIPAA angle."),
         ("Religious", "Religious!B:B", "Religious!A:A", "Religious!D:D", "Faith-based organizations that file with the IRS."),
@@ -410,17 +410,23 @@ def build(cfg, d, out):
 
     # ================= Manufacturing (DoD) =================
     md = wb.create_sheet("Manufacturing (DoD)")
-    h = ["Tier", "Company", "County", "Nearest office", "Miles (county center)", "DoD obligations FY24-26",
-         "DoD awards", "UEI", "Status", "Notes", "In HubSpot?"]
-    w = [6, 42, 12, 10, 11, 18, 13, 15, 15, 30, 11]
+    sam = load(f"{d}/sam_cache.json", {}).get("entities", {})
+    h = ["Tier", "Company", "City", "County", "Nearest office", "Miles", "DoD obligations FY24-26",
+         "Website", "SAM.gov contacts (name, title)", "Email security", "DoD awards", "UEI", "Status", "Notes",
+         "In HubSpot?"]
+    w = [6, 42, 13, 12, 10, 7, 18, 24, 40, 20, 13, 15, 15, 30, 11]
     rows = []
     for i, x in enumerate(dod, 2):
-        o, mi = near(cfg, county=x["county"])
-        rows.append([f'=IF(AND(F{i}>=Settings!$B$4,F{i}<=Settings!$B$5),"A",IF(F{i}<Settings!$B$4,"C","B"))',
-                     x["name"].title(), x["county"], o, mi, round(x["dod_total"]),
+        sm = sam.get(x.get("uei", ""), {})
+        sm = {} if sm.get("not_found") else sm
+        o, mi = near(cfg, sm.get("zip"), x["county"])
+        people = "; ".join(f"{p['name']} ({p['title']})" for p in sm.get("contacts", [])[:2])
+        rows.append([f'=IF(AND(G{i}>=Settings!$B$4,G{i}<=Settings!$B$5),"A",IF(G{i}<Settings!$B$4,"C","B"))',
+                     x["name"].title(), sm.get("city", ""), x["county"], o, mi, round(x["dod_total"]),
+                     site(sm.get("website")), people, short_findings(chk(sm.get("website"))),
                      ("View awards", f"https://www.usaspending.gov/recipient/{x['recipient_id']}/latest") if x.get("recipient_id") else "",
                      x.get("uei", ""), "New", "", hubspot("B", i)])
-    table(md, h, w, rows, freeze="C2", status_col=9, tier_col=1, money_cols=(6,))
+    table(md, h, w, rows, freeze="C2", status_col=13, tier_col=1, money_cols=(7,))
 
     # ================= Nonprofit verticals =================
     for vert in ["Nonprofits", "Healthcare", "Religious"]:

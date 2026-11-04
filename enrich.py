@@ -46,6 +46,8 @@ def domains(d):
         out.add(v.get("website", ""))
     for v in load(f"{d}/schools.json", []):
         out.add(v.get("website", ""))
+    for v in load(f"{d}/sam_cache.json", {}).get("entities", {}).values():
+        out.add(v.get("website", ""))
     clean = sorted({re.sub(r"^www\.", "", x.strip().lower().split("/")[0]) for x in out
                     if x and "." in x and "@" not in x and " " not in x.strip()})
     json.dump(clean, open(f"{d}/domains.json", "w"), indent=0)
