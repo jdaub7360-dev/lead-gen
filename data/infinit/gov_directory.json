@@ -1,4 +1,188 @@
 {
+ "Jefferson|Village": {
+  "website": "jeffersonohio.us",
+  "contact_title": "Village Administrator",
+  "address": "27 E Jefferson St",
+  "mail_city": "Jefferson",
+  "zip": "44047",
+  "county": "Ashtabula"
+ },
+ "Orwell|Village": {
+  "website": "orwellvillage.org",
+  "contact_title": "Mayor",
+  "address": "Po Box 56",
+  "mail_city": "Orwell",
+  "zip": "44076",
+  "county": "Ashtabula"
+ },
+ "Andover|Village": {
+  "website": "",
+  "contact_title": "Mayor Fiscal Officer",
+  "address": "Po Box 1267",
+  "mail_city": "Andover",
+  "zip": "44003",
+  "county": "Ashtabula"
+ },
+ "Geneva On The Lake|Village": {
+  "website": "genevaonthelake.org",
+  "contact_title": "Village Administrator",
+  "address": "4929 S Warner Dr",
+  "mail_city": "Geneva",
+  "zip": "44041",
+  "county": "Ashtabula"
+ },
+ "North Kingsville|Village": {
+  "website": "northkingsvilleohio.org",
+  "contact_title": "Mayor",
+  "address": "Po Box 253",
+  "mail_city": "North Kingsville",
+  "zip": "44068",
+  "county": "Ashtabula"
+ },
+ "Rock Creek|Village": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 92",
+  "mail_city": "Rock Creek",
+  "zip": "44084",
+  "county": "Ashtabula"
+ },
+ "Roaming Shores|Village": {
+  "website": "roamingshoresoh.gov",
+  "contact_title": "Clerk-Treasurer",
+  "address": "Po Box 237",
+  "mail_city": "Roaming Shores",
+  "zip": "44084",
+  "county": "Ashtabula"
+ },
+ "Conneaut|City": {
+  "website": "conneautohio.gov",
+  "contact_title": "Finance Director",
+  "address": "294 Main St",
+  "mail_city": "Conneaut",
+  "zip": "44030",
+  "county": "Ashtabula"
+ },
+ "Ashtabula|City": {
+  "website": "ci.ashtabula.oh.us",
+  "contact_title": "City Manager",
+  "address": "4717 Main Ave",
+  "mail_city": "Ashtabula",
+  "zip": "44004",
+  "county": "Ashtabula"
+ },
+ "Geneva|City": {
+  "website": "genevaohio.com",
+  "contact_title": "City Manager ",
+  "address": "44 N Forest St",
+  "mail_city": "Geneva",
+  "zip": "44041",
+  "county": "Ashtabula"
+ },
+ "Lisbon|Village": {
+  "website": "lisbonvillage.com",
+  "contact_title": "Mayors Secretary ",
+  "address": "203 N Market St",
+  "mail_city": "Lisbon",
+  "zip": "44432",
+  "county": "Columbiana"
+ },
+ "Rogers|Village": {
+  "website": "",
+  "contact_title": "Mayor",
+  "address": "Po Box 72",
+  "mail_city": "Rogers",
+  "zip": "44455",
+  "county": "Columbiana"
+ },
+ "Columbiana|City": {
+  "website": "cityofcolumbiana.org",
+  "contact_title": "Assistant Zoning Inspector",
+  "address": "28 W Friend St",
+  "mail_city": "Columbiana",
+  "zip": "44408",
+  "county": "Columbiana"
+ },
+ "Hanoverton|Village": {
+  "website": "",
+  "contact_title": "Mayor",
+  "address": "Po Box 177",
+  "mail_city": "Hanoverton",
+  "zip": "44423",
+  "county": "Columbiana"
+ },
+ "Leetonia|Village": {
+  "website": "leetonia.org",
+  "contact_title": "Mayors Secretary",
+  "address": "300 Main Street",
+  "mail_city": "Leetonia",
+  "zip": "44431",
+  "county": "Columbiana"
+ },
+ "Salineville|Village": {
+  "website": "",
+  "contact_title": "Mayor",
+  "address": "60 E Main St ",
+  "mail_city": "Salineville",
+  "zip": "43945",
+  "county": "Columbiana"
+ },
+ "Summitville|Village": {
+  "website": "",
+  "contact_title": "Mayor",
+  "address": "15018 Third St",
+  "mail_city": "Summitville",
+  "zip": "43962",
+  "county": "Columbiana"
+ },
+ "Wellsville|Village": {
+  "website": "wellsvilleohio.net",
+  "contact_title": "Mayor",
+  "address": "1200 Main St",
+  "mail_city": "Wellsville",
+  "zip": "43968",
+  "county": "Columbiana"
+ },
+ "East Palestine|Village": {
+  "website": "eastpalestine-oh.gov",
+  "contact_title": "Mayor",
+  "address": "Po Box 231",
+  "mail_city": "East Palestine",
+  "zip": "44413",
+  "county": "Columbiana"
+ },
+ "Salem|City": {
+  "website": "cityofsalemohio.org",
+  "contact_title": "Mayor",
+  "address": "231 S Broadway Ave",
+  "mail_city": "Salem",
+  "zip": "44460",
+  "county": "Columbiana"
+ },
+ "Washingtonville|Village": {
+  "website": "",
+  "contact_title": "Mayor",
+  "address": "Po Box 307",
+  "mail_city": "Washingtonville",
+  "zip": "44490",
+  "county": "Columbiana"
+ },
+ "East Liverpool|City": {
+  "website": "eastliverpool.com",
+  "contact_title": "Mayor",
+  "address": "126 W 6Th St",
+  "mail_city": "East Liverpool",
+  "zip": "43920",
+  "county": "Columbiana"
+ },
+ "New Waterford|Village": {
+  "website": "newwaterford.org",
+  "contact_title": "Mayor",
+  "address": "Po Box 287",
+  "mail_city": "New Waterford",
+  "zip": "44445",
+  "county": "Columbiana"
+ },
  "Bedford|City": {
   "website": "bedfordoh.gov",
   "contact_title": "Director Of Finance",
@@ -1247,6 +1431,358 @@
   "zip": "44420",
   "county": "Trumbull"
  },
+ "Colebrook Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "7596 State Route 46",
+  "mail_city": "Orwell",
+  "zip": "44076",
+  "county": "Ashtabula"
+ },
+ "Kingsville Township|Township": {
+  "website": "",
+  "contact_title": "Trustee",
+  "address": "3641 Creek Rd",
+  "mail_city": "Kingsville",
+  "zip": "44048",
+  "county": "Ashtabula"
+ },
+ "New Lyme Township|Township": {
+  "website": "newlymeohio.com",
+  "contact_title": "Trustee",
+  "address": "4672 Lenox New Lyme Rd",
+  "mail_city": "Jefferson",
+  "zip": "44047",
+  "county": "Ashtabula"
+ },
+ "Harpersfield Township|Township": {
+  "website": "harposfield.us",
+  "contact_title": "Fiscal Officer",
+  "address": "4858 Cork Cold Springs Rd",
+  "mail_city": "Geneva",
+  "zip": "44041",
+  "county": "Ashtabula"
+ },
+ "Lenox Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 423",
+  "mail_city": "Jefferson",
+  "zip": "44047",
+  "county": "Ashtabula"
+ },
+ "Orwell Township|Township": {
+  "website": "",
+  "contact_title": "Township Fiscal Officer",
+  "address": "Po Box 672",
+  "mail_city": "Orwell",
+  "zip": "44076",
+  "county": "Ashtabula"
+ },
+ "Saybrook Township|Township": {
+  "website": "saybrooktownship.org",
+  "contact_title": "Fiscal Officer",
+  "address": "7247 Center Rd",
+  "mail_city": "Ashtabula",
+  "zip": "44004",
+  "county": "Ashtabula"
+ },
+ "Williamsfield Township|Township": {
+  "website": "",
+  "contact_title": "Trustee/Chairman",
+  "address": "Po Box 157",
+  "mail_city": "Williamsfield",
+  "zip": "44093",
+  "county": "Ashtabula"
+ },
+ "Austinburg Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 134",
+  "mail_city": "Austinburg",
+  "zip": "44010",
+  "county": "Ashtabula"
+ },
+ "Andover Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "6915 North Blvd",
+  "mail_city": "Andover",
+  "zip": "44003",
+  "county": "Ashtabula"
+ },
+ "Ashtabula Township|Township": {
+  "website": "",
+  "contact_title": "Township Fiscal Officer",
+  "address": "2718 N Ridge Rd E",
+  "mail_city": "Ashtabula",
+  "zip": "44004",
+  "county": "Ashtabula"
+ },
+ "Cherry Valley Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "4045 Russell Rd",
+  "mail_city": "Dorset",
+  "zip": "44032",
+  "county": "Ashtabula"
+ },
+ "Dorset Township|Township": {
+  "website": "",
+  "contact_title": "Chairman Of Trustees",
+  "address": "2561 State Route 193",
+  "mail_city": "Dorset",
+  "zip": "44032",
+  "county": "Ashtabula"
+ },
+ "Geneva Township|Township": {
+  "website": "",
+  "contact_title": "Chairman",
+  "address": "Po Box 670",
+  "mail_city": "Geneva",
+  "zip": "44041",
+  "county": "Ashtabula"
+ },
+ "Hartsgrove Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "5321 State Route 534",
+  "mail_city": "Rome",
+  "zip": "44085",
+  "county": "Ashtabula"
+ },
+ "Jefferson Township|Township": {
+  "website": "",
+  "contact_title": "Township Fiscal Officer",
+  "address": "335 E Erie St",
+  "mail_city": "Jefferson",
+  "zip": "44047",
+  "county": "Ashtabula"
+ },
+ "Monroe Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "2650 State Route 7 N",
+  "mail_city": "Pierpont",
+  "zip": "44082",
+  "county": "Ashtabula"
+ },
+ "Morgan Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 245",
+  "mail_city": "Rock Creek",
+  "zip": "44084",
+  "county": "Ashtabula"
+ },
+ "Pierpont Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "5657 Caine Rd",
+  "mail_city": "Pierpont",
+  "zip": "44082",
+  "county": "Ashtabula"
+ },
+ "Plymouth Township|Township": {
+  "website": "plymouthtownshipohio.org",
+  "contact_title": "Fiscal Officer",
+  "address": "4350 Runkle Avenue Ext",
+  "mail_city": "Ashtabula",
+  "zip": "44004",
+  "county": "Ashtabula"
+ },
+ "Richmond Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "6489 Footville Richmond Rd",
+  "mail_city": "Andover",
+  "zip": "44003",
+  "county": "Ashtabula"
+ },
+ "Rome Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 5057",
+  "mail_city": "Rome",
+  "zip": "44085",
+  "county": "Ashtabula"
+ },
+ "Trumbull Township|Township": {
+  "website": "trumbulltownship.org",
+  "contact_title": "Fiscal Officer",
+  "address": "2443 State Route 534 S",
+  "mail_city": "Geneva",
+  "zip": "44041",
+  "county": "Ashtabula"
+ },
+ "Wayne Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "13209 State Route 164",
+  "mail_city": "Lisbon",
+  "zip": "44432",
+  "county": "Columbiana"
+ },
+ "Windsor Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 223",
+  "mail_city": "Windsor",
+  "zip": "44099",
+  "county": "Ashtabula"
+ },
+ "Sheffield Township|Township": {
+  "website": "sheffieldtownship.com",
+  "contact_title": "Township Fiscal Officer",
+  "address": "5166 Clinton Ave",
+  "mail_city": "Lorain",
+  "zip": "44055",
+  "county": "Lorain"
+ },
+ "Denmark Township|Township": {
+  "website": "",
+  "contact_title": "Township Fiscal Officer",
+  "address": "1909 State Route 193 N",
+  "mail_city": "Jefferson",
+  "zip": "44047",
+  "county": "Ashtabula"
+ },
+ "Butler Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "2974 Slater Rd",
+  "mail_city": "Salem",
+  "zip": "44460",
+  "county": "Columbiana"
+ },
+ "Elkrun Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 36",
+  "mail_city": "Elkton",
+  "zip": "44415",
+  "county": "Columbiana"
+ },
+ "Hanover Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 88",
+  "mail_city": "Hanoverton",
+  "zip": "44423",
+  "county": "Columbiana"
+ },
+ "Perry Township|Township": {
+  "website": "perrytownshiplake.com",
+  "contact_title": "Christine J. Page Fiscal Officer ",
+  "address": "Po Box 65",
+  "mail_city": "Perry",
+  "zip": "44081",
+  "county": "Lake"
+ },
+ "Yellow Creek Township|Township": {
+  "website": "",
+  "contact_title": "Chairman",
+  "address": "1125 Mick Rd",
+  "mail_city": "Wellsville",
+  "zip": "43968",
+  "county": "Columbiana"
+ },
+ "Center Township|Township": {
+  "website": "",
+  "contact_title": "Township Fiscal Officer",
+  "address": "38241 Industrial Park Rd",
+  "mail_city": "Lisbon",
+  "zip": "44432",
+  "county": "Columbiana"
+ },
+ "Franklin Township|Township": {
+  "website": "franklintownshipohio.org",
+  "contact_title": "Fiscal Office / Clerk",
+  "address": "Po Box 291",
+  "mail_city": "Kent",
+  "zip": "44240",
+  "county": "Portage"
+ },
+ "Knox Township|Township": {
+  "website": "knoxtownshipohio.com",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 73",
+  "mail_city": "Homeworth",
+  "zip": "44634",
+  "county": "Columbiana"
+ },
+ "Madison Township|Township": {
+  "website": "madisontownship.net",
+  "contact_title": "Fiscal Officer",
+  "address": "2065 Hubbard Rd",
+  "mail_city": "Madison",
+  "zip": "44057",
+  "county": "Lake"
+ },
+ "Middleton Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 295",
+  "mail_city": "Negley",
+  "zip": "44441",
+  "county": "Columbiana"
+ },
+ "St Clair Township|Township": {
+  "website": "",
+  "contact_title": "Township Fiscal Officer",
+  "address": "15442 Pugh Rd Ste 1",
+  "mail_city": "Calcutta",
+  "zip": "43920",
+  "county": "Columbiana"
+ },
+ "Unity Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "51977 State Route 14",
+  "mail_city": "East Palestine",
+  "zip": "44413",
+  "county": "Columbiana"
+ },
+ "Washington Township|Township": {
+  "website": "",
+  "contact_title": "Chairman",
+  "address": "100 Commerce Street",
+  "mail_city": "Salineville",
+  "zip": "43945",
+  "county": "Columbiana"
+ },
+ "West Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "8610 Knox School Rd",
+  "mail_city": "Minerva",
+  "zip": "44657",
+  "county": "Columbiana"
+ },
+ "Fairfield Township|Township": {
+  "website": "",
+  "contact_title": "Township Fiscal Officer",
+  "address": "3201 State Route 164",
+  "mail_city": "Leetonia",
+  "zip": "44431",
+  "county": "Columbiana"
+ },
+ "Salem Township|Township": {
+  "website": "",
+  "contact_title": "Fo",
+  "address": "3034 Lisbon Rd",
+  "mail_city": "Leetonia",
+  "zip": "44431",
+  "county": "Columbiana"
+ },
+ "Liverpool Township|Township": {
+  "website": "liverpooltwp.org",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 381",
+  "mail_city": "Valley City",
+  "zip": "44280",
+  "county": "Medina"
+ },
  "Chagrin Falls Township|Township": {
   "website": "chagrinfallstownship.org",
   "contact_title": "Fiscal Officer",
@@ -1391,28 +1927,12 @@
   "zip": "44021",
   "county": "Geauga"
  },
- "Perry Township|Township": {
-  "website": "perrytownshiplake.com",
-  "contact_title": "Christine J. Page Fiscal Officer ",
-  "address": "Po Box 65",
-  "mail_city": "Perry",
-  "zip": "44081",
-  "county": "Lake"
- },
  "Concord Township|Township": {
   "website": "concordtwp.com",
   "contact_title": "Planning & Zoning Director",
   "address": "7229 Painesville Ravenna Rd",
   "mail_city": "Painesville",
   "zip": "44077",
-  "county": "Lake"
- },
- "Madison Township|Township": {
-  "website": "madisontownship.net",
-  "contact_title": "Fiscal Officer",
-  "address": "2065 Hubbard Rd",
-  "mail_city": "Madison",
-  "zip": "44057",
   "county": "Lake"
  },
  "Painesville Township|Township": {
@@ -1461,14 +1981,6 @@
   "address": "46333 State Rt 303",
   "mail_city": "Wellington",
   "zip": "44090",
-  "county": "Lorain"
- },
- "Sheffield Township|Township": {
-  "website": "sheffieldtownship.com",
-  "contact_title": "Township Fiscal Officer",
-  "address": "5166 Clinton Ave",
-  "mail_city": "Lorain",
-  "zip": "44055",
   "county": "Lorain"
  },
  "Amherst Township|Township": {
@@ -1767,14 +2279,6 @@
   "zip": "44253",
   "county": "Medina"
  },
- "Liverpool Township|Township": {
-  "website": "liverpooltwp.org",
-  "contact_title": "Fiscal Officer",
-  "address": "Po Box 381",
-  "mail_city": "Valley City",
-  "zip": "44280",
-  "county": "Medina"
- },
  "Sharon Township|Township": {
   "website": "sharontwp.org",
   "contact_title": "Fiscal Officer",
@@ -1949,14 +2453,6 @@
   "address": "3956 State Route 225",
   "mail_city": "Diamond",
   "zip": "44412",
-  "county": "Portage"
- },
- "Franklin Township|Township": {
-  "website": "franklintownshipohio.org",
-  "contact_title": "Fiscal Office / Clerk",
-  "address": "Po Box 291",
-  "mail_city": "Kent",
-  "zip": "44240",
   "county": "Portage"
  },
  "Boston Township|Township": {

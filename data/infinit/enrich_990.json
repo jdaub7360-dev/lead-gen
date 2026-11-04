@@ -234,13 +234,121 @@
   "tax_period_end": "2023-12-31"
  },
  "341617525": {
-  "error": "no readable filing"
+  "website": "www.alternativepaths.org",
+  "phone": "(330) 725-9195",
+  "employees": 84,
+  "principal_officer": "D Nikole Hosking",
+  "officers": [
+   {
+    "name": "D Nikole Hosking",
+    "title": "Ceo",
+    "comp": 102820,
+    "officer": true
+   },
+   {
+    "name": "Kim White From 712023",
+    "title": "Cfo (Current",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Todd Gerber",
+    "title": "Secretary/Tr",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Lisa Gilbert",
+    "title": "Vice Preside",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Lisa Nichols",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "465109000": {
-  "error": "no readable filing"
+  "website": "",
+  "phone": "(330) 318-3436",
+  "employees": 205,
+  "principal_officer": "Dewayne Thompson",
+  "officers": [
+   {
+    "name": "Desirae Thompson",
+    "title": "Chief Operating Officer",
+    "comp": 83000,
+    "officer": true
+   },
+   {
+    "name": "John Willingham",
+    "title": "Chief Admin Officer",
+    "comp": 59130,
+    "officer": true
+   },
+   {
+    "name": "Dewayne Thompson",
+    "title": "Ceo/President",
+    "comp": 50000,
+    "officer": true
+   },
+   {
+    "name": "Booker Newberry",
+    "title": "Chief Compl. Officer",
+    "comp": 39587,
+    "officer": true
+   },
+   {
+    "name": "Miquita Hosey",
+    "title": "Medical Director",
+    "comp": 156819,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "341749183": {
-  "error": "no readable filing"
+  "website": "",
+  "phone": "(330) 797-3995",
+  "employees": 45,
+  "principal_officer": "Jeff Magada",
+  "officers": [
+   {
+    "name": "Jeffrey M Magada",
+    "title": "Executive Director",
+    "comp": 79845,
+    "officer": true
+   },
+   {
+    "name": "David Detec Esq",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Richard Thomas",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Albert F Calfo Ii",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "James N Dipillo",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "261476549": {
   "website": "",
@@ -17325,7 +17433,43 @@
   "tax_period_end": "2025-06-30"
  },
  "825246755": {
-  "error": "no readable filing"
+  "website": "",
+  "phone": "(440) 434-6320",
+  "employees": 0,
+  "principal_officer": "C David Massa",
+  "officers": [
+   {
+    "name": "Todd Kubasak",
+    "title": "Board Member",
+    "comp": 1250,
+    "officer": false
+   },
+   {
+    "name": "Marcelo Torres",
+    "title": "Board Member",
+    "comp": 1250,
+    "officer": false
+   },
+   {
+    "name": "Pastor Terrance Bivins",
+    "title": "Board Member",
+    "comp": 1125,
+    "officer": false
+   },
+   {
+    "name": "David Arrendondo",
+    "title": "Board Member",
+    "comp": 1125,
+    "officer": false
+   },
+   {
+    "name": "Kimberly Bartlett",
+    "title": "Board Member",
+    "comp": 875,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "340714571": {
   "website": "www.applewoodcenters.org",
@@ -17523,7 +17667,43 @@
   "tax_period_end": "2025-06-30"
  },
  "474453278": {
-  "error": "no readable filing"
+  "website": "www.birthingbeautiful.org",
+  "phone": "(216) 307-1538",
+  "employees": 27,
+  "principal_officer": "Jazmin Long",
+  "officers": [
+   {
+    "name": "Jazmin Long",
+    "title": "Ceo",
+    "comp": 225125,
+    "officer": true
+   },
+   {
+    "name": "Mike Bowen",
+    "title": "Board Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Leah Hudnall",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Tammara Humbert",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Shiana Munoz",
+    "title": "Vice Chair",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "341264097": {
   "website": "www.hcfw.org",
@@ -17748,7 +17928,43 @@
   "tax_period_end": "2025-06-30"
  },
  "341166722": {
-  "error": "no readable filing"
+  "website": "www.elizajennings.org",
+  "phone": "(440) 540-4700",
+  "employees": 321,
+  "principal_officer": "Richard M Boyson Jr",
+  "officers": [
+   {
+    "name": "Richard M Boyson Jr",
+    "title": "President & Ceo",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Kathleen M Shields",
+    "title": "Cfo",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Jennifer Griveas",
+    "title": "Vp Of Legal",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Michael Gray",
+    "title": "Cio",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Celeste Miller",
+    "title": "Don Nursing Admin",
+    "comp": 118137,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "814726551": {
   "website": "",
@@ -17790,7 +18006,43 @@
   "tax_period_end": "2024-06-30"
  },
  "341971177": {
-  "error": "no readable filing"
+  "website": "www.constellationschools.com",
+  "phone": "(216) 712-7600",
+  "employees": 38,
+  "principal_officer": "Dave Massa",
+  "officers": [
+   {
+    "name": "Bogusia Chmielewski",
+    "title": "Board Vice President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Charles Ledger",
+    "title": "Board President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Donna Stelter",
+    "title": "Board Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Thomas Bonner",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Rodney Spencer",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "341131531": {
   "website": "www.opba.com",
@@ -17871,7 +18123,43 @@
   "tax_period_end": "2025-06-30"
  },
  "274862807": {
-  "error": "no readable filing"
+  "website": "",
+  "phone": "(216) 361-9720",
+  "employees": 0,
+  "principal_officer": "C David Massa",
+  "officers": [
+   {
+    "name": "Sonya Boyd",
+    "title": "Board Member",
+    "comp": 1160,
+    "officer": false
+   },
+   {
+    "name": "Mandisa Lewis",
+    "title": "Baord Member",
+    "comp": 1160,
+    "officer": false
+   },
+   {
+    "name": "Rodney Lewis",
+    "title": "Board Member",
+    "comp": 1160,
+    "officer": false
+   },
+   {
+    "name": "Karen Lewis",
+    "title": "Board Member",
+    "comp": 928,
+    "officer": false
+   },
+   {
+    "name": "Aaron Berg",
+    "title": "Board Member",
+    "comp": 696,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "341927224": {
   "website": "www.elizajennings.org",
@@ -18186,7 +18474,43 @@
   "tax_period_end": "2024-06-30"
  },
  "412118101": {
-  "error": "no readable filing"
+  "website": "www.constellationschools.com",
+  "phone": "(216) 712-7600",
+  "employees": 30,
+  "principal_officer": "Dave Massa",
+  "officers": [
+   {
+    "name": "James Totelli",
+    "title": "Board President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Deborah Callen",
+    "title": "Board Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Dave Massa",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Laurene Perkins",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Joseph Sgro",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "341796454": {
   "website": "www.cfkadopt.org",
@@ -18267,7 +18591,43 @@
   "tax_period_end": "2025-06-30"
  },
  "341962469": {
-  "error": "no readable filing"
+  "website": "www.youngstowncommunityschool.k12.oh.us",
+  "phone": "(330) 746-2240",
+  "employees": 66,
+  "principal_officer": "Michelle Johnson",
+  "officers": [
+   {
+    "name": "Rachel Smith",
+    "title": "Director",
+    "comp": 104525,
+    "officer": true
+   },
+   {
+    "name": "Michelle Johnson",
+    "title": "Treasurer",
+    "comp": 91529,
+    "officer": true
+   },
+   {
+    "name": "Mike Majzun",
+    "title": "Academic Director",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Philip Carlon",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Charles T Georges",
+    "title": "Board President",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "341911935": {
   "website": "www.constellationschools.com",
@@ -18519,7 +18879,43 @@
   "tax_period_end": "2025-12-31"
  },
  "341455043": {
-  "error": "no readable filing"
+  "website": "www.manufacturingsuccess.org",
+  "phone": "(216) 630-0500",
+  "employees": 85,
+  "principal_officer": "Ed Kneitel",
+  "officers": [
+   {
+    "name": "Ethan Karp",
+    "title": "President & Ceo",
+    "comp": 441912,
+    "officer": true
+   },
+   {
+    "name": "Michael O'Donnell",
+    "title": "Vp Of Operations",
+    "comp": 221512,
+    "officer": true
+   },
+   {
+    "name": "Brandon Cornuke",
+    "title": "Vp Of Strategy & Innovation",
+    "comp": 179534,
+    "officer": true
+   },
+   {
+    "name": "Aram Nerpouni",
+    "title": "Managing Director Of Talent",
+    "comp": 150328,
+    "officer": true
+   },
+   {
+    "name": "Ed Kneitel",
+    "title": "Director Of Finance",
+    "comp": 123324,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "340714776": {
   "website": "universitysettlement.net",
@@ -18678,7 +19074,43 @@
   "tax_period_end": "2024-06-30"
  },
  "341359225": {
-  "error": "no readable filing"
+  "website": "www.cptonline.org",
+  "phone": "(216) 631-2727",
+  "employees": 97,
+  "principal_officer": "Raymond Bobgan",
+  "officers": [
+   {
+    "name": "Raymond Bobgan",
+    "title": "Exec. Artistic Dir.",
+    "comp": 124190,
+    "officer": true
+   },
+   {
+    "name": "Philip Oliss",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Kevyn Shaw",
+    "title": "Vice President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Andrew Watterson",
+    "title": "Vice President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Tiffany Wright",
+    "title": "Vice President",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "813771220": {
   "website": "www.otoa.org",
@@ -18954,7 +19386,43 @@
   "tax_period_end": "2024-06-30"
  },
  "880736420": {
-  "error": "no readable filing"
+  "website": "sheffieldacademy.org",
+  "phone": "(440) 201-3875",
+  "employees": 0,
+  "principal_officer": "C David Massa",
+  "officers": [
+   {
+    "name": "Todd Kubasak",
+    "title": "Board Member",
+    "comp": 1325,
+    "officer": false
+   },
+   {
+    "name": "Terrance Bivins",
+    "title": "Board Member",
+    "comp": 1125,
+    "officer": false
+   },
+   {
+    "name": "David Arredondo",
+    "title": "Board Member",
+    "comp": 1125,
+    "officer": false
+   },
+   {
+    "name": "Michael Wilson",
+    "title": "Board Member",
+    "comp": 1000,
+    "officer": false
+   },
+   {
+    "name": "Anthony Alto",
+    "title": "Board Member",
+    "comp": 625,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "451266409": {
   "website": "",
@@ -19113,7 +19581,43 @@
   "tax_period_end": "2024-06-30"
  },
  "464173762": {
-  "error": "no readable filing"
+  "website": "",
+  "phone": "(330) 325-6369",
+  "employees": 0,
+  "principal_officer": "Mary Taylor",
+  "officers": [
+   {
+    "name": "Richard Kasmer",
+    "title": "Vice President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "John Langell",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Maria Schimer",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Mary Taylor",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Eugene Mowad",
+    "title": "Director",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "992576276": {
   "error": "no readable filing"
@@ -19434,7 +19938,43 @@
   "tax_period_end": "2025-06-30"
  },
  "341653986": {
-  "error": "no readable filing"
+  "website": "www.clevelandnp.org",
+  "phone": "(216) 238-8712",
+  "employees": 0,
+  "principal_officer": "Melodie Sanders",
+  "officers": [
+   {
+    "name": "Tania Menesse",
+    "title": "Vice Chairperson",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "August Fluker",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Dorivette Nolan",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Sean Mcdermott",
+    "title": "Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Melodie Sanders",
+    "title": "Sr. Vp Of Finance / Cfo",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "462085626": {
   "website": "",
@@ -19866,7 +20406,43 @@
   "tax_period_end": "2024-06-30"
  },
  "340801310": {
-  "error": "no readable filing"
+  "website": "www.telsheyeshiva.edu",
+  "phone": "(440) 943-5300",
+  "employees": 143,
+  "principal_officer": "David Goldberg",
+  "officers": [
+   {
+    "name": "Rabbi David Goldberg",
+    "title": "President",
+    "comp": 73016,
+    "officer": true
+   },
+   {
+    "name": "Rabbi Anshel Helman",
+    "title": "Treasurer",
+    "comp": 62800,
+    "officer": true
+   },
+   {
+    "name": "Rabbi Sholom Shapiro",
+    "title": "Secretary",
+    "comp": 55400,
+    "officer": true
+   },
+   {
+    "name": "Asher Yona Klein",
+    "title": "Chairman",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Reuven Dessler",
+    "title": "Trustee",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "341879407": {
   "website": "summitacademies.com",
@@ -20025,7 +20601,43 @@
   "tax_period_end": "2024-06-30"
  },
  "341833994": {
-  "error": "no readable filing"
+  "website": "www.elizajennings.org",
+  "phone": "(440) 540-4700",
+  "employees": 0,
+  "principal_officer": "Richard M Boyson Jr",
+  "officers": [
+   {
+    "name": "Richard M Boyson Jr",
+    "title": "President & Ceo",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Kathleen M Shields",
+    "title": "Cfo",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Jennifer Griveas",
+    "title": "Vp Of Legal",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Michael Gray",
+    "title": "Cio",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Sheryl Sereda",
+    "title": "Cao",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "341765117": {
   "website": "www.emmanuelchristianacademy.org",
@@ -20451,7 +21063,43 @@
   "tax_period_end": "2025-08-31"
  },
  "461509517": {
-  "error": "no readable filing"
+  "website": "lifeworksautism.org",
+  "phone": "(216) 932-2800",
+  "employees": 139,
+  "principal_officer": "Carl R Brass",
+  "officers": [
+   {
+    "name": "Adam Jacobs",
+    "title": "Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Scott Moore",
+    "title": "Chief Financial Officer/Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Carl Brass",
+    "title": "Executive Director",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Leigh Hall",
+    "title": "Director Of Risk Management",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Jeff Lox",
+    "title": "Executive Director - Bellefaire",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "341283907": {
   "website": "www.grossschechter.org",
@@ -20532,7 +21180,43 @@
   "tax_period_end": "2024-06-30"
  },
  "341458441": {
-  "error": "no readable filing"
+  "website": "www.crossroadshealth.org",
+  "phone": "(440) 255-1700",
+  "employees": 439,
+  "principal_officer": "Shayna Jackson",
+  "officers": [
+   {
+    "name": "Richard Schenkelberg",
+    "title": "Medical Director",
+    "comp": 288755,
+    "officer": true
+   },
+   {
+    "name": "Alice Iden",
+    "title": "Coo",
+    "comp": 153082,
+    "officer": true
+   },
+   {
+    "name": "Shayna Jackson",
+    "title": "President & Ceo(Beg.12/22)",
+    "comp": 143925,
+    "officer": true
+   },
+   {
+    "name": "Craig Hargenrader",
+    "title": "Cfo",
+    "comp": 133952,
+    "officer": true
+   },
+   {
+    "name": "Dianne Vogt",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "346000349": {
   "website": "www.ble-t.org",
@@ -20691,7 +21375,43 @@
   "tax_period_end": "2025-12-31"
  },
  "341400924": {
-  "error": "no readable filing"
+  "website": "www.fuchsmizrachi.org",
+  "phone": "(216) 932-0220",
+  "employees": 139,
+  "principal_officer": "Rabbi Avery Joel",
+  "officers": [
+   {
+    "name": "Rabbi Avery Joel",
+    "title": "Head Of School",
+    "comp": 245344,
+    "officer": true
+   },
+   {
+    "name": "Marina Leydiker",
+    "title": "Chief Operating Officer",
+    "comp": 137462,
+    "officer": true
+   },
+   {
+    "name": "Shira Teller",
+    "title": "Director Of Development",
+    "comp": 112500,
+    "officer": true
+   },
+   {
+    "name": "Mitch Wolf",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Danielle Wild",
+    "title": "Vice President",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "364860354": {
   "website": "www.rrtglobal.org",
@@ -20961,7 +21681,43 @@
   "tax_period_end": "2024-06-30"
  },
  "346515260": {
-  "error": "no readable filing"
+  "website": "www.clevelandplayhouse.com",
+  "phone": "(216) 400-7002",
+  "employees": 422,
+  "principal_officer": "Samuel A Steinhouse",
+  "officers": [
+   {
+    "name": "Collette Laisure",
+    "title": "Managing Director",
+    "comp": 125472,
+    "officer": true
+   },
+   {
+    "name": "Roland V Anglin",
+    "title": "Vice Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Quo Vadis Cobb",
+    "title": "Vice Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Scott L Hamilton",
+    "title": "Vice Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Kathleen A Hogg",
+    "title": "Vice Chair",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "341006456": {
   "website": "www.medina-fair.com",
@@ -21081,13 +21837,121 @@
   "tax_period_end": "2024-12-31"
  },
  "264574311": {
-  "error": "no readable filing"
+  "website": "www.horizonlorain.org",
+  "phone": "(440) 282-4277",
+  "employees": 112,
+  "principal_officer": "Ramazan Celep",
+  "officers": [
+   {
+    "name": "Megan Collins",
+    "title": "School Principal",
+    "comp": 93758,
+    "officer": true
+   },
+   {
+    "name": "Mustafa Arslan",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Robert Hassan",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Donald Malloy",
+    "title": "Board President",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Abdullah Kayretli",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "202753598": {
-  "error": "no readable filing"
+  "website": "www.clevelandartsocsci.org",
+  "phone": "(216) 229-3000",
+  "employees": 0,
+  "principal_officer": "C David Massa",
+  "officers": [
+   {
+    "name": "Edwina Agee",
+    "title": "Board Secretary",
+    "comp": 1375,
+    "officer": false
+   },
+   {
+    "name": "Darlene Thaxton",
+    "title": "Board President",
+    "comp": 1375,
+    "officer": false
+   },
+   {
+    "name": "Doxie Jelks",
+    "title": "Board Member",
+    "comp": 1375,
+    "officer": false
+   },
+   {
+    "name": "Z Christopher Delk",
+    "title": "Board Vice President",
+    "comp": 1375,
+    "officer": false
+   },
+   {
+    "name": "Michele Rudolph",
+    "title": "Board Member",
+    "comp": 1375,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "264196416": {
-  "error": "no readable filing"
+  "website": "imaginebellaacademy.org",
+  "phone": "(216) 481-1500",
+  "employees": 0,
+  "principal_officer": "",
+  "officers": [
+   {
+    "name": "Hakeem Thornton",
+    "title": "Board President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Claire Powell",
+    "title": "Board Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Dan Lamb",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "William Wright",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "James Scott",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "341001411": {
   "website": "www.chapelhillchristianschool.org",
@@ -21306,7 +22170,43 @@
   "tax_period_end": "2024-06-30"
  },
  "340714800": {
-  "error": "no readable filing"
+  "website": "www.ywcaofcleveland.org",
+  "phone": "(216) 881-6878",
+  "employees": 157,
+  "principal_officer": "Helen Forbes Fields",
+  "officers": [
+   {
+    "name": "Helen Forbes-Fields",
+    "title": "President & Ceo",
+    "comp": 194473,
+    "officer": true
+   },
+   {
+    "name": "Teresa Sanders",
+    "title": "Chief Operating Officer",
+    "comp": 142749,
+    "officer": true
+   },
+   {
+    "name": "Jill Bautista",
+    "title": "Vice Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Patricia Gardner",
+    "title": "Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "John M Wirtshafter",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "204948838": {
   "website": "",
@@ -21921,7 +22821,43 @@
   "tax_period_end": "2023-06-30"
  },
  "341282145": {
-  "error": "no readable filing"
+  "website": "www.redoakbh.org",
+  "phone": "(330) 996-4600",
+  "employees": 206,
+  "principal_officer": "Megan Kleidon",
+  "officers": [
+   {
+    "name": "Megan Kleidon",
+    "title": "President & Ceo",
+    "comp": 156454,
+    "officer": true
+   },
+   {
+    "name": "Gerald Burke",
+    "title": "Cfo - Controller",
+    "comp": 106831,
+    "officer": true
+   },
+   {
+    "name": "Kimmeri Ventresca",
+    "title": "Chief Operating Officer",
+    "comp": 104528,
+    "officer": true
+   },
+   {
+    "name": "Anthony Burwell",
+    "title": "Chair",
+    "comp": 6000,
+    "officer": true
+   },
+   {
+    "name": "Lisa Belcher-Nelson",
+    "title": "Vice Chair",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "272060536": {
   "website": "www.horizonyoungstown.org",
@@ -22002,7 +22938,43 @@
   "tax_period_end": "2025-06-30"
  },
  "341560246": {
-  "error": "no readable filing"
+  "website": "www.northeastohiohealthservices.org",
+  "phone": "(440) 235-8489",
+  "employees": 11,
+  "principal_officer": "Richard M Boyson Jr",
+  "officers": [
+   {
+    "name": "Richard M Boyson Jr",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Allison Q Salopeck",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "David A Oster",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "John Stoner",
+    "title": "Trustee",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Phyllis Dillman",
+    "title": "Trustee",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "200184171": {
   "website": "www.safehousersd.com",
@@ -22617,7 +23589,43 @@
   "tax_period_end": "2025-09-30"
  },
  "270362848": {
-  "error": "no readable filing"
+  "website": "",
+  "phone": "",
+  "employees": 0,
+  "principal_officer": "Andrew Mcrae",
+  "officers": [
+   {
+    "name": "Ralph Johnson",
+    "title": "Ceo",
+    "comp": 260750,
+    "officer": true
+   },
+   {
+    "name": "Andrew Mcrae",
+    "title": "Chief Academic Officer",
+    "comp": 162055,
+    "officer": true
+   },
+   {
+    "name": "Stephanie Wernet",
+    "title": "Cio",
+    "comp": 127561,
+    "officer": true
+   },
+   {
+    "name": "Celeste Farmer",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "John Mcbride",
+    "title": "Head Of Schools",
+    "comp": 140537,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "204631002": {
   "website": "",
@@ -22823,7 +23831,43 @@
   "tax_period_end": "2025-06-30"
  },
  "341507703": {
-  "error": "no readable filing"
+  "website": "www.elizajennings.org",
+  "phone": "(440) 540-4700",
+  "employees": 383,
+  "principal_officer": "Richard Boyson Jr",
+  "officers": [
+   {
+    "name": "Richard Boyson Jr",
+    "title": "President & Ceo",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Kathleen M Shields",
+    "title": "Cfo",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Jennifer Griveas",
+    "title": "Vp Of Legal",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Michael Gray",
+    "title": "Cio",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Diane Banning",
+    "title": "Sales Consultant",
+    "comp": 140600,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "261874206": {
   "website": "",
@@ -23294,7 +24338,43 @@
   "tax_period_end": "2025-06-30"
  },
  "341836284": {
-  "error": "no readable filing"
+  "website": "",
+  "phone": "",
+  "employees": 118,
+  "principal_officer": "",
+  "officers": [
+   {
+    "name": "Anita Bradley",
+    "title": "Ceo",
+    "comp": 195000,
+    "officer": false
+   },
+   {
+    "name": "Cynthia Brookins",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Melissia Lowery",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Clyde Montgomery",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Calvin Perry Mcfarland",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "262052191": {
   "website": "www.clemetrobar.org",
@@ -23375,7 +24455,43 @@
   "tax_period_end": "2024-12-31"
  },
  "251592420": {
-  "error": "no readable filing"
+  "website": "www.hmhousing.org",
+  "phone": "(330) 384-1555",
+  "employees": 41,
+  "principal_officer": "Fred Berry",
+  "officers": [
+   {
+    "name": "Fred Berry",
+    "title": "President",
+    "comp": 101346,
+    "officer": true
+   },
+   {
+    "name": "Gary Davis",
+    "title": "Chairperson",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Toby Lardie Hm",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Vanessa Beane",
+    "title": "Vice Chairperson",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Janis Beckett",
+    "title": "Trustee",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "341971178": {
   "website": "www.constellationschools.com",
@@ -23417,7 +24533,43 @@
   "tax_period_end": "2025-06-30"
  },
  "200453321": {
-  "error": "no readable filing"
+  "website": "www.constellationschool.com",
+  "phone": "(216) 712-7600",
+  "employees": 34,
+  "principal_officer": "Dave Massa",
+  "officers": [
+   {
+    "name": "James Tortelli",
+    "title": "Board President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Debbie Callen",
+    "title": "Board Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Dave Massa",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Laurene Perkins",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Joseph Sgro",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "341137455": {
   "website": "www.lawrenceschool.org",
@@ -23498,7 +24650,43 @@
   "tax_period_end": "2025-12-31"
  },
  "454904096": {
-  "error": "no readable filing"
+  "website": "",
+  "phone": "(330) 325-6369",
+  "employees": 0,
+  "principal_officer": "Mary Taylor",
+  "officers": [
+   {
+    "name": "Maria Schimer",
+    "title": "Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "John Stilliana",
+    "title": "Vice Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Jacalyn Kovach",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Mary Taylor",
+    "title": "Secretary/Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "John Langell",
+    "title": "Director",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "874152153": {
   "website": "www.futureplans.com",
@@ -23573,10 +24761,82 @@
   "tax_period_end": "2024-06-30"
  },
  "341344279": {
-  "error": "no readable filing"
+  "website": "www.slavicvillage.org",
+  "phone": "(216) 429-1182",
+  "employees": 23,
+  "principal_officer": "Rob Stunek",
+  "officers": [
+   {
+    "name": "Joyce Cummings",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Greg Knapp",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Tim Verba",
+    "title": "Vice Preside",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Kate Vinciquerra",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Rob Stunek",
+    "title": "Controller",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "843645405": {
-  "error": "no readable filing"
+  "website": "www.nshighschool.com",
+  "phone": "(330) 564-8520",
+  "employees": 19,
+  "principal_officer": "Stephanie Ataya",
+  "officers": [
+   {
+    "name": "Jason Cooper",
+    "title": "President",
+    "comp": 1216,
+    "officer": true
+   },
+   {
+    "name": "Stephanie Ataya",
+    "title": "Fiscal Officer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Jeffrey A Foster Cpa",
+    "title": "Fiscal Officer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Keli Pontikos",
+    "title": "Director",
+    "comp": 1000,
+    "officer": false
+   },
+   {
+    "name": "Sandra Golden",
+    "title": "Director",
+    "comp": 788,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "340151733": {
   "website": "www.clevepolicecu.com",
@@ -23930,7 +25190,43 @@
   "tax_period_end": "2025-06-30"
  },
  "341869716": {
-  "error": "no readable filing"
+  "website": "www.horizoncleveland.org",
+  "phone": "(216) 432-3660",
+  "employees": 39,
+  "principal_officer": "Ramazan Celep",
+  "officers": [
+   {
+    "name": "Aydin Kara",
+    "title": "School Principal",
+    "comp": 99945,
+    "officer": true
+   },
+   {
+    "name": "Abdullah Kayretli",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Mustafa Arslan",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Marie Bonilla",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Donald Malloy",
+    "title": "Board President",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "510434414": {
   "website": "www.svdpcle.org",
@@ -23972,10 +25268,82 @@
   "tax_period_end": "2025-09-30"
  },
  "455596833": {
-  "error": "no readable filing"
+  "website": "www.pclandbank.com",
+  "phone": "(330) 839-7199",
+  "employees": 0,
+  "principal_officer": "Brad Cromes",
+  "officers": [
+   {
+    "name": "Brad Cromes",
+    "title": "Board Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Sabrina Christian-Bennett",
+    "title": "Board Vice Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Bridget Susel",
+    "title": "Board Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Mike Tinlin",
+    "title": "Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Sue Fields",
+    "title": "Member",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-12-31"
  },
  "341651020": {
-  "error": "no readable filing"
+  "website": "www.ncheteach.org",
+  "phone": "(240) 696-6600",
+  "employees": 7,
+  "principal_officer": "Jenny Nicholas",
+  "officers": [
+   {
+    "name": "Jessica Ellison",
+    "title": "Executive Director",
+    "comp": 97514,
+    "officer": true
+   },
+   {
+    "name": "Jenny Nicholas",
+    "title": "Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Chris Bunin",
+    "title": "Vice-Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Mia Nagawiecki",
+    "title": "Vice-Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Kevin Krahenbuhl",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "870778588": {
   "website": "",
@@ -24095,7 +25463,43 @@
   "tax_period_end": "2024-06-30"
  },
  "300609496": {
-  "error": "no readable filing"
+  "website": "clevelandfoundry.org",
+  "phone": "(216) 413-3966",
+  "employees": 12,
+  "principal_officer": "",
+  "officers": [
+   {
+    "name": "Gina M Trebilcock",
+    "title": "Executive Director",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Matthew J Previtts",
+    "title": "Vp",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "John Dedinsky",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Daniel Gourash",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Michael Vary Jr",
+    "title": "Director",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "341798850": {
   "website": "www.asiaohio.org",
@@ -24176,7 +25580,43 @@
   "tax_period_end": "2025-06-30"
  },
  "341948227": {
-  "error": "no readable filing"
+  "website": "summitacademies.com",
+  "phone": "(330) 670-8470",
+  "employees": 0,
+  "principal_officer": "John Guyer",
+  "officers": [
+   {
+    "name": "Debra Skul",
+    "title": "Chief Of Academics",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Mark Michael",
+    "title": "Director Of Operations",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "John Guyer",
+    "title": "Ceo",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Michael Dailey",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Andrew Davenport",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "340174521": {
   "website": "www.shawjcc.org",
@@ -24218,7 +25658,43 @@
   "tax_period_end": "2025-06-30"
  },
  "341611055": {
-  "error": "no readable filing"
+  "website": "www.clevelandnp.org",
+  "phone": "(216) 830-2770",
+  "employees": 41,
+  "principal_officer": "Melodie Sanders",
+  "officers": [
+   {
+    "name": "Tania Menesse",
+    "title": "President & Ceo",
+    "comp": 218718,
+    "officer": true
+   },
+   {
+    "name": "Melodie Sanders",
+    "title": "Sr. Vp Of Finance",
+    "comp": 7215,
+    "officer": true
+   },
+   {
+    "name": "Teresa Metcalf-Beasley",
+    "title": "Vice Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "David Heller",
+    "title": "Vice Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Angela Mago",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "341449029": {
   "website": "www.healthactioncouncil.org",
@@ -24299,7 +25775,43 @@
   "tax_period_end": "2025-06-30"
  },
  "412118100": {
-  "error": "no readable filing"
+  "website": "www.constellationschools.com",
+  "phone": "(216) 712-7600",
+  "employees": 42,
+  "principal_officer": "Dave Massa",
+  "officers": [
+   {
+    "name": "Bogusia Chmielewski",
+    "title": "Board Vice President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Charles Ledger",
+    "title": "Board President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Donna Stelter",
+    "title": "Board Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Dave Massa",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Thomas Bonner",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "340871936": {
   "website": "www.ruffingmontessori.org",
@@ -24380,7 +25892,43 @@
   "tax_period_end": "2024-06-30"
  },
  "341196802": {
-  "error": "no readable filing"
+  "website": "www.odcs.org",
+  "phone": "(440) 322-6386",
+  "employees": 125,
+  "principal_officer": "Denver Daniel",
+  "officers": [
+   {
+    "name": "Denver Daniel",
+    "title": "President",
+    "comp": 93966,
+    "officer": true
+   },
+   {
+    "name": "Susan Schrodt",
+    "title": "Director Of Finance",
+    "comp": 93246,
+    "officer": true
+   },
+   {
+    "name": "Dave Eck",
+    "title": "Board Member",
+    "comp": 3969,
+    "officer": false
+   },
+   {
+    "name": "Joel Baker",
+    "title": "Board Member",
+    "comp": 2795,
+    "officer": false
+   },
+   {
+    "name": "Todd Wright",
+    "title": "Board Member",
+    "comp": 1500,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "340714479": {
   "website": "www.gracehospital.org",
@@ -24422,7 +25970,43 @@
   "tax_period_end": "2025-06-30"
  },
  "341861745": {
-  "error": "no readable filing"
+  "website": "www.jfsa-cleveland.org",
+  "phone": "(216) 504-2600",
+  "employees": 139,
+  "principal_officer": "Susan Bichsel",
+  "officers": [
+   {
+    "name": "Susan Bichsel",
+    "title": "President And Chief Executive Officer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Renny Wolfson",
+    "title": "Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Michael Klein",
+    "title": "Vice Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Michael Guggenheim",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Patty Rubin",
+    "title": "Assistant Treasurer",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2023-06-30"
  },
  "341560243": {
   "website": "www.elizajennings.org",
@@ -24542,7 +26126,31 @@
   "tax_period_end": "2024-06-30"
  },
  "346506892": {
-  "error": "no readable filing"
+  "website": "",
+  "phone": "(216) 689-0969",
+  "employees": 0,
+  "principal_officer": "",
+  "officers": [
+   {
+    "name": "Keybank N A",
+    "title": "Co-Trustee",
+    "comp": 329093,
+    "officer": false
+   },
+   {
+    "name": "Allen H Ford",
+    "title": "Co-Trustee",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "David Hunt",
+    "title": "Co-Trustee",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-12-31"
  },
  "923590264": {
   "website": "www.campcarl.life",
@@ -28529,6 +30137,3105 @@
   "tax_period_end": "2025-12-31"
  },
  "341787585": {
-  "error": "no readable filing"
+  "website": "www.truthforlife.org",
+  "phone": "(440) 708-5500",
+  "employees": 40,
+  "principal_officer": "Robert Butts",
+  "officers": [
+   {
+    "name": "Alistair Begg",
+    "title": "President/Ceo",
+    "comp": 349895,
+    "officer": true
+   },
+   {
+    "name": "Robert Butts",
+    "title": "Chief Operating Officer",
+    "comp": 210000,
+    "officer": true
+   },
+   {
+    "name": "David A Cook",
+    "title": "Chief Financial Officer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "James Davis",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "John Rothenbuhler",
+    "title": "Chairman",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2023-12-31"
+ },
+ "340777664": {
+  "website": "www.stlukelutherancommunity.org",
+  "phone": "(330) 499-2486",
+  "employees": 249,
+  "principal_officer": "Rev Robert Tauscher",
+  "officers": [
+   {
+    "name": "John Spieler",
+    "title": "Ceo",
+    "comp": 360663,
+    "officer": true
+   },
+   {
+    "name": "Joyce Mohler",
+    "title": "Cfo",
+    "comp": 95211,
+    "officer": true
+   },
+   {
+    "name": "Deborah Cramer",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Diane M Diehl",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Robert Hessel",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-12-31"
+ },
+ "030483122": {
+  "website": "www.stlukelutherancommunity.org",
+  "phone": "(330) 499-2486",
+  "employees": 30,
+  "principal_officer": "Rev Robert Tauscher",
+  "officers": [
+   {
+    "name": "John Spieler",
+    "title": "Ceo",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Joyce Mohler",
+    "title": "Cfo",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Pastor Jean Hansen",
+    "title": "Chairperson",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Ron Kyle",
+    "title": "Vice Chairperson",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Juanita Gehm",
+    "title": "Secretary/Treasurer",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2023-12-31"
+ },
+ "340392263": {
+  "website": "",
+  "phone": "(333) 477-4444",
+  "employees": 0,
+  "principal_officer": "Gary Elsass",
+  "officers": [
+   {
+    "name": "Jim Simon",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-05-31"
+ },
+ "210700441": {
+  "website": "www.cfa.org",
+  "phone": "(330) 680-4070",
+  "employees": 14,
+  "principal_officer": "Rich Mastin",
+  "officers": [
+   {
+    "name": "Allene Tartaglia",
+    "title": "Executive Director",
+    "comp": 110760,
+    "officer": true
+   },
+   {
+    "name": "Richard Mastin",
+    "title": "President",
+    "comp": 36000,
+    "officer": true
+   },
+   {
+    "name": "Rachel Anger",
+    "title": "Secretary",
+    "comp": 13946,
+    "officer": true
+   },
+   {
+    "name": "Kathy Calhoun",
+    "title": "Treasurer",
+    "comp": 13500,
+    "officer": true
+   },
+   {
+    "name": "Russell Webb",
+    "title": "Vice President",
+    "comp": 2450,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-04-30"
+ },
+ "812171085": {
+  "website": "www.mycomhc.org",
+  "phone": "(330) 363-6242",
+  "employees": 107,
+  "principal_officer": "",
+  "officers": [
+   {
+    "name": "Sarah Hoehnen Do",
+    "title": "Chief Medical Officer",
+    "comp": 267665,
+    "officer": true
+   },
+   {
+    "name": "Juan-Paulo Afable",
+    "title": "Chief Executive Officer",
+    "comp": 231334,
+    "officer": true
+   },
+   {
+    "name": "Kelly Lorenz",
+    "title": "Chief Financial Officer",
+    "comp": 136164,
+    "officer": true
+   },
+   {
+    "name": "Carol Johnson",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Kevin Smith",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "341708901": {
+  "website": "www.lifecarefhdc.org",
+  "phone": "(330) 454-2000",
+  "employees": 142,
+  "principal_officer": "Eric Niemeyer",
+  "officers": [
+   {
+    "name": "Eric Niemeyer",
+    "title": "Ceo",
+    "comp": 182965,
+    "officer": true
+   },
+   {
+    "name": "Patricia Johnson",
+    "title": "Cfo",
+    "comp": 127951,
+    "officer": true
+   },
+   {
+    "name": "Barbara Frustaci Bsn Rn",
+    "title": "Immediate Past Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Dr Dean Varian",
+    "title": "Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "George Crues",
+    "title": "Vice Chair",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "921436952": {
+  "website": "www.reliaride.org",
+  "phone": "(330) 244-0657",
+  "employees": 87,
+  "principal_officer": "Aleena Orban",
+  "officers": [
+   {
+    "name": "Aleena Orban",
+    "title": "Executive Director",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Lauren Griswold",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "David Held",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Andrew Rowles",
+    "title": "Vice President",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Connor Orban",
+    "title": "President",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "340714462": {
+  "website": "www.ecresourcecenter.org",
+  "phone": "(216) 696-5560",
+  "employees": 85,
+  "principal_officer": "Angela Moses",
+  "officers": [
+   {
+    "name": "Angela Moses",
+    "title": "Executive Director",
+    "comp": 153105,
+    "officer": true
+   },
+   {
+    "name": "Melissa Rogers",
+    "title": "Assistant Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Kirstin Toth",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Joseph Luckring",
+    "title": "Board Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Michele Benson",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "341026284": {
+  "website": "",
+  "phone": "(330) 452-8271",
+  "employees": 78,
+  "principal_officer": "Sharla Elton",
+  "officers": [
+   {
+    "name": "Sharla Elton",
+    "title": "Superintende",
+    "comp": 76268,
+    "officer": true
+   },
+   {
+    "name": "Nicole Thorn",
+    "title": "Chairwomen",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Jamar Williams",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Tim Singo",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Rob Walker",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2025-06-30"
+ },
+ "474985751": {
+  "website": "www.visitcanton.com",
+  "phone": "(330) 454-1439",
+  "employees": 32,
+  "principal_officer": "Allyson Bussey",
+  "officers": [
+   {
+    "name": "Allyson Bussey",
+    "title": "President",
+    "comp": 166810,
+    "officer": true
+   },
+   {
+    "name": "Derek Gordon",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Susie Steiner",
+    "title": "Vice Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Chris Nichols",
+    "title": "Chairman",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Ed Murray",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "616504792": {
+  "website": "",
+  "phone": "(330) 471-7000",
+  "employees": 0,
+  "principal_officer": "Nicholas Yacobozzi",
+  "officers": [
+   {
+    "name": "Us Bank National Association",
+    "title": "Trustee",
+    "comp": 29519,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "340130830": {
+  "website": "www.c1cu.com",
+  "phone": "(330) 305-3050",
+  "employees": 38,
+  "principal_officer": "Paula Heitger",
+  "officers": [
+   {
+    "name": "Paula Heitger",
+    "title": "President/Ceo",
+    "comp": 283804,
+    "officer": true
+   },
+   {
+    "name": "Michelle Byers",
+    "title": "Vp Of Member Services",
+    "comp": 153081,
+    "officer": true
+   },
+   {
+    "name": "Melissa Harness",
+    "title": "Clo",
+    "comp": 135921,
+    "officer": true
+   },
+   {
+    "name": "Alan Oyster",
+    "title": "Chairman",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "David Booth",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "205671272": {
+  "website": "www.goldenkeyschool.com",
+  "phone": "(330) 493-4400",
+  "employees": 74,
+  "principal_officer": "Gina M Bannevich",
+  "officers": [
+   {
+    "name": "Gina Bannevich",
+    "title": "Executive Director",
+    "comp": 106439,
+    "officer": true
+   },
+   {
+    "name": "Caitlin Bellinski",
+    "title": "Academic Director",
+    "comp": 83196,
+    "officer": true
+   },
+   {
+    "name": "Jamie Schott",
+    "title": "Operations Director",
+    "comp": 69679,
+    "officer": true
+   },
+   {
+    "name": "Taranna Francisco",
+    "title": "Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Nathan Sundheimber",
+    "title": "Vice Chair (Began 4/2024)",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-06-30"
+ },
+ "995099167": {
+  "website": "",
+  "phone": "(330) 433-1411",
+  "employees": 0,
+  "principal_officer": "John Humphrey Md",
+  "officers": [
+   {
+    "name": "Dr John Humphrey Md",
+    "title": "Executive Director",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Lisa Warburton-Gregory",
+    "title": "Chairman",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Eileen Ivan",
+    "title": "Vice Chairman",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "William R Cook",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Brian Belden",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "863136691": {
+  "website": "cantonforallpeople.org",
+  "phone": "(330) 455-0153",
+  "employees": 17,
+  "principal_officer": "Don Ackerman",
+  "officers": [
+   {
+    "name": "Tom Winkhart",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Tony Perez",
+    "title": "Vice President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Chad Sinovich",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Patrick Mackie",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Don Ackerman",
+    "title": "Executive Director",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "341039414": {
+  "website": "www.cantonchristianhome.org",
+  "phone": "(330) 456-0004",
+  "employees": 243,
+  "principal_officer": "Joann Kontur",
+  "officers": [
+   {
+    "name": "Janine Stackhouse",
+    "title": "Executive Director",
+    "comp": 117521,
+    "officer": true
+   },
+   {
+    "name": "Heather Yoder",
+    "title": "Controller",
+    "comp": 89421,
+    "officer": true
+   },
+   {
+    "name": "Robert Nickoson",
+    "title": "President/ Trustee",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Don Gergley",
+    "title": "Trustee/ Vice President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Jim Miller",
+    "title": "Treasurer/ Trustee",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "340941157": {
+  "website": "",
+  "phone": "(330) 832-0280",
+  "employees": 32,
+  "principal_officer": "Phil Hart",
+  "officers": [
+   {
+    "name": "Phil Hart",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Tim Crowe",
+    "title": "Vice Preside",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Joe Ault",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Eric Schilling",
+    "title": "Trustee",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Steve Galindo",
+    "title": "Trustee",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "237400452": {
+  "website": "www.gentlebrook.org",
+  "phone": "(330) 877-7700",
+  "employees": 588,
+  "principal_officer": "Norman Wengerd",
+  "officers": [
+   {
+    "name": "Norman Wengerd",
+    "title": "Ceo",
+    "comp": 204226,
+    "officer": true
+   },
+   {
+    "name": "Tiffany Milhoan",
+    "title": "Treasurer, Vp Of Finance",
+    "comp": 101686,
+    "officer": true
+   },
+   {
+    "name": "Peter Lienert",
+    "title": "Secretary, Vp Of Hr",
+    "comp": 86130,
+    "officer": true
+   },
+   {
+    "name": "Susan Rodgers",
+    "title": "Vp",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Ben Sommers",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "341931114": {
+  "website": "www.clearviewgolfclub.com",
+  "phone": "(330) 488-0404",
+  "employees": 20,
+  "principal_officer": "Renee Powell",
+  "officers": [
+   {
+    "name": "Lawrence Powell",
+    "title": "Treasurer",
+    "comp": 77500,
+    "officer": true
+   },
+   {
+    "name": "Renee Powell",
+    "title": "Exec Dir/Sec",
+    "comp": 50900,
+    "officer": true
+   },
+   {
+    "name": "Andy Moock",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Jeff Brown",
+    "title": "Vice Pres/Tr",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Jeff Sammons",
+    "title": "Trustee",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "340806619": {
+  "website": "goldencirclecu.com",
+  "phone": "(330) 479-3130",
+  "employees": 0,
+  "principal_officer": "Kevin Whitfield",
+  "officers": [
+   {
+    "name": "Jeffrey Mcclain",
+    "title": "Evp & Cfo",
+    "comp": 155122,
+    "officer": true
+   },
+   {
+    "name": "Tera Wentling",
+    "title": "President & Ceo",
+    "comp": 140173,
+    "officer": true
+   },
+   {
+    "name": "Kevin Whitfield",
+    "title": "Sr Vp & Assistant Cfo",
+    "comp": 106742,
+    "officer": true
+   },
+   {
+    "name": "John Capron",
+    "title": "Director",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Ray Trivoli",
+    "title": "Director",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "341320658": {
+  "website": "www.sccaa.org",
+  "phone": "(330) 454-1676",
+  "employees": 167,
+  "principal_officer": "Rodney R Reasonover",
+  "officers": [
+   {
+    "name": "Rodney Reasonover",
+    "title": "Ceo",
+    "comp": 171022,
+    "officer": true
+   },
+   {
+    "name": "Chris Cheline",
+    "title": "Finance Director",
+    "comp": 31857,
+    "officer": true
+   },
+   {
+    "name": "Fred Scott",
+    "title": "Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Robert Fay",
+    "title": "Vice Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Jonathan Morris",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "340714392": {
+  "website": "www.ymcastark.org",
+  "phone": "(330) 491-9622",
+  "employees": 1524,
+  "principal_officer": "",
+  "officers": [
+   {
+    "name": "Richard Micelli",
+    "title": "Ceo",
+    "comp": 222648,
+    "officer": true
+   },
+   {
+    "name": "Keith Hendricks",
+    "title": "Cfo",
+    "comp": 128343,
+    "officer": true
+   },
+   {
+    "name": "Michelle Aladich",
+    "title": "Cdo",
+    "comp": 111068,
+    "officer": true
+   },
+   {
+    "name": "Karen M Brenneman",
+    "title": "",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Maureen A Ater",
+    "title": "Chair",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "340801375": {
+  "website": "www.starkcountyfair.com",
+  "phone": "(330) 452-0621",
+  "employees": 7,
+  "principal_officer": "Cynthia Vickers",
+  "officers": [
+   {
+    "name": "Cynthia Vickers",
+    "title": "Treasurer",
+    "comp": 5000,
+    "officer": true
+   },
+   {
+    "name": "William Locker",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Jill Sterling",
+    "title": "Vice President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Ronald Chambers",
+    "title": "Director",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Bryan Griffin",
+    "title": "Director",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2024-11-30"
+ },
+ "340714512": {
+  "website": "www.saintjosephseniorliving.org",
+  "phone": "(330) 875-5562",
+  "employees": 272,
+  "principal_officer": "Brian Harbert",
+  "officers": [
+   {
+    "name": "Rachel Hock",
+    "title": "Executive Director",
+    "comp": 122367,
+    "officer": true
+   },
+   {
+    "name": "Brian Harbert",
+    "title": "Cfo",
+    "comp": 118657,
+    "officer": true
+   },
+   {
+    "name": "Most Rev David J Bonner",
+    "title": "Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Rachel Hrbolich",
+    "title": "Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Sister Mary Ann Duplain",
+    "title": "Member",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "341387834": {
+  "website": "totallivingcenter.org",
+  "phone": "(330) 455-3663",
+  "employees": 11,
+  "principal_officer": "Ben Kariuki",
+  "officers": [
+   {
+    "name": "Ben Kariuki",
+    "title": "Executive Director",
+    "comp": 60000,
+    "officer": true
+   },
+   {
+    "name": "Becky Gibson",
+    "title": "Vice President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Dennis Bartow",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Dr James Powell",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Sharon Reed",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "340714799": {
+  "website": "www.ywcacanton.org",
+  "phone": "(330) 453-7644",
+  "employees": 73,
+  "principal_officer": "Gloria Pope",
+  "officers": [
+   {
+    "name": "Shana Smith",
+    "title": "Ceo",
+    "comp": 107402,
+    "officer": true
+   },
+   {
+    "name": "Gloria Pope",
+    "title": "Board Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Kay Feagles",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Lori Shirley",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Diane Stevens Robinson",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "810789614": {
+  "website": "www.alliancefamilyhealth.org",
+  "phone": "(330) 249-7011",
+  "employees": 59,
+  "principal_officer": "",
+  "officers": [
+   {
+    "name": "Amelia Kocher",
+    "title": "Executive Director",
+    "comp": 148714,
+    "officer": true
+   },
+   {
+    "name": "Amanda Nelson",
+    "title": "Chief Operations & Compliance Officer",
+    "comp": 90186,
+    "officer": true
+   },
+   {
+    "name": "Barb Dragomir",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Kellie Johnson",
+    "title": "President - Term Started",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Laura Sams",
+    "title": "Vice - President",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "340129930": {
+  "website": "cantonchamber.org",
+  "phone": "(330) 456-7253",
+  "employees": 32,
+  "principal_officer": "Jeffrey Dafler",
+  "officers": [
+   {
+    "name": "Jeffrey Dafler",
+    "title": "President",
+    "comp": 243354,
+    "officer": true
+   },
+   {
+    "name": "Bradley Belden",
+    "title": "Chairman",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Christopher Goff",
+    "title": "Vice Chairma",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Ryan Fulmer",
+    "title": "Vice Chairma",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Mark Wright",
+    "title": "Vice Chairma",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "316035993": {
+  "website": "www.ohioffa.org/camp",
+  "phone": "(330) 627-2208",
+  "employees": 46,
+  "principal_officer": "Todd Davis",
+  "officers": [
+   {
+    "name": "Alyssa Bregel",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Robert Brokaw",
+    "title": "District 10",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Dr Caryn Filson",
+    "title": "Vice Preside",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Joe Hawk",
+    "title": "District 5 R",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Christina Howard",
+    "title": "District 3 R",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "346001833": {
+  "website": "www.massillonmuseum.org",
+  "phone": "(330) 833-4061",
+  "employees": 23,
+  "principal_officer": "Alexandra Nicholis Coon",
+  "officers": [
+   {
+    "name": "Alexandra Nicholis Coon",
+    "title": "Executive Director",
+    "comp": 75655,
+    "officer": true
+   },
+   {
+    "name": "Robert Garner",
+    "title": "Chairman",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Andrew Byler",
+    "title": "Vice Chairman",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Margaret Cocklin",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Phillip Elum",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "134254191": {
+  "website": "www.uwstark.org",
+  "phone": "(330) 491-0445",
+  "employees": 36,
+  "principal_officer": "Angela Perisic",
+  "officers": [
+   {
+    "name": "Perisic Angela",
+    "title": "President/Ceo",
+    "comp": 168439,
+    "officer": true
+   },
+   {
+    "name": "Torrence Cristina",
+    "title": "Cfo",
+    "comp": 123906,
+    "officer": true
+   },
+   {
+    "name": "Cook William R",
+    "title": "Emeritus Board Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Douglas Ken",
+    "title": "Treasurer, Board Of Directors",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Goff Christopher",
+    "title": "1St Vice Chair",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2025-03-31"
+ },
+ "260284707": {
+  "website": "www.mactrailer.com",
+  "phone": "(330) 823-9900",
+  "employees": 0,
+  "principal_officer": "Michael A Conny",
+  "officers": [
+   {
+    "name": "Jennifer R Conny",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Michael A Conny",
+    "title": "Trustee",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2025-03-31"
+ },
+ "341873212": {
+  "website": "www.greateralliancefoundation.org",
+  "phone": "(330) 823-8560",
+  "employees": 4,
+  "principal_officer": "Heidi Mcclung",
+  "officers": [
+   {
+    "name": "Heidi Mcclung",
+    "title": "Executive Director",
+    "comp": 76119,
+    "officer": true
+   },
+   {
+    "name": "Doug Schwarz",
+    "title": "Executive Director",
+    "comp": 13500,
+    "officer": true
+   },
+   {
+    "name": "Andrew Zumbar",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Sue Goris",
+    "title": "Vice President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Chas Mitchell",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-09-30"
+ },
+ "346609771": {
+  "website": "www.artsinstark.com",
+  "phone": "(330) 453-1075",
+  "employees": 22,
+  "principal_officer": "Maureen Ater",
+  "officers": [
+   {
+    "name": "Maureen Ater",
+    "title": "President And Ceo",
+    "comp": 118457,
+    "officer": true
+   },
+   {
+    "name": "Janet Weir Creighton",
+    "title": "Immeditae Past Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Christopher Goff",
+    "title": "Immeditae Past Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Brent Fatzinger",
+    "title": "Vice Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Emil Alecusan",
+    "title": "Chair",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-06-30"
+ },
+ "340116165": {
+  "website": "www.brooksidecc.com",
+  "phone": "(330) 477-6505",
+  "employees": 192,
+  "principal_officer": "Shannon Gallagher",
+  "officers": [
+   {
+    "name": "William Shea",
+    "title": "President & Gm",
+    "comp": 189000,
+    "officer": true
+   },
+   {
+    "name": "Shannon Gallagher",
+    "title": "Cfo",
+    "comp": 98478,
+    "officer": true
+   },
+   {
+    "name": "Phil Eckinger",
+    "title": "Chairman",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Brian Layman",
+    "title": "Secretary/Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Ryan Fulmer",
+    "title": "Vice Chairman",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-03-31"
+ },
+ "341575839": {
+  "website": "www.ican-inc.org",
+  "phone": "(330) 455-9100",
+  "employees": 37,
+  "principal_officer": "Julie Sparks",
+  "officers": [
+   {
+    "name": "Julie Sparks",
+    "title": "Executive Director",
+    "comp": 93801,
+    "officer": true
+   },
+   {
+    "name": "Laura Weisgarber",
+    "title": "Finance Director",
+    "comp": 79845,
+    "officer": true
+   },
+   {
+    "name": "Danielle Halachoff-Frye",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Dr Crystal Brodzenski",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Jeric Whittaker",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-06-30"
+ },
+ "341374549": {
+  "website": "starkhunger.org",
+  "phone": "(330) 455-6667",
+  "employees": 6,
+  "principal_officer": "Lisa Arnold",
+  "officers": [
+   {
+    "name": "Stephanie Sweany",
+    "title": "Executive Director",
+    "comp": 72020,
+    "officer": true
+   },
+   {
+    "name": "Theresa Donato",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Robert Fay",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Kathy Lopez",
+    "title": "Vice President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Lisa Arnold",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-06-30"
+ },
+ "341191950": {
+  "website": "www.childandadolescent.org",
+  "phone": "(330) 433-6075",
+  "employees": 170,
+  "principal_officer": "Melissa Coultas",
+  "officers": [
+   {
+    "name": "Jodi Santillo",
+    "title": "Coo (Left 10/2024)",
+    "comp": 105072,
+    "officer": true
+   },
+   {
+    "name": "Joseph French",
+    "title": "Ceo (Left 07/2024)",
+    "comp": 102906,
+    "officer": true
+   },
+   {
+    "name": "Amber Shaeffer",
+    "title": "Cfo (Left 12/2024)",
+    "comp": 96972,
+    "officer": true
+   },
+   {
+    "name": "Georgene Voros",
+    "title": "Cco",
+    "comp": 89735,
+    "officer": true
+   },
+   {
+    "name": "Melissa Coultas",
+    "title": "Ceo (Begin 09/2024)",
+    "comp": 34784,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-06-30"
+ },
+ "341671908": {
+  "website": "www.stjohnsvilla.net",
+  "phone": "(330) 627-9789",
+  "employees": 182,
+  "principal_officer": "Sandra Wilson",
+  "officers": [
+   {
+    "name": "Melanie Campbell",
+    "title": "Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Doral Wilkes",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Jonathan Manzetti",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Richard Davis",
+    "title": "President",
+    "comp": 90677,
+    "officer": false
+   },
+   {
+    "name": "Peggy Conner",
+    "title": "Trustee",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2025-06-30"
+ },
+ "475385160": {
+  "website": "www.secore.org",
+  "phone": "",
+  "employees": 7,
+  "principal_officer": "Rob Rokoff",
+  "officers": [
+   {
+    "name": "Fernando Bretos",
+    "title": "Chairman",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Rob Rokoff",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Dr Craig Dahlgren",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Bart Shepard",
+    "title": "Vice-Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Katie Murphy",
+    "title": "Vice-Chair",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "340225473": {
+  "website": "www.ibew540.org",
+  "phone": "(330) 837-4239",
+  "employees": 24,
+  "principal_officer": "",
+  "officers": [
+   {
+    "name": "Erik Hann",
+    "title": "Financial Secretary",
+    "comp": 136182,
+    "officer": true
+   },
+   {
+    "name": "Curt Moore",
+    "title": "Agent",
+    "comp": 124293,
+    "officer": true
+   },
+   {
+    "name": "Gregory Banbenek",
+    "title": "Agent",
+    "comp": 124293,
+    "officer": true
+   },
+   {
+    "name": "Benjamin C Campbell",
+    "title": "Treasurer",
+    "comp": 14339,
+    "officer": true
+   },
+   {
+    "name": "Donald Fox",
+    "title": "Recording Secretary",
+    "comp": 7516,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-12-31"
+ },
+ "341321317": {
+  "website": "www.jrccares.org",
+  "phone": "(330) 454-3471",
+  "employees": 87,
+  "principal_officer": "Julie Abiecunas",
+  "officers": [
+   {
+    "name": "Julie Abiecunas",
+    "title": "Ceo",
+    "comp": 79476,
+    "officer": true
+   },
+   {
+    "name": "Mike Discenza",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Joe French",
+    "title": "Vice President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Nicole Wolfe",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Michelle Aladich",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-06-30"
+ },
+ "341028234": {
+  "website": "www.employment-development.com",
+  "phone": "(330) 385-2970",
+  "employees": 163,
+  "principal_officer": "",
+  "officers": [
+   {
+    "name": "Kathy Castle",
+    "title": "Officer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Robert Shallcross",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Rusty Davis",
+    "title": "Officer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Nelda Hawkins",
+    "title": "Officer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Doug Sanford",
+    "title": "Officer",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-12-31"
+ },
+ "341263226": {
+  "website": "www.dvpi.org",
+  "phone": "(330) 445-2000",
+  "employees": 51,
+  "principal_officer": "Julie Donant",
+  "officers": [
+   {
+    "name": "Julie Donant",
+    "title": "Ceo",
+    "comp": 81027,
+    "officer": true
+   },
+   {
+    "name": "Randi Smuckler",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Denise Preusser",
+    "title": "Vice President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Ed Roth",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Ashley Johnson",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-06-30"
+ },
+ "341577595": {
+  "website": "www.starkstate.edu/about/foundation",
+  "phone": "(330) 494-6170",
+  "employees": 0,
+  "principal_officer": "Lindsey Loftus",
+  "officers": [
+   {
+    "name": "Para Jones Ph D",
+    "title": "President, Stark State College",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Patrick Roberts",
+    "title": "Executive Director, Stark State College Foundation",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Thomas Chiappini",
+    "title": "Ssc Foundation Board Of Trustees",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Betsy Engels",
+    "title": "Ssc Foundation Board Of Trustees",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Monica Gwin",
+    "title": "Ssc Foundation Board Of Trustees",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2025-06-30"
+ },
+ "475428946": {
+  "website": "beaconacademy.org",
+  "phone": "(330) 359-5600",
+  "employees": 0,
+  "principal_officer": "Stephanie Ataya",
+  "officers": [
+   {
+    "name": "John Maarschalk",
+    "title": "Secretary",
+    "comp": 935,
+    "officer": true
+   },
+   {
+    "name": "Randolph Walters",
+    "title": "President",
+    "comp": 813,
+    "officer": true
+   },
+   {
+    "name": "Terry Mccullough",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Stephanie Ataya",
+    "title": "Fiscal Officer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Dr Dana Gammill",
+    "title": "Director",
+    "comp": 810,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2025-06-30"
+ },
+ "340925129": {
+  "website": "www.friendsandfamilycu.com",
+  "phone": "(330) 832-1371",
+  "employees": 33,
+  "principal_officer": "Jeanna Costanzo",
+  "officers": [
+   {
+    "name": "Jeanna Costanzo",
+    "title": "Ceo",
+    "comp": 111040,
+    "officer": true
+   },
+   {
+    "name": "Heidi Mason",
+    "title": "Cfo",
+    "comp": 75309,
+    "officer": true
+   },
+   {
+    "name": "Jim Triner",
+    "title": "Chairman",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Mike Loudiana",
+    "title": "Vice Chairman",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Melville Maier",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2024-12-31"
+ },
+ "341635381": {
+  "website": "www.crcstark.org",
+  "phone": "(330) 456-3565",
+  "employees": 29,
+  "principal_officer": "Robert Thompson",
+  "officers": [
+   {
+    "name": "Robert Thompson",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Chandra Bryant",
+    "title": "Ceo",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Greg Conrad",
+    "title": "Trustee",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Will Dent",
+    "title": "Trustee",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Greg Mcnulty",
+    "title": "Trustee",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2025-06-30"
+ },
+ "341461765": {
+  "website": "see schedule o",
+  "phone": "(330) 455-7500",
+  "employees": 56,
+  "principal_officer": "Kayla Atchison",
+  "officers": [
+   {
+    "name": "Kathy Specht",
+    "title": "Chief Executive Officer",
+    "comp": 72255,
+    "officer": true
+   },
+   {
+    "name": "Cindy Fritz",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Lauren Henslee",
+    "title": "Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Kali Brandon",
+    "title": "Vice Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Mike Moser",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2024-06-30"
+ },
+ "340973906": {
+  "website": "lakecenterchristian.org",
+  "phone": "(330) 877-2049",
+  "employees": 258,
+  "principal_officer": "Mark Shelly",
+  "officers": [
+   {
+    "name": "Mark Shelly",
+    "title": "Chairman/Pre",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Scott Sommers",
+    "title": "Vice Chairma",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Carrie Kane",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Ryan Tatum",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Timothy Mcaboy",
+    "title": "Superitenden",
+    "comp": 110331,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2025-06-30"
+ },
+ "341289433": {
+  "website": "crandallmedicalcenter.com",
+  "phone": "(330) 938-6126",
+  "employees": 185,
+  "principal_officer": "David Mannion",
+  "officers": [
+   {
+    "name": "David Dave Mannion",
+    "title": "Ceo/Cfo",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "John Scarpitti",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Tom Gant",
+    "title": "Vice President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Craig Myers",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Ashley Sheffield",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-06-30"
+ },
+ "341595372": {
+  "website": "www.habitateco.org",
+  "phone": "(330) 915-5888",
+  "employees": 65,
+  "principal_officer": "Beth Lechner",
+  "officers": [
+   {
+    "name": "Beth Lechner",
+    "title": "Ceo",
+    "comp": 285510,
+    "officer": true
+   },
+   {
+    "name": "Ryan Young",
+    "title": "Board Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Ralph Lober",
+    "title": "Board Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Robert Giacomo",
+    "title": "Board Vice President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Mack Smith",
+    "title": "Board President",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2024-06-30"
+ },
+ "237244648": {
+  "website": "www.pathwaycfc.org",
+  "phone": "(330) 493-0083",
+  "employees": 99,
+  "principal_officer": "Wendy Tracy",
+  "officers": [
+   {
+    "name": "Wendy Tracy",
+    "title": "Executive Director",
+    "comp": 110603,
+    "officer": true
+   },
+   {
+    "name": "Patrick Renner",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Brian Strunck",
+    "title": "Vice President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Mark Wagner",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Jennifer Mcnemar",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-06-30"
+ },
+ "341590276": {
+  "website": "www.allianceforchildrenandfamilies.org",
+  "phone": "(330) 821-6322",
+  "employees": 16,
+  "principal_officer": "Shirene Starn Tapyrik",
+  "officers": [
+   {
+    "name": "Shirene Starn Tapyrik",
+    "title": "Executive Di",
+    "comp": 125777,
+    "officer": true
+   },
+   {
+    "name": "Lisa Geiger Cpa",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Vanessia Freeman",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Gerard Mastroianni",
+    "title": "Im. Past Pre",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Carly Mussey-Widener",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2024-06-30"
+ },
+ "340938702": {
+  "website": "www.cantoncountryday.org",
+  "phone": "(330) 453-8279",
+  "employees": 43,
+  "principal_officer": "Steve Yoder",
+  "officers": [
+   {
+    "name": "Steve Humphrey",
+    "title": "Head Of School",
+    "comp": 121755,
+    "officer": true
+   },
+   {
+    "name": "Jeremy Hesson",
+    "title": "Director Of Human Resource",
+    "comp": 62333,
+    "officer": true
+   },
+   {
+    "name": "Steve Yoder",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Karen Quinlan",
+    "title": "Vice President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Beth Schumacher",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2023-06-30"
+ },
+ "347133842": {
+  "website": "",
+  "phone": "(330) 453-0135",
+  "employees": 1,
+  "principal_officer": "Damian Kungle",
+  "officers": [
+   {
+    "name": "Bernard D Shaffer",
+    "title": "Chair/Truste",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Leslie Gleue",
+    "title": "Secretary/Tr",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Damian Kungle",
+    "title": "Chair/Truste",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "James Riffle-Burlingame",
+    "title": "Trustee - El",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Richard Sandberg",
+    "title": "Trustee",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2025-06-30"
+ },
+ "340737793": {
+  "website": "www.commquest.org",
+  "phone": "(330) 455-0374",
+  "employees": 370,
+  "principal_officer": "Elaine Russell Reolfi",
+  "officers": [
+   {
+    "name": "Elaine Russell Reolfi",
+    "title": "Chief Executive Officer",
+    "comp": 237172,
+    "officer": true
+   },
+   {
+    "name": "Melissa Hoch",
+    "title": "Chief Financial Officer",
+    "comp": 139721,
+    "officer": true
+   },
+   {
+    "name": "Michele Heberling",
+    "title": "Chief Clinical Officer",
+    "comp": 115796,
+    "officer": true
+   },
+   {
+    "name": "Aimee Belden",
+    "title": "Chair",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Jeffrey Dafler",
+    "title": "First Vice Chair",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-06-30"
+ },
+ "202943479": {
+  "website": "www.phoenixrisingbhr.org",
+  "phone": "(330) 493-4553",
+  "employees": 122,
+  "principal_officer": "Lisa Grubbs",
+  "officers": [
+   {
+    "name": "Nalini Morris",
+    "title": "Medical Director",
+    "comp": 263990,
+    "officer": true
+   },
+   {
+    "name": "Lisa Grubbs",
+    "title": "Chief Executive Officer",
+    "comp": 103071,
+    "officer": true
+   },
+   {
+    "name": "Amy Studer",
+    "title": "Board Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Melisa Barden",
+    "title": "Board Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Michelle Patterson-Stokes",
+    "title": "Board Chair",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-06-30"
+ },
+ "460604802": {
+  "website": "",
+  "phone": "(330) 455-0498",
+  "employees": 0,
+  "principal_officer": "C David Massa",
+  "officers": [
+   {
+    "name": "Brian Kenderes",
+    "title": "Board Member",
+    "comp": 900,
+    "officer": false
+   },
+   {
+    "name": "Contae Bentley",
+    "title": "Board Member",
+    "comp": 900,
+    "officer": false
+   },
+   {
+    "name": "Courtney Perry",
+    "title": "Board Member",
+    "comp": 900,
+    "officer": false
+   },
+   {
+    "name": "Laurie Murphy",
+    "title": "Board Member",
+    "comp": 900,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
+ },
+ "340941565": {
+  "website": "copelandoaks.com",
+  "phone": "(330) 938-6126",
+  "employees": 301,
+  "principal_officer": "David Mannion",
+  "officers": [
+   {
+    "name": "David Dave Mannion",
+    "title": "Ceo/Cfo",
+    "comp": 211953,
+    "officer": true
+   },
+   {
+    "name": "Andrew Estock",
+    "title": "President/Director",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "John Scarpitti",
+    "title": "Vice President/Director",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "John Dilworth",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Ashley Sheffield",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-06-30"
+ },
+ "341193822": {
+  "website": "www.siffrin.org",
+  "phone": "(330) 478-0263",
+  "employees": 364,
+  "principal_officer": "Kristine Willhite",
+  "officers": [
+   {
+    "name": "Kristine Willhite",
+    "title": "Chief Executive Officer",
+    "comp": 122422,
+    "officer": true
+   },
+   {
+    "name": "Shawn Crable",
+    "title": "Chief Operating Officer (Term 01/2024)",
+    "comp": 84507,
+    "officer": true
+   },
+   {
+    "name": "Tim Castrigano",
+    "title": "Chief Financial Officer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "George Maier Ii",
+    "title": "Chief Operating Officer (Began 02/2024)",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Kimberly Brown",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2024-06-30"
+ },
+ "900145050": {
+  "website": "http//buckeye.schoolfusion.us",
+  "phone": "(330) 385-1987",
+  "employees": 80,
+  "principal_officer": "Adam Daniel Lewis",
+  "officers": [
+   {
+    "name": "Don Thompson",
+    "title": "Director",
+    "comp": 81900,
+    "officer": true
+   },
+   {
+    "name": "Adam Daniel Lewis",
+    "title": "Treasurer",
+    "comp": 60000,
+    "officer": true
+   },
+   {
+    "name": "Joe Shemasek",
+    "title": "Treasurer",
+    "comp": 1500,
+    "officer": false
+   },
+   {
+    "name": "Linda Henderson",
+    "title": "Director",
+    "comp": 1375,
+    "officer": false
+   },
+   {
+    "name": "Josh Martin",
+    "title": "President",
+    "comp": 1375,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2023-06-30"
+ },
+ "341891453": {
+  "website": "www.dhad.org",
+  "phone": "(330) 896-9172",
+  "employees": 0,
+  "principal_officer": "Abigail M Morgan",
+  "officers": [
+   {
+    "name": "Gary L Cook Retired 52224",
+    "title": "President & Ceo",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Abigail M Morgan",
+    "title": "President & Ceo",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Rebecca Newman",
+    "title": "Chief Financial Officer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Ljudmila Burchfield",
+    "title": "Chief Operating & Legal Officer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "David B Reynolds Md",
+    "title": "Vice Chairman",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2024-06-30"
+ },
+ "431953714": {
+  "website": "www.starkcchsedu.org",
+  "phone": "(330) 456-4490",
+  "employees": 0,
+  "principal_officer": "Stephanie Ataya",
+  "officers": [
+   {
+    "name": "Terry Mccullough",
+    "title": "Vice President",
+    "comp": 1125,
+    "officer": true
+   },
+   {
+    "name": "Anthony Lombardi Jr",
+    "title": "Treasurer",
+    "comp": 1125,
+    "officer": true
+   },
+   {
+    "name": "Dr Dana Gammill",
+    "title": "President",
+    "comp": 1000,
+    "officer": true
+   },
+   {
+    "name": "Stephanie Ataya",
+    "title": "Fiscal Officer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Norma Lafromboise",
+    "title": "Director",
+    "comp": 1000,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2025-06-30"
+ },
+ "340719180": {
+  "website": "www.weststarky.org",
+  "phone": "(330) 837-5116",
+  "employees": 184,
+  "principal_officer": "Jim Stanford",
+  "officers": [
+   {
+    "name": "Jim Stanford",
+    "title": "Ceo",
+    "comp": 81068,
+    "officer": true
+   },
+   {
+    "name": "Ed Whitmore",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Kevin Noble",
+    "title": "Vice President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Glen Weirich",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Kathy Shultz",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-12-31"
+ },
+ "311567464": {
+  "website": "",
+  "phone": "(888) 863-0032",
+  "employees": 0,
+  "principal_officer": "Andy Duckworth",
+  "officers": [
+   {
+    "name": "David Wheatley",
+    "title": "President",
+    "comp": 1800,
+    "officer": true
+   },
+   {
+    "name": "Jeff Niemeyer",
+    "title": "Treasurer",
+    "comp": 1800,
+    "officer": true
+   },
+   {
+    "name": "Anthony Barnhart",
+    "title": "Board Member",
+    "comp": 1800,
+    "officer": true
+   },
+   {
+    "name": "Richard Ballard",
+    "title": "Secretary",
+    "comp": 1800,
+    "officer": true
+   },
+   {
+    "name": "Jeffrey J Pitt",
+    "title": "Board Member",
+    "comp": 1800,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-12-31"
+ },
+ "311700222": {
+  "website": "",
+  "phone": "(888) 863-0032",
+  "employees": 0,
+  "principal_officer": "Andy Duckworth",
+  "officers": [
+   {
+    "name": "Tom Hollern",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Frank Diloreto",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Chester Fluder",
+    "title": "Board Member",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-12-31"
+ },
+ "346548833": {
+  "website": "",
+  "phone": "(330) 877-2478",
+  "employees": 47,
+  "principal_officer": "Dr Listermann",
+  "officers": [
+   {
+    "name": "Robert Moss",
+    "title": "Treasurer",
+    "comp": 840,
+    "officer": true
+   },
+   {
+    "name": "Dr Listermann",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Mike Lorentz",
+    "title": "Chief",
+    "comp": 108535,
+    "officer": false
+   },
+   {
+    "name": "Larry Ginther",
+    "title": "Vice Preside",
+    "comp": 12925,
+    "officer": false
+   },
+   {
+    "name": "Seth Coblentz",
+    "title": "Trustee",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2025-12-31"
+ },
+ "341866261": {
+  "website": "",
+  "phone": "(888) 863-0032",
+  "employees": 0,
+  "principal_officer": "Andy Duckworth",
+  "officers": [
+   {
+    "name": "Dale Copley",
+    "title": "Board Member",
+    "comp": 750,
+    "officer": true
+   },
+   {
+    "name": "Dusten M Watson",
+    "title": "Board Member",
+    "comp": 750,
+    "officer": true
+   },
+   {
+    "name": "Andrew J Brough",
+    "title": "Board Member",
+    "comp": 750,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-12-31"
+ },
+ "341033148": {
+  "website": "theworkshopsinc.com",
+  "phone": "(330) 479-3958",
+  "employees": 388,
+  "principal_officer": "Ryan Heckert",
+  "officers": [
+   {
+    "name": "Ryan Heckert",
+    "title": "Chief Execut",
+    "comp": 200053,
+    "officer": true
+   },
+   {
+    "name": "Matt Leuenberger",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Deanna Kidwell",
+    "title": "Vice Preside",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Andrew Ziegler",
+    "title": "Treasurer/Se",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Rod Strata",
+    "title": "Trustee",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2025-12-31"
+ },
+ "341324252": {
+  "website": "uniontownfire.org",
+  "phone": "(330) 699-3239",
+  "employees": 46,
+  "principal_officer": "Robert Gurinowitsch",
+  "officers": [
+   {
+    "name": "Rion Ropchock",
+    "title": "Treasurer",
+    "comp": 24324,
+    "officer": true
+   },
+   {
+    "name": "Ernest Bard",
+    "title": "Secretary",
+    "comp": 3901,
+    "officer": true
+   },
+   {
+    "name": "Robert Gurinowitsch",
+    "title": "President",
+    "comp": 1800,
+    "officer": true
+   },
+   {
+    "name": "Troy Andreff",
+    "title": "Vice Preside",
+    "comp": 1200,
+    "officer": true
+   },
+   {
+    "name": "Brandon Earnsberger",
+    "title": "Director",
+    "comp": 33945,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2025-12-31"
+ },
+ "340133865": {
+  "website": "www.cecpower.coop",
+  "phone": "(330) 627-2116",
+  "employees": 32,
+  "principal_officer": "Jordan Hoffman",
+  "officers": [
+   {
+    "name": "Larry Fenbers",
+    "title": "Ceo",
+    "comp": 372579,
+    "officer": true
+   },
+   {
+    "name": "Harold Sutton",
+    "title": "Chairman",
+    "comp": 13875,
+    "officer": true
+   },
+   {
+    "name": "Kevin Tullis",
+    "title": "Secretary/Tr",
+    "comp": 12000,
+    "officer": true
+   },
+   {
+    "name": "Gary Snode",
+    "title": "Vice Chairma",
+    "comp": 10500,
+    "officer": true
+   },
+   {
+    "name": "Jordan Hoffman",
+    "title": "General Mana",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-12-31"
+ },
+ "341243260": {
+  "website": "",
+  "phone": "(330) 438-7434",
+  "employees": 60,
+  "principal_officer": "Maria Vaughn",
+  "officers": [
+   {
+    "name": "Jennifer Bolyard Md",
+    "title": "Representati",
+    "comp": 255000,
+    "officer": true
+   },
+   {
+    "name": "Rama Narayanan Md",
+    "title": "Representati",
+    "comp": 229000,
+    "officer": true
+   },
+   {
+    "name": "Kevin Frey Md",
+    "title": "Representati",
+    "comp": 204500,
+    "officer": true
+   },
+   {
+    "name": "Lewis Humble Md",
+    "title": "Representati",
+    "comp": 204500,
+    "officer": true
+   },
+   {
+    "name": "Michael Linz Md",
+    "title": "Director",
+    "comp": 182500,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2025-12-31"
+ },
+ "341563908": {
+  "website": "www.bluecoats.com",
+  "phone": "(330) 433-9115",
+  "employees": 15,
+  "principal_officer": "Genevieve Geisler",
+  "officers": [
+   {
+    "name": "Genevieve Geisler",
+    "title": "Cfo/Coo",
+    "comp": 134349,
+    "officer": true
+   },
+   {
+    "name": "Mike Scott",
+    "title": "Ceo",
+    "comp": 124828,
+    "officer": true
+   },
+   {
+    "name": "Scott Swaldo",
+    "title": "Chair Of The Board",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Chris Groves",
+    "title": "Vice Chair Of The Board",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Tom Scheck",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-10-31"
+ },
+ "340714546": {
+  "website": "www.buckeyecouncil.org",
+  "phone": "(330) 580-4272",
+  "employees": 101,
+  "principal_officer": "Nathan Hopper",
+  "officers": [
+   {
+    "name": "Nathan Hopper",
+    "title": "Scout Executive/Ceo",
+    "comp": 151590,
+    "officer": true
+   },
+   {
+    "name": "Brian Besecker",
+    "title": "Vp Of Operations",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Jay Hays",
+    "title": "Vp Of Membership",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Phil Francis",
+    "title": "Vp Of Finance",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Damon Keller",
+    "title": "Vp Of Development",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-12-31"
+ },
+ "200797475": {
+  "website": "www.beaconpharmacy.org",
+  "phone": "(330) 445-1086",
+  "employees": 13,
+  "principal_officer": "Latrice Snodgrass",
+  "officers": [
+   {
+    "name": "Latrice Snodgrass",
+    "title": "Chief Executive Officer",
+    "comp": 147000,
+    "officer": true
+   },
+   {
+    "name": "Garret Brown",
+    "title": "Vice President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Latoya Dickens Jones",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Jonathan Bishop",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Mandwel Patterson",
+    "title": "Immediate Past President",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-12-31"
+ },
+ "821253944": {
+  "website": "alterclinicac.com",
+  "phone": "",
+  "employees": 44,
+  "principal_officer": "Jennifer Conley",
+  "officers": [
+   {
+    "name": "Jennifer Conley",
+    "title": "Director",
+    "comp": 70244,
+    "officer": true
+   },
+   {
+    "name": "Pam Conley",
+    "title": "President",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Amber Domenico",
+    "title": "Member",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Alicia Glassburn",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Laura Groves",
+    "title": "Vice-Preside",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2025-12-31"
+ },
+ "237331101": {
+  "website": "",
+  "phone": "(630) 481-1570",
+  "employees": 0,
+  "principal_officer": "Joshua Moss",
+  "officers": [
+   {
+    "name": "John Miller",
+    "title": "Trustee",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "James Valentine",
+    "title": "Trustee",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Steve Coon",
+    "title": "Trustee",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "E Flory Fernandez",
+    "title": "Trustee",
+    "comp": 0,
+    "officer": false
+   },
+   {
+    "name": "Joshua Moss",
+    "title": "Trustee",
+    "comp": 0,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2025-09-30"
+ },
+ "464910056": {
+  "website": "",
+  "phone": "(330) 420-5353",
+  "employees": 5,
+  "principal_officer": "Bob Barrett",
+  "officers": [
+   {
+    "name": "Tim Miller",
+    "title": "Board President",
+    "comp": 1750,
+    "officer": true
+   },
+   {
+    "name": "Corey Boyle",
+    "title": "Board Vice President",
+    "comp": 1500,
+    "officer": true
+   },
+   {
+    "name": "William Pitts",
+    "title": "Board Member",
+    "comp": 1750,
+    "officer": false
+   },
+   {
+    "name": "Alison Jackson",
+    "title": "Board Member",
+    "comp": 1250,
+    "officer": false
+   },
+   {
+    "name": "Joshua Yeager",
+    "title": "Board Member",
+    "comp": 750,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2026-06-30"
+ },
+ "340961844": {
+  "website": "shadyhollowcc.com",
+  "phone": "(330) 832-1581",
+  "employees": 154,
+  "principal_officer": "Samuel Leatherberry",
+  "officers": [
+   {
+    "name": "Samuel Leatherberry",
+    "title": "General Manager/Coo",
+    "comp": 217972,
+    "officer": true
+   },
+   {
+    "name": "Stacy Spencer",
+    "title": "Finance Manager",
+    "comp": 71023,
+    "officer": true
+   },
+   {
+    "name": "Mike Moore",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Zack Harris",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Kyle Julian",
+    "title": "Secretary",
+    "comp": 0,
+    "officer": true
+   }
+  ],
+  "tax_period_end": "2025-10-31"
+ },
+ "340160950": {
+  "website": "www.congresslakeclub.com",
+  "phone": "(330) 877-9318",
+  "employees": 229,
+  "principal_officer": "David Fergusson",
+  "officers": [
+   {
+    "name": "Chrissy Kuznik",
+    "title": "General Manager",
+    "comp": 176203,
+    "officer": true
+   },
+   {
+    "name": "James Trout",
+    "title": "President",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Scott Zurakowski",
+    "title": "Vp & Secretary",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Robert Spencer",
+    "title": "Treasurer",
+    "comp": 0,
+    "officer": true
+   },
+   {
+    "name": "Robert A Gegick",
+    "title": "Greens Superintendent",
+    "comp": 140838,
+    "officer": false
+   }
+  ],
+  "tax_period_end": "2025-10-31"
  }
 }

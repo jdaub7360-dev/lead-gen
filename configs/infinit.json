@@ -13,15 +13,20 @@
     "103": "Medina",
     "085": "Lake",
     "055": "Geauga",
-    "093": "Lorain"
+    "093": "Lorain",
+    "007": "Ashtabula",
+    "029": "Columbiana"
   },
   "zip3": [
+    "439",
     "440",
     "441",
     "442",
     "443",
     "444",
-    "445"
+    "445",
+    "446",
+    "447"
   ],
   "nonprofit": {
     "min_revenue": 1000000,
@@ -125,5 +130,18 @@
     "schedule": "Mondays 7:00 am America/New_York",
     "method": "mailer.py (Resend, from leads@daubenmiregroup.com)",
     "from": "Daubenmire Group Leads <leads@daubenmiregroup.com>"
-  }
+  },
+  "offices": [
+    {
+      "name": "Cleveland",
+      "address": "1801 St Clair Ave NE, Cleveland, OH 44114",
+      "zip": "44114"
+    },
+    {
+      "name": "Warren",
+      "address": "4195 Parkman Rd NW, Warren, OH 44481",
+      "zip": "44481"
+    }
+  ],
+  "max_miles_from_office": 45
 }

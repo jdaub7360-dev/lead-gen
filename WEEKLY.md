@@ -1,22 +1,55 @@
 # Weekly run (infinIT)
 
-The scheduled task runs this every Monday at 7:00 am Eastern. Follow it step by step.
+The scheduled task runs this every Monday morning (starts 5:47 am Eastern so the email lands before 7:00).
+Follow it step by step.
 
-1. **Refresh the lists:** `./run.sh infinit`. If USAspending fails, delete nothing; the committed cached
-   county files in `data/infinit/cache/` are used. Clear the cache once a month so the DoD data refreshes.
-2. **Research new Top Leads (15-20):**
-   - Skip every organization that appears in `data/infinit/history/` (all past weeks' Top Leads).
-   - Mix the verticals: DoD manufacturers, healthcare and behavioral health, nonprofits, municipalities (HB 96),
-     plus one or two from the Apollo Searches segments. Favor Trumbull, Mahoning, Summit, Cuyahoga.
-   - Each lead needs a dated, sourced reason to reach out now. No source, no lead.
-   - Re-check the CMMC status before writing manufacturing drafts (Phase 2 paused July 2026; confirm whether that changed).
-   - Write `data/infinit/top_leads.json` in the same format as earlier weeks (subject, body, fu1, fu2, sources...).
-   - Copy it to `data/infinit/history/top_leads_YYYY-MM-DD.json`.
-3. **Build:** `python3 build.py configs/infinit.json data/infinit output/infinit_leads_YYYY-MM-DD.xlsx`
-   (run.sh already does this; rerun it after writing the new top leads).
-4. **Check:** recalculate with LibreOffice and confirm no `#` errors, as in the first run.
-5. **Email** the workbook with `mailer.py` (Resend, from leads@daubenmiregroup.com; never from infinit.us) to the recipients in `configs/infinit.json` → `email.to`.
-   Body: number of new Top Leads by vertical, the 3 to call first and why, and anything notable
-   (e.g. a regulation change). Subject: `infinIT leads – week of <Mon date>`.
-6. **Commit and push** to `main`: new data, history file and workbook. Message: `Weekly leads YYYY-MM-DD`.
-7. If any step fails (email especially), still commit what was built and say what failed in the commit message.
+## 1. Refresh data
+`./run.sh infinit data` refreshes every list and enrichment: IRS nonprofits and 990 contacts, Census governments
+and schools, USAspending DoD suppliers, the HHS breach list, and the email-security check.
+Steps that fail print `!! step failed` and the run continues with last week's data. USAspending is flaky; the
+committed cache in `data/infinit/cache/` is the fallback. Clear that cache on the first Monday of each month.
+If `data/infinit/pipeline_status.json` exists (pulled from the live Google Sheet), read it before step 2.
+
+## 2. Research 15-20 new Top Leads
+- **Skip** every organization in `data/infinit/history/` and anything marked Not a fit or Do not contact in
+  `pipeline_status.json`.
+- **Cover both offices.** infinIT has two offices: Cleveland (1801 St Clair Ave NE, 44114) and Warren
+  (4195 Parkman Rd NW, 44481). Aim for roughly half the leads within 30 miles of each office; never fewer than
+  6 on either side. The `office` and `miles` fields on every list show the nearest office.
+- **Where to look first:**
+  - `Breach Watch` (breaches.json): Ohio healthcare breaches. Confirm the organization is in the territory.
+    Lead with help (incident response, hardening), never with the breach itself.
+  - Job postings for IT roles (IT Manager, Systems Administrator, IT Support) in the territory: co-managed angle.
+  - Council and trustee agendas and minutes mentioning IT services, cybersecurity, HB 96 or RFPs.
+  - Local business news: new locations, acquisitions, leadership changes (Crain's Cleveland, Business Journal
+    Daily, Tribune Chronicle, Akron Beacon Journal).
+  - Tier A rows on the list tabs with an email-security finding (no DMARC, GoDaddy email): good personalization.
+- **Every lead needs a dated, sourced reason to reach out now.** No source, no lead. Never invent facts.
+- **Re-check** current CMMC status and Ohio HB 96 news before writing those drafts.
+- **Contacts:** for nonprofits the enrichment fills 990 officers automatically. For everyone else, find the
+  leader on the organization's own site or a government page and add it to `data/infinit/top_leads_contacts.json`
+  (name, title, source, zip, website, phone). Mark third-party directory names "(verify)". Never scrape LinkedIn.
+- Set `trigger_type` for each lead in `top_leads_contacts.json` → `_trigger_types` (IT job posting, Expansion /
+  new sites, Leadership change, Acquisition, HB 96 cyber mandate, CMMC / DFARS, Breach, IT contract decision,
+  Critical operations, Good fit, no trigger).
+- Write `data/infinit/top_leads.json` in the same format as `data/infinit/history/top_leads_2026-11-04.json`
+  and put the three best first (they become "Call these first" on the Summary). Then copy it to
+  `data/infinit/history/top_leads_YYYY-MM-DD.json`.
+
+## 3. Build
+`./run.sh infinit build` merges contacts, LinkedIn search links, nearest office and email-security findings into
+the Top Leads and writes `output/infinit_leads_YYYY-MM-DD.xlsx`.
+
+## 4. Check
+Convert to PDF with LibreOffice headless, render the Summary and Top Leads pages to PNG and look at them:
+counts filled in, no `#` errors, nothing cut off. Fix and rebuild if anything looks wrong.
+
+## 5. Email
+`mailer.py` (Resend, from leads@daubenmiregroup.com; never from infinit.us) to `configs/infinit.json` → `email.to`.
+Subject: `infinIT leads – week of <Mon date>`. Body: new Top Leads by vertical and by office (Warren / Cleveland),
+the 3 to call first and why, and anything notable. Remind them to fill placeholders and add infinIT's postal
+address and an opt-out line before sending drafts.
+
+## 6. Commit and push
+To `main`: data, history file and workbook. Message: `Weekly leads YYYY-MM-DD`. If any step failed, still commit
+what was built and say what failed in the commit message.

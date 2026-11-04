@@ -1,6 +1,8 @@
 """Tax-exempt organizations from the IRS Exempt Organizations Business Master File (free).
 Download: https://www.irs.gov/pub/irs-soi/eo_<state>.csv"""
-import csv, json, sys
+import csv, json, os, sys
+sys.path.insert(0, os.path.dirname(__file__))
+import geo
 
 # Broad NTEE major groups, for a readable "type" column.
 NTEE_MAJOR = {
@@ -27,6 +29,9 @@ def fetch(cfg, path):
             continue
         if n["exclude_private_foundations"] and r["FOUNDATION"] in ("02", "03", "04"):
             continue
+        office, dist = geo.nearest_office(cfg, geo.point_for_zip(r["ZIP"][:5]))
+        if dist is None or dist > cfg.get("max_miles_from_office", 999):
+            continue
         ntee = (r["NTEE_CD"] or "Z").strip() or "Z"
         vertical = n["vertical_by_ntee_prefix"].get(ntee[0], n["default_vertical"])
         if ntee.startswith("E2"):  # hospitals: large, usually have in-house IT
@@ -36,6 +41,7 @@ def fetch(cfg, path):
             "city": r["CITY"].title(), "zip": r["ZIP"][:5], "ntee": ntee,
             "type": NTEE_MAJOR.get(ntee[0], "Other"), "revenue": rev,
             "assets": int(r["ASSET_AMT"] or 0), "tax_period": r["TAX_PERIOD"], "vertical": vertical,
+            "office": office, "miles": dist,
             "propublica": f"https://projects.propublica.org/nonprofits/organizations/{r['EIN']}",
         })
     return rows

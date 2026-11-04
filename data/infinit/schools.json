@@ -1,5 +1,205 @@
 [
  {
+  "website": "pvschools.org",
+  "contact_title": "Supt",
+  "address": "Po Box 1180",
+  "mail_city": "Andover",
+  "zip": "44003",
+  "county": "Ashtabula",
+  "name": "Pymatuning Vall Loc School District",
+  "enrollment": 1136
+ },
+ {
+  "website": "genevaschools.org",
+  "contact_title": "Supt",
+  "address": "135 S Eagle St",
+  "mail_city": "Geneva",
+  "zip": "44041",
+  "county": "Ashtabula",
+  "name": "Geneva Area City School District",
+  "enrollment": 2259
+ },
+ {
+  "website": "grand-valley.k12.oh.us",
+  "contact_title": "Superintendent",
+  "address": "111 Grand Valley Ave West",
+  "mail_city": "Orwell",
+  "zip": "44076",
+  "county": "Ashtabula",
+  "name": "Grand Valley School District",
+  "enrollment": 1053
+ },
+ {
+  "website": "buckeyeschools.net",
+  "contact_title": "Supt",
+  "address": "3436 Edgewood Dr",
+  "mail_city": "Ashtabula",
+  "zip": "44004",
+  "county": "Ashtabula",
+  "name": "Buckeye Local School District",
+  "enrollment": 1754
+ },
+ {
+  "website": "aacs.net",
+  "contact_title": "Supt",
+  "address": "Po Box 290",
+  "mail_city": "Ashtabula",
+  "zip": "44005",
+  "county": "Ashtabula",
+  "name": "Ashtabula Area City School Dist",
+  "enrollment": 3365
+ },
+ {
+  "website": "jefferson.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "45 E Satin St",
+  "mail_city": "Jefferson",
+  "zip": "44047",
+  "county": "Ashtabula",
+  "name": "Jefferson Area Local School District",
+  "enrollment": 1668
+ },
+ {
+  "website": "acjvs.org",
+  "contact_title": "Supt",
+  "address": "1565 State Route 167",
+  "mail_city": "Jefferson",
+  "zip": "44047",
+  "county": "Ashtabula",
+  "name": "Ashtabula Co Technical & Career Center",
+  "enrollment": 0
+ },
+ {
+  "website": "conneautschools.org",
+  "contact_title": "Superintendent",
+  "address": "263 Liberty St",
+  "mail_city": "Conneaut",
+  "zip": "44030",
+  "county": "Ashtabula",
+  "name": "Conneaut Area City School District",
+  "enrollment": 1598
+ },
+ {
+  "website": "united.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "8143 State Route 9",
+  "mail_city": "Hanoverton",
+  "zip": "44423",
+  "county": "Columbiana",
+  "name": "United Local School District",
+  "enrollment": 1167
+ },
+ {
+  "website": "beaver.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "13093 State Route 7",
+  "mail_city": "Lisbon",
+  "zip": "44432",
+  "county": "Columbiana",
+  "name": "Beaver Local School District",
+  "enrollment": 1746
+ },
+ {
+  "website": "eastliverpool.k12.oh.us",
+  "contact_title": "Superintendent",
+  "address": "500 Maryland St",
+  "mail_city": "East Liverpool",
+  "zip": "43920",
+  "county": "Columbiana",
+  "name": "East Liverpool City School District",
+  "enrollment": 2151
+ },
+ {
+  "website": "leetonia.k12.oh.us",
+  "contact_title": "Treasurer",
+  "address": "450 Walnut St",
+  "mail_city": "Leetonia",
+  "zip": "44431",
+  "county": "Columbiana",
+  "name": "Leetonia Ex Village School District",
+  "enrollment": 587
+ },
+ {
+  "website": "southern.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "38095 State Route 39",
+  "mail_city": "Salineville",
+  "zip": "43945",
+  "county": "Columbiana",
+  "name": "Southern Local School District",
+  "enrollment": 814
+ },
+ {
+  "website": "crestviewlocal.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "44100 Crestview Rd Ste A",
+  "mail_city": "Columbiana",
+  "zip": "44408",
+  "county": "Columbiana",
+  "name": "Crestview Local School District",
+  "enrollment": 1203
+ },
+ {
+  "website": "salem.k12.oh.us",
+  "contact_title": "Business And Finance",
+  "address": "1226 E State St",
+  "mail_city": "Salem",
+  "zip": "44460",
+  "county": "Columbiana",
+  "name": "Salem City School District",
+  "enrollment": 1994
+ },
+ {
+  "website": "",
+  "contact_title": "Supt",
+  "address": "9364 State Route 45",
+  "mail_city": "Lisbon",
+  "zip": "44432",
+  "county": "Columbiana",
+  "name": "Columbiana County Career And Technology Center",
+  "enrollment": 0
+ },
+ {
+  "website": "epschools.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "200 West North Avenue",
+  "mail_city": "East Palestine",
+  "zip": "44413",
+  "county": "Columbiana",
+  "name": "East Palestine City School District",
+  "enrollment": 1051
+ },
+ {
+  "website": "columbiana.k12.oh.us",
+  "contact_title": "Treasurer",
+  "address": "700 Columbiana Waterford Rd",
+  "mail_city": "Columbiana",
+  "zip": "44408",
+  "county": "Columbiana",
+  "name": "Columbiana Ex Village School District",
+  "enrollment": 1101
+ },
+ {
+  "website": "lisbon.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "317 N Market St",
+  "mail_city": "Lisbon",
+  "zip": "44432",
+  "county": "Columbiana",
+  "name": "Lisbon Ex Village School District",
+  "enrollment": 848
+ },
+ {
+  "website": "wellsville.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "929 Center St",
+  "mail_city": "Wellsville",
+  "zip": "43968",
+  "county": "Columbiana",
+  "name": "Wellsville Local School District",
+  "enrollment": 706
+ },
+ {
   "website": "garfieldheightscityschools.com",
   "contact_title": "Supt",
   "address": "5640 Briarcliff Dr",

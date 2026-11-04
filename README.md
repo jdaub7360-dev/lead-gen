@@ -15,10 +15,27 @@ researched "Top Leads" tab with draft outreach. infinIT is client #1.
 
 ## Sources (all free, no API keys)
 
-- **IRS Exempt Organizations Business Master File:** nonprofits, healthcare and religious orgs, with revenue.
-- **USAspending.gov:** DoD contract recipients by county (manufacturers facing CMMC / NIST 800-171).
-- **Census subcounty population estimates:** cities, villages and townships (Ohio HB 96 cyber-program mandate).
-- **Web research:** triggers such as new sites, IT job postings, leadership changes, council actions.
+| Source | Gives us | Script |
+|---|---|---|
+| IRS Exempt Organizations file | Nonprofits, healthcare, religious orgs with revenue | `sources/irs_bmf.py` |
+| IRS Form 990 e-filings (read in place from IRS archives) | Website, phone, employees, named officers | `sources/irs_990.py` |
+| USAspending.gov | DoD contract recipients by county | `sources/usaspending.py` |
+| Census population estimates | Cities, villages, townships | `sources/census_gov.py` |
+| Census Government Units listing | Official websites, addresses, lead official titles; school districts | `sources/census_gus.py` |
+| Census Gazetteer | Distance to the client's nearest office | `sources/geo.py` |
+| HHS OCR breach portal | Healthcare breaches under investigation (trigger) | `sources/hhs_breach.py` |
+| Public DNS | Email provider, SPF, DMARC, HTTPS (personalization hook) | `sources/domain_check.py` |
+| Web research (Claude, weekly) | Triggers, contacts for non-nonprofits, drafts | `data/<client>/top_leads*.json` |
+
+LinkedIn: links are LinkedIn *search* links (name + organization). Nothing is scraped.
+
+## Running
+
+```
+./run.sh infinit data     # refresh lists and enrichment
+./run.sh infinit build    # after top_leads.json is written: enrich Top Leads and build the workbook
+python3 mailer.py ...     # email it (Resend)
+```
 
 ## Adding a new client
 

@@ -1,5 +1,222 @@
 [
  {
+  "name": "Ashtabula",
+  "kind": "City",
+  "county": "Ashtabula",
+  "population": 17775,
+  "segment": "Government"
+ },
+ {
+  "name": "Conneaut",
+  "kind": "City",
+  "county": "Ashtabula",
+  "population": 12357,
+  "segment": "Government"
+ },
+ {
+  "name": "Geneva",
+  "kind": "City",
+  "county": "Ashtabula",
+  "population": 5871,
+  "segment": "Government"
+ },
+ {
+  "name": "Jefferson",
+  "kind": "Village",
+  "county": "Ashtabula",
+  "population": 3188,
+  "segment": "Government"
+ },
+ {
+  "name": "North Kingsville",
+  "kind": "Village",
+  "county": "Ashtabula",
+  "population": 2723,
+  "segment": "Government"
+ },
+ {
+  "name": "Andover Township",
+  "kind": "Township",
+  "county": "Ashtabula",
+  "population": 2553,
+  "segment": "Government"
+ },
+ {
+  "name": "Ashtabula Township",
+  "kind": "Township",
+  "county": "Ashtabula",
+  "population": 19378,
+  "segment": "Government"
+ },
+ {
+  "name": "Geneva Township",
+  "kind": "Township",
+  "county": "Ashtabula",
+  "population": 10049,
+  "segment": "Government"
+ },
+ {
+  "name": "Harpersfield Township",
+  "kind": "Township",
+  "county": "Ashtabula",
+  "population": 2544,
+  "segment": "Government"
+ },
+ {
+  "name": "Jefferson Township",
+  "kind": "Township",
+  "county": "Ashtabula",
+  "population": 5282,
+  "segment": "Government"
+ },
+ {
+  "name": "Orwell Township",
+  "kind": "Township",
+  "county": "Ashtabula",
+  "population": 3065,
+  "segment": "Government"
+ },
+ {
+  "name": "Saybrook Township",
+  "kind": "Township",
+  "county": "Ashtabula",
+  "population": 9620,
+  "segment": "Government"
+ },
+ {
+  "name": "Windsor Township",
+  "kind": "Township",
+  "county": "Ashtabula",
+  "population": 2620,
+  "segment": "Government"
+ },
+ {
+  "name": "East Liverpool",
+  "kind": "City",
+  "county": "Columbiana",
+  "population": 9651,
+  "segment": "Government"
+ },
+ {
+  "name": "East Palestine",
+  "kind": "Village",
+  "county": "Columbiana",
+  "population": 4643,
+  "segment": "Government"
+ },
+ {
+  "name": "Lisbon",
+  "kind": "Village",
+  "county": "Columbiana",
+  "population": 2519,
+  "segment": "Government"
+ },
+ {
+  "name": "Wellsville",
+  "kind": "Village",
+  "county": "Columbiana",
+  "population": 3027,
+  "segment": "Government"
+ },
+ {
+  "name": "Butler Township",
+  "kind": "Township",
+  "county": "Columbiana",
+  "population": 3472,
+  "segment": "Government"
+ },
+ {
+  "name": "Center Township",
+  "kind": "Township",
+  "county": "Columbiana",
+  "population": 5693,
+  "segment": "Government"
+ },
+ {
+  "name": "Elkrun Township",
+  "kind": "Township",
+  "county": "Columbiana",
+  "population": 4311,
+  "segment": "Government"
+ },
+ {
+  "name": "Fairfield Township",
+  "kind": "Township",
+  "county": "Columbiana",
+  "population": 9937,
+  "segment": "Government"
+ },
+ {
+  "name": "Hanover Township",
+  "kind": "Township",
+  "county": "Columbiana",
+  "population": 3393,
+  "segment": "Government"
+ },
+ {
+  "name": "Knox Township",
+  "kind": "Township",
+  "county": "Columbiana",
+  "population": 3934,
+  "segment": "Government"
+ },
+ {
+  "name": "Liverpool Township",
+  "kind": "Township",
+  "county": "Columbiana",
+  "population": 3780,
+  "segment": "Government"
+ },
+ {
+  "name": "Madison Township",
+  "kind": "Township",
+  "county": "Columbiana",
+  "population": 2836,
+  "segment": "Government"
+ },
+ {
+  "name": "Middleton Township",
+  "kind": "Township",
+  "county": "Columbiana",
+  "population": 3244,
+  "segment": "Government"
+ },
+ {
+  "name": "Perry Township",
+  "kind": "Township",
+  "county": "Columbiana",
+  "population": 15988,
+  "segment": "Government"
+ },
+ {
+  "name": "St. Clair Township",
+  "kind": "Township",
+  "county": "Columbiana",
+  "population": 7591,
+  "segment": "Government"
+ },
+ {
+  "name": "Salem Township",
+  "kind": "Township",
+  "county": "Columbiana",
+  "population": 4993,
+  "segment": "Government"
+ },
+ {
+  "name": "Unity Township",
+  "kind": "Township",
+  "county": "Columbiana",
+  "population": 9486,
+  "segment": "Government"
+ },
+ {
+  "name": "West Township",
+  "kind": "Township",
+  "county": "Columbiana",
+  "population": 3109,
+  "segment": "Government"
+ },
+ {
   "name": "Bay Village",
   "kind": "City",
   "county": "Cuyahoga",

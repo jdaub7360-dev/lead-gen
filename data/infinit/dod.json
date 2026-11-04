@@ -2105,5 +2105,89 @@
   "recipient_id": "83086b4d-4be9-9d96-e210-88d9c2e48934-C",
   "county": "Lorain",
   "dod_total": 60249.15
+ },
+ {
+  "name": "FARIN INDUSTRIES INC",
+  "uei": "ST4KSJQH3JQ5",
+  "recipient_id": "ce748772-6435-8570-8b70-4c17823327e4-C",
+  "county": "Ashtabula",
+  "dod_total": 886906.28
+ },
+ {
+  "name": "TEGAM, INC.",
+  "uei": "ZLHQMU568D95",
+  "recipient_id": "958b5075-608d-580e-c015-e7a95dcead37-C",
+  "county": "Ashtabula",
+  "dod_total": 261400.0
+ },
+ {
+  "name": "HDT EXPEDITIONARY SYSTEMS INC",
+  "uei": "D7EFDCJDFJF1",
+  "recipient_id": "445efbc9-5435-f288-8d7f-02273fdb362a-C",
+  "county": "Ashtabula",
+  "dod_total": 129182.39
+ },
+ {
+  "name": "ITEN DEFENSE LLC",
+  "uei": "GFJ6HN3NNEQ5",
+  "recipient_id": "dd1ad4fb-ed87-1277-0c33-54b8ccdb420b-C",
+  "county": "Ashtabula",
+  "dod_total": 94112.4
+ },
+ {
+  "name": "HUNT VALVE COMPANY, INC.",
+  "uei": "DJG7NEG7QRK5",
+  "recipient_id": "4c847b63-d30a-298d-bf4f-4f6aad960f94-C",
+  "county": "Columbiana",
+  "dod_total": 31277690.46
+ },
+ {
+  "name": "HUNT VALVE COMPANY INC",
+  "uei": "FLGHZMJ9JKU4",
+  "recipient_id": "5533817a-e88a-8243-77a8-3f65e6602ba8-C",
+  "county": "Columbiana",
+  "dod_total": 14582591.94
+ },
+ {
+  "name": "PIMA VALVE, LLC",
+  "uei": "M38TMXUJLKG1",
+  "recipient_id": "2de44490-8fdf-9cbc-64cc-7c5c820f462d-C",
+  "county": "Columbiana",
+  "dod_total": 3097328.89
+ },
+ {
+  "name": "HUNT VALVE ACTUATOR, LLC",
+  "uei": "ZPJFMZXK2U39",
+  "recipient_id": "5d707afe-5054-9a27-4381-48c6815a4f34-C",
+  "county": "Columbiana",
+  "dod_total": 2453589.4
+ },
+ {
+  "name": "HALTEC CORP",
+  "uei": "TM6CCJ28CG56",
+  "recipient_id": "fc861218-0733-90df-d6d2-6a59786a4b78-C",
+  "county": "Columbiana",
+  "dod_total": 1753408.54
+ },
+ {
+  "name": "HUNT VALVE COMPANY, INC.",
+  "uei": "FBJ9NCJE2J56",
+  "recipient_id": "b61c41ba-cd5c-c2fd-350a-be93f290a9f2-C",
+  "county": "Columbiana",
+  "dod_total": 878433.77
+ },
+ {
+  "name": "TEST MARK INDUSTRIES INC",
+  "uei": "NKQCJQEN96A4",
+  "recipient_id": "17231b0d-cc52-781d-1f93-2e215bf83dc1-C",
+  "county": "Columbiana",
+  "dod_total": 37460.3
+ },
+ {
+  "name": "ERNEST P LASKY",
+  "uei": "KKRAJGRER4C9",
+  "recipient_id": "eb015a7a-a439-dd84-f081-efeee710ac91-C",
+  "county": "Columbiana",
+  "dod_total": 28340.0
  }
 ]

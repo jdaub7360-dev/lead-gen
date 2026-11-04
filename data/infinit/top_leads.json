@@ -16,7 +16,28 @@
    "https://www.career.com/job/compass-family-and-community-services-inc/it-support-specialist/j202603232201326847647",
    "https://projects.propublica.org/nonprofits/organizations/340714662"
   ],
-  "website": ""
+  "website": "compassfamily.org",
+  "ein": "340714662",
+  "phone": "(330) 743-9275",
+  "employees": 321,
+  "contacts": [
+   {
+    "name": "David Stillwagon",
+    "title": "Listed as principal officer on 990",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=David%20Stillwagon%20Compass%20Family%20and%20Community%20Services"
+   },
+   {
+    "name": "Laura Weymer",
+    "title": "Chair (board)",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Laura%20Weymer%20Compass%20Family%20and%20Community%20Services"
+   }
+  ],
+  "contacts_source": "IRS Form 990, period ending 2025-06-30",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Compass%20Family%20and%20Community%20Services",
+  "trigger_type": "IT job posting",
+  "email_security": "No issues found",
+  "office": "Warren",
+  "miles": 6
  },
  {
   "name": "Village of Lordstown",
@@ -36,7 +57,23 @@
    "https://citizenportal.ai/articles/8208051/Ohio/Trumbull-County/Lordstown/Council-defers-IT-contract-decision-after-members-raise-concerns-about-replacing-longtime-technician",
    "https://www.lordstown.com/wp-content/uploads/May-18-2026-1.pdf"
   ],
-  "website": ""
+  "website": "lordstown.com",
+  "phone": "",
+  "contacts": [
+   {
+    "name": "Jaclyn (Jackie) Woodward",
+    "title": "Mayor",
+    "source": "Lordstown council minutes, July 2026",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Jaclyn%20%28Jackie%29%20Woodward%20Village%20of%20Lordstown"
+   }
+  ],
+  "contacts_source": "Lordstown council minutes, July 2026",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Village%20of%20Lordstown",
+  "trigger_type": "IT contract decision",
+  "email_security": "No DMARC record: anyone can send email that appears to come from this domain",
+  "office": "Warren",
+  "miles": 0,
+  "zip": "44481"
  },
  {
   "name": "Howland Township",
@@ -54,7 +91,29 @@
   "sources": [
    "https://www.tribtoday.com/news/local-news/2026/05/howland-adopts-cybersecurity-policy/"
   ],
-  "website": ""
+  "website": "howlandoh.gov",
+  "phone": "",
+  "contacts": [
+   {
+    "name": "James T. Pantalone",
+    "title": "Township Administrator",
+    "source": "howlandoh.gov",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=James%20T.%20Pantalone%20Howland%20Township"
+   },
+   {
+    "name": "Thomas Krispinsky",
+    "title": "Fiscal Officer",
+    "source": "howlandoh.gov",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Thomas%20Krispinsky%20Howland%20Township"
+   }
+  ],
+  "contacts_source": "howlandoh.gov",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Howland%20Township",
+  "trigger_type": "HB 96 cyber mandate",
+  "email_security": "No DMARC record: anyone can send email that appears to come from this domain",
+  "office": "Warren",
+  "miles": 9,
+  "zip": "44484"
  },
  {
   "name": "Alta Care Group",
@@ -74,7 +133,33 @@
    "https://businessjournaldaily.com/?p=197342",
    "https://projects.propublica.org/nonprofits/organizations/341205791"
   ],
-  "website": ""
+  "website": "altacaregroup.org",
+  "ein": "341205791",
+  "phone": "(330) 793-2487",
+  "employees": 408,
+  "contacts": [
+   {
+    "name": "Vincent Paolucci",
+    "title": "Chief Executive Officer",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Vincent%20Paolucci%20Alta%20Care%20Group"
+   },
+   {
+    "name": "Wendy Saul",
+    "title": "Chief Financial Officer",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Wendy%20Saul%20Alta%20Care%20Group"
+   },
+   {
+    "name": "Vince Paolucci",
+    "title": "Listed as principal officer on 990",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Vince%20Paolucci%20Alta%20Care%20Group"
+   }
+  ],
+  "contacts_source": "IRS Form 990, period ending 2025-06-30",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Alta%20Care%20Group",
+  "trigger_type": "Expansion / new sites",
+  "email_security": "No DMARC record: anyone can send email that appears to come from this domain",
+  "office": "Warren",
+  "miles": 9
  },
  {
   "name": "Kaeper Machine, Inc.",
@@ -94,7 +179,23 @@
    "https://governmentbidders.com/government-bidders/contractor-5488403-KAEPER-MACHINE-INC.htm",
    "https://www.wilmerhale.com/en/insights/client-alerts/20260720-pentagon-suspends-cmmc-phase-2-requirements-and-launches-review-of-cybersecurity-certification-program"
   ],
-  "website": ""
+  "website": "",
+  "phone": "(440) 974-1010",
+  "contacts": [
+   {
+    "name": "Kye Hwang",
+    "title": "President (verify)",
+    "source": "Government contractor directory",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Kye%20Hwang%20Kaeper%20Machine%2C%20Inc."
+   }
+  ],
+  "contacts_source": "Government contractor directory",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Kaeper%20Machine%2C%20Inc.",
+  "trigger_type": "CMMC / DFARS",
+  "email_security": "",
+  "office": "Cleveland",
+  "miles": 21,
+  "zip": "44060"
  },
  {
   "name": "Falls Filtration Technologies",
@@ -113,7 +214,23 @@
    "https://www.accessnewswire.com/newsroom/en/aerospace-and-defense/velocity-one-acquires-falls-filtration-1150357",
    "https://www.highergov.com/awardee/falls-filtration-technologies-inc-10018824/"
   ],
-  "website": "fallsfti.com"
+  "website": "fallsfti.com",
+  "phone": "(330) 928-4100",
+  "contacts": [
+   {
+    "name": "John Borduin",
+    "title": "CEO, Velocity One (parent company)",
+    "source": "Acquisition press release, Mar 2026",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=John%20Borduin%20Falls%20Filtration%20Technologies"
+   }
+  ],
+  "contacts_source": "Acquisition press release, Mar 2026",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Falls%20Filtration%20Technologies",
+  "trigger_type": "Acquisition",
+  "email_security": "No DMARC record: anyone can send email that appears to come from this domain; Website appears to load only over plain HTTP, not HTTPS (verify in a browser before mentioning)",
+  "office": "Cleveland",
+  "miles": 27,
+  "zip": "44224"
  },
  {
   "name": "Robeck Fluid Power Co.",
@@ -132,7 +249,14 @@
    "https://www.govconinabox.com/explore/contractors/profile/KCVUERY6ZBM5",
    "https://robeckfluidpower.com/about-us"
   ],
-  "website": "robeckfluidpower.com"
+  "website": "robeckfluidpower.com",
+  "phone": "(330) 562-1140",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Robeck%20Fluid%20Power%20Co.",
+  "trigger_type": "CMMC / DFARS",
+  "email_security": "No issues found",
+  "office": "Cleveland",
+  "miles": 22,
+  "zip": "44202"
  },
  {
   "name": "Salem-Republic Rubber Co.",
@@ -151,7 +275,29 @@
    "https://www.datanyze.com/people/Marlen-Hartsoe/3616284014",
    "https://governmentbidders.com/government-bidders/contractor-5611181-Salem-republic-Rubbe.htm"
   ],
-  "website": ""
+  "website": "salem-republic.com",
+  "phone": "(330) 938-9801",
+  "contacts": [
+   {
+    "name": "Anita Beck-Leifheit",
+    "title": "Director of Financial & Administrative Services (verify)",
+    "source": "Third-party directory",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Anita%20Beck-Leifheit%20Salem-Republic%20Rubber%20Co."
+   },
+   {
+    "name": "Skip Anderson",
+    "title": "Director of Sales & Marketing (verify)",
+    "source": "Third-party directory",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Skip%20Anderson%20Salem-Republic%20Rubber%20Co."
+   }
+  ],
+  "contacts_source": "Third-party directory",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Salem-Republic%20Rubber%20Co.",
+  "trigger_type": "Good fit, no trigger",
+  "email_security": "No DMARC record: anyone can send email that appears to come from this domain",
+  "office": "Warren",
+  "miles": 19,
+  "zip": "44672"
  },
  {
   "name": "City of Struthers",
@@ -169,7 +315,29 @@
   "sources": [
    "https://cpo.soar.com/articles/7240973/Ohio/Struthers-adopts-cybersecurity-program-required-by-Ohio-HB-96-mayor-says-20000-grant-will-cover-changes"
   ],
-  "website": ""
+  "website": "cityofstruthers.com",
+  "phone": "",
+  "contacts": [
+   {
+    "name": "Catherine Cercone Miller",
+    "title": "Mayor (verify)",
+    "source": "cityofstruthers.com mayor page",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Catherine%20Cercone%20Miller%20City%20of%20Struthers"
+   },
+   {
+    "name": "Anthony O'Riches",
+    "title": "Safety-Service Director (verify spelling)",
+    "source": "Struthers council reports, 2026",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Anthony%20O%27Riches%20City%20of%20Struthers"
+   }
+  ],
+  "contacts_source": "Struthers council reports, 2026; cityofstruthers.com mayor page",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=City%20of%20Struthers",
+  "trigger_type": "HB 96 cyber mandate",
+  "email_security": "No DMARC record: anyone can send email that appears to come from this domain",
+  "office": "Warren",
+  "miles": 18,
+  "zip": "44471"
  },
  {
   "name": "Crossroads Health",
@@ -188,7 +356,34 @@
    "https://www.idealist.org/es/ong-empleo/25c4c8febaf94fa7ba425fc013f9580e-grants-manager-crossroads-health-mentor",
    "https://projects.propublica.org/nonprofits/organizations/341458441"
   ],
-  "website": ""
+  "website": "crossroadshealth.org",
+  "ein": "341458441",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Crossroads%20Health",
+  "trigger_type": "Leadership change",
+  "email_security": "No issues found",
+  "office": "Cleveland",
+  "miles": 21,
+  "zip": "44060",
+  "phone": "(440) 255-1700",
+  "employees": 439,
+  "contacts": [
+   {
+    "name": "Shayna Jackson",
+    "title": "President & Ceo(Beg.12/22)",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Shayna%20Jackson%20Crossroads%20Health"
+   },
+   {
+    "name": "Alice Iden",
+    "title": "Coo",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Alice%20Iden%20Crossroads%20Health"
+   },
+   {
+    "name": "Craig Hargenrader",
+    "title": "Cfo",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Craig%20Hargenrader%20Crossroads%20Health"
+   }
+  ],
+  "contacts_source": "IRS Form 990, period ending 2023-06-30"
  },
  {
   "name": "Portage Path Behavioral Health",
@@ -207,7 +402,33 @@
    "https://www.highergov.com/grant/H79SM089227/",
    "https://projects.propublica.org/nonprofits/organizations/341096055"
   ],
-  "website": ""
+  "website": "portagepath.org",
+  "ein": "341096055",
+  "phone": "(330) 253-3100",
+  "employees": 221,
+  "contacts": [
+   {
+    "name": "Tracy Yaeger Phd",
+    "title": "President",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Tracy%20Yaeger%20Phd%20Portage%20Path%20Behavioral%20Health"
+   },
+   {
+    "name": "Jessica Bahry",
+    "title": "Cfo",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Jessica%20Bahry%20Portage%20Path%20Behavioral%20Health"
+   },
+   {
+    "name": "Raman Krimpuri",
+    "title": "Vp/Medical Director",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Raman%20Krimpuri%20Portage%20Path%20Behavioral%20Health"
+   }
+  ],
+  "contacts_source": "IRS Form 990, period ending 2024-06-30",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Portage%20Path%20Behavioral%20Health",
+  "trigger_type": "Critical operations",
+  "email_security": "No DMARC record: anyone can send email that appears to come from this domain",
+  "office": "Cleveland",
+  "miles": 31
  },
  {
   "name": "Child Guidance & Family Solutions",
@@ -226,7 +447,33 @@
    "https://www.career.com/job/child-guidance-family-solutions/telehealth-outpatient-therapist-akron/j202511201205223766550",
    "https://projects.propublica.org/nonprofits/organizations/340726083"
   ],
-  "website": ""
+  "website": "cgfs.org",
+  "ein": "340726083",
+  "phone": "(330) 762-0591",
+  "employees": 164,
+  "contacts": [
+   {
+    "name": "Karen Talbott",
+    "title": "President & Ceo",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Karen%20Talbott%20Child%20Guidance%20%26%20Family%20Solutions"
+   },
+   {
+    "name": "Patrick Watson",
+    "title": "Cfo",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Patrick%20Watson%20Child%20Guidance%20%26%20Family%20Solutions"
+   },
+   {
+    "name": "Cassandra Galloway",
+    "title": "Listed as principal officer on 990",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Cassandra%20Galloway%20Child%20Guidance%20%26%20Family%20Solutions"
+   }
+  ],
+  "contacts_source": "IRS Form 990, period ending 2024-12-31",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Child%20Guidance%20%26%20Family%20Solutions",
+  "trigger_type": "Expansion / new sites",
+  "email_security": "No issues found",
+  "office": "Cleveland",
+  "miles": 31
  },
  {
   "name": "BOC Water Hydraulics, Inc.",
@@ -245,7 +492,23 @@
   "sources": [
    "https://naicslist.com/company-profile/boc-water-hydraulics-inc-salem-oh-44460"
   ],
-  "website": ""
+  "website": "",
+  "phone": "(330) 332-4444",
+  "contacts": [
+   {
+    "name": "Todd Olson",
+    "title": "President/Owner (verify)",
+    "source": "Third-party directory",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Todd%20Olson%20BOC%20Water%20Hydraulics%2C%20Inc."
+   }
+  ],
+  "contacts_source": "Third-party directory",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=BOC%20Water%20Hydraulics%2C%20Inc.",
+  "trigger_type": "Good fit, no trigger",
+  "email_security": "",
+  "office": "Warren",
+  "miles": 19,
+  "zip": "44460"
  },
  {
   "name": "AlphaMicron, Inc.",
@@ -263,7 +526,29 @@
   "sources": [
    "https://soldiersystems.net/2023/04/28/af-research-lab-re-ups-affiliation-with-longtime-liquid-crystal-industry-partner-alphamicron-inc-to-meet-dod-needs/"
   ],
-  "website": ""
+  "website": "alphamicron.com",
+  "phone": "(330) 676-0648",
+  "contacts": [
+   {
+    "name": "Tamas Kosa",
+    "title": "COO (verify)",
+    "source": "Third-party profile",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Tamas%20Kosa%20AlphaMicron%2C%20Inc."
+   },
+   {
+    "name": "Eui Yeul Park",
+    "title": "VP Production (verify)",
+    "source": "Third-party profile",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Eui%20Yeul%20Park%20AlphaMicron%2C%20Inc."
+   }
+  ],
+  "contacts_source": "Third-party profile",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=AlphaMicron%2C%20Inc.",
+  "trigger_type": "CMMC / DFARS",
+  "email_security": "No issues found",
+  "office": "Warren",
+  "miles": 23,
+  "zip": "44240"
  },
  {
   "name": "Lorain County Health & Dentistry",
@@ -282,7 +567,33 @@
    "https://ohiohouse.gov/members/david-thomas/news/lorain-county-health-dentistry-receives-state-funding-123005",
    "https://projects.propublica.org/nonprofits/organizations/341957404"
   ],
-  "website": ""
+  "website": "lorainhealth-dentistry.org",
+  "ein": "341957404",
+  "phone": "(440) 233-1075",
+  "employees": 154,
+  "contacts": [
+   {
+    "name": "Stephanie Wiersma",
+    "title": "President / Chief Executive Officer",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Stephanie%20Wiersma%20Lorain%20County%20Health%20%26%20Dentistry"
+   },
+   {
+    "name": "Lisa Hemker",
+    "title": "Cfo",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Lisa%20Hemker%20Lorain%20County%20Health%20%26%20Dentistry"
+   },
+   {
+    "name": "Troy Chaffin",
+    "title": "Chief Operating Officer",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Troy%20Chaffin%20Lorain%20County%20Health%20%26%20Dentistry"
+   }
+  ],
+  "contacts_source": "IRS Form 990, period ending 2024-12-31",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Lorain%20County%20Health%20%26%20Dentistry",
+  "trigger_type": "Expansion / new sites",
+  "email_security": "DMARC set to monitor only (p=none): spoofed email still gets delivered",
+  "office": "Cleveland",
+  "miles": 26
  },
  {
   "name": "HELP Foundation",
@@ -302,7 +613,33 @@
    "https://civiciq.com/public-contract/cff78afe-3cd6-44b6-afae-6cfce9b249a2",
    "https://projects.propublica.org/nonprofits/organizations/341617051"
   ],
-  "website": ""
+  "website": "helpfoundationinc.org",
+  "ein": "341617051",
+  "phone": "(216) 432-4810",
+  "employees": 401,
+  "contacts": [
+   {
+    "name": "Tamara Honkala",
+    "title": "President / Ceo",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Tamara%20Honkala%20HELP%20Foundation"
+   },
+   {
+    "name": "Belinda Grassi",
+    "title": "Chief Finance Officer",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Belinda%20Grassi%20HELP%20Foundation"
+   },
+   {
+    "name": "Susan Berneike",
+    "title": "Vice President",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Susan%20Berneike%20HELP%20Foundation"
+   }
+  ],
+  "contacts_source": "IRS Form 990, period ending 2025-12-31",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=HELP%20Foundation",
+  "trigger_type": "Expansion / new sites",
+  "email_security": "DMARC set to monitor only (p=none): spoofed email still gets delivered",
+  "office": "Cleveland",
+  "miles": 11
  },
  {
   "name": "Lutheran Metropolitan Ministry",
@@ -320,6 +657,32 @@
   "sources": [
    "https://projects.propublica.org/nonprofits/organizations/341043756"
   ],
-  "website": ""
+  "website": "lutheranmetro.org",
+  "ein": "341043756",
+  "phone": "(216) 696-2715",
+  "employees": 191,
+  "contacts": [
+   {
+    "name": "Maria Foschia",
+    "title": "President And Ceo",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Maria%20Foschia%20Lutheran%20Metropolitan%20Ministry"
+   },
+   {
+    "name": "Sue Cyncynatus",
+    "title": "Cfo",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Sue%20Cyncynatus%20Lutheran%20Metropolitan%20Ministry"
+   },
+   {
+    "name": "Michael Sering",
+    "title": "Vp Housing And Shelter",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Michael%20Sering%20Lutheran%20Metropolitan%20Ministry"
+   }
+  ],
+  "contacts_source": "IRS Form 990, period ending 2024-12-31",
+  "linkedin_company": "https://www.linkedin.com/search/results/companies/?keywords=Lutheran%20Metropolitan%20Ministry",
+  "trigger_type": "Good fit, no trigger",
+  "email_security": "No issues found",
+  "office": "Cleveland",
+  "miles": 2
  }
 ]

@@ -34,7 +34,7 @@ def dns(name, rtype):
 def fetch_ok(url):
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=15) as r:
+        with urllib.request.urlopen(req, timeout=8) as r:
             return r.status < 400, r.geturl()
     except Exception:
         return False, ""
@@ -71,23 +71,30 @@ def check(domain):
                 policy = part.strip()[2:]
     web = web_status(domain)
 
+    return {"domain": domain, "checked": datetime.date.today().isoformat(), "mx_provider": provider,
+            "security_gateway": gateway, "spf": bool(spf), "spf_all": spf.rstrip()[-4:] if spf else "",
+            "dmarc": policy or ("missing" if not dmarc_txt else "set"), "website": web,
+            **findings_for(provider, bool(spf), spf.rstrip()[-4:] if spf else "", policy or ("missing" if not dmarc_txt else "set"), web)}
+
+
+def findings_for(provider, spf, spf_all, dmarc, web):
+    """Only report email findings when the domain actually receives email (has MX records);
+    a website host is often not the organization's email domain."""
     findings = []
-    if not dmarc_txt:
-        findings.append("No DMARC record: anyone can send email that appears to come from this domain")
-    elif policy == "none":
-        findings.append("DMARC set to monitor only (p=none): spoofed email still gets delivered")
-    if not spf:
-        findings.append("No SPF record")
-    elif spf.rstrip().endswith("+all"):
-        findings.append("SPF allows any server to send (+all)")
-    if provider in ("GoDaddy email", "Self-hosted / other", "Yahoo Small Business"):
-        findings.append(f"Email on {provider}: likely no one managing email security")
+    if provider != "No MX record":
+        if dmarc == "missing":
+            findings.append("No DMARC record: anyone can send email that appears to come from this domain")
+        elif dmarc.strip() == "none":
+            findings.append("DMARC set to monitor only (p=none): spoofed email still gets delivered")
+        if not spf:
+            findings.append("No SPF record")
+        elif spf_all == "+all":
+            findings.append("SPF allows any server to send (+all)")
+        if provider in ("GoDaddy email", "Yahoo Small Business"):
+            findings.append(f"Email on {provider}: likely no one managing email security")
     if web == "http-only":
         findings.append("Website appears to load only over plain HTTP, not HTTPS (verify in a browser before mentioning)")
-    return {"domain": domain, "checked": datetime.date.today().isoformat(), "mx_provider": provider,
-            "security_gateway": gateway, "spf": bool(spf), "dmarc": policy or ("missing" if not dmarc_txt else "set"),
-            "website": web, "findings": findings,
-            "hook": findings[0] if findings else ""}
+    return {"findings": findings, "hook": findings[0] if findings else ""}
 
 
 def main(domains_path):
@@ -96,12 +103,25 @@ def main(domains_path):
     cutoff = (datetime.date.today() - datetime.timedelta(days=30)).isoformat()
     todo = [d for d in json.load(open(domains_path)) if d and (d not in done or done[d]["checked"] < cutoff)]
     print(f"{len(todo)} domains to check", file=sys.stderr, flush=True)
-    with ThreadPoolExecutor(8) as ex:
-        for res in ex.map(check, todo):
+    with ThreadPoolExecutor(24) as ex:
+        for i, res in enumerate(ex.map(check, todo), 1):
             done[res["domain"]] = res
+            if i % 50 == 0:
+                json.dump(done, open(out_path, "w"), indent=1)
+                print(f"  {i}/{len(todo)}", file=sys.stderr, flush=True)
     json.dump(done, open(out_path, "w"), indent=1)
     print(f"{len(done)} domains in {out_path}", file=sys.stderr)
 
 
+def refresh_findings(path):
+    data = json.load(open(path))
+    for v in data.values():
+        v.update(findings_for(v["mx_provider"], v["spf"], v.get("spf_all", ""), v["dmarc"], v["website"]))
+    json.dump(data, open(path, "w"), indent=1)
+
+
 if __name__ == "__main__":
-    main(sys.argv[1])
+    if sys.argv[1] == "--refresh-findings":
+        refresh_findings(sys.argv[2])
+    else:
+        main(sys.argv[1])
