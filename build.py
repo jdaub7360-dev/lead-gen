@@ -342,6 +342,36 @@ def build(cfg, d, out):
         cp.cell(rr, booked_col + 1).number_format = "mmm d"
 
 
+    # ================= Earlier Top Leads (carried forward) =================
+    import glob
+    current = {t["name"] for t in top}
+    earlier = []
+    for path in sorted(glob.glob(f"{d}/history/top_leads_*.json"), reverse=True)[:6]:
+        week = os.path.basename(path)[10:20]
+        if week >= today.isoformat():
+            continue
+        for t in load(path, []):
+            if t["name"] not in current and t["name"] not in {e["name"] for e in earlier}:
+                earlier.append(dict(t, week=week))
+    if earlier:
+        ew = wb.create_sheet("Earlier Top Leads")
+        h = ["Week", "Score", "Organization", "Vertical", "Nearest office", "Trigger", "Why now", "Contact", "Main phone",
+             "Website", "Status", "Notes"]
+        w = [11, 7, 30, 14, 12, 18, 56, 34, 15, 22, 15, 30]
+        rows = []
+        for t in earlier:
+            c0 = (t.get("contacts") or [{}])[0]
+            rows.append([datetime.date.fromisoformat(t["week"]), t.get("score", ""), t["name"], t["vertical"],
+                         f"{t.get('office', '')} · {t.get('miles', '')} mi", t.get("trigger_type", ""), t["why_now"],
+                         (f"{c0.get('name', '')} – {c0.get('title', '')}", c0.get("linkedin", "")) if c0 else "",
+                         t.get("phone", ""), site(t.get("website")), "", ""])
+        table(ew, h, w, rows, freeze="D2", wrap_cols=(3, 7, 8), status_col=11,
+              row_height=lambda row: text_height([(row[6], 56)]),
+              note="Top Leads from the last 6 weeks that are not in this week's list. Keep working any you started; "
+                   "drafts and call plans are in that week's workbook.")
+        for rr in range(3, ew.max_row + 1):
+            ew.cell(rr, 1).number_format = "mmm d"
+
     # ================= Competitor Clients =================
     comp = load(f"{d}/competitor_clients.json", []) + [
         dict(m, office=near(cfg, m.get("zip"))[0], miles=near(cfg, m.get("zip"))[1], bid_posted="")
