@@ -1,0 +1,2218 @@
+{
+ "Bedford|City": {
+  "website": "bedfordoh.gov",
+  "contact_title": "Director Of Finance",
+  "address": "165 Center Rd",
+  "mail_city": "Bedford",
+  "zip": "44146",
+  "county": "Cuyahoga"
+ },
+ "Brooklyn|City": {
+  "website": "brooklynohio.gov",
+  "contact_title": "Building Commissioner",
+  "address": "7619 Memphis Ave",
+  "mail_city": "Brooklyn",
+  "zip": "44144",
+  "county": "Cuyahoga"
+ },
+ "Highland Heights|City": {
+  "website": "highlandhts.com",
+  "contact_title": "Mayor",
+  "address": "5827 Highland Rd",
+  "mail_city": "Highland Heights",
+  "zip": "44143",
+  "county": "Cuyahoga"
+ },
+ "Lyndhurst|City": {
+  "website": "lyndhurstoh.com",
+  "contact_title": "Mayor",
+  "address": "5301 Mayfield Rd",
+  "mail_city": "Lyndhurst",
+  "zip": "44124",
+  "county": "Cuyahoga"
+ },
+ "Newburgh Heights|Village": {
+  "website": "",
+  "contact_title": "Mayor",
+  "address": "3801 Harvard Avenue",
+  "mail_city": "Newburgh Heights",
+  "zip": "44105",
+  "county": "Cuyahoga"
+ },
+ "Solon|City": {
+  "website": "solonohio.org",
+  "contact_title": "Mayor",
+  "address": "34200 Bainbridge Rd",
+  "mail_city": "Solon",
+  "zip": "44139",
+  "county": "Cuyahoga"
+ },
+ "Valley View|Village": {
+  "website": "valleyview.net",
+  "contact_title": "Clerk-Treasurer",
+  "address": "6848 Hathaway Rd",
+  "mail_city": "Cleveland",
+  "zip": "44125",
+  "county": "Cuyahoga"
+ },
+ "Berea|City": {
+  "website": "bereaohio.com",
+  "contact_title": "Mayor",
+  "address": "11 Berea Commons",
+  "mail_city": "Berea",
+  "zip": "44017",
+  "county": "Cuyahoga"
+ },
+ "Glenwillow|Village": {
+  "website": "",
+  "contact_title": "Mayor",
+  "address": "29555 Pettibone Rd",
+  "mail_city": "Solon",
+  "zip": "44139",
+  "county": "Cuyahoga"
+ },
+ "Lakewood|City": {
+  "website": "onelakewood.com",
+  "contact_title": "Mayor",
+  "address": "12650 Detroit Ave",
+  "mail_city": "Lakewood",
+  "zip": "44107",
+  "county": "Cuyahoga"
+ },
+ "Maple Heights|City": {
+  "website": "mapleheights.cuyahogacounty.us",
+  "contact_title": "Finance Director",
+  "address": "5353 Lee Rd",
+  "mail_city": "Maple Heights",
+  "zip": "44137",
+  "county": "Cuyahoga"
+ },
+ "Moreland Hills|Village": {
+  "website": "morelandhills.com",
+  "contact_title": "Mayor",
+  "address": "4350 Som Center Rd",
+  "mail_city": "Moreland Hills",
+  "zip": "44022",
+  "county": "Cuyahoga"
+ },
+ "North Olmsted|City": {
+  "website": "northolmsted.com",
+  "contact_title": "Mayor",
+  "address": "5200 Dover Center Rd",
+  "mail_city": "North Olmsted",
+  "zip": "44070",
+  "county": "Cuyahoga"
+ },
+ "North Royalton|City": {
+  "website": "northroyalten.org",
+  "contact_title": "Community Development Director",
+  "address": "14600 State Rd",
+  "mail_city": "North Royalton",
+  "zip": "44133",
+  "county": "Cuyahoga"
+ },
+ "Oakwood|Village": {
+  "website": "oakwoodvillageoh.com",
+  "contact_title": "Finance Dir",
+  "address": "24800 Broadway Ave",
+  "mail_city": "Bedford",
+  "zip": "44146",
+  "county": "Cuyahoga"
+ },
+ "Seven Hills|City": {
+  "website": "",
+  "contact_title": "Mayor",
+  "address": "7325 Summitview Dr",
+  "mail_city": "Seven Hills",
+  "zip": "44131",
+  "county": "Cuyahoga"
+ },
+ "Walton Hills|Village": {
+  "website": "waltonhillsohio.gov",
+  "contact_title": "Mayors Assistant",
+  "address": "7595 Walton Rd",
+  "mail_city": "Walton Hills",
+  "zip": "44146",
+  "county": "Cuyahoga"
+ },
+ "Bay Village|City": {
+  "website": "cityofbayvillage.com",
+  "contact_title": "Director Of Public Service & Propert",
+  "address": "350 Dover Center Rd",
+  "mail_city": "Bay Village",
+  "zip": "44140",
+  "county": "Cuyahoga"
+ },
+ "Beachwood|City": {
+  "website": "beachwoodohio.com",
+  "contact_title": "Finance Director",
+  "address": "25325 Fairmount Blvd",
+  "mail_city": "Beachwood",
+  "zip": "44122",
+  "county": "Cuyahoga"
+ },
+ "Bedford Heights|City": {
+  "website": "bedfordheights.gov",
+  "contact_title": "Mayor Safety Director",
+  "address": "5661 Perkins Rd",
+  "mail_city": "Bedford Heights",
+  "zip": "44146",
+  "county": "Cuyahoga"
+ },
+ "Bratenahl|Village": {
+  "website": "bratenahl.org",
+  "contact_title": "Mayor",
+  "address": "411 Bratenahl Rd",
+  "mail_city": "Bratenahl",
+  "zip": "44108",
+  "county": "Cuyahoga"
+ },
+ "Brecksville|City": {
+  "website": "brecksville.oh.us",
+  "contact_title": "Network Admin",
+  "address": "9069 Brecksville Rd",
+  "mail_city": "Brecksville",
+  "zip": "44141",
+  "county": "Cuyahoga"
+ },
+ "Brooklyn Heights|Village": {
+  "website": "brooklynhts.org",
+  "contact_title": "Mayor",
+  "address": "345 Tuxedo Ave ",
+  "mail_city": "Brooklyn Heights",
+  "zip": "44131",
+  "county": "Cuyahoga"
+ },
+ "Brook Park|City": {
+  "website": "cityofbrookpark.com",
+  "contact_title": "Mayor",
+  "address": "6161 Engle Rd",
+  "mail_city": "Brook Park",
+  "zip": "44142",
+  "county": "Cuyahoga"
+ },
+ "Chagrin Falls|Village": {
+  "website": "chagrinfalls.org",
+  "contact_title": "Chief Administrative Officer",
+  "address": "21 W Washington St",
+  "mail_city": "Chagrin Falls",
+  "zip": "44022",
+  "county": "Cuyahoga"
+ },
+ "Cleveland|City": {
+  "website": "city.cleveland.oh.us",
+  "contact_title": "Mayor",
+  "address": "601 Lakeside Ave E Rm 105",
+  "mail_city": "Cleveland",
+  "zip": "44114",
+  "county": "Cuyahoga"
+ },
+ "East Cleveland|City": {
+  "website": "",
+  "contact_title": "Mayor",
+  "address": "14340 Euclid Ave",
+  "mail_city": "East Cleveland",
+  "zip": "44112",
+  "county": "Cuyahoga"
+ },
+ "Fairview Park|City": {
+  "website": "fairviewpark.org",
+  "contact_title": "Development Administrator",
+  "address": "20777 Lorain Rd",
+  "mail_city": "Fairview Park",
+  "zip": "44126",
+  "county": "Cuyahoga"
+ },
+ "Garfield Heights|City": {
+  "website": "garfieldhts.org",
+  "contact_title": "Acting Finance Director",
+  "address": "5407 Turney Rd",
+  "mail_city": "Garfield Heights",
+  "zip": "44125",
+  "county": "Cuyahoga"
+ },
+ "Gates Mills|Village": {
+  "website": "gatesmillsvillage.com",
+  "contact_title": "Mayor",
+  "address": "Po Box 339",
+  "mail_city": "Gates Mills",
+  "zip": "44040",
+  "county": "Cuyahoga"
+ },
+ "Hunting Valley|Village": {
+  "website": "huntingvalley.net",
+  "contact_title": "Mayor",
+  "address": "38251 Fairmount Blvd",
+  "mail_city": "Chagrin Falls",
+  "zip": "44022",
+  "county": "Cuyahoga"
+ },
+ "Mayfield|Village": {
+  "website": "mayfieldvillage.com",
+  "contact_title": "Development Director",
+  "address": "6622 Wilson Mills Rd",
+  "mail_city": "Mayfield Village",
+  "zip": "44143",
+  "county": "Cuyahoga"
+ },
+ "Middleburg Heights|City": {
+  "website": "middleburgheights.com",
+  "contact_title": "Director Of Finance",
+  "address": "15700 Bagley Rd",
+  "mail_city": "Middleburg Heights",
+  "zip": "44130",
+  "county": "Cuyahoga"
+ },
+ "Olmsted Falls|City": {
+  "website": "olmstedfalls.org",
+  "contact_title": "Mayor",
+  "address": "26100 Bagley Rd",
+  "mail_city": "Olmsted Falls",
+  "zip": "44138",
+  "county": "Cuyahoga"
+ },
+ "Parma Heights|City": {
+  "website": "parmaheightsoh.gov",
+  "contact_title": "Dir Of Finance Personnel",
+  "address": "6281 Pearl Rd",
+  "mail_city": "Parma Heights",
+  "zip": "44130",
+  "county": "Cuyahoga"
+ },
+ "Pepper Pike|City": {
+  "website": "pepperpike.org",
+  "contact_title": "Finance Director",
+  "address": "28000 Shaker Blvd",
+  "mail_city": "Pepper Pike",
+  "zip": "44124",
+  "county": "Cuyahoga"
+ },
+ "Richmond Heights|City": {
+  "website": "richmondheightsohio.org",
+  "contact_title": "Building Commissioner; Director Of F",
+  "address": "26789 Highland Rd",
+  "mail_city": "Richmond Heights",
+  "zip": "44143",
+  "county": "Cuyahoga"
+ },
+ "Shaker Heights|City": {
+  "website": "shakeronline.com",
+  "contact_title": "Director Of Planning",
+  "address": "3400 Lee Rd",
+  "mail_city": "Shaker Heights",
+  "zip": "44120",
+  "county": "Cuyahoga"
+ },
+ "Strongsville|City": {
+  "website": "strongsville.org",
+  "contact_title": "Mayor",
+  "address": "16099 Foltz Pkwy",
+  "mail_city": "Strongsville",
+  "zip": "44149",
+  "county": "Cuyahoga"
+ },
+ "Warrensville Heights|City": {
+  "website": "cityofwarrensville.com",
+  "contact_title": "Chief Of Staff",
+  "address": "4301 Warrensville Center Rd",
+  "mail_city": "Warrensville Heights",
+  "zip": "44128",
+  "county": "Cuyahoga"
+ },
+ "Highland Hills|Village": {
+  "website": "vhhohio.org",
+  "contact_title": "Finance Director",
+  "address": "3700 Northfield Rd Ste 3",
+  "mail_city": "Highland Hills",
+  "zip": "44122",
+  "county": "Cuyahoga"
+ },
+ "Linndale|Village": {
+  "website": "",
+  "contact_title": "Clerk",
+  "address": "4016 W 119Th St",
+  "mail_city": "Cleveland",
+  "zip": "44135",
+  "county": "Cuyahoga"
+ },
+ "Bentleyville|Village": {
+  "website": "villageofbentleyville.com",
+  "contact_title": "Fiscal Officer",
+  "address": "6253 Chagrin River Rd",
+  "mail_city": "Bentleyville",
+  "zip": "44022",
+  "county": "Cuyahoga"
+ },
+ "South Euclid|City": {
+  "website": "cityofsoutheuclid.com",
+  "contact_title": "Economic Development Coordinator",
+  "address": "1349 S Green Rd",
+  "mail_city": "South Euclid",
+  "zip": "44121",
+  "county": "Cuyahoga"
+ },
+ "Parma|City": {
+  "website": "cityofparmaoh.gov",
+  "contact_title": "Economic Development Officer/Grant W",
+  "address": "6611 Ridge Rd",
+  "mail_city": "Parma",
+  "zip": "44129",
+  "county": "Cuyahoga"
+ },
+ "Westlake|City": {
+  "website": "cityofwestlake.org",
+  "contact_title": "Director Of Finance",
+  "address": "27700 Hilliard Blvd",
+  "mail_city": "Westlake",
+  "zip": "44145",
+  "county": "Cuyahoga"
+ },
+ "Broadview Heights|City": {
+  "website": "broadviewheights.org",
+  "contact_title": "Finance Director",
+  "address": "9543 Broadview Rd Bldg 7",
+  "mail_city": "Broadview Heights",
+  "zip": "44147",
+  "county": "Cuyahoga"
+ },
+ "Euclid|City": {
+  "website": "ci.euclid.oh.us",
+  "contact_title": "Mayor",
+  "address": "585 E 222Nd St",
+  "mail_city": "Euclid",
+  "zip": "44123",
+  "county": "Cuyahoga"
+ },
+ "Mayfield Heights|City": {
+  "website": "mayfieldheights.org",
+  "contact_title": "Mayor/Safety Director",
+  "address": "6154 Mayfield Rd",
+  "mail_city": "Mayfield Heights",
+  "zip": "44124",
+  "county": "Cuyahoga"
+ },
+ "Independence|City": {
+  "website": "independenceohio.org",
+  "contact_title": "Mayor",
+  "address": "6800 Brecksville Rd",
+  "mail_city": "Independence",
+  "zip": "44131",
+  "county": "Cuyahoga"
+ },
+ "North Randall|Village": {
+  "website": "northrandall.com",
+  "contact_title": "Fiscal Officer",
+  "address": "21937 Miles Rd Side",
+  "mail_city": "North Randall",
+  "zip": "44128",
+  "county": "Cuyahoga"
+ },
+ "Rocky River|City": {
+  "website": "rrcity.com",
+  "contact_title": "Director Of Finance",
+  "address": "21012 Hilliard Blvd",
+  "mail_city": "Rocky River",
+  "zip": "44116",
+  "county": "Cuyahoga"
+ },
+ "Woodmere|Village": {
+  "website": "woodmerevillage.com",
+  "contact_title": "Administrative Assistant",
+  "address": "27899 Chagrin Blvd",
+  "mail_city": "Beachwood",
+  "zip": "44122",
+  "county": "Cuyahoga"
+ },
+ "Cuyahoga Heights|Village": {
+  "website": "cuyahogaheights.com",
+  "contact_title": "Admin Asst Admin Asst",
+  "address": "4863 E 71St St Frnt",
+  "mail_city": "Cleveland",
+  "zip": "44125",
+  "county": "Cuyahoga"
+ },
+ "Orange|Village": {
+  "website": "orangevillage.com",
+  "contact_title": "Administrative Assistant",
+  "address": "4600 Lander Rd",
+  "mail_city": "Chagrin Falls",
+  "zip": "44022",
+  "county": "Cuyahoga"
+ },
+ "Cleveland Heights|City": {
+  "website": "clevelandheights.com",
+  "contact_title": "Assistant City Manager",
+  "address": "40 Severance Cir",
+  "mail_city": "Cleveland Heights",
+  "zip": "44118",
+  "county": "Cuyahoga"
+ },
+ "University Heights|City": {
+  "website": "universityheights.com",
+  "contact_title": "Finance Director",
+  "address": "2300 Warrensville Center Rd",
+  "mail_city": "University Heights",
+  "zip": "44118",
+  "county": "Cuyahoga"
+ },
+ "Middlefield|Village": {
+  "website": "villageofmiddlefieldohio.com",
+  "contact_title": "Village Administrator",
+  "address": "Po Box 1019",
+  "mail_city": "Middlefield",
+  "zip": "44062",
+  "county": "Geauga"
+ },
+ "Aquilla|Village": {
+  "website": "",
+  "contact_title": "Mayor",
+  "address": "Po Box 1127",
+  "mail_city": "Chardon",
+  "zip": "44024",
+  "county": "Geauga"
+ },
+ "Burton|Village": {
+  "website": "villageofburton.org",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 408",
+  "mail_city": "Burton",
+  "zip": "44021",
+  "county": "Geauga"
+ },
+ "South Russell|Village": {
+  "website": "southrussell.com",
+  "contact_title": "Fiscal Officer",
+  "address": "5205 Chillicothe Rd",
+  "mail_city": "Chagrin Falls",
+  "zip": "44022",
+  "county": "Geauga"
+ },
+ "Chardon|City": {
+  "website": "chardon.cc",
+  "contact_title": "Clerk Of Council",
+  "address": "111 Water St Fl 2",
+  "mail_city": "Chardon",
+  "zip": "44024",
+  "county": "Geauga"
+ },
+ "Grand River|Village": {
+  "website": "",
+  "contact_title": "Mayor",
+  "address": "Po Box 216",
+  "mail_city": "Grand River",
+  "zip": "44045",
+  "county": "Lake"
+ },
+ "Madison|Village": {
+  "website": "madisonvillage.org",
+  "contact_title": "Fiscal Officer",
+  "address": "126 W Main St",
+  "mail_city": "Madison",
+  "zip": "44057",
+  "county": "Lake"
+ },
+ "Waite Hill|Village": {
+  "website": "",
+  "contact_title": "Clerk Treasurer",
+  "address": "7215 Eagle Rd",
+  "mail_city": "Waite Hill",
+  "zip": "44094",
+  "county": "Lake"
+ },
+ "Willowick|City": {
+  "website": "",
+  "contact_title": "Clerk",
+  "address": "30435 Lake Shore Blvd",
+  "mail_city": "Willowick",
+  "zip": "44095",
+  "county": "Lake"
+ },
+ "Fairport Harbor|Village": {
+  "website": "fairportharbor.org",
+  "contact_title": "Village Administrator",
+  "address": "220 3Rd St",
+  "mail_city": "Fairport Harbor",
+  "zip": "44077",
+  "county": "Lake"
+ },
+ "Kirtland Hills|Village": {
+  "website": "",
+  "contact_title": "Police Chief",
+  "address": "8026 Chillicothe Rd",
+  "mail_city": "Mentor",
+  "zip": "44060",
+  "county": "Lake"
+ },
+ "Lakeline|Village": {
+  "website": "",
+  "contact_title": "Mayor",
+  "address": "33801 Lake Shore Blvd",
+  "mail_city": "Lakeline",
+  "zip": "44095",
+  "county": "Lake"
+ },
+ "Mentor On The Lake|City": {
+  "website": "citymol.org",
+  "contact_title": "Administrative Director",
+  "address": "5860 Andrews Rd",
+  "mail_city": "Mentor On The Lake",
+  "zip": "44060",
+  "county": "Lake"
+ },
+ "North Perry|Village": {
+  "website": "northperry.org",
+  "contact_title": "Fin Dir",
+  "address": "4449 Lockwood Rd",
+  "mail_city": "Perry",
+  "zip": "44081",
+  "county": "Lake"
+ },
+ "Perry|Village": {
+  "website": "perryvillage.info",
+  "contact_title": "Chief Fiscal Officer",
+  "address": "Po Box 100",
+  "mail_city": "Perry",
+  "zip": "44081",
+  "county": "Lake"
+ },
+ "Timberlake|Village": {
+  "website": "villageoftimberlake.com",
+  "contact_title": "Mayor",
+  "address": "11 E Shore Blvd",
+  "mail_city": "Timberlake",
+  "zip": "44095",
+  "county": "Lake"
+ },
+ "Willoughby|City": {
+  "website": "willoughbyohio.com",
+  "contact_title": "Community Development Mgr",
+  "address": "1 Public Sq",
+  "mail_city": "Willoughby",
+  "zip": "44094",
+  "county": "Lake"
+ },
+ "Willoughby Hills|City": {
+  "website": "willoughbyhills-oh.gov",
+  "contact_title": "Mayor",
+  "address": "35405 Chardon Rd",
+  "mail_city": "Willoughby Hills",
+  "zip": "44094",
+  "county": "Lake"
+ },
+ "Kirtland|City": {
+  "website": "kirtlandohio.com",
+  "contact_title": "Mayor",
+  "address": "9301 Chillicothe Rd",
+  "mail_city": "Kirtland",
+  "zip": "44094",
+  "county": "Lake"
+ },
+ "Wickliffe|City": {
+  "website": "cityofwickliffe.com",
+  "contact_title": "Mayor",
+  "address": "28730 Ridge Rd",
+  "mail_city": "Wickliffe",
+  "zip": "44092",
+  "county": "Lake"
+ },
+ "Eastlake|City": {
+  "website": "eastlakeohio.com",
+  "contact_title": "Mayor",
+  "address": "35150 Lakeshore Blvd",
+  "mail_city": "Eastlake",
+  "zip": "44095",
+  "county": "Lake"
+ },
+ "Mentor|City": {
+  "website": "cityofmentor.com",
+  "contact_title": "Council President",
+  "address": "8500 Civic Center Blvd",
+  "mail_city": "Mentor",
+  "zip": "44060",
+  "county": "Lake"
+ },
+ "Painesville|City": {
+  "website": "painesville.com",
+  "contact_title": "City Manager",
+  "address": "7 Richmond St",
+  "mail_city": "Painesville",
+  "zip": "44077",
+  "county": "Lake"
+ },
+ "Sheffield|Village": {
+  "website": "sheffieldvillage.com",
+  "contact_title": "Mayor",
+  "address": "4340 Colorado Ave",
+  "mail_city": "Sheffield Village",
+  "zip": "44054",
+  "county": "Lorain"
+ },
+ "Wellington|Village": {
+  "website": "villageofwellington.com",
+  "contact_title": "Village Manager",
+  "address": "115 Willard Memorial Sq",
+  "mail_city": "Wellington",
+  "zip": "44090",
+  "county": "Lorain"
+ },
+ "Lagrange|Village": {
+  "website": "lagrangeohio.net",
+  "contact_title": "Fiscal Officer ",
+  "address": "Po Box 597",
+  "mail_city": "Lagrange",
+  "zip": "44050",
+  "county": "Lorain"
+ },
+ "Oberlin|City": {
+  "website": "cityofoberlin.com",
+  "contact_title": "City Manager",
+  "address": "85 S Main St",
+  "mail_city": "Oberlin",
+  "zip": "44074",
+  "county": "Lorain"
+ },
+ "Rochester|Village": {
+  "website": "",
+  "contact_title": "Fiscal Officer Rochester Village",
+  "address": "Po Box 85 ",
+  "mail_city": "Wellington ",
+  "zip": "44090",
+  "county": "Lorain"
+ },
+ "South Amherst|Village": {
+  "website": "villageofsouthamherst.com",
+  "contact_title": "Fiscal Officer ",
+  "address": "103 W Main St",
+  "mail_city": "South Amherst",
+  "zip": "44001",
+  "county": "Lorain"
+ },
+ "Kipton|Village": {
+  "website": "kipton.org",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 177",
+  "mail_city": "Kipton",
+  "zip": "44049",
+  "county": "Lorain"
+ },
+ "Sheffield Lake|City": {
+  "website": "sheffieldlake.net",
+  "contact_title": "Finance Director",
+  "address": "609 Harris Rd",
+  "mail_city": "Sheffield Lake",
+  "zip": "44054",
+  "county": "Lorain"
+ },
+ "Avon Lake|City": {
+  "website": "avonlake.org",
+  "contact_title": "Mayor",
+  "address": "150 Avon Belden Rd",
+  "mail_city": "Avon Lake",
+  "zip": "44012",
+  "county": "Lorain"
+ },
+ "North Ridgeville|City": {
+  "website": "ci.north-ridgeville.oh.us",
+  "contact_title": "Mayor",
+  "address": "7307 Avon Belden Rd",
+  "mail_city": "North Ridgeville",
+  "zip": "44039",
+  "county": "Lorain"
+ },
+ "Elyria|City": {
+  "website": "cityofelyria.org",
+  "contact_title": "Mayor",
+  "address": "131 Court St",
+  "mail_city": "Elyria",
+  "zip": "44035",
+  "county": "Lorain"
+ },
+ "Grafton|Village": {
+  "website": "villageofgrafton.org",
+  "contact_title": "Clerk Treasurer",
+  "address": "960 Main St",
+  "mail_city": "Grafton",
+  "zip": "44044",
+  "county": "Lorain"
+ },
+ "Amherst|City": {
+  "website": "amherstohio.org",
+  "contact_title": "Mayor",
+  "address": "206 S Main St",
+  "mail_city": "Amherst",
+  "zip": "44001",
+  "county": "Lorain"
+ },
+ "Avon|City": {
+  "website": "cityofavon.com",
+  "contact_title": "Mayor",
+  "address": "36080 Chester Rd",
+  "mail_city": "Avon",
+  "zip": "44011",
+  "county": "Lorain"
+ },
+ "Lorain|City": {
+  "website": "cityoflorain.org",
+  "contact_title": "Chief Of Staff",
+  "address": "200 W Erie Ave",
+  "mail_city": "Lorain",
+  "zip": "44052",
+  "county": "Lorain"
+ },
+ "Lowellville|Village": {
+  "website": "villageoflowellville.com",
+  "contact_title": "Secretary",
+  "address": "Po Box 124",
+  "mail_city": "Lowellville",
+  "zip": "44436",
+  "county": "Mahoning"
+ },
+ "Struthers|City": {
+  "website": "cityofstrut4ers.com",
+  "contact_title": "Mayor",
+  "address": "6 Elm St",
+  "mail_city": "Struthers",
+  "zip": "44471",
+  "county": "Mahoning"
+ },
+ "Campbell|City": {
+  "website": "cityofcampbellohio.org",
+  "contact_title": "Mayor",
+  "address": "351 Tenney Ave",
+  "mail_city": "Campbell",
+  "zip": "44405",
+  "county": "Mahoning"
+ },
+ "Sebring|Village": {
+  "website": "sebringohio.net",
+  "contact_title": "Mayor",
+  "address": "135 E Ohio Ave Ste 1",
+  "mail_city": "Sebring",
+  "zip": "44672",
+  "county": "Mahoning"
+ },
+ "Beloit|Village": {
+  "website": "",
+  "contact_title": "Mayor",
+  "address": "Po Box 276",
+  "mail_city": "Beloit",
+  "zip": "44609",
+  "county": "Mahoning"
+ },
+ "Canfield|City": {
+  "website": "ci.canfield.oh.us",
+  "contact_title": "City Manager",
+  "address": "104 Lisbon St",
+  "mail_city": "Canfield",
+  "zip": "44406",
+  "county": "Mahoning"
+ },
+ "Craig Beach|Village": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 99",
+  "mail_city": "Lake Milton",
+  "zip": "44429",
+  "county": "Mahoning"
+ },
+ "New Middletown|Village": {
+  "website": "villageofnewmiddletown.com",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 463",
+  "mail_city": "New Middletown",
+  "zip": "44442",
+  "county": "Mahoning"
+ },
+ "Poland|Village": {
+  "website": "",
+  "contact_title": "Clerk Treasurer",
+  "address": "308 S Main St",
+  "mail_city": "Poland",
+  "zip": "44514",
+  "county": "Mahoning"
+ },
+ "Youngstown|City": {
+  "website": "cityofyoungstownoh.com",
+  "contact_title": "Deputy Finance Director",
+  "address": "26 S Phelps St Fl 3A",
+  "mail_city": "Youngstown",
+  "zip": "44503",
+  "county": "Mahoning"
+ },
+ "Wadsworth|City": {
+  "website": "wadsworthcity.com",
+  "contact_title": "Planning Director",
+  "address": "120 Maple St",
+  "mail_city": "Wadsworth",
+  "zip": "44281",
+  "county": "Medina"
+ },
+ "Chippewa Lake|Village": {
+  "website": "chippewalake.net",
+  "contact_title": "Clerk-Treasurer",
+  "address": "Po Box 25",
+  "mail_city": "Chippewa Lake",
+  "zip": "44215",
+  "county": "Medina"
+ },
+ "Medina|City": {
+  "website": "medinaoh.org",
+  "contact_title": "Director Of Finance",
+  "address": "132 N Elmwood Ave",
+  "mail_city": "Medina",
+  "zip": "44256",
+  "county": "Medina"
+ },
+ "Brunswick|City": {
+  "website": "brunswick.oh.us",
+  "contact_title": "City Manager  ",
+  "address": "4095 Center Rd",
+  "mail_city": "Brunswick",
+  "zip": "44212",
+  "county": "Medina"
+ },
+ "Gloria Glens Park|Village": {
+  "website": "gloriaglens.net",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 457",
+  "mail_city": "Chippewa Lake",
+  "zip": "44215",
+  "county": "Medina"
+ },
+ "Spencer|Village": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 336",
+  "mail_city": "Spencer",
+  "zip": "44275",
+  "county": "Medina"
+ },
+ "Lodi|Village": {
+  "website": "villageoflodi.com",
+  "contact_title": "Mayor",
+  "address": "Po Box 95",
+  "mail_city": "Lodi",
+  "zip": "44254",
+  "county": "Medina"
+ },
+ "Westfield Center|Village": {
+  "website": "villageofwestfieldcenter.com",
+  "contact_title": "Mayor",
+  "address": "Po Box 750",
+  "mail_city": "Westfield Center",
+  "zip": "44251",
+  "county": "Medina"
+ },
+ "Seville|Village": {
+  "website": "villageofseville.org",
+  "contact_title": "Fiscal Officer",
+  "address": "120 Royal Crest Dr",
+  "mail_city": "Seville",
+  "zip": "44273",
+  "county": "Medina"
+ },
+ "Kent|City": {
+  "website": "kentohio.org",
+  "contact_title": "Mayor",
+  "address": "320 S. Depeyster St ",
+  "mail_city": "Kent",
+  "zip": "44240",
+  "county": "Portage"
+ },
+ "Windham|Village": {
+  "website": "",
+  "contact_title": "Mayor",
+  "address": "9621 E Center St",
+  "mail_city": "Windham",
+  "zip": "44288",
+  "county": "Portage"
+ },
+ "Aurora|City": {
+  "website": "auraraoh.com",
+  "contact_title": "Finance Director",
+  "address": "130 S Chillicothe Rd",
+  "mail_city": "Aurora",
+  "zip": "44202",
+  "county": "Portage"
+ },
+ "Garrettsville|Village": {
+  "website": "garrettsville.org",
+  "contact_title": "Clerk Treasurer",
+  "address": "Po Box 266",
+  "mail_city": "Garrettsville",
+  "zip": "44231",
+  "county": "Portage"
+ },
+ "Hiram|Village": {
+  "website": "",
+  "contact_title": "Mayor",
+  "address": "Po Box 65",
+  "mail_city": "Hiram",
+  "zip": "44234",
+  "county": "Portage"
+ },
+ "Ravenna|City": {
+  "website": "ci.ravenna.oh.us",
+  "contact_title": "Mayor",
+  "address": "Po Box 1215",
+  "mail_city": "Ravenna",
+  "zip": "44266",
+  "county": "Portage"
+ },
+ "Streetsboro|City": {
+  "website": "cityofstreetsboro.com",
+  "contact_title": "Director Of Finance",
+  "address": "9184 State Route 43",
+  "mail_city": "Streetsboro",
+  "zip": "44241",
+  "county": "Portage"
+ },
+ "Sugar Bush Knolls|Village": {
+  "website": "",
+  "contact_title": "Clerk Treasurer",
+  "address": "Po Box 2127",
+  "mail_city": "Streetsboro",
+  "zip": "44241",
+  "county": "Portage"
+ },
+ "Mantua|Village": {
+  "website": "mantuavillage.com",
+  "contact_title": "Clerk-Treasurer",
+  "address": "Po Box 775",
+  "mail_city": "Mantua",
+  "zip": "44255",
+  "county": "Portage"
+ },
+ "Munroe Falls|City": {
+  "website": "munroefalls.com",
+  "contact_title": "Finance Director",
+  "address": "43 Munroe Falls Ave",
+  "mail_city": "Munroe Falls",
+  "zip": "44262",
+  "county": "Summit"
+ },
+ "Norton|City": {
+  "website": "cityofnorton.org",
+  "contact_title": "Mayor",
+  "address": "4060 Colubia Woods Dr ",
+  "mail_city": "Norton",
+  "zip": "44203",
+  "county": "Summit"
+ },
+ "Boston Heights|Village": {
+  "website": "",
+  "contact_title": "Mayor",
+  "address": "45 E Boston Mills Rd",
+  "mail_city": "Hudson",
+  "zip": "44236",
+  "county": "Summit"
+ },
+ "Northfield|Village": {
+  "website": "northfieldvillage-oh.gov",
+  "contact_title": "Finance Director",
+  "address": "10455 Northfield Rd",
+  "mail_city": "Northfield",
+  "zip": "44067",
+  "county": "Summit"
+ },
+ "Tallmadge|City": {
+  "website": "tallmadge-ohio.org",
+  "contact_title": "Community Planner",
+  "address": "46 North Ave",
+  "mail_city": "Tallmadge",
+  "zip": "44278",
+  "county": "Summit"
+ },
+ "Green|City": {
+  "website": "cityofgreen.org",
+  "contact_title": "Finance Director",
+  "address": "Po Box 278",
+  "mail_city": "Green",
+  "zip": "44232",
+  "county": "Summit"
+ },
+ "Macedonia|City": {
+  "website": "macedonia.oh.us",
+  "contact_title": "Mayor",
+  "address": "9691 Valley View Rd",
+  "mail_city": "Macedonia",
+  "zip": "44056",
+  "county": "Summit"
+ },
+ "Barberton|City": {
+  "website": "",
+  "contact_title": "Mayor",
+  "address": "576 W Park Ave Ste 100",
+  "mail_city": "Barberton",
+  "zip": "44203",
+  "county": "Summit"
+ },
+ "Clinton|Village": {
+  "website": "clintonvillageohio.com",
+  "contact_title": "Mayor",
+  "address": "7871 Main St",
+  "mail_city": "Clinton",
+  "zip": "44216",
+  "county": "Summit"
+ },
+ "Cuyahoga Falls|City": {
+  "website": "cfo.cityofcf.com/web",
+  "contact_title": "Senior Planner",
+  "address": "2310 2Nd St",
+  "mail_city": "Cuyahoga Falls",
+  "zip": "44221",
+  "county": "Summit"
+ },
+ "Hudson|City": {
+  "website": "hudson.oh.us",
+  "contact_title": "Communicatios Manager",
+  "address": "115 Executive Pkwy Ste 400",
+  "mail_city": "Hudson",
+  "zip": "44236",
+  "county": "Summit"
+ },
+ "Peninsula|Village": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 177",
+  "mail_city": "Peninsula",
+  "zip": "44264",
+  "county": "Summit"
+ },
+ "Reminderville|Village": {
+  "website": "reminderville.com",
+  "contact_title": "Administrative Assistant",
+  "address": "3382 Glenwood Blvd",
+  "mail_city": "Reminderville",
+  "zip": "44202",
+  "county": "Summit"
+ },
+ "Stow|City": {
+  "website": "stow.oh.us",
+  "contact_title": "Mayor",
+  "address": "3760 Darrow Rd",
+  "mail_city": "Stow",
+  "zip": "44224",
+  "county": "Summit"
+ },
+ "Fairlawn|City": {
+  "website": "cityoffairlawn.com",
+  "contact_title": "Financial Analyst",
+  "address": "3487 S Smith Rd",
+  "mail_city": "Fairlawn",
+  "zip": "44333",
+  "county": "Summit"
+ },
+ "Lakemore|Village": {
+  "website": "lakemoreohio.org",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 455",
+  "mail_city": "Lakemore",
+  "zip": "44250",
+  "county": "Summit"
+ },
+ "Twinsburg|City": {
+  "website": "mytwinsburg.com",
+  "contact_title": "Mayor",
+  "address": "10075 Ravenna Rd",
+  "mail_city": "Twinsburg",
+  "zip": "44087",
+  "county": "Summit"
+ },
+ "Silver Lake|Village": {
+  "website": "villageofsilverlake.com",
+  "contact_title": "Mayor",
+  "address": "2961 Kent Rd",
+  "mail_city": "Silver Lake",
+  "zip": "44224",
+  "county": "Summit"
+ },
+ "Akron|City": {
+  "website": "ci.akron.oh.us",
+  "contact_title": "Mayor",
+  "address": "166 S High St Rm 200",
+  "mail_city": "Akron",
+  "zip": "44308",
+  "county": "Summit"
+ },
+ "Mogadore|Village": {
+  "website": "mogadorevillage.org",
+  "contact_title": "Clerk Treasurer",
+  "address": "135 S Cleveland Ave",
+  "mail_city": "Mogadore",
+  "zip": "44260",
+  "county": "Summit"
+ },
+ "New Franklin|City": {
+  "website": "newfranklin.org",
+  "contact_title": "Mayor Al Bollas",
+  "address": "5611 Manchester Rd",
+  "mail_city": "Akron",
+  "zip": "44319",
+  "county": "Summit"
+ },
+ "Richfield|Village": {
+  "website": "richfieldvillageohio.org",
+  "contact_title": "Finance Director",
+  "address": "Po Box 387",
+  "mail_city": "Richfield",
+  "zip": "44286",
+  "county": "Summit"
+ },
+ "Lordstown|Village": {
+  "website": "lordstown.com",
+  "contact_title": "Planning Zoning Administrator",
+  "address": "1455 Salt Springs Road Sw",
+  "mail_city": "Warren",
+  "zip": "44481",
+  "county": "Trumbull"
+ },
+ "Niles|City": {
+  "website": "thecityofniles.com",
+  "contact_title": "Auditor",
+  "address": "34 W State St",
+  "mail_city": "Niles",
+  "zip": "44446",
+  "county": "Trumbull"
+ },
+ "Yankee Lake|Village": {
+  "website": "",
+  "contact_title": "Council",
+  "address": "1800 State Route 7 Ne",
+  "mail_city": "Brookfield",
+  "zip": "44403",
+  "county": "Trumbull"
+ },
+ "Cortland|City": {
+  "website": "cityofcortland.org",
+  "contact_title": "Finance Director",
+  "address": "400 N High St",
+  "mail_city": "Cortland",
+  "zip": "44410",
+  "county": "Trumbull"
+ },
+ "Mcdonald|Village": {
+  "website": "mcdonaldvillage.com",
+  "contact_title": "Office Manager",
+  "address": "451 Ohio Ave",
+  "mail_city": "Mc Donald",
+  "zip": "44437",
+  "county": "Trumbull"
+ },
+ "Orangeville|Village": {
+  "website": "",
+  "contact_title": "Mayor",
+  "address": "Po Box 132",
+  "mail_city": "Orangeville",
+  "zip": "44453",
+  "county": "Trumbull"
+ },
+ "Warren|City": {
+  "website": "warren.org",
+  "contact_title": "Mayor",
+  "address": "391 Mahoning Ave Nw",
+  "mail_city": "Warren",
+  "zip": "44483",
+  "county": "Trumbull"
+ },
+ "West Farmington|Village": {
+  "website": "",
+  "contact_title": "Mayor Clerk",
+  "address": "Po Box 215",
+  "mail_city": "West Farmington",
+  "zip": "44491",
+  "county": "Trumbull"
+ },
+ "Hubbard|City": {
+  "website": "cityofhubbard.com",
+  "contact_title": "Secretary",
+  "address": "Po Box 307",
+  "mail_city": "Hubbard",
+  "zip": "44425",
+  "county": "Trumbull"
+ },
+ "Newton Falls|Village": {
+  "website": "ci.newtonfalls.oh.us",
+  "contact_title": "City Clerk",
+  "address": "19 N Canal St Ste 2",
+  "mail_city": "Newton Falls",
+  "zip": "44444",
+  "county": "Trumbull"
+ },
+ "Girard|City": {
+  "website": "cityofgirard.com",
+  "contact_title": "Auditor Clerk I",
+  "address": "100 W Main St Ste 4",
+  "mail_city": "Girard",
+  "zip": "44420",
+  "county": "Trumbull"
+ },
+ "Chagrin Falls Township|Township": {
+  "website": "chagrinfallstownship.org",
+  "contact_title": "Fiscal Officer",
+  "address": "83 N Main St",
+  "mail_city": "Chagrin Falls",
+  "zip": "44022",
+  "county": "Cuyahoga"
+ },
+ "Olmsted Township|Township": {
+  "website": "olmstedtownship.org",
+  "contact_title": "Fiscal Office",
+  "address": "26900 Cook Rd",
+  "mail_city": "Olmsted Falls",
+  "zip": "44138",
+  "county": "Cuyahoga"
+ },
+ "Hambden Township|Township": {
+  "website": "hambdentownship.com",
+  "contact_title": "Fiscal Officer",
+  "address": "13887 Gar Hwy",
+  "mail_city": "Chardon",
+  "zip": "44024",
+  "county": "Geauga"
+ },
+ "Newbury Township|Township": {
+  "website": "newburyohio.com",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 257",
+  "mail_city": "Newbury",
+  "zip": "44065",
+  "county": "Geauga"
+ },
+ "Bainbridge Township|Township": {
+  "website": "bainbridgetwp.com",
+  "contact_title": "Fiscal Officer",
+  "address": "17826 Chillicothe Rd",
+  "mail_city": "Chagrin Falls",
+  "zip": "44023",
+  "county": "Geauga"
+ },
+ "Claridon Township|Township": {
+  "website": "claridontownship.com",
+  "contact_title": "Township Trustee",
+  "address": "Po Box 66",
+  "mail_city": "East Claridon",
+  "zip": "44033",
+  "county": "Geauga"
+ },
+ "Montville Township|Township": {
+  "website": "montvilletwp.org",
+  "contact_title": "Fiscal Officer",
+  "address": "6665 Wadsworth Rd",
+  "mail_city": "Medina",
+  "zip": "44256",
+  "county": "Medina"
+ },
+ "Parkman Township|Township": {
+  "website": "parkmanohio.com",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 688",
+  "mail_city": "Parkman",
+  "zip": "44080",
+  "county": "Geauga"
+ },
+ "Chardon Township|Township": {
+  "website": "co.geauga.oh.us",
+  "contact_title": "Chardon Township Fiscal Officer",
+  "address": "9949 Mentor Rd",
+  "mail_city": "Chardon",
+  "zip": "44024",
+  "county": "Geauga"
+ },
+ "Chester Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "12701 Chillicothe Rd",
+  "mail_city": "Chesterland",
+  "zip": "44026",
+  "county": "Geauga"
+ },
+ "Huntsburg Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 280",
+  "mail_city": "Huntsburg",
+  "zip": "44046",
+  "county": "Geauga"
+ },
+ "Middlefield Township|Township": {
+  "website": "",
+  "contact_title": "Clerk",
+  "address": "Po Box 384",
+  "mail_city": "Middlefield",
+  "zip": "44062",
+  "county": "Geauga"
+ },
+ "Munson Township|Township": {
+  "website": "munsontwp.com",
+  "contact_title": "Fiscal Officer",
+  "address": "12210 Auburn Rd",
+  "mail_city": "Chardon",
+  "zip": "44024",
+  "county": "Geauga"
+ },
+ "Thompson Township|Township": {
+  "website": "thompsonohio.org",
+  "contact_title": "Trustee",
+  "address": "Po Box 204",
+  "mail_city": "Thompson",
+  "zip": "44086",
+  "county": "Geauga"
+ },
+ "Troy Township|Township": {
+  "website": "troytwpgeauga.org",
+  "contact_title": "Fiscal Officer",
+  "address": "13950 Main Market Rd",
+  "mail_city": "Burton",
+  "zip": "44021",
+  "county": "Geauga"
+ },
+ "Auburn Township|Township": {
+  "website": "auburntownship.com",
+  "contact_title": "Fiscal Officer",
+  "address": "11010 Washington St",
+  "mail_city": "Chagrin Falls",
+  "zip": "44023",
+  "county": "Geauga"
+ },
+ "Russell Township|Township": {
+  "website": "twprussell.oh.us",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 522",
+  "mail_city": "Novelty",
+  "zip": "44072",
+  "county": "Geauga"
+ },
+ "Burton Township|Township": {
+  "website": "geaugalink.com/townvill/burtont.html",
+  "contact_title": "Trustee",
+  "address": "Po Box 355",
+  "mail_city": "Burton",
+  "zip": "44021",
+  "county": "Geauga"
+ },
+ "Perry Township|Township": {
+  "website": "perrytownshiplake.com",
+  "contact_title": "Christine J. Page Fiscal Officer ",
+  "address": "Po Box 65",
+  "mail_city": "Perry",
+  "zip": "44081",
+  "county": "Lake"
+ },
+ "Concord Township|Township": {
+  "website": "concordtwp.com",
+  "contact_title": "Planning & Zoning Director",
+  "address": "7229 Painesville Ravenna Rd",
+  "mail_city": "Painesville",
+  "zip": "44077",
+  "county": "Lake"
+ },
+ "Madison Township|Township": {
+  "website": "madisontownship.net",
+  "contact_title": "Fiscal Officer",
+  "address": "2065 Hubbard Rd",
+  "mail_city": "Madison",
+  "zip": "44057",
+  "county": "Lake"
+ },
+ "Painesville Township|Township": {
+  "website": "pvilletwp.com",
+  "contact_title": "Township Administrator",
+  "address": "55 Nye Rd",
+  "mail_city": "Painesville",
+  "zip": "44077",
+  "county": "Lake"
+ },
+ "Leroy Township|Township": {
+  "website": "",
+  "contact_title": "Township Fiscal Officer",
+  "address": "13028 Leroy Center Rd.",
+  "mail_city": "Painesville",
+  "zip": "44077",
+  "county": "Lake"
+ },
+ "Brownhelm Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "1940 N Ridge Rd",
+  "mail_city": "Vermilion",
+  "zip": "44089",
+  "county": "Lorain"
+ },
+ "Eaton Township|Township": {
+  "website": "eatontownship.org",
+  "contact_title": "Administrative Assistant To Eaton To",
+  "address": "12043 Avon Belden Rd",
+  "mail_city": "Grafton",
+  "zip": "44044",
+  "county": "Lorain"
+ },
+ "Grafton Township|Township": {
+  "website": "",
+  "contact_title": "Grafton Township Trustees",
+  "address": "17109 Avon Belden Rd ",
+  "mail_city": "Grafton",
+  "zip": "44044",
+  "county": "Lorain"
+ },
+ "Pittsfield Township|Township": {
+  "website": "pittsfieldtwp.us",
+  "contact_title": "Fiscal Officer",
+  "address": "46333 State Rt 303",
+  "mail_city": "Wellington",
+  "zip": "44090",
+  "county": "Lorain"
+ },
+ "Sheffield Township|Township": {
+  "website": "sheffieldtownship.com",
+  "contact_title": "Township Fiscal Officer",
+  "address": "5166 Clinton Ave",
+  "mail_city": "Lorain",
+  "zip": "44055",
+  "county": "Lorain"
+ },
+ "Amherst Township|Township": {
+  "website": "amhersttownship.us",
+  "contact_title": "Fiscal Officer",
+  "address": "7530 Oberlin Rd",
+  "mail_city": "Elyria",
+  "zip": "44035",
+  "county": "Lorain"
+ },
+ "Brighton Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "19996 Baird Rd",
+  "mail_city": "Wellington",
+  "zip": "44090",
+  "county": "Lorain"
+ },
+ "Camden Township|Township": {
+  "website": "camdentownship.org",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 172 42 Court St",
+  "mail_city": "Kipton",
+  "zip": "44049",
+  "county": "Lorain"
+ },
+ "Columbia Township|Township": {
+  "website": "columbiatwp-oh.gov",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 819",
+  "mail_city": "Columbia Station",
+  "zip": "44028",
+  "county": "Lorain"
+ },
+ "Elyria Township|Township": {
+  "website": "elyriatownship.com",
+  "contact_title": "Fiscal Officer",
+  "address": "41416 Griswold Rd",
+  "mail_city": "Elyria",
+  "zip": "44035",
+  "county": "Lorain"
+ },
+ "Henrietta Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "12050 Vermiilon Rd.",
+  "mail_city": "Amherst",
+  "zip": "44001",
+  "county": "Lorain"
+ },
+ "Huntington Township|Township": {
+  "website": "",
+  "contact_title": "Township Trustee",
+  "address": "45955 State Route 162",
+  "mail_city": "Wellington",
+  "zip": "44090",
+  "county": "Lorain"
+ },
+ "La Grange Township|Township": {
+  "website": "lagrangeohio.net",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 565",
+  "mail_city": "Lagrange",
+  "zip": "44050",
+  "county": "Lorain"
+ },
+ "Rochester Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "52185 Griggs Road",
+  "mail_city": "Wellington",
+  "zip": "44090",
+  "county": "Lorain"
+ },
+ "New Russia Township|Township": {
+  "website": "newrussiatownshipoh.gov",
+  "contact_title": "Fiscal Officer",
+  "address": "46300 Butternut Ridge Rd",
+  "mail_city": "Oberlin",
+  "zip": "44074",
+  "county": "Lorain"
+ },
+ "Wellington Township|Township": {
+  "website": "wellingtontownship.com",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 425",
+  "mail_city": "Wellington",
+  "zip": "44090",
+  "county": "Lorain"
+ },
+ "Carlisle Township|Township": {
+  "website": "carlisletownship.org",
+  "contact_title": "Fiscal Officer",
+  "address": "11969 Lagrange Rd",
+  "mail_city": "Lagrange",
+  "zip": "44050",
+  "county": "Lorain"
+ },
+ "Penfield Township|Township": {
+  "website": "",
+  "contact_title": "Township Fiscal Officer",
+  "address": "41012 State Route 18",
+  "mail_city": "Wellington",
+  "zip": "44090",
+  "county": "Lorain"
+ },
+ "Green Township|Township": {
+  "website": "greentownship.us",
+  "contact_title": "Trustee",
+  "address": "Po Box 72",
+  "mail_city": "Greenford",
+  "zip": "44422",
+  "county": "Mahoning"
+ },
+ "Austintown Township|Township": {
+  "website": "austintowntwp.com",
+  "contact_title": "Fiscal Officer",
+  "address": "82 Ohltown Rd",
+  "mail_city": "Austintown",
+  "zip": "44515",
+  "county": "Mahoning"
+ },
+ "Jackson Township|Township": {
+  "website": "",
+  "contact_title": "Township Fiscal Officer",
+  "address": "Po Box 400",
+  "mail_city": "North Jackson",
+  "zip": "44451",
+  "county": "Mahoning"
+ },
+ "Smith Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "846 N Johnson Rd",
+  "mail_city": "Sebring",
+  "zip": "44672",
+  "county": "Mahoning"
+ },
+ "Springfield Township|Township": {
+  "website": "springfieldtownship.us",
+  "contact_title": "Fiscal Officer",
+  "address": "2459 Canfield Rd Po Box 6214",
+  "mail_city": "Akron",
+  "zip": "44312",
+  "county": "Summit"
+ },
+ "Beaver Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 598",
+  "mail_city": "North Lima",
+  "zip": "44452",
+  "county": "Mahoning"
+ },
+ "Boardman Township|Township": {
+  "website": "boardmantownship.com",
+  "contact_title": "Asst. To The Fiscal Officer",
+  "address": "8299 Market St Ste A",
+  "mail_city": "Boardman",
+  "zip": "44512",
+  "county": "Mahoning"
+ },
+ "Canfield Township|Township": {
+  "website": "twp.canfield.oh.us",
+  "contact_title": "Fiscal Officer",
+  "address": "21 S Broad St",
+  "mail_city": "Canfield",
+  "zip": "44406",
+  "county": "Mahoning"
+ },
+ "Ellsworth Township|Township": {
+  "website": "ellsworthtownship.com",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 122",
+  "mail_city": "Ellsworth",
+  "zip": "44416",
+  "county": "Mahoning"
+ },
+ "Milton Township|Township": {
+  "website": "miltontownshipohio.org",
+  "contact_title": "Fiscal Officer",
+  "address": "284 S Princetown Rd",
+  "mail_city": "Diamond ",
+  "zip": "44412",
+  "county": "Mahoning"
+ },
+ "Poland Township|Township": {
+  "website": "polandtownship.org",
+  "contact_title": "Fiscal Officer",
+  "address": "3339 Dobbins Rd",
+  "mail_city": "Poland",
+  "zip": "44514",
+  "county": "Mahoning"
+ },
+ "Coitsville Township|Township": {
+  "website": "",
+  "contact_title": "Adminstrative Secretary ",
+  "address": "3711 Mccartney Rd",
+  "mail_city": "Lowellville",
+  "zip": "44436",
+  "county": "Mahoning"
+ },
+ "Goshen Township|Township": {
+  "website": "",
+  "contact_title": "Chair",
+  "address": "14003 W South Range Rd",
+  "mail_city": "Salem",
+  "zip": "44460",
+  "county": "Mahoning"
+ },
+ "Berlin Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 95",
+  "mail_city": "Berlin Center",
+  "zip": "44401",
+  "county": "Mahoning"
+ },
+ "Brunswick Hills Township|Township": {
+  "website": "brunswickhillstwp.org",
+  "contact_title": "Trustee",
+  "address": "1918 Pearl Rd",
+  "mail_city": "Brunswick",
+  "zip": "44212",
+  "county": "Medina"
+ },
+ "Homer Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "10259 Spencer Rd",
+  "mail_city": "West Salem",
+  "zip": "44287",
+  "county": "Medina"
+ },
+ "Guilford Township|Township": {
+  "website": "guilfordtwpoh.com",
+  "contact_title": "Fiscal Officer",
+  "address": "3800 Greenwich Rd ",
+  "mail_city": "Seville",
+  "zip": "44273",
+  "county": "Medina"
+ },
+ "Lafayette Township|Township": {
+  "website": "",
+  "contact_title": "Chairman",
+  "address": "6440 Ryan Rd",
+  "mail_city": "Medina",
+  "zip": "44256",
+  "county": "Medina"
+ },
+ "Medina Township|Township": {
+  "website": "medinatownship.com",
+  "contact_title": "Fiscal Officer",
+  "address": "3799 Huffman Rd",
+  "mail_city": "Medina",
+  "zip": "44256",
+  "county": "Medina"
+ },
+ "Wadsworth Township|Township": {
+  "website": "wadsworthtownship.com",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 614",
+  "mail_city": "Wadsworth",
+  "zip": "44282",
+  "county": "Medina"
+ },
+ "Chatham Township|Township": {
+  "website": "chathamtownshipohio.org",
+  "contact_title": "Fiscal Officer",
+  "address": "8990 Spencer Lake Rd",
+  "mail_city": "Spencer",
+  "zip": "44275",
+  "county": "Medina"
+ },
+ "Granger Township|Township": {
+  "website": "grangertwp.org",
+  "contact_title": "Fiscal Officer",
+  "address": "3717 Ridge Rd",
+  "mail_city": "Medina",
+  "zip": "44256",
+  "county": "Medina"
+ },
+ "Hinckley Township|Township": {
+  "website": "hinckleytwp.org",
+  "contact_title": "Fiscal Officer",
+  "address": "1410 Ridge Rd",
+  "mail_city": "Hinckley",
+  "zip": "44233",
+  "county": "Medina"
+ },
+ "Litchfield Township|Township": {
+  "website": "",
+  "contact_title": "Township Fiscal Officer",
+  "address": "Po Box 178",
+  "mail_city": "Litchfield",
+  "zip": "44253",
+  "county": "Medina"
+ },
+ "Liverpool Township|Township": {
+  "website": "liverpooltwp.org",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 381",
+  "mail_city": "Valley City",
+  "zip": "44280",
+  "county": "Medina"
+ },
+ "Sharon Township|Township": {
+  "website": "sharontwp.org",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 7",
+  "mail_city": "Sharon Center",
+  "zip": "44274",
+  "county": "Medina"
+ },
+ "Spencer Township|Township": {
+  "website": "",
+  "contact_title": "Clerk",
+  "address": "Po Box 229",
+  "mail_city": "Spencer",
+  "zip": "44275",
+  "county": "Medina"
+ },
+ "Westfield Township|Township": {
+  "website": "westfieldtownship.org",
+  "contact_title": "Fiscal Officer",
+  "address": "6699 Buffham Rd",
+  "mail_city": "Seville",
+  "zip": "44273",
+  "county": "Medina"
+ },
+ "York Township|Township": {
+  "website": "yorktwp.org",
+  "contact_title": "Trustee",
+  "address": "6609 Norwalk Rd",
+  "mail_city": "Medina",
+  "zip": "44256",
+  "county": "Medina"
+ },
+ "Harrisville Township|Township": {
+  "website": "harrisvilletwp.com",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 278",
+  "mail_city": "Lodi",
+  "zip": "44254",
+  "county": "Medina"
+ },
+ "Charlestown Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "5735 Newton Falls Rd",
+  "mail_city": "Ravenna",
+  "zip": "44266",
+  "county": "Portage"
+ },
+ "Nelson Township|Township": {
+  "website": "nelsontownshipohio.org",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 377",
+  "mail_city": "Garrettsville",
+  "zip": "44231",
+  "county": "Portage"
+ },
+ "Ravenna Township|Township": {
+  "website": "ravennatownship.com",
+  "contact_title": "Zoning Inspector",
+  "address": "6115 Spring St",
+  "mail_city": "Ravenna",
+  "zip": "44266",
+  "county": "Portage"
+ },
+ "Brimfield Township|Township": {
+  "website": "brimfieldohio.gov",
+  "contact_title": "Fiscal Officer",
+  "address": "1333 Tallmadge Rd",
+  "mail_city": "Kent",
+  "zip": "44240",
+  "county": "Portage"
+ },
+ "Rootstown Township|Township": {
+  "website": "rootstowntwp.com/index.html",
+  "contact_title": "Township Fiscal Officer",
+  "address": "4268 Sandy Lake Rd",
+  "mail_city": "Ravenna",
+  "zip": "44266",
+  "county": "Portage"
+ },
+ "Windham Township|Township": {
+  "website": "windhamtwp.com",
+  "contact_title": "Township Fiscal Officer",
+  "address": "9708 Windham Parkman Rd",
+  "mail_city": "Windham",
+  "zip": "44288",
+  "county": "Portage"
+ },
+ "Atwater Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 9",
+  "mail_city": "Atwater",
+  "zip": "44201",
+  "county": "Portage"
+ },
+ "Deerfield Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 186",
+  "mail_city": "Deerfield",
+  "zip": "44411",
+  "county": "Portage"
+ },
+ "Edinburg Township|Township": {
+  "website": "edinburgtownship.com",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 485",
+  "mail_city": "Rootstown",
+  "zip": "44272",
+  "county": "Portage"
+ },
+ "Freedom Township|Township": {
+  "website": "freedomtownshipportage.com",
+  "contact_title": "Fiscal Officer",
+  "address": "5934 Streeter Rd",
+  "mail_city": "Mantua",
+  "zip": "44255",
+  "county": "Portage"
+ },
+ "Hiram Township|Township": {
+  "website": "hiramtownship.org",
+  "contact_title": "Chairman",
+  "address": "Po Box 1827",
+  "mail_city": "Hiram",
+  "zip": "44234",
+  "county": "Portage"
+ },
+ "Mantua Township|Township": {
+  "website": "",
+  "contact_title": "Mantua Township Trustee",
+  "address": "Po Box 841",
+  "mail_city": "Mantua",
+  "zip": "44255",
+  "county": "Portage"
+ },
+ "Paris Township|Township": {
+  "website": "",
+  "contact_title": "Township Fiscal Officer",
+  "address": "9174 Newton Falls Rd",
+  "mail_city": "Ravenna",
+  "zip": "44266",
+  "county": "Portage"
+ },
+ "Randolph Township|Township": {
+  "website": "randolphtownshipohio.gov",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 184",
+  "mail_city": "Randolph",
+  "zip": "44265",
+  "county": "Portage"
+ },
+ "Shalersville Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "9124 St Rt 44",
+  "mail_city": "Mantua",
+  "zip": "44255",
+  "county": "Portage"
+ },
+ "Suffield Township|Township": {
+  "website": "suffieldtownship.neo.rr.com",
+  "contact_title": "Fiscal Officer",
+  "address": "2150 May Rd",
+  "mail_city": "Mogadore",
+  "zip": "44260",
+  "county": "Portage"
+ },
+ "Palmyra Township|Township": {
+  "website": "palmyratownship.com",
+  "contact_title": "Township Trustee",
+  "address": "3956 State Route 225",
+  "mail_city": "Diamond",
+  "zip": "44412",
+  "county": "Portage"
+ },
+ "Franklin Township|Township": {
+  "website": "franklintownshipohio.org",
+  "contact_title": "Fiscal Office / Clerk",
+  "address": "Po Box 291",
+  "mail_city": "Kent",
+  "zip": "44240",
+  "county": "Portage"
+ },
+ "Boston Township|Township": {
+  "website": "bostontownship.org",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 123",
+  "mail_city": "Peninsula",
+  "zip": "44264",
+  "county": "Summit"
+ },
+ "Bath Township|Township": {
+  "website": "bathtownship.org",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 1188",
+  "mail_city": "Bath",
+  "zip": "44210",
+  "county": "Summit"
+ },
+ "Copley Township|Township": {
+  "website": "township.oh.us",
+  "contact_title": "Fiscal Officer",
+  "address": "1540 S Cleveland Massillon Rd",
+  "mail_city": "Copley",
+  "zip": "44321",
+  "county": "Summit"
+ },
+ "Coventry Township|Township": {
+  "website": "coventrytownship.com",
+  "contact_title": "Trustee",
+  "address": "68 Portage Lakes Dr",
+  "mail_city": "Akron",
+  "zip": "44319",
+  "county": "Summit"
+ },
+ "Richfield Township|Township": {
+  "website": "",
+  "contact_title": "Township Fiscal Officer",
+  "address": "3038 Boston Mills Road",
+  "mail_city": "Brecksville",
+  "zip": "44141",
+  "county": "Summit"
+ },
+ "Sagamore Hills Township|Township": {
+  "website": "sagamorehillstownship.org",
+  "contact_title": "Township Fiscal Officer",
+  "address": "11551 Valley View Rd",
+  "mail_city": "Sagamore Hills",
+  "zip": "44067",
+  "county": "Summit"
+ },
+ "Twinsburg Township|Township": {
+  "website": "twinsburgtwp.com",
+  "contact_title": "Township Fiscal Officer",
+  "address": "1790 Enterprise Pkwy",
+  "mail_city": "Twinsburg",
+  "zip": "44087",
+  "county": "Summit"
+ },
+ "Northfield Center Township|Township": {
+  "website": "northfieldcenter.com",
+  "contact_title": "Township Fiscal Officer",
+  "address": "9546 Brandywine Rd",
+  "mail_city": "Northfield",
+  "zip": "44067",
+  "county": "Summit"
+ },
+ "Bazetta Township|Township": {
+  "website": "bazettatwp.org",
+  "contact_title": "Fiscal Officer",
+  "address": "3372 State Route 5",
+  "mail_city": "Cortland",
+  "zip": "44410",
+  "county": "Trumbull"
+ },
+ "Bristol Township|Township": {
+  "website": "bristoltownship.com",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 254",
+  "mail_city": "Bristolville",
+  "zip": "44402",
+  "county": "Trumbull"
+ },
+ "Champion Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "149 Center St E",
+  "mail_city": "Warren",
+  "zip": "44481",
+  "county": "Trumbull"
+ },
+ "Gustavus Township|Township": {
+  "website": "",
+  "contact_title": "Gustavus Fiscal Officer",
+  "address": "Po Box 14",
+  "mail_city": "Farmdale",
+  "zip": "44417",
+  "county": "Trumbull"
+ },
+ "Vernon Township|Township": {
+  "website": "",
+  "contact_title": "Township Fiscal Officer",
+  "address": "6915B State Rt 88 ",
+  "mail_city": "Kinsman",
+  "zip": "44428",
+  "county": "Trumbull"
+ },
+ "Hartford Township|Township": {
+  "website": "",
+  "contact_title": "Chairman",
+  "address": "Po Box 116",
+  "mail_city": "Hartford",
+  "zip": "44424",
+  "county": "Trumbull"
+ },
+ "Liberty Township|Township": {
+  "website": "libertytwp.com",
+  "contact_title": "Fiscal Officer",
+  "address": "1315 Churchill Hubbard Rd Ste A",
+  "mail_city": "Youngstown",
+  "zip": "44505",
+  "county": "Trumbull"
+ },
+ "Southington Township|Township": {
+  "website": "southingtontownship.com",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 266",
+  "mail_city": "Southington",
+  "zip": "44470",
+  "county": "Trumbull"
+ },
+ "Warren Township|Township": {
+  "website": "",
+  "contact_title": "Warren Township Trustees",
+  "address": "Po Box 307 3765 West Market St ",
+  "mail_city": "Leavittsburg",
+  "zip": "44430",
+  "county": "Trumbull"
+ },
+ "Braceville Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "800 Braceville Robinson Road",
+  "mail_city": "Newton Falls",
+  "zip": "44444",
+  "county": "Trumbull"
+ },
+ "Brookfield Township|Township": {
+  "website": "",
+  "contact_title": "Trustee",
+  "address": "6844 Strimbu Dr",
+  "mail_city": "Brookfield",
+  "zip": "44403",
+  "county": "Trumbull"
+ },
+ "Fowler Township|Township": {
+  "website": "fowlertownship.com",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 174",
+  "mail_city": "Fowler",
+  "zip": "44418",
+  "county": "Trumbull"
+ },
+ "Greene Township|Township": {
+  "website": "",
+  "contact_title": "Township Fiscal Officer",
+  "address": "8964 State Route 46",
+  "mail_city": "North Bloomfield",
+  "zip": "44450",
+  "county": "Trumbull"
+ },
+ "Howland Township|Township": {
+  "website": "howlandtownship.org",
+  "contact_title": "Howland Twp Adm",
+  "address": "205 Niles Cortland Rd Ne",
+  "mail_city": "Warren",
+  "zip": "44484",
+  "county": "Trumbull"
+ },
+ "Hubbard Township|Township": {
+  "website": "hubbardohio.net,local.government",
+  "contact_title": "Trustee Chairman",
+  "address": "2600 Elmwood Drive Ext",
+  "mail_city": "Hubbard",
+  "zip": "44425",
+  "county": "Trumbull"
+ },
+ "Johnston Township|Township": {
+  "website": "johnsontwp.com",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 639",
+  "mail_city": "Cortland",
+  "zip": "44410",
+  "county": "Trumbull"
+ },
+ "Kinsman Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 399",
+  "mail_city": "Kinsman",
+  "zip": "44428",
+  "county": "Trumbull"
+ },
+ "Mecca Township|Township": {
+  "website": "meccatwp.org",
+  "contact_title": "Township Fiscal Officer",
+  "address": "Po Box 567",
+  "mail_city": "Cortland",
+  "zip": "44410",
+  "county": "Trumbull"
+ },
+ "Mesopotamia Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 199",
+  "mail_city": "Mesopotamia",
+  "zip": "44439",
+  "county": "Trumbull"
+ },
+ "Newton Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 298",
+  "mail_city": "Newton Falls",
+  "zip": "44444",
+  "county": "Trumbull"
+ },
+ "Vienna Township|Township": {
+  "website": "viennatownship.com",
+  "contact_title": "Township Fiscal Officer",
+  "address": "Po Box 593",
+  "mail_city": "Vienna",
+  "zip": "44473",
+  "county": "Trumbull"
+ },
+ "Weathersfield Township|Township": {
+  "website": "weathersfieldtwp.com",
+  "contact_title": "Fiscal Official",
+  "address": "1451 Prospect St",
+  "mail_city": "Mineral Ridge",
+  "zip": "44440",
+  "county": "Trumbull"
+ },
+ "Farmington Township|Township": {
+  "website": "",
+  "contact_title": "Chairman",
+  "address": "Po Box 81",
+  "mail_city": "West Farmington",
+  "zip": "44491",
+  "county": "Trumbull"
+ },
+ "Bloomfield Township|Township": {
+  "website": "",
+  "contact_title": "Fiscal Officer",
+  "address": "Po Box 34",
+  "mail_city": "North Bloomfield",
+  "zip": "44450",
+  "county": "Trumbull"
+ }
+}

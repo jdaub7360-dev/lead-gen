@@ -1,0 +1,1402 @@
+[
+ {
+  "website": "garfieldheightscityschools.com",
+  "contact_title": "Supt",
+  "address": "5640 Briarcliff Dr",
+  "mail_city": "Garfield Heights",
+  "zip": "44125",
+  "county": "Cuyahoga",
+  "name": "Garfield Hgts City School Dist",
+  "enrollment": 3604
+ },
+ {
+  "website": "ofcs.k12.oh.us",
+  "contact_title": "Superintendent",
+  "address": "Po Box 38010",
+  "mail_city": "Olmsted Falls",
+  "zip": "44138",
+  "county": "Cuyahoga",
+  "name": "Olmsted Falls City School Dist",
+  "enrollment": 3657
+ },
+ {
+  "website": "solonschools.org",
+  "contact_title": "Supt",
+  "address": "33800 Inwood Dr",
+  "mail_city": "Solon",
+  "zip": "44139",
+  "county": "Cuyahoga",
+  "name": "Solon City School District",
+  "enrollment": 4643
+ },
+ {
+  "website": "bbhcsd.org",
+  "contact_title": "Treasurers Office",
+  "address": "6638 Mill Rd",
+  "mail_city": "Brecksville",
+  "zip": "44141",
+  "county": "Cuyahoga",
+  "name": "Brecksville-Broadview Heights",
+  "enrollment": 3781
+ },
+ {
+  "website": "fairviewparkschools.org",
+  "contact_title": "Supt",
+  "address": "20770 Lorain Rd",
+  "mail_city": "Fairview Park",
+  "zip": "44126",
+  "county": "Cuyahoga",
+  "name": "Fairview Park City School District",
+  "enrollment": 1699
+ },
+ {
+  "website": "lkwdpl.org/schools",
+  "contact_title": "Supt",
+  "address": "1470 Warren Rd",
+  "mail_city": "Lakewood",
+  "zip": "44107",
+  "county": "Cuyahoga",
+  "name": "Lakewood City School District",
+  "enrollment": 4814
+ },
+ {
+  "website": "northroyaltonsd.org",
+  "contact_title": "Supt",
+  "address": "6579 Royalton Rd",
+  "mail_city": "North Royalton",
+  "zip": "44133",
+  "county": "Cuyahoga",
+  "name": "North Royalton City School District",
+  "enrollment": 4080
+ },
+ {
+  "website": "parmacityschools.org",
+  "contact_title": "Supt",
+  "address": "5311 Longwood Avenue",
+  "mail_city": "Parma",
+  "zip": "44134",
+  "county": "Cuyahoga",
+  "name": "Parma City School District",
+  "enrollment": 9711
+ },
+ {
+  "website": "shaker.org",
+  "contact_title": "Supt",
+  "address": "15600 Parkland Dr",
+  "mail_city": "Shaker Heights",
+  "zip": "44120",
+  "county": "Cuyahoga",
+  "name": "Shaker Hgts City School District",
+  "enrollment": 4901
+ },
+ {
+  "website": "berea.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "390 Fair St",
+  "mail_city": "Berea",
+  "zip": "44017",
+  "county": "Cuyahoga",
+  "name": "Berea City School District",
+  "enrollment": 5978
+ },
+ {
+  "website": "bedford.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "475 Northfield Rd",
+  "mail_city": "Bedford",
+  "zip": "44146",
+  "county": "Cuyahoga",
+  "name": "Bedford City School District",
+  "enrollment": 3168
+ },
+ {
+  "website": "brooklyn.k12.oh.us.",
+  "contact_title": "Supt",
+  "address": "9200 Biddulph Rd",
+  "mail_city": "Brooklyn",
+  "zip": "44144",
+  "county": "Cuyahoga",
+  "name": "Brooklyn City School District",
+  "enrollment": 1290
+ },
+ {
+  "website": "chuh.org",
+  "contact_title": "Supt",
+  "address": "2155 Miramar Blvd",
+  "mail_city": "University Heights",
+  "zip": "44118",
+  "county": "Cuyahoga",
+  "name": "Cleveland Hgts-Univ Hgts City School District",
+  "enrollment": 5169
+ },
+ {
+  "website": "euclid.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "651 E 222Nd St",
+  "mail_city": "Euclid",
+  "zip": "44123",
+  "county": "Cuyahoga",
+  "name": "Euclid City School District",
+  "enrollment": 4985
+ },
+ {
+  "website": "mapleschools.com",
+  "contact_title": "Supt",
+  "address": "14605 Granger Rd",
+  "mail_city": "Maple Heights",
+  "zip": "44137",
+  "county": "Cuyahoga",
+  "name": "Maple Hgts City School District",
+  "enrollment": 3569
+ },
+ {
+  "website": "nolmsted.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "27425 Butternut Ridge Rd",
+  "mail_city": "North Olmsted",
+  "zip": "44070",
+  "county": "Cuyahoga",
+  "name": "North Olmstead Local School District",
+  "enrollment": 3759
+ },
+ {
+  "website": "richmondheightsschools.org",
+  "contact_title": "Supt",
+  "address": "447 Richmond Rd",
+  "mail_city": "Richmond Hts",
+  "zip": "44143",
+  "county": "Cuyahoga",
+  "name": "Richmond Hgts Local School Dist",
+  "enrollment": 741
+ },
+ {
+  "website": "rrcs.org",
+  "contact_title": "Supt",
+  "address": "21600 Center Ridge Rd",
+  "mail_city": "Rocky River",
+  "zip": "44116",
+  "county": "Cuyahoga",
+  "name": "Rocky River City School District",
+  "enrollment": 2723
+ },
+ {
+  "website": "strongnet.org",
+  "contact_title": "Supt",
+  "address": "13200 Pearl Rd",
+  "mail_city": "Strongsville",
+  "zip": "44136",
+  "county": "Cuyahoga",
+  "name": "Strongsville City School District",
+  "enrollment": 5581
+ },
+ {
+  "website": "warrensville.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "4500 Warrensville Center Rd",
+  "mail_city": "Warrensville Heights",
+  "zip": "44128",
+  "county": "Cuyahoga",
+  "name": "Warrensville Hgts City School District",
+  "enrollment": 1673
+ },
+ {
+  "website": "polaris.edu",
+  "contact_title": "Treasurer",
+  "address": "7285 Old Oak Blvd",
+  "mail_city": "Middleburg Heights",
+  "zip": "44130",
+  "county": "Cuyahoga",
+  "name": "Polaris Cc",
+  "enrollment": 0
+ },
+ {
+  "website": "cvcc.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "8001 Brecksville Rd",
+  "mail_city": "Brecksville",
+  "zip": "44141",
+  "county": "Cuyahoga",
+  "name": "Cuyahoga Valley Career Center",
+  "enrollment": 0
+ },
+ {
+  "website": "tri-c.edu",
+  "contact_title": "Office Of Personnel",
+  "address": "700 Carnegie Ave",
+  "mail_city": "Cleveland",
+  "zip": "44115",
+  "county": "Cuyahoga",
+  "name": "Cuyahoga Community College",
+  "enrollment": 23655
+ },
+ {
+  "website": "cmsdnet.net",
+  "contact_title": "Supt",
+  "address": "1380 E 6Th St",
+  "mail_city": "Cleveland",
+  "zip": "44114",
+  "county": "Cuyahoga",
+  "name": "Cleveland City School District",
+  "enrollment": 37146
+ },
+ {
+  "website": "chagrin-falls.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "400 E Washington St",
+  "mail_city": "Chagrin Falls",
+  "zip": "44022",
+  "county": "Cuyahoga",
+  "name": "Chagrin Falls Ex Village School District",
+  "enrollment": 1844
+ },
+ {
+  "website": "sel.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "5044 Mayfield Rd",
+  "mail_city": "Lyndhurst",
+  "zip": "44124",
+  "county": "Cuyahoga",
+  "name": "South Euclid-Lyndhurst City School District",
+  "enrollment": 3367
+ },
+ {
+  "website": "beachwood.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "24601 Fairmount Blvd",
+  "mail_city": "Beachwood",
+  "zip": "44122",
+  "county": "Cuyahoga",
+  "name": "Beachwood City School District",
+  "enrollment": 1682
+ },
+ {
+  "website": "cuyhts.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "4820 E 71St St",
+  "mail_city": "Cleveland",
+  "zip": "44125",
+  "county": "Cuyahoga",
+  "name": "Cuyahoga Hgts Local School District",
+  "enrollment": 862
+ },
+ {
+  "website": "mayfield.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "1101 S.O.M. Center Road",
+  "mail_city": "Mayfield Heights",
+  "zip": "44124",
+  "county": "Cuyahoga",
+  "name": "Mayfield City School District",
+  "enrollment": 4524
+ },
+ {
+  "website": "westlake.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "2260 Dover Road",
+  "mail_city": "Westlake",
+  "zip": "44145",
+  "county": "Cuyahoga",
+  "name": "Westlake City School District",
+  "enrollment": 3410
+ },
+ {
+  "website": "bayvillageschools.com",
+  "contact_title": "Treasurers Office",
+  "address": "377 Dover Center Rd",
+  "mail_city": "Bay Village",
+  "zip": "44140",
+  "county": "Cuyahoga",
+  "name": "Bay Village City School District",
+  "enrollment": 2507
+ },
+ {
+  "website": "east-cleveland.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "15305 Terrace Rd",
+  "mail_city": "East Cleveland",
+  "zip": "44112",
+  "county": "Cuyahoga",
+  "name": "East Cleveland City School District",
+  "enrollment": 1839
+ },
+ {
+  "website": "independence.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "7733 Stone Rd",
+  "mail_city": "Independence",
+  "zip": "44131",
+  "county": "Cuyahoga",
+  "name": "Independence Local School Dist",
+  "enrollment": 1095
+ },
+ {
+  "website": "orangeschools.org",
+  "contact_title": "Treasurer",
+  "address": "32000 Chagrin Blvd",
+  "mail_city": "Cleveland",
+  "zip": "44124",
+  "county": "Cuyahoga",
+  "name": "Orange City School District",
+  "enrollment": 2049
+ },
+ {
+  "website": "chardon.k12.oh.us",
+  "contact_title": "Clk Sch Bd",
+  "address": "428 North St",
+  "mail_city": "Chardon",
+  "zip": "44024",
+  "county": "Geauga",
+  "name": "Chardon Local School District",
+  "enrollment": 2785
+ },
+ {
+  "website": "berkshire.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "Po Box 364",
+  "mail_city": "Burton",
+  "zip": "44021",
+  "county": "Geauga",
+  "name": "Berkshire Local School District",
+  "enrollment": 1349
+ },
+ {
+  "website": "kenston.k12.oh.us",
+  "contact_title": "Clk Sch Bd",
+  "address": "17419 Snyder Rd",
+  "mail_city": "Chagrin Falls",
+  "zip": "44023",
+  "county": "Geauga",
+  "name": "Kenston Local School District",
+  "enrollment": 2621
+ },
+ {
+  "website": "cardinal.k12.oh.us",
+  "contact_title": "Clk Sch Bd",
+  "address": "Po Box 188",
+  "mail_city": "Middlefield",
+  "zip": "44062",
+  "county": "Geauga",
+  "name": "Cardinal Local School District",
+  "enrollment": 902
+ },
+ {
+  "website": "westgeauga.k12.oh.us",
+  "contact_title": "Clk Sch Bd",
+  "address": "8615 Cedar Rd",
+  "mail_city": "Chesterland",
+  "zip": "44026",
+  "county": "Geauga",
+  "name": "West Geauga Local School Dist",
+  "enrollment": 1855
+ },
+ {
+  "website": "kirtland.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "9252 Chillicothe Rd",
+  "mail_city": "Kirtland",
+  "zip": "44094",
+  "county": "Lake",
+  "name": "Kirtland Local School District",
+  "enrollment": 1175
+ },
+ {
+  "website": "fairport.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "329 Vine St",
+  "mail_city": "Fairport Harbor",
+  "zip": "44077",
+  "county": "Lake",
+  "name": "Fairport Harbor Exem School District",
+  "enrollment": 674
+ },
+ {
+  "website": "mentorschools.com",
+  "contact_title": "Supt",
+  "address": "6451 Center Street",
+  "mail_city": "Mentor",
+  "zip": "44060",
+  "county": "Lake",
+  "name": "Mentor Ex Village School District",
+  "enrollment": 7738
+ },
+ {
+  "website": "perry-lake.k12.oh.us",
+  "contact_title": "Superintendent",
+  "address": "4325 Manchester Ave",
+  "mail_city": "Perry",
+  "zip": "44081",
+  "county": "Lake",
+  "name": "Perry Local School District",
+  "enrollment": 1581
+ },
+ {
+  "website": "willoughby-eastlake.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "37047 Ridge Rd",
+  "mail_city": "Willoughby",
+  "zip": "44094",
+  "county": "Lake",
+  "name": "Willoughby Eastlake City School District",
+  "enrollment": 7735
+ },
+ {
+  "website": "lakelandcc.edu",
+  "contact_title": "President",
+  "address": "7700 Clocktower Drive",
+  "mail_city": "Kirtland",
+  "zip": "44094",
+  "county": "Lake",
+  "name": "Lake County Community College Dist",
+  "enrollment": 6628
+ },
+ {
+  "website": "madison-lake.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "6741 N Ridge Rd",
+  "mail_city": "Madison",
+  "zip": "44057",
+  "county": "Lake",
+  "name": "Madison Local School District",
+  "enrollment": 3000
+ },
+ {
+  "website": "painesville-city.k12.oh.us",
+  "contact_title": "Treasurer",
+  "address": "58 Jefferson St",
+  "mail_city": "Painesville",
+  "zip": "44077",
+  "county": "Lake",
+  "name": "Painesville City Local Sch Dt",
+  "enrollment": 2883
+ },
+ {
+  "website": "townshipschools.com",
+  "contact_title": "Supt",
+  "address": "585 Riverside Dr",
+  "mail_city": "Painesville",
+  "zip": "44077",
+  "county": "Lake",
+  "name": "Riverside Local School District",
+  "enrollment": 4270
+ },
+ {
+  "website": "wickliffe-city.k12.oh.us",
+  "contact_title": "Clk Sch Bd",
+  "address": "2221 Rockefeller Rd",
+  "mail_city": "Wickliffe",
+  "zip": "44092",
+  "county": "Lake",
+  "name": "Wickliffe City School District",
+  "enrollment": 1360
+ },
+ {
+  "website": "auburncc.org",
+  "contact_title": "Supt",
+  "address": "8140 Auburn Rd",
+  "mail_city": "Painesville",
+  "zip": "44077",
+  "county": "Lake",
+  "name": "Auburn Jt Voc School District",
+  "enrollment": 0
+ },
+ {
+  "website": "elyriaschools.org",
+  "contact_title": "Supt",
+  "address": "42101 Griswold Rd",
+  "mail_city": "Elyria",
+  "zip": "44035",
+  "county": "Lorain",
+  "name": "Elyria City School District",
+  "enrollment": 6041
+ },
+ {
+  "website": "midview.org",
+  "contact_title": "Supt",
+  "address": "1010 Vivian Dr",
+  "mail_city": "Grafton",
+  "zip": "44044",
+  "county": "Lorain",
+  "name": "Midview Local School District",
+  "enrollment": 2815
+ },
+ {
+  "website": "clearview.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "4700 Broadway",
+  "mail_city": "Lorain",
+  "zip": "44052",
+  "county": "Lorain",
+  "name": "Clearview Local School District",
+  "enrollment": 1595
+ },
+ {
+  "website": "firelandsschools.org",
+  "contact_title": "Treasurer",
+  "address": "11970 Vermilion Rd",
+  "mail_city": "Oberlin",
+  "zip": "44074",
+  "county": "Lorain",
+  "name": "Firelands Local School District",
+  "enrollment": 1635
+ },
+ {
+  "website": "lorainschools.org",
+  "contact_title": "Supt",
+  "address": "602 Washington",
+  "mail_city": "Lorain",
+  "zip": "44052",
+  "county": "Lorain",
+  "name": "Lorain City School District",
+  "enrollment": 6084
+ },
+ {
+  "website": "keystonelocalschools.org",
+  "contact_title": "Supt",
+  "address": "Po Box 65",
+  "mail_city": "Lagrange",
+  "zip": "44050",
+  "county": "Lorain",
+  "name": "Keystone Local School District",
+  "enrollment": 1449
+ },
+ {
+  "website": "avon.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "35575 Detroit Rd",
+  "mail_city": "Avon",
+  "zip": "44011",
+  "county": "Lorain",
+  "name": "Avon Local School District",
+  "enrollment": 4443
+ },
+ {
+  "website": "avonlakecityschools.org",
+  "contact_title": "Clk Sch Bd",
+  "address": "175 Avon Belden Rd",
+  "mail_city": "Avon Lake",
+  "zip": "44012",
+  "county": "Lorain",
+  "name": "Avon Lake City School District",
+  "enrollment": 3788
+ },
+ {
+  "website": "columbia.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "25796 Royalton Rd",
+  "mail_city": "Columbia Station",
+  "zip": "44028",
+  "county": "Lorain",
+  "name": "Columbia Local School District",
+  "enrollment": 869
+ },
+ {
+  "website": "oberlin.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "153 N Main St",
+  "mail_city": "Oberlin",
+  "zip": "44074",
+  "county": "Lorain",
+  "name": "Oberlin City School District",
+  "enrollment": 966
+ },
+ {
+  "website": "sheffield.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "1824 Harris Rd",
+  "mail_city": "Sheffield Village",
+  "zip": "44054",
+  "county": "Lorain",
+  "name": "Sheffield-Sheffield Lake City School District",
+  "enrollment": 1647
+ },
+ {
+  "website": "lcjvs.com",
+  "contact_title": "Superintendent",
+  "address": "15181 State Route 58",
+  "mail_city": "Oberlin",
+  "zip": "44074",
+  "county": "Lorain",
+  "name": "Lorain Co Jt Voc School District",
+  "enrollment": 0
+ },
+ {
+  "website": "nrcs.k12.oh.us",
+  "contact_title": "Treasurer'S Office",
+  "address": "5490 Mills Creek Ln",
+  "mail_city": "North Ridgeville",
+  "zip": "44039",
+  "county": "Lorain",
+  "name": "North Ridgeville City Schools",
+  "enrollment": 4477
+ },
+ {
+  "website": "wellington.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "201 S Main St",
+  "mail_city": "Wellington",
+  "zip": "44090",
+  "county": "Lorain",
+  "name": "Wellington Ex Village School Dist",
+  "enrollment": 977
+ },
+ {
+  "website": "lorainccc.edu",
+  "contact_title": "Controller",
+  "address": "1005 N Abbe Rd",
+  "mail_city": "Elyria",
+  "zip": "44035",
+  "county": "Lorain",
+  "name": "Lorain County Community College",
+  "enrollment": 10206
+ },
+ {
+  "website": "amherst.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "185 Forest St",
+  "mail_city": "Amherst",
+  "zip": "44001",
+  "county": "Lorain",
+  "name": "Amherst Ex Village School District",
+  "enrollment": 3534
+ },
+ {
+  "website": "struthers.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "99 Euclid Ave",
+  "mail_city": "Struthers",
+  "zip": "44471",
+  "county": "Mahoning",
+  "name": "Struthers City School District",
+  "enrollment": 1725
+ },
+ {
+  "website": "campbell.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "280 6Th St",
+  "mail_city": "Campbell",
+  "zip": "44405",
+  "county": "Mahoning",
+  "name": "Campbell City School District",
+  "enrollment": 1038
+ },
+ {
+  "website": "lowellville.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "52 Rocket Place",
+  "mail_city": "Lowellville",
+  "zip": "44436",
+  "county": "Mahoning",
+  "name": "Lowellville Local School District",
+  "enrollment": 467
+ },
+ {
+  "website": "poland.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "30 Riverside Dr",
+  "mail_city": "Poland",
+  "zip": "44514",
+  "county": "Mahoning",
+  "name": "Poland Local School District",
+  "enrollment": 1774
+ },
+ {
+  "website": "youngstown.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "20 W Wood St, Po Box 550",
+  "mail_city": "Youngstown",
+  "zip": "44501",
+  "county": "Mahoning",
+  "name": "Youngstown City School District",
+  "enrollment": 5246
+ },
+ {
+  "website": "sebring.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "510 N 14Th St",
+  "mail_city": "Sebring",
+  "zip": "44672",
+  "county": "Mahoning",
+  "name": "Sebring Local School District",
+  "enrollment": 382
+ },
+ {
+  "website": "jacksonmilton.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "14110 Mahoning Ave",
+  "mail_city": "North Jackson",
+  "zip": "44451",
+  "county": "Mahoning",
+  "name": "Jackson Milton Local School Dist",
+  "enrollment": 756
+ },
+ {
+  "website": "springfield.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "Po Box 549",
+  "mail_city": "New Middletown",
+  "zip": "44442",
+  "county": "Mahoning",
+  "name": "Springfield Local School District",
+  "enrollment": 943
+ },
+ {
+  "website": "canfield.access-k12.org",
+  "contact_title": "Supt",
+  "address": "100 Wadsworth St",
+  "mail_city": "Canfield",
+  "zip": "44406",
+  "county": "Mahoning",
+  "name": "Canfield Local School District",
+  "enrollment": 2558
+ },
+ {
+  "website": "mahoningjvs.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "7300 N Palmyra Rd",
+  "mail_city": "Canfield",
+  "zip": "44406",
+  "county": "Mahoning",
+  "name": "Mahoning Co Career & Technical Center",
+  "enrollment": 0
+ },
+ {
+  "website": "austintown.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "225 Idaho Rd",
+  "mail_city": "Youngstown",
+  "zip": "44515",
+  "county": "Mahoning",
+  "name": "Austintown School District",
+  "enrollment": 4292
+ },
+ {
+  "website": "boardman.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "7410 Market St",
+  "mail_city": "Youngstown",
+  "zip": "44512",
+  "county": "Mahoning",
+  "name": "Boardman Local School District",
+  "enrollment": 3938
+ },
+ {
+  "website": "southrange.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "11836 South Ave",
+  "mail_city": "North Lima",
+  "zip": "44452",
+  "county": "Mahoning",
+  "name": "South Range Local School District",
+  "enrollment": 1202
+ },
+ {
+  "website": "westbranch.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "14277 S Main St",
+  "mail_city": "Beloit",
+  "zip": "44609",
+  "county": "Mahoning",
+  "name": "West Branch Loc School District",
+  "enrollment": 1910
+ },
+ {
+  "website": "westernreserve.k12.oh.us",
+  "contact_title": "Treasurer",
+  "address": "13850 W Akron Canfield Rd",
+  "mail_city": "Berlin Center",
+  "zip": "44401",
+  "county": "Mahoning",
+  "name": "Western Reserve Local School District",
+  "enrollment": 661
+ },
+ {
+  "website": "wadsworth.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "360 College St",
+  "mail_city": "Wadsworth",
+  "zip": "44281",
+  "county": "Medina",
+  "name": "Wadsworth City School District",
+  "enrollment": 4715
+ },
+ {
+  "website": "highlandschools.org",
+  "contact_title": "Supt",
+  "address": "3880 Ridge Rd",
+  "mail_city": "Medina",
+  "zip": "44256",
+  "county": "Medina",
+  "name": "Highland Local School District",
+  "enrollment": 3268
+ },
+ {
+  "website": "blackriver.k12.oh.us",
+  "contact_title": "Treasurer",
+  "address": "257A County Road 40",
+  "mail_city": "Sullivan",
+  "zip": "44880",
+  "county": "Medina",
+  "name": "Black River School District",
+  "enrollment": 1097
+ },
+ {
+  "website": "cls.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "8525 Friendsville Rd",
+  "mail_city": "Lodi",
+  "zip": "44254",
+  "county": "Medina",
+  "name": "Cloverleaf Local School District",
+  "enrollment": 2315
+ },
+ {
+  "website": "mccc-jvsd.org",
+  "contact_title": "Treasurer",
+  "address": "1101 W Liberty St",
+  "mail_city": "Medina",
+  "zip": "44256",
+  "county": "Medina",
+  "name": "Medina Co Jt Voc School District",
+  "enrollment": 0
+ },
+ {
+  "website": "buckeye.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "3044 Columbia Rd",
+  "mail_city": "Medina",
+  "zip": "44256",
+  "county": "Medina",
+  "name": "Buckeye Local School District",
+  "enrollment": 2365
+ },
+ {
+  "website": "mcsoh.org",
+  "contact_title": "Treasurers Office",
+  "address": "140 W Washington St",
+  "mail_city": "Medina",
+  "zip": "44256",
+  "county": "Medina",
+  "name": "Medina City School District",
+  "enrollment": 6621
+ },
+ {
+  "website": "brunswickschools.org",
+  "contact_title": "Supt",
+  "address": "3643 Center Rd",
+  "mail_city": "Brunswick",
+  "zip": "44212",
+  "county": "Medina",
+  "name": "Brunswick City School District",
+  "enrollment": 6844
+ },
+ {
+  "website": "kent.k12.oh.us",
+  "contact_title": "Treasurer",
+  "address": "321 N Depeyster St",
+  "mail_city": "Kent",
+  "zip": "44240",
+  "county": "Portage",
+  "name": "Kent City School District",
+  "enrollment": 3355
+ },
+ {
+  "website": "viking.portage.k12.oh.us",
+  "contact_title": "Treasurer",
+  "address": "1464 Industry Rd",
+  "mail_city": "Atwater",
+  "zip": "44201",
+  "county": "Portage",
+  "name": "Waterloo Local School District",
+  "enrollment": 963
+ },
+ {
+  "website": "garfield.sparcc.org",
+  "contact_title": "Supt",
+  "address": "10235 State Route 88",
+  "mail_city": "Garrettsville",
+  "zip": "44231",
+  "county": "Portage",
+  "name": "James A Garfield School District",
+  "enrollment": 1345
+ },
+ {
+  "website": "sepirates.org",
+  "contact_title": "Supt",
+  "address": "8245 Tallmadge Rd",
+  "mail_city": "Ravenna",
+  "zip": "44266",
+  "county": "Portage",
+  "name": "Southeast School District",
+  "enrollment": 1459
+ },
+ {
+  "website": "edline.net/pages/windham_evsd",
+  "contact_title": "Supt",
+  "address": "9530 Bauer Ave",
+  "mail_city": "Windham",
+  "zip": "44288",
+  "county": "Portage",
+  "name": "Windham Ex Village School District",
+  "enrollment": 484
+ },
+ {
+  "website": "aurora-schools.org",
+  "contact_title": "Clk Sch Bd",
+  "address": "102 E Garfield Rd",
+  "mail_city": "Aurora",
+  "zip": "44202",
+  "county": "Portage",
+  "name": "Aurora City School District",
+  "enrollment": 3027
+ },
+ {
+  "website": "crestwoodschools.org",
+  "contact_title": "Supt",
+  "address": "4565 W Prospect St",
+  "mail_city": "Mantua",
+  "zip": "44255",
+  "county": "Portage",
+  "name": "Crestwood Local School District",
+  "enrollment": 1578
+ },
+ {
+  "website": "rockets.sparcc.org",
+  "contact_title": "Supt",
+  "address": "9000 Kirby Ln",
+  "mail_city": "Streetsboro",
+  "zip": "44241",
+  "county": "Portage",
+  "name": "Streetsboro City School District",
+  "enrollment": 2144
+ },
+ {
+  "website": "fieldlocalschools.org",
+  "contact_title": "Supt",
+  "address": "1473 Saxe Rd",
+  "mail_city": "Mogadore",
+  "zip": "44260",
+  "county": "Portage",
+  "name": "Field Local School District",
+  "enrollment": 1902
+ },
+ {
+  "website": "mwood.cc",
+  "contact_title": "Supt",
+  "address": "7075 State Route 88",
+  "mail_city": "Ravenna",
+  "zip": "44266",
+  "county": "Portage",
+  "name": "Maplewood Area Jvsd",
+  "enrollment": 0
+ },
+ {
+  "website": "rootstown.sparcc.org",
+  "contact_title": "Clk Sch Bd",
+  "address": "4140 State Route 44",
+  "mail_city": "Rootstown",
+  "zip": "44272",
+  "county": "Portage",
+  "name": "Rootstown Local School District",
+  "enrollment": 1092
+ },
+ {
+  "website": "ravenna.portage.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "507 E Main St",
+  "mail_city": "Ravenna",
+  "zip": "44266",
+  "county": "Portage",
+  "name": "Ravenna City School District",
+  "enrollment": 2228
+ },
+ {
+  "website": "coventrylocalschools.com",
+  "contact_title": "Supt",
+  "address": "3257 Cormany Rd",
+  "mail_city": "Akron",
+  "zip": "44319",
+  "county": "Summit",
+  "name": "Coventry Local School District",
+  "enrollment": 1757
+ },
+ {
+  "website": "tallmadge.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "486 East Ave",
+  "mail_city": "Tallmadge",
+  "zip": "44278",
+  "county": "Summit",
+  "name": "Tallmadge City School District",
+  "enrollment": 2467
+ },
+ {
+  "website": "copley-fairlawn.org",
+  "contact_title": "Supt",
+  "address": "3797 Ridgewood Rd",
+  "mail_city": "Copley",
+  "zip": "44321",
+  "county": "Summit",
+  "name": "Copley-Fairlawn City School District",
+  "enrollment": 2818
+ },
+ {
+  "website": "panthercountry.org",
+  "contact_title": "Supt",
+  "address": "6075 Manchester Rd",
+  "mail_city": "Akron",
+  "zip": "44319",
+  "county": "Summit",
+  "name": "Manchester Local School District",
+  "enrollment": 1279
+ },
+ {
+  "website": "greenlocalschools.org",
+  "contact_title": "Supt",
+  "address": "1900 Greensburg Rd, Po Box 218",
+  "mail_city": "Green",
+  "zip": "44232",
+  "county": "Summit",
+  "name": "Green Local School District",
+  "enrollment": 4209
+ },
+ {
+  "website": "stow.summit.k12.oh.us",
+  "contact_title": "Treasurer",
+  "address": "4350 Allen Rd",
+  "mail_city": "Stow",
+  "zip": "44224",
+  "county": "Summit",
+  "name": "Stow City School District",
+  "enrollment": 5382
+ },
+ {
+  "website": "plcc.k12.oh.us",
+  "contact_title": "Treasurer",
+  "address": "Po Box 248",
+  "mail_city": "Greensburg",
+  "zip": "44232",
+  "county": "Summit",
+  "name": "Portage Lakes Jt Voc School District",
+  "enrollment": 0
+ },
+ {
+  "website": "akronschools.com",
+  "contact_title": "Supt",
+  "address": "70 North Broadway",
+  "mail_city": "Akron",
+  "zip": "44308",
+  "county": "Summit",
+  "name": "Akron City School District",
+  "enrollment": 21298
+ },
+ {
+  "website": "revere.k12.oh.us",
+  "contact_title": "Treasurer",
+  "address": "Po Box 340",
+  "mail_city": "Bath",
+  "zip": "44210",
+  "county": "Summit",
+  "name": "Revere Local School District",
+  "enrollment": 2770
+ },
+ {
+  "website": "mogadore.summit.k12.oh.us",
+  "contact_title": "Treasurer-School Board",
+  "address": "1 S Cleveland Ave",
+  "mail_city": "Mogadore",
+  "zip": "44260",
+  "county": "Summit",
+  "name": "Mogadore Local School District",
+  "enrollment": 843
+ },
+ {
+  "website": "springfieldspartans.org",
+  "contact_title": "Supt",
+  "address": "2960 Sanitarium Rd",
+  "mail_city": "Akron",
+  "zip": "44312",
+  "county": "Summit",
+  "name": "Springfield Local School District",
+  "enrollment": 2202
+ },
+ {
+  "website": "twinsburg.k12.oh.us",
+  "contact_title": "Clk Sch Bd",
+  "address": "11136 Ravenna Rd",
+  "mail_city": "Twinsburg",
+  "zip": "44087",
+  "county": "Summit",
+  "name": "Twinsburg City School District",
+  "enrollment": 4191
+ },
+ {
+  "website": "nordonia.summit.k12.oh.us",
+  "contact_title": "Treasurer",
+  "address": "9370 Olde Eight Rd",
+  "mail_city": "Northfield",
+  "zip": "44067",
+  "county": "Summit",
+  "name": "Nordonia Hills City School Dist",
+  "enrollment": 3605
+ },
+ {
+  "website": "scs.summit.k12.oh.us/norton",
+  "contact_title": "Supt",
+  "address": "4128 Cleveland Massillon Rd",
+  "mail_city": "Norton",
+  "zip": "44203",
+  "county": "Summit",
+  "name": "Norton City School District",
+  "enrollment": 2524
+ },
+ {
+  "website": "scs.summit.k12.oh.us/woodridge/index.htm",
+  "contact_title": "Supt",
+  "address": "4411 Quick Rd",
+  "mail_city": "Peninsula",
+  "zip": "44264",
+  "county": "Summit",
+  "name": "Woodridge Local School District",
+  "enrollment": 1918
+ },
+ {
+  "website": "hudson.edu",
+  "contact_title": "Treasurer",
+  "address": "2400 Hudson Aurora Rd",
+  "mail_city": "Hudson",
+  "zip": "44236",
+  "county": "Summit",
+  "name": "Hudson Local School District",
+  "enrollment": 4649
+ },
+ {
+  "website": "barbertonschools.org",
+  "contact_title": "Supt",
+  "address": "479 Norton Ave",
+  "mail_city": "Barberton",
+  "zip": "44203",
+  "county": "Summit",
+  "name": "Barberton City School District",
+  "enrollment": 3871
+ },
+ {
+  "website": "cfalls.summit.k12.oh.us",
+  "contact_title": "Treasurer",
+  "address": "Po Box 396",
+  "mail_city": "Cuyahoga Falls",
+  "zip": "44222",
+  "county": "Summit",
+  "name": "Cuyahoga Falls City School District",
+  "enrollment": 4476
+ },
+ {
+  "website": "mcdonald.k12.oh.us",
+  "contact_title": "Treasurer",
+  "address": "600 Iowa Ave",
+  "mail_city": "Mc Donald",
+  "zip": "44437",
+  "county": "Trumbull",
+  "name": "Mcdonald Local School District",
+  "enrollment": 784
+ },
+ {
+  "website": "bloomfieldmesposchools.org",
+  "contact_title": "Clk Sch Bd",
+  "address": "2077 Park Rd W",
+  "mail_city": "North Bloomfield",
+  "zip": "44450",
+  "county": "Trumbull",
+  "name": "Bloomfield-Mespo Local School District",
+  "enrollment": 229
+ },
+ {
+  "website": "girardcityschools.org",
+  "contact_title": "Supt",
+  "address": "704 E Prospect St",
+  "mail_city": "Girard",
+  "zip": "44420",
+  "county": "Trumbull",
+  "name": "Girard City School District",
+  "enrollment": 1693
+ },
+ {
+  "website": "nilescityschools.org",
+  "contact_title": "Treasurer",
+  "address": "100 West St",
+  "mail_city": "Niles",
+  "zip": "44446",
+  "county": "Trumbull",
+  "name": "Niles City School District",
+  "enrollment": 2178
+ },
+ {
+  "website": "labrae.k12.oh.us",
+  "contact_title": "Treasurer",
+  "address": "4651 West Market Street",
+  "mail_city": "Leavittsburg",
+  "zip": "44430",
+  "county": "Trumbull",
+  "name": "Labrae Local School District",
+  "enrollment": 1076
+ },
+ {
+  "website": "brookfield.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "Po Box 209",
+  "mail_city": "Brookfield",
+  "zip": "44403",
+  "county": "Trumbull",
+  "name": "Brookfield Local School District",
+  "enrollment": 966
+ },
+ {
+  "website": "mathews.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "4434B Warren Sharon Rd",
+  "mail_city": "Vienna",
+  "zip": "44473",
+  "county": "Trumbull",
+  "name": "Mathews Local School District",
+  "enrollment": 611
+ },
+ {
+  "website": "howlandschools.com",
+  "contact_title": "Clk Sch Bd",
+  "address": "8200 South St Se",
+  "mail_city": "Warren",
+  "zip": "44484",
+  "county": "Trumbull",
+  "name": "Howland Local School District",
+  "enrollment": 2533
+ },
+ {
+  "website": "newton-falls.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "909 1/2 Milton Blvd",
+  "mail_city": "Newton Falls",
+  "zip": "44444",
+  "county": "Trumbull",
+  "name": "Newton Falls Ex Village School District",
+  "enrollment": 938
+ },
+ {
+  "website": "southington.k12.oh.us",
+  "contact_title": "Treasurers Office",
+  "address": "4432 State Route 305",
+  "mail_city": "Southington",
+  "zip": "44470",
+  "county": "Trumbull",
+  "name": "Southington Local School Dist",
+  "enrollment": 495
+ },
+ {
+  "website": "warrenschools.k12.oh.us",
+  "contact_title": "Supt Of Schools",
+  "address": "261 Monroe St Nw",
+  "mail_city": "Warren",
+  "zip": "44483",
+  "county": "Trumbull",
+  "name": "Warren City Schools",
+  "enrollment": 4748
+ },
+ {
+  "website": "weathersfield.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "3750 Main St",
+  "mail_city": "Mineral Ridge",
+  "zip": "44440",
+  "county": "Trumbull",
+  "name": "Weathersfield Local School District",
+  "enrollment": 965
+ },
+ {
+  "website": "bristol.k12.oh.us",
+  "contact_title": "Treasurer Of School Board",
+  "address": "Po Box 260",
+  "mail_city": "Bristolville",
+  "zip": "44402",
+  "county": "Trumbull",
+  "name": "Bristol Local School District",
+  "enrollment": 504
+ },
+ {
+  "website": "lordstown.k12.oh.us",
+  "contact_title": "Clk Sch Bd",
+  "address": "1824 Salt Springs Road",
+  "mail_city": "Warren",
+  "zip": "44481",
+  "county": "Trumbull",
+  "name": "Lordstown Local School District",
+  "enrollment": 447
+ },
+ {
+  "website": "tctchome.com",
+  "contact_title": "Supt",
+  "address": "528 Educational Hwy Nw",
+  "mail_city": "Warren",
+  "zip": "44483",
+  "county": "Trumbull",
+  "name": "Trumbull Co Jt Voc School District",
+  "enrollment": 0
+ },
+ {
+  "website": "champion.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "5759 Mahoning Ave Nw",
+  "mail_city": "Warren",
+  "zip": "44483",
+  "county": "Trumbull",
+  "name": "Champion Local School District",
+  "enrollment": 1330
+ },
+ {
+  "website": "liberty.k12.oh.us",
+  "contact_title": "Clk Sch Bd",
+  "address": "4115 Shady Rd",
+  "mail_city": "Youngstown",
+  "zip": "44505",
+  "county": "Trumbull",
+  "name": "Liberty Local School District",
+  "enrollment": 1275
+ },
+ {
+  "website": "joseph-badger.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "8317 Main St",
+  "mail_city": "Kinsman",
+  "zip": "44428",
+  "county": "Trumbull",
+  "name": "Joseph Badger Local School District",
+  "enrollment": 670
+ },
+ {
+  "website": "maplewood.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "2414 Greenville Rd",
+  "mail_city": "Cortland",
+  "zip": "44410",
+  "county": "Trumbull",
+  "name": "Maplewood Local School District",
+  "enrollment": 647
+ },
+ {
+  "website": "hubbard.k12.oh.us",
+  "contact_title": "Supt",
+  "address": "150 Hall Ave",
+  "mail_city": "Hubbard",
+  "zip": "44425",
+  "county": "Trumbull",
+  "name": "Hubbard Ex Village School District",
+  "enrollment": 1895
+ },
+ {
+  "website": "cboss.com/lakeview",
+  "contact_title": "Supt",
+  "address": "300 Hillman Dr",
+  "mail_city": "Cortland",
+  "zip": "44410",
+  "county": "Trumbull",
+  "name": "Lakeview Local School District",
+  "enrollment": 1646
+ }
+]

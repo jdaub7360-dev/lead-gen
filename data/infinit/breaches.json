@@ -1,0 +1,210 @@
+[
+ {
+  "name": "Family Physicians, Inc.",
+  "entity_type": "Healthcare Provider",
+  "individuals": 885,
+  "reported": "10/01/2026",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Network Server"
+ },
+ {
+  "name": "Saber Healthcare Group",
+  "entity_type": "Business Associate",
+  "individuals": 282727,
+  "reported": "09/25/2026",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Laptop, Network Server"
+ },
+ {
+  "name": "Prescribe FIT, Inc.",
+  "entity_type": "Healthcare Provider",
+  "individuals": 4537,
+  "reported": "09/10/2026",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Email"
+ },
+ {
+  "name": "Community Health Care, Inc.",
+  "entity_type": "Healthcare Provider",
+  "individuals": 808,
+  "reported": "08/11/2026",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Email"
+ },
+ {
+  "name": "Quantum Health",
+  "entity_type": "Business Associate",
+  "individuals": 2104,
+  "reported": "07/29/2026",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Network Server"
+ },
+ {
+  "name": "Unlimited Technology Systems, LLC",
+  "entity_type": "Business Associate",
+  "individuals": 3803750,
+  "reported": "07/21/2026",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Network Server"
+ },
+ {
+  "name": "Northeast Professional Caregivers",
+  "entity_type": "Healthcare Provider",
+  "individuals": 500,
+  "reported": "06/22/2026",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Email"
+ },
+ {
+  "name": "Ohio Living",
+  "entity_type": "Healthcare Provider",
+  "individuals": 500,
+  "reported": "06/12/2026",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Network Server"
+ },
+ {
+  "name": "City of Middletown",
+  "entity_type": "Healthcare Provider",
+  "individuals": 20608,
+  "reported": "06/03/2026",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Network Server"
+ },
+ {
+  "name": "Centers for Dialysis Care",
+  "entity_type": "Healthcare Provider",
+  "individuals": 8000,
+  "reported": "05/15/2026",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Network Server"
+ },
+ {
+  "name": "Ocelot Ventures, LLC dba Excelas",
+  "entity_type": "Business Associate",
+  "individuals": 2275,
+  "reported": "05/12/2026",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Network Server"
+ },
+ {
+  "name": "ViaQuest Psychiatric & Behavioral Solutions, LLC",
+  "entity_type": "Healthcare Provider",
+  "individuals": 6420,
+  "reported": "05/08/2026",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Network Server"
+ },
+ {
+  "name": "IKRON Corporation",
+  "entity_type": "Healthcare Provider",
+  "individuals": 11845,
+  "reported": "05/04/2026",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Electronic Medical Record, Network Server"
+ },
+ {
+  "name": "Counseling Center of Wayne & Holmes Counties",
+  "entity_type": "Healthcare Provider",
+  "individuals": 83354,
+  "reported": "02/09/2026",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Network Server"
+ },
+ {
+  "name": "Atrium Centers Inc.",
+  "entity_type": "Healthcare Provider",
+  "individuals": 4943,
+  "reported": "12/12/2025",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Network Server"
+ },
+ {
+  "name": "Southwest Urology",
+  "entity_type": "Healthcare Provider",
+  "individuals": 1310,
+  "reported": "10/24/2025",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Network Server"
+ },
+ {
+  "name": "Harbor",
+  "entity_type": "Healthcare Provider",
+  "individuals": 216000,
+  "reported": "09/30/2025",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Network Server"
+ },
+ {
+  "name": "Beech Acres Parenting Center",
+  "entity_type": "Healthcare Provider",
+  "individuals": 19315,
+  "reported": "08/22/2025",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Network Server"
+ },
+ {
+  "name": "Kettering Adventist Healthcare",
+  "entity_type": "Healthcare Provider",
+  "individuals": 1695382,
+  "reported": "07/21/2025",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Network Server"
+ },
+ {
+  "name": "Retina Associates of Cleveland, Inc.",
+  "entity_type": "Healthcare Provider",
+  "individuals": 3604,
+  "reported": "06/20/2025",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Email"
+ },
+ {
+  "name": "Harbor",
+  "entity_type": "Healthcare Provider",
+  "individuals": 2703,
+  "reported": "06/20/2025",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Email"
+ },
+ {
+  "name": "Marquette County Medical Care Facility",
+  "entity_type": "Healthcare Provider",
+  "individuals": 1499,
+  "reported": "06/18/2025",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Email"
+ },
+ {
+  "name": "Brainard Surgery Center LLC",
+  "entity_type": "Healthcare Provider",
+  "individuals": 1820,
+  "reported": "04/24/2025",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Network Server"
+ },
+ {
+  "name": "Health Services LLC",
+  "entity_type": "Healthcare Provider",
+  "individuals": 75906,
+  "reported": "04/01/2025",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Network Server"
+ },
+ {
+  "name": "CPS Solutions, LLC",
+  "entity_type": "Business Associate",
+  "individuals": 500,
+  "reported": "02/10/2025",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Email"
+ },
+ {
+  "name": "Premier Health Partners and wholly owned covered entities listed in description section below",
+  "entity_type": "Healthcare Provider",
+  "individuals": 10833,
+  "reported": "10/12/2023",
+  "breach_type": "Hacking/IT Incident",
+  "location": "Network Server"
+ }
+]
