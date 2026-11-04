@@ -1,7 +1,7 @@
 # Public source files, re-downloaded by run.sh
 data/raw/
 # API cache, rebuilt automatically
-data/*/cache/
+# data/*/cache/ is committed so scheduled runs have a fallback when USAspending is down
 __pycache__/
 *.pyc
 .DS_Store

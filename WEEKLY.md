@@ -2,7 +2,7 @@
 
 The scheduled task runs this every Monday at 7:00 am Eastern. Follow it step by step.
 
-1. **Refresh the lists:** `./run.sh infinit`. If USAspending fails, delete nothing; the cached
+1. **Refresh the lists:** `./run.sh infinit`. If USAspending fails, delete nothing; the committed cached
    county files in `data/infinit/cache/` are used. Clear the cache once a month so the DoD data refreshes.
 2. **Research new Top Leads (15-20):**
    - Skip every organization that appears in `data/infinit/history/` (all past weeks' Top Leads).
