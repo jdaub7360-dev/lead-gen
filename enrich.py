@@ -17,7 +17,8 @@ def load(path, default):
 
 
 def li_person(name, org):
-    q = urllib.parse.quote(f"{re.sub(r'\\(.*?\\)', '', name).strip()} {org}")
+    clean = re.sub(r"\(.*?\)", "", name).strip()  # drop "(verify)" etc.
+    q = urllib.parse.quote(f"{clean} {org}")
     return f"https://www.linkedin.com/search/results/people/?keywords={q}"
 
 
