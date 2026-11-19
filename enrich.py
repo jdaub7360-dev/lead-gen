@@ -159,7 +159,9 @@ def score_and_script(cfg, t, checks):
     parts.append(f"email hook {em}")
     size = w["size_large"] if (t.get("employees") or 0) > 500 else w["size_fit"]
     parts.append(f"size {size}")
-    t["score"] = pts + rec + con + ph + near + em + size
+    vb = w.get("vertical_bonus", {}).get(t.get("vertical", ""), 0)
+    parts.append(f"focus market {vb}")
+    t["score"] = min(100, pts + rec + con + ph + near + em + size + vb)
     t["score_why"] = ", ".join(parts)
     t["trigger_age_days"] = days
 

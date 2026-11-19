@@ -4,8 +4,9 @@ The scheduled task runs this every Monday morning (starts 5:47 am Eastern so the
 Follow it step by step.
 
 ## 1. Refresh data
-`./run.sh infinit data` refreshes every list and enrichment: IRS nonprofits and 990 contacts, Census governments
-and schools, USAspending DoD suppliers, the HHS breach list, and the email-security check.
+`./run.sh infinit data` refreshes every list and enrichment: Census governments, USAspending DoD suppliers (plus
+SAM.gov websites and contacts when SAM_API_KEY is set), IRS nonprofits and 990 contacts, the HHS breach list, and
+the email-security check.
 Steps that fail print `!! step failed` and the run continues with last week's data. USAspending is flaky; the
 committed cache in `data/infinit/cache/` is the fallback. Clear that cache on the first Monday of each month.
 If `data/infinit/pipeline_status.json` exists (pulled from the live Google Sheet), read it before step 2.
@@ -16,25 +17,32 @@ If `data/infinit/pipeline_status.json` exists (pulled from the live Google Sheet
 - **Cover both offices.** infinIT has two offices: Cleveland (1801 St Clair Ave NE, 44114) and Warren
   (4195 Parkman Rd NW, 44481). Aim for roughly half the leads within 30 miles of each office; never fewer than
   6 on either side. The `office` and `miles` fields on every list show the nearest office.
-- **Where to look first:**
-  - `Competitor Clients` (competitor_clients.json): FIT / Blue Technologies customers. Ones whose contract ends
-    within ~10 months and whose "Bid posted?" is "Not yet" are the best leads in the workbook: reach out before
-    their Form 470 posts. E-Rate rules: no gifts or free services to E-Rate applicants, and once a 470 posts,
-    respond only through the bid. Also search council/board minutes for new contracts naming the competitors
-    in `configs/infinit.json` → competitors, and add them to `competitor_contracts_manual.json` with the source.
-  - `School Bids` (erate_bids.json): new Form 470s this week. Flag any posted by a competitor client.
-  - `Cyber Pilot` (cyber_pilot_bids.json): districts and libraries proven to buy cybersecurity.
-  - Every vertical on infinit.us is a market: manufacturing, nonprofits, churches, government, professional
-    services, healthcare, and K-12 / libraries. Keep the weekly mix broad; use trigger types
-    "Competitor renewal" (with `deadline` = contract end) and "Cybersecurity buyer" for E-Rate leads, and never
-    put free offers in K-12 or library drafts (E-Rate gift rules).
-  - `Breach Watch` (breaches.json): Ohio healthcare breaches. Confirm the organization is in the territory.
-    Lead with help (incident response, hardening), never with the breach itself.
-  - Job postings for IT roles (IT Manager, Systems Administrator, IT Support) in the territory: co-managed angle.
-  - Council and trustee agendas and minutes mentioning IT services, cybersecurity, HB 96 or RFPs.
-  - Local business news: new locations, acquisitions, leadership changes (Crain's Cleveland, Business Journal
-    Daily, Tribune Chronicle, Akron Beacon Journal).
-  - Tier A rows on the list tabs with an email-security finding (no DMARC, GoDaddy email): good personalization.
+- **Focus markets: municipalities and manufacturers.** At least 10 of every 15 Top Leads must be
+  Government (cities, villages, townships, counties, special districts) or Manufacturing. The rest can be
+  healthcare, nonprofits, churches or professional services. **No K-12 or library leads and no E-Rate work**
+  (decided Nov 19, 2026); skip schools and libraries even if they show up in news.
+- **Where to look first, municipalities:**
+  - Council and trustee agendas and minutes (CivicPlus "AgendaCenter" pages, BoardDocs, Citizen Portal) from the
+    last 60 days mentioning: IT services, managed services, computer services, cybersecurity, HB 96 / ORC 9.64,
+    phone system, network, email migration, RFP or RFQ, or a named IT vendor.
+  - Contracts held by competitors (FIT Technologies, Blue Technologies, or any other named IT vendor). Add each one
+    to `data/infinit/competitor_contracts_manual.json` (name, vendor, type, city, zip, county, contract_end,
+    spend_recent, services, source, note) and make it a lead 6-9 months before it ends.
+  - Ohio Auditor of State audit reports for entities in the territory that cite IT, cybersecurity or HB 96 findings.
+  - Ransomware or cyber incidents at nearby local governments (neighbors get nervous), new mayors, administrators
+    or fiscal officers (first 90 days), and cyber grants accepted by council.
+  - Use the `Government` tab (website, lead official title, email-security finding) to pick and personalize.
+- **Where to look first, manufacturers:**
+  - Ohio Tax Credit Authority approvals and JobsOhio / Team NEO announcements (new jobs, new lines, plant
+    expansions, relocations) in the territory.
+  - Local business news: Crain's Cleveland Business, Business Journal Daily (Youngstown), Tribune Chronicle,
+    Akron Beacon Journal, Medina Gazette, News-Herald. Look for acquisitions, new owners, expansions, new plant
+    managers or CFOs, and IT job postings with the employer named.
+  - The `Manufacturing (DoD)` tab: defense suppliers facing NIST 800-171 / CMMC (re-check CMMC status first).
+  - Breaches or ransomware at manufacturers in the territory.
+- **Other markets (up to 5 leads):** `Breach Watch` (Ohio healthcare breaches; confirm location, lead with help,
+  never with the breach), IT job postings, and local news.
+- **Personalization:** rows with an email-security finding (no DMARC, GoDaddy email) make good openers.
 - **Every lead needs a dated, sourced reason to reach out now.** No source, no lead. Never invent facts.
   Set `trigger_date` (YYYY-MM-DD, the date of the event) and `call_reason` (one phrase finishing "I'm calling
   because ...") on every lead. A job posting only counts if the employer is named.
@@ -48,7 +56,7 @@ If `data/infinit/pipeline_status.json` exists (pulled from the live Google Sheet
   (name, title, source, zip, website, phone). Mark third-party directory names "(verify)". Never scrape LinkedIn.
 - Set `trigger_type` for each lead in `top_leads_contacts.json` → `_trigger_types` (IT job posting, Expansion /
   new sites, Leadership change, Acquisition, HB 96 cyber mandate, CMMC / DFARS, Breach, IT contract decision,
-  Critical operations, Good fit, no trigger).
+  Critical operations, Competitor contract, Expansion, Good fit, no trigger).
 - Write `data/infinit/top_leads.json` in the same format as `data/infinit/history/top_leads_2026-11-04.json`
   (the build sorts by appointment score; the top three become "Call these first"). Then copy it to
   `data/infinit/history/top_leads_YYYY-MM-DD.json`.

@@ -158,12 +158,8 @@
     "Critical operations": "a phone and internet failover test for your crisis lines",
     "Good fit, no trigger": "a free 15-minute IT and security snapshot",
     "_email_security": "a free email-spoofing check and a plan to fix it (your domain has no DMARC protection today)",
-    "Competitor renewal": "a 20-minute introduction so infinIT is a qualified bidder when your Form 470 posts",
-    "Cybersecurity buyer": "a 20-minute walkthrough of how we run endpoint protection, monitoring and response for schools and libraries",
-    "_no_free_offers_verticals": [
-      "K-12",
-      "Library"
-    ]
+    "Competitor contract": "a 20-minute look at what your current IT contract covers and what a local alternative would look like before it renews",
+    "Expansion": "a free review of your next site's network, phones and internet failover before it opens"
   },
   "scoring": {
     "_note": "Appointment score (0-100). Weights are editable; tune them once booked meetings come back.",
@@ -178,8 +174,8 @@
       "Expansion / new sites": 20,
       "Critical operations": 16,
       "Good fit, no trigger": 8,
-      "Competitor renewal": 28,
-      "Cybersecurity buyer": 20
+      "Competitor contract": 26,
+      "Expansion": 20
     },
     "recency_days": [
       [
@@ -233,18 +229,31 @@
         540,
         12
       ]
-    ]
+    ],
+    "vertical_bonus": {
+      "Government": 10,
+      "Manufacturing (DoD supplier)": 10,
+      "Manufacturing": 10
+    }
   },
   "competitors": [
     {
       "name": "FIT Technologies",
-      "website": "fittechnologies.com",
-      "erate_spin_match": "FIT Tech"
+      "website": "fittechnologies.com"
     },
     {
       "name": "Blue Technologies",
-      "website": "btohio.com",
-      "erate_spin_match": "Blue Tech"
+      "website": "btohio.com"
     }
-  ]
+  ],
+  "focus_verticals": [
+    "Government",
+    "Manufacturing (DoD supplier)",
+    "Manufacturing"
+  ],
+  "excluded_verticals": [
+    "K-12",
+    "Library"
+  ],
+  "_focus_note": "Nov 19, 2026: focus on municipalities and manufacturers. No E-Rate (schools/libraries) work."
 }

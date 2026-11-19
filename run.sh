@@ -44,7 +44,6 @@ if [ "$STEP" = data ] || [ "$STEP" = all ]; then
   step "$PY" sources/usaspending.py "$CFG" "$DATA/dod.json"
   step "$PY" sources/sam.py         "$CFG" "$DATA"   # DoD supplier websites + POCs (needs SAM_API_KEY)
   step "$PY" sources/hhs_breach.py  "$CFG" "$DATA/breaches.json"
-  step "$PY" sources/erate.py       "$CFG" "$DATA"   # competitor clients, open school bids, cyber pilot
   step "$PY" sources/irs_990.py     "$CFG" "$DATA/nonprofits.json" "$RAW"
   step "$PY" enrich.py domains "$DATA"
   step "$PY" sources/domain_check.py "$DATA/domains.json"

@@ -154,12 +154,12 @@ def near(cfg, zip_code=None, county=None):
 def build(cfg, d, out):
     client = cfg["client"]
     today = datetime.date.today()
-    top = load(f"{d}/top_leads.json", [])
+    excluded = set(cfg.get("excluded_verticals", []))
+    top = [t for t in load(f"{d}/top_leads.json", []) if t.get("vertical") not in excluded]
     dod = sorted(load(f"{d}/dod.json", []), key=lambda r: -r["dod_total"])
     nps = load(f"{d}/nonprofits.json", [])
     gov = sorted(load(f"{d}/gov.json", []), key=lambda r: -r["population"])
     gdir = load(f"{d}/gov_directory.json", {})
-    schools = sorted(load(f"{d}/schools.json", []), key=lambda r: -(r["enrollment"] or 0))
     e990 = load(f"{d}/enrich_990.json", {})
     checks = load(f"{d}/domain_checks.json", {})
     breaches = load(f"{d}/breaches.json", [])
@@ -194,16 +194,13 @@ def build(cfg, d, out):
         c.font = f(9, True, MUTED)
     lists = [
         ("Top Leads", "'Top Leads'!C:C", None, "'Top Leads'!F:F", "Researched this week. Each has a reason to reach out now, contacts and drafts. Start here."),
-        ("Manufacturing (DoD)", "'Manufacturing (DoD)'!B:B", "'Manufacturing (DoD)'!A:A", "'Manufacturing (DoD)'!E:E", "Defense suppliers in your counties. NIST 800-171 / CMMC angle."),
+        ("Government", "Government!B:B", "Government!A:A", "Government!E:E", "Cities, villages, townships. Ohio HB 96 cyber-program angle. Focus market."),
+        ("Manufacturing (DoD)", "'Manufacturing (DoD)'!B:B", "'Manufacturing (DoD)'!A:A", "'Manufacturing (DoD)'!E:E", "Defense suppliers in your counties. NIST 800-171 / CMMC angle. Focus market."),
+        ("Competitor Contracts", "'Competitor Contracts'!B:B", None, "'Competitor Contracts'!E:E", "Public IT contracts held by competitors (council records), with end dates."),
         ("Nonprofits", "Nonprofits!B:B", "Nonprofits!A:A", "Nonprofits!D:D", "With website, phone and named leaders from IRS 990 filings."),
         ("Healthcare", "Healthcare!B:B", "Healthcare!A:A", "Healthcare!D:D", "Behavioral health, clinics, care providers. HIPAA angle."),
         ("Religious", "Religious!B:B", "Religious!A:A", "Religious!D:D", "Faith-based organizations that file with the IRS."),
-        ("Government", "Government!B:B", "Government!A:A", "Government!E:E", "Cities, villages, townships. Ohio HB 96 cyber-program angle."),
-        ("Schools", "Schools!B:B", "Schools!A:A", "Schools!D:D", "School districts. HB 96 applies here too."),
         ("Breach Watch", "'Breach Watch'!B:B", None, None, "Ohio healthcare breaches under federal investigation. Verify location first."),
-        ("Competitor Clients", "'Competitor Clients'!B:B", None, "'Competitor Clients'!F:F", "FIT / Blue Technologies customers, with contract end dates. Green = re-bidding this winter."),
-        ("School Bids", "'School Bids'!C:C", None, "'School Bids'!E:E", "Open E-Rate bid requests from local schools and libraries, with the contact."),
-        ("Cyber Pilot", "'Cyber Pilot'!B:B", None, "'Cyber Pilot'!C:C", "Districts proven to buy cybersecurity (FCC Cybersecurity Pilot)."),
     ]
     for i, (name, rng, tier_rng, office_rng, note) in enumerate(lists, 7):
         ws.cell(i, 2, name).font = f(bold=True)
@@ -351,6 +348,8 @@ def build(cfg, d, out):
         if week >= today.isoformat():
             continue
         for t in load(path, []):
+            if t.get("vertical") in excluded:
+                continue
             if t["name"] not in current and t["name"] not in {e["name"] for e in earlier}:
                 earlier.append(dict(t, week=week))
     if earlier:
@@ -372,71 +371,25 @@ def build(cfg, d, out):
         for rr in range(3, ew.max_row + 1):
             ew.cell(rr, 1).number_format = "mmm d"
 
-    # ================= Competitor Clients =================
-    comp = load(f"{d}/competitor_clients.json", []) + [
-        dict(m, office=near(cfg, m.get("zip"))[0], miles=near(cfg, m.get("zip"))[1], bid_posted="")
-        for m in load(f"{d}/competitor_contracts_manual.json", [])]
-    comp.sort(key=lambda r: (r.get("contract_end") or "9999", -(r.get("spend_recent") or 0)))
-    renew_by = (today.replace(year=today.year + 1, month=9, day=30)).isoformat()
-    cw = wb.create_sheet("Competitor Clients")
-    h = ["Contract ends", "Organization", "Competitor", "Type", "City", "Nearest office", "Miles",
-         "Services they buy", "Spend, last 3 yrs", "Customer since", "Main phone", "Contact on file",
-         "Bid posted?", "Source", "Status", "Notes"]
-    w = [12, 38, 20, 14, 14, 10, 7, 44, 14, 10, 15, 28, 22, 10, 15, 30]
+    # ================= Competitor Contracts (public records, no E-Rate) =================
+    comp = [dict(m, office=near(cfg, m.get("zip"), m.get("county"))[0], miles=near(cfg, m.get("zip"), m.get("county"))[1])
+            for m in load(f"{d}/competitor_contracts_manual.json", [])]
+    comp.sort(key=lambda r: r.get("contract_end") or "9999")
+    cw = wb.create_sheet("Competitor Contracts")
+    h = ["Contract ends", "Organization", "Competitor", "Type", "Nearest office", "Miles", "What the contract covers",
+         "Contract value", "Source", "Status", "Notes"]
+    w = [12, 34, 26, 12, 10, 7, 50, 14, 10, 15, 40]
     rows = []
     for x in comp:
-        end = datetime.date.fromisoformat(x["contract_end"]) if x.get("contract_end") else None
-        src = x.get("source") or f"https://opendata.usac.org/resource/qdmp-ygft.json?ben={x.get('ben', '')}"
-        rows.append([end, x["name"], x["vendor"].replace("TechnologiesLLC", "Technologies"), x.get("type", ""),
-                     x.get("city", ""), x.get("office", ""), x.get("miles", ""), x.get("services", ""),
-                     x.get("spend_recent", ""), x.get("first_year", ""), x.get("phone", ""),
-                     x.get("contact_email", ""), x.get("bid_posted") or "Not yet", ("Link", src), "New",
+        end = datetime.date.fromisoformat(x["contract_end"]) if x.get("contract_end") else ""
+        rows.append([end, x["name"], x["vendor"], x.get("type", ""), x.get("office", ""), x.get("miles", ""),
+                     x.get("services", ""), x.get("spend_recent", ""), ("Link", x.get("source", "")), "New",
                      x.get("note", "")])
-    table(cw, h, w, rows, freeze="C2", wrap_cols=(2, 8, 16), status_col=15, money_cols=(9,),
-          note=("Schools and libraries buying network/IT services from competitors (federal E-Rate records), plus public "
-                "contracts. Green = contract ends by " + renew_by + ": they re-bid this winter. Reach out BEFORE their "
-                "Form 470 posts; once it posts, respond only through the bid. No gifts or free services to E-Rate applicants."))
+    table(cw, h, w, rows, freeze="C2", wrap_cols=(2, 7, 11), status_col=10, money_cols=(8,),
+          note=("IT contracts held by competitors (FIT Technologies, Blue Technologies, others), found in council and "
+                "trustee records. Reach out 6-9 months before the contract ends."))
     for rr in range(3, cw.max_row + 1):
         cw.cell(rr, 1).number_format = "mmm d, yyyy"
-    cw.conditional_formatting.add(f"A3:P{cw.max_row}", FormulaRule(
-        formula=[f'AND($A3<>"",$A3<=DATE({renew_by[:4]},{int(renew_by[5:7])},{int(renew_by[8:])}))'],
-        fill=PatternFill("solid", fgColor="D8F0DE")))
-
-    # ================= School Bids (E-Rate) =================
-    bids = load(f"{d}/erate_bids.json", [])
-    sb = wb.create_sheet("School Bids")
-    h = ["Posted", "Contracts allowed from", "Organization", "City", "Nearest office", "Miles", "What they're buying",
-         "Contact", "Email", "Phone", "Technical contact", "RFP / application #", "Status", "Notes"]
-    w = [11, 13, 34, 14, 10, 7, 60, 22, 28, 15, 28, 18, 15, 30]
-    rows = []
-    for x in bids:
-        rows.append([datetime.date.fromisoformat(x["posted"]) if x.get("posted") else "",
-                     datetime.date.fromisoformat(x["contract_allowed_from"]) if x.get("contract_allowed_from") else "",
-                     x["name"], x["city"], x["office"], x["miles"], x["services"], x["contact"], x["contact_email"],
-                     x["contact_phone"], ", ".join(filter(None, [x["tech_contact"], x["tech_title"]])),
-                     x.get("rfp") or x["application_number"], "New", ""])
-    table(sb, h, w, rows, freeze="D2", wrap_cols=(3, 7, 11), status_col=13,
-          note=("Open FCC Form 470 bid requests from schools and libraries in your territory (last 6 months). Bidding on "
-                "E-Rate-funded work requires an E-Rate service provider number (SPIN). Respond through the bid; no gifts."))
-    for rr in range(3, sb.max_row + 1):
-        sb.cell(rr, 1).number_format = "mmm d"
-        sb.cell(rr, 2).number_format = "mmm d"
-
-    # ================= Cyber Pilot =================
-    cyb = load(f"{d}/cyber_pilot_bids.json", [])
-    cy = wb.create_sheet("Cyber Pilot")
-    h = ["Organization", "City", "Nearest office", "Miles", "Posted", "Cybersecurity they asked for", "Contact",
-         "Email", "Phone", "Technical contact", "Status", "Notes"]
-    w = [36, 16, 10, 7, 11, 60, 22, 28, 15, 28, 15, 30]
-    rows = [[x["name"], x["city"], x["office"], x["miles"],
-             datetime.date.fromisoformat(x["posted"]) if x.get("posted") else "", x["services"], x["contact"],
-             x["contact_email"], x["contact_phone"], ", ".join(filter(None, [x["tech_contact"], x["tech_title"]])),
-             "New", ""] for x in cyb]
-    table(cy, h, w, rows, freeze="B2", wrap_cols=(1, 6, 10), status_col=11,
-          note=("Districts and libraries in the FCC Schools & Libraries Cybersecurity Pilot: proven buyers of endpoint "
-                "protection, monitoring/detection and identity security. Pilot purchases go through bids; pitch the rest."))
-    for rr in range(3, cy.max_row + 1):
-        cy.cell(rr, 5).number_format = "mmm d, yyyy"
 
     # ================= Manufacturing (DoD) =================
     md = wb.create_sheet("Manufacturing (DoD)")
@@ -505,21 +458,6 @@ def build(cfg, d, out):
                      "Jan 1, 2026" if x["kind"] == "City" else "July 1, 2026", "New", "", hubspot("B", i)])
     table(gw, h, w, rows, freeze="C2", status_col=13, tier_col=1, int_cols=(7,))
 
-    # ================= Schools =================
-    sw = wb.create_sheet("Schools")
-    h = ["Tier", "School district", "County", "Nearest office", "Miles", "Enrollment", "Website", "Lead official (title)",
-         "Mailing address", "Email security", "Status", "Notes", "In HubSpot?"]
-    w = [6, 40, 11, 10, 7, 12, 30, 18, 30, 20, 15, 26, 11]
-    rows = []
-    for i, x in enumerate(schools, 2):
-        name = re.sub(r"\bSch(ool)? Dist\b", "School District", x["name"]).replace("Hgts", "Heights").replace(" Lsd", " Local School District")
-        o, mi = near(cfg, x.get("zip"), x["county"])
-        rows.append([f'=IF(AND(F{i}>=Settings!$B$8,F{i}<=Settings!$B$9),"A",IF(F{i}<Settings!$B$8,"C","B"))',
-                     name, x["county"], o, mi, x["enrollment"], site(x["website"]), x["contact_title"],
-                     ", ".join(filter(None, [x["address"], x["mail_city"]])), short_findings(chk(x["website"])),
-                     "New", "", hubspot("B", i)])
-    table(sw, h, w, rows, freeze="C2", status_col=11, tier_col=1, int_cols=(6,))
-
     # ================= Breach Watch =================
     bw = wb.create_sheet("Breach Watch")
     h = ["Reported", "Organization", "Entity type", "People affected", "Breach type", "Where the data was",
@@ -563,8 +501,6 @@ def build(cfg, d, out):
         ("DoD obligations, tier A maximum", 20000000, "Above this, likely a larger company with its own IT"),
         ("Municipality population, tier A minimum", 5000, "Big enough to budget for managed IT"),
         ("Municipality population, tier A maximum", cfg["government"]["co_managed_above"], "Above this, likely an IT department"),
-        ("School enrollment, tier A minimum", 500, "Smaller districts rarely have a full IT team"),
-        ("School enrollment, tier A maximum", 4000, "Above this, co-managed angle"),
     ]
     table(st, ["Setting", "Value", "Note"], [44, 16, 60], [list(s) for s in settings], freeze="A2")
     for rr in range(2, len(settings) + 2):
@@ -573,6 +509,9 @@ def build(cfg, d, out):
     st.conditional_formatting = type(st.conditional_formatting)()  # no banding over the yellow inputs
     st.cell(len(settings) + 3, 1, "Yellow cells are inputs. Tier formulas on the list tabs read these values.").font = f(9, italic=True, color=MUTED)
 
+    order = ["Summary", "Top Leads", "Drafts", "Call Plan", "Earlier Top Leads", "Government", "Manufacturing (DoD)",
+             "Competitor Contracts", "Nonprofits", "Healthcare", "Religious", "Breach Watch"]
+    wb._sheets.sort(key=lambda ws: order.index(ws.title) if ws.title in order else len(order))
     # Row banding must never hide tier/status/booked/score colors: give it the lowest priority everywhere
     for sheet in wb.worksheets:
         for cf in sheet.conditional_formatting:
@@ -580,7 +519,7 @@ def build(cfg, d, out):
                 if rule.formula == ["MOD(ROW(),2)=0"]:
                     rule.priority = 9999
     wb.save(out)
-    print(f"wrote {out} | top {len(top)} | dod {len(dod)} | np {len(nps)} | gov {len(gov)} | schools {len(schools)} "
+    print(f"wrote {out} | top {len(top)} | dod {len(dod)} | np {len(nps)} | gov {len(gov)} "
           f"| breaches {len(breaches)}", file=sys.stderr)
 
 
